@@ -1,0 +1,63 @@
+---
+layout              : page
+title               : "Chase AT Family Technical Appraisal"
+subheadline         : ""
+teaser              : "Products of the Chase Group"
+header:
+   image_fullwidth  : "headers/front-page.jpg"
+permalink           : "/chase-group/chase-at-family-technical-appraisal/"
+---
+<p>I thought it might be interesting to give me own views on the technology behind the AT family of terminal concentrators as this was the version I had the greatest input to, and now have the benefit of 40 years of hindsight!</p>
+
+<h2>Why is a terminal concentrator needed?</h2>
+
+<p>The original PC was a single user device (the P is for "Personal"!) but it was also possible to install a multi-user operating system like Unix or Xenix and support several text-based users in addition to interacting through the PC keyboard and monitor.</p>
+
+<p>These additional users would typically use terminals like the DEC VT 100 or Wyse 60, connected over serial lines at baud rates between 9600 and 115000 bits per second. (The lower rates were also available remotely via telephone modems).</p>
+
+<p>Most of the "off-the-shelf" PCs were equipped with one or two serial parts, known as COM1: and COM2:, the physical connections typically via 9-pin 'D' type connectors on the motherboard or a small riser card. Hence supporting 3 users was possible, as long as one used the PC's on screen and keyboard, but going beyond this needed additional hardware.</p>
+
+<p>The existing COMn: architecture was not really suitable for expansion. Each of the existing ports used one of just 15 interrupts, most of which were reserved for system use, along with a byte from the I/O space. Also, the physical space available on the external connector of an expansion card is limited, realistically only those 2 9-way 'D' ports were feasible.</p>
+
+<p>Additionally each serial line needed processing power to manage the actual communications process. From the operating system's point of view it just wants to throw bytes at the terminal and read bytes back, however the communications process itself needs to handle buffering, rate conversion, parity checking and so on. All of this is just additional work for the PC that detracts from its primary processing.</p>
+
+<p>So we have a set of related problems:</p>
+
+<!-- wp:list -->
+<ul><li>limited system resources</li><li>limited physical space</li><li>communications processing overheads</li></ul>
+<!-- /wp:list -->
+
+<p>A terminal concentrator is an attempt to tackle all of these problems.</p>
+
+<h2>The Chase AT Approach</h2>
+
+<p>Building on experience gained on the use of the Intel 80186 as co-processor on the chase systems 68186 Unix computer, the Chase Research AT family used a similar approach. An 80186 would be responsible for all of the serial line handling for up to 16 ports per board and could share system resources (IRQ interrupts and a small number of addresses in I/O space) between up to 4 boards. The physical limitations were overcome with a break-out box connected by a 37-way 'D' connector containing 4,8 or 16 serial connections in the form of 25-way 'D' connectors (which were actually more common in the RS232 world than the 9 way ports provided on the PC motherboard).</p>
+
+<p>Firmware for the 80186 was written in C, with a small amount of bootstrap assembler and housed in 2 UV erasable EPROMS for development (replaced with socketed PROM's for production). Coordination with the PC operating system device drives was via an IRQ line and 3 I/O space addresses, all selectable using header pin jumpers on the board. Actual serial data was transferred between the device driver and the on-board firm were using DMA (Direct memory access) in which the AT board would take over control of the PC ISA bus and move data directly between the board and the system RAM.</p>
+
+<p>The firmware itself was based on a simple, interrupt driven multi tasking environment - each port was looked after by a single task (and I think that there was an additional coordination process that handled motherboard access and also inter-board coordination) The coordination between multiple boards was via a 2 wire connection from an digital output on one board to an interrupt request line on the other. receipt of the interrupt effectively acted as a "token" and only the board holding the token could communicate with the main system using DMA. Token passing was a continuous chain to ensure that each board was given a "fair" access to the bus.</p>
+
+<h2>The Good the bad and the Ugly</h2>
+
+<p>The AT family clearly met a need, the market being the creation of small office based systems with a single PC host with 4 to 16 terminal connections. The AT4 (and later the AT8+) also found a role in managing modem farms as they contained the full set of RS232 modem control signals (the other boards only supported hardware flow control lines). The co-processor approach was also successful in removing the communications overhead from the operating system, allowing fairly simple device drivers to be written.</p>
+
+<p>The multi-tasking approach was undoubtedly clever but made debugging a bit tricky - processing became indeterminate as things could happen in any order.</p>
+
+<p>Perhaps more significantly, the use of DMA led to a couple of issues. On a minor note it did mean that bus timings became critical and hardware compatibility very occasionally became an issue (looking at you, Compaq portables!) More importantly our firmware was actually pretty hard! Competing products eschewed the DMA approach for a bank of RAM shared with the main PC - so to the Unix operating system it just appeared as extra memory and the serial data was copied to and from this extra RAM.</p>
+
+<p>It may not have had quite the performance of DMA (which, arguably was unneccassry at the relatively slow serial data rates), but it did allow the host device driver to load code into the co-processor RAM. This had a number of benefits - the on board firmware was quite small, just sufficient to load a simple monitor and wait for the actual code to appear in the RAM once the OS had loaded it. This made field upgrades relatively easy; just a disk in the post or downloaded via a bulletin board (Kids, ask your grandparents what those were). It also allowed users to load their own code (with super user privileges) to do any special processing that might be required as part of the serial comms protocol.</p>
+
+<p>In contrast, the AT devices were hard wired to run code only from the PROM and a field upgrade invoked posting out two ICs and the end user removing the board and replacing the socketed ROM chips and hoping that they got them the right way around with no bent pins! More than once in those pre-internet days I recall engaging a courier to pick up a package of chips and bike them to one of the main London railway stations with a Red Star parcels office for same day delivery pick up and onward carraige to the end user.</p>
+
+<p>Perhaps worst of all, and ugly to boot, was the mechanics of the breakout box. To save costs (and over my objections!) the box itself was flat sided, with no flanges or even mounting holes. The cable was hard-soldered to the serial ports, emerging through a grommeted hole and terminating after about 18 inches in the large 'D' connector that attached to the card via the slot in the back of the PC.</p>
+
+<!-- wp:image {"id":1415,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="size-large"><img src="/img/chase-group/at8-breakout-box-1024x768.jpg" alt="" /></figure>
+<!-- /wp:image -->
+
+<p>Those cables were finger thick and pretty rigid (especially the 78 way used on the AT16 and AT8+) and generally just curved wherever the heck they wanted to. If you were lucky it might deign to rest on a nearby flat surface but more often ended up dangling of the back of the PC with lots of serial tables splaying all over. Fortunately in those days we made cable connections properly and RS232 serial cables could be fixed in place with locking nuts at both sides of the connector. Indeed, in the event of a 1980's office fire you could just toss the end of a serial cable out of a window and rappel down the side of the building. knowing that the other end was securely attached to a sturdy machine rack. Try that with your flimsy USB-C or Mag-safe connectors…</p>
+
+<h2>Conclusion</h2>
+
+<p>so that is your Chase AT family, definitely a success, but it is interesting to see how the technology and engineering of terminal concentrators developed in subsequent years, which will see as we examine the products that followed on.</p>
+<!-- /wp:paragraph -->

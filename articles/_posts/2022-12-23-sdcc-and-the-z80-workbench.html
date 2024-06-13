@@ -1,0 +1,115 @@
+---
+
+layout              : article
+title               : "SDCC and the Z80 Workbench"
+subheadline         : ""
+teaser               : "Thoughts and Ramblings"
+
+---
+<!-- wp:heading {"level":3} -->
+<h3>Part 1 - An absolutely minimal C program</h3>
+
+<p>To save a bit of development time I'm proposing to do my Z80 code development on a Z80 emulator rather than the long compile / burn to eeprom / turn on breadboard cycle. Which emulator? I've gone for <strong>Z80 Workbench</strong> from HeinPragt.com which I run under Windows 11. You can find it available for <a href="https://www.heinpragt.com/english/software_development/z80_processor_ide.html">download here.</a></p>
+
+<p>Now I'm not proposing to write in Z80 assembler, I want to work in one of the very first languages I programmed, C. So we also need a cross-compiler that will run under Windows. For this, I've chosen <strong>SDCC</strong>, downloads and manuals all <a href="https://sdcc.sourceforge.net/">available from here</a>.</p>
+
+<p>Now with both of these installed (just follow the instructions linked above) we need to configure sdcc so that it generates machine code matching the emulator. So what does the emulator give us?</p>
+
+<p>Firstly, the full 64K of memory is "present" so we can put our code and data anywhere, although we know that the Z80 from a cold start begins executing code from location 0, so that seems like a useful place to put at least some of our code! We also a get some pre-configured IO ports:</p>
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>In 0x01 puts a keyboard character into register A</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>In 0x02 keyboard status (1 = character available)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Out 0x01 The seven segment display</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Out 0x02 Seven segment control selection</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Out 0x03 eight red LEDs</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<p>So how do we tell sdcc about all of this? Firstly, there are some useful compiler flags for defining the memory map:</p>
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>--code_loc 0 (sets the start location for the, not strictly needed as this is the default)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>--data_loc 0x8000 (sets the data location, again this is the default so we don't really need it since our RAM is fully populated</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>--stack_loc [To be investigated]</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<p>We also want to program against "bare metal" and provide all our library support (if any) - we want to control every byte so we need to turn off the standard C libraries or runtimes as these can be quite large. (We can provide our own runtime later if we want to), so:</p>
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>--nostdinc</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>--nostdlib</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>--no-std-crt0</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<p>And of course we need to tell our target device!</p>
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>--mz80</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<p>As we all know, C is pretty free and easy with memory pointers, we can put data anywhere just by casting a number to an address, but how do we access the IO space? sdcc gives us some additional support for that, allowing us to define a variable that will be mapped to an IO port - we'll see the syntax of this in the code below.</p>
+
+<p>Now that we have the information let's write an absolutely minimal C program to turn on those LEDs the emulator gives us, and at the same time investigate some other features. Here's our code:</p>
+
+<!-- wp:code -->
+<pre class=""><code>
+char test;
+
+__sfr __at 0x03 leds;
+
+void main(void) {
+    test = 55;
+
+    leds = 0x55;
+}
+</code></pre>
+<!-- /wp:code -->
+
+<p>What are we doing here? Firstly, we define a global variable <em>test</em> - by writing some value to it we can confirm that the compiler puts data where we think it should.</p>
+
+<p>Secondly we use the magic sdcc incantation to create a variable <em>leds</em> and associate that with the IO port at address 0x03;</p>
+
+<p>Then in the main routine we just write a value to each of these variables. That's pretty minimal alright!</p>
+
+<p>Here's our command line:</p>
+
+<!-- wp:code -->
+<pre class=""><code>sdcc -mz80 --nostdinc --nostdlib --no-std-crt0 minimal.c</code></pre>
+<!-- /wp:code -->
+
+<p>TO BE CONTINUED....</p>
+<!-- /wp:paragraph -->

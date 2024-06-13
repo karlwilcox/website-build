@@ -1,0 +1,30 @@
+---
+layout: page
+title: "Tag Cloud for Reviews"
+subheadline: "Make of this what you will..."
+teaser: "..other than I like Sci-fi!"
+header:
+  image_fullwidth: "gp-header"
+---
+<ul class="review-tag-cloud">
+    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign tags_list = site_tags | split:',' | sort_natural %}
+    {% for item in (0..site.tags.size) %}
+    {% capture tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+    {% assign count = 0 %}
+    {% for article in site.categories['reviews'] %}
+    {% if article.tags contains tag %}
+    {% capture count %}{{ count | plus: 1 }}{% endcapture %}
+    {% endif %}
+    {% endfor %}
+    {% assign count = count | plus: 0 %}
+    <li class="tag-{% if count <= 3 %}alpha
+                 {%elsif count >= 4 and count < 9 %}beta
+                 {%elsif count >= 9 and count < 12 %}gamma
+                 {%elsif count >= 12 and count < 20 %}delta
+                 {%else %}zeta
+                 {%endif%}">
+        <a href="{{ blog.url }}/tags/{{ tag | handle }}">{{ tag }}</a>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,75 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: About Me
+  url: "/about-me/biography/"
+  side: left
+  dropdown:
+    - title: "Education"
+      url: "/about-me/education/"
+    - title: "Industry"
+      url: "/about-me/industrial-experience/"
+    - title: "Teaching"
+      url: "/about-me/teaching-experience/"
+
+- title: "Projects"
+  url: "/projects/"
+  side: left
+  dropdown:
+  - title: "DrawShield"
+    url: "/drawshield/overview"
+  - title: "Slow Glass"
+    url: "/slowglass/overview"
+  - title: "New Pemberley"
+    url: "/newpemberley/overview"
+  - title: "Lego City"
+    url: "/legocity/overview"
+  - title: "Electronics"
+    url: "/electronics/overview"
+
+
+- title: "Interests"
+  url: "/interests/"
+  side: left
+  dropdown:
+  - title: "Chase Group Products"
+    url: "/chase-group/overview"
+  - title: "Works of Tolkien"
+    url: "/tolkien/overview"
+  - title: "Works of Austen"
+    url: "/austen/overview"
+  - title: "Other Stuff"
+    url: "/misc/overview"
+
+
+
+- title: "All Reviews"
+  url: "/reviews/"
+  side: left
+  dropdown:
+    - title: "Books"
+      url: "/reviews/books/"
+    - title: "TV Shows"
+      url: "/reviews/tvshows/"
+    - title: "Movies"
+      url: "/reviews/movies/"
+    - title: "Games"
+      url: "/reviews/games/"
+    - title: "Other"
+      url: "/reviews/other/"
+    - title: "Tag Cloud"
+      url: "/reviews/tag-cloud"
+
+
+- title: Articles
+  url: "/articles/"
+  side: left
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

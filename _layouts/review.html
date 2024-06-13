@@ -1,0 +1,24 @@
+---
+layout: page
+paginate:
+  category: reviews
+---
+<div class="row">
+	<div class="medium-8 columns t30">
+		{% if page.picture %}
+		<figure>
+			<img src="{{ site.urlimg }}{{ page.picture.src }}" alt="{{ page.picture.alt }}"/>
+			<figcaption>{{ page.picture.caption }}</figcaption>
+		</figure>
+		{% endif %}
+		{{ content }}
+		<p>
+			{% include next-previous-post-in-category %}
+		</p>
+	</div>
+
+
+	<div class="medium-4 columns t30">
+		{% include _sidebar2.html %}
+	</div>
+</div>

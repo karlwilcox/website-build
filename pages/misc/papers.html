@@ -1,0 +1,28 @@
+---
+layout              : page
+title               : "Proposed Papers"
+subheadline         : ""
+teaser              : "Thoughts and ramblings"
+header:
+   image_fullwidth  : "gp-header"
+permalink           : "/misc/papers/"
+---
+I would like to properly document some of the work that has been done in the discipline of Computational Heraldry, and have identified several possible papers that I intend to develop.
+
+<strong>Blazonry, A 12th Century Graphics Description Language</strong>
+
+There is a draft version of this paper available. It considers blazonry as a special purpose graphics description language and compares it to more modern counterparts such as MathML. The article is aimed at a more popular audience, for example IEEE "Computer" magazine. 
+
+<strong>The design and implementation of a scheme to record all heraldry within a specific location</strong>
+
+This paper examines the design of a data schema to record all of of the heraldry in a particular location. We present a detailed data model and describe its implementation using Mediawiki software. We discuss the data entry, end user experience and consider some of the purposes to which the data may be put. The primary subject of this paper is data modelling, the secondary subject is the implementation of that model.
+
+<strong>The identification of blazons within arbitrary text</strong>
+
+the conversion: of Parker's <em>Dictionary of Heraldry</em> to HTML format has  provided an opportunity to automatically identify and extract all of the Blazons in a substantial text. Extraction of these phrases gives us a corpus of a some 4000 blazons, approximately half in English and half in French. We wish to investigate whether this corpus can be used to identify further blazons in an arbitrary text. We propose to investigate various methods including nueral networks, stochastic methods and hand developed algorithm. This papers fits into a computational linguistics context.
+
+<strong>other Possibilities</strong>
+
+There may also be benefits in documenting the Drawshield parser in two respects. Firstly, it uses a novel lexical analyser which recognises tokens as a context sensitive pattern match at the phrase level (rather than individual words). This provides considerable reduction in the search space and much flexibility with alternate, but equivalent phrases, spellings and word order.
+
+Secondly, the parser creates a XML parse tree of the blazon, inevitably known as "BlazonML". We propose to describe this schema and the issues that arose during the design process and offer it as a potential standard.
