@@ -11,5 +11,3 @@ clean:
 
 deploy:
 	rsync --delete -e "ssh -i ~/keys/aws-karlwilcox.pem" -avP /var/www/karlwilcox/ bitnami@karlwilcox.com:/opt/bitnami/apache/htdocs
-
-:www
