@@ -1,14 +1,15 @@
 ---
 layout: review
 title: "'Ted Lasso' - Season 1"
-subheadline: ""
+subheadline: "Apple TV+"
 teaser: "Culture Consumed"
 tags:
-  - ""
+  - "contemporary"
+  - "comedy"
 category: tvshows
 picture:
-  src: reviews/generic.jpg
-  caption: "Karl's reading nook"
-  alt: "Armchair with lamp and bookcase"
+  src: reviews/ted-lasso-1.jpg
+  caption: "Source: IMDB"
+  alt: "Character poster"
 ---
 As usual, late to the party here, despite having Apple TV for a while now it has taken some time to get around to watching this. Still, that does mean that we have binged on the whole season in just a few days and enjoyed it immensely, especially seeing the South London locations that are familiar to both Sharon and myself. The dialog is sometimes almost too fast to take in but there's no doubt that there are some fantastic one liners and the show is made with real heart and soul, even for a non-football fan like me!
