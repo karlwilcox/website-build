@@ -39,6 +39,8 @@
     url: "/tolkien/overview"
   - title: "Works of Austen"
     url: "/austen/overview"
+  - title: "Artwork"
+    url: "/artwork/overview"
   - title: "Other Stuff"
     url: "/misc/overview"
 
