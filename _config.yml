@@ -55,7 +55,6 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - octopress-paginate
-    - jekyll-figure
 
 
 #       ____              _             __  _

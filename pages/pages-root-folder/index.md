@@ -18,8 +18,8 @@ widget2:
   text: 'I start lots of things, and have ideas in all sorts of directions, some of which I document in the pages here. Under the "Projects" menu you will find things I am currently working on; under "Interests" are things I have finished or information that I have collected'
   image: widgets/projects.jpg
 widget3:
-  title: "Media Log"
-  url: '/medialog'
+  title: "Reviews"
+  url: '/reviews'
   image: widgets/reviews.jpg
   text: 'I read a lot of books, watch films and TV shows and play the odd computer game. I like to make a few notes on all the media I consume so I thought it might be nice to share these with you. You may not agree with my assessments, but that is fine!'
 gallery:
