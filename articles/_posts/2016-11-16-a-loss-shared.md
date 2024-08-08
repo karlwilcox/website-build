@@ -1,12 +1,12 @@
 ---
-
 layout              : article
 title               : "A Loss Shared"
 subheadline         : ""
-teaser               : "Thoughts and Ramblings"
-
+teaser         : ""
+category               : "general"
+comments           : true
 ---
-<img data-position="3" src="http://karlwilcox.com/wp-content/uploads/graduationceremonieslivelisting-2.jpg" data-mce-src="graduationceremonieslivelisting-2.jpg" title=""><br data-mce-bogus="1">
+{% include figure src="/img/articles/graduation-ceremony.jpg" caption="Graduation Ceremony (source Sheffield Hallam Website)" align="centre" %}
 
 It was my son’s graduation ceremony today, and I cried. Not for him, he was great, it was a proud moment but not an occasion for manly tears - the event had been planned for months, he has already moved on to a Master’s degree, with (hopefully) another ceremony in the not too distant future.
 
@@ -15,8 +15,6 @@ No, I, and everyone around me cried because of something completely unexpected. 
 But then there was an interruption to the normal order. Instead of a dark robed, crimson hooded student at the foot of the stairs up to the stage there were three people in ordinary clothes, holding hands.
 
 The Public Orator paused for breath, then continued “And the next award is given posthumously. The award is being accepted today by his mother, father, and sister”.
-
-<br data-mce-bogus="1">
 
 As well as our tears, the whole hall applauded our hands raw, for this family and their lost son. I know nothing of the circumstances, I can’t even remember his name but the shock of that totally unexpected event brought home everything that was precious about children.
 

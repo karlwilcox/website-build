@@ -1,22 +1,22 @@
 ---
-
 layout              : article
 title               : "Now Why Did I Do That?"
 subheadline         : ""
-teaser               : "Thoughts and Ramblings"
-
+teaser         : ""
+category               : "general"
+comments           : true
 ---
-I have not taken a psychological personality type test for many years but I am quite sure that I would be categorised as a <b>Well-intentioned Slacker</b>. I have lots of ideas but lack discipline and will power, and can find it hard to finish things if something new and more interesting comes along.
+I have not taken a psychological personality type test for many years but I am quite sure that I would be categorised as a **easily distracted** ("Ohh! Shiny!") - I have lots of ideas but lack discipline and will power, and can find it hard to finish things if something new and more interesting comes along.
 
-As well as different work roles, I maintain several websites and enjoy creating 3D and 2D artwork. To gain some semblance of control I try to organise all my activities into “projects" but frequently have to switch between them, often coming back to something weeks or months since I last worked on it. At those times my most common thoughts are “<i>why did I do that?</i>”, and “<i>how do I do that thing again?</i>”.
+As well as different work roles, I maintain several websites and enjoy creating 3D and 2D artwork. To gain some semblance of control I try to organise all my activities into “projects" but frequently have to switch between them, often coming back to something weeks or months since I last worked on it. At those times my most common thoughts are “*why did I do that?*”, and “*how do I do that thing again?*”.
 
 Understanding my shortcomings, but trying to get a better grip on recording project activities I have looked to some apps to help me out, eventually settling on a “Journalling” tool. I chose Day One but there are many similar. Here’s an example of how I’ve used it:
 
-<img data-position="3" src="http://karlwilcox.com/wp-content/uploads/journal-example-1.png" data-mce-src="journal-example.png" title="" width="2124" height="1364"><br data-mce-bogus="1">
+{% include figure src="/img/articles/journal-example.jpg" caption="Photograph of journal pages" align="centre" %}
 
 I keep a separate journal for large projects, or a combined journal for related smaller projects with “tags” to distinguish between them.
 
-My workflow is that whenever I sit down to work on a project I open the appropriate journal and create a new entry. The entry title is a summary of what I am about to do, so “<i>Fix problem X</i>”, “<i>Add feature Y</i>”, “<i>Evaluate technology Z</i>” or whatever.
+My workflow is that whenever I sit down to work on a project I open the appropriate journal and create a new entry. The entry title is a summary of what I am about to do, so “*Fix problem X*”, “*Add feature Y*”, “*Evaluate technology Z*” or whatever.
 
 Then, as I do things, consult web sites, fix problems or create new ones I jot down a line or comment on the journal. Sometimes I copy over screenshots, often I’ll copy a website address. And finally figured out that tricky command string? Copy that there too.
 

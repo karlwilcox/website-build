@@ -4,7 +4,7 @@ title               : "Teaching Experience"
 subheadline         : ""
 teaser              : "Thoughts and ramblings"
 header:
-   image_fullwidth  : "headers/front-page.jpg"
+   image_fullwidth  : "gp-header"
 permalink       : "/about-me/teaching-experience/"
 ---
 

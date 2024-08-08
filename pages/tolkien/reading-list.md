@@ -1,6 +1,6 @@
 ---
 layout              : page
-title               : "MY Tolkien Reading List"
+title               : "My Tolkien Reading List"
 subheadline         : "An excellent use of shelf space..."
 teaser              : ""
 header:
@@ -19,13 +19,13 @@ with this for now.)
 
 ## The Legendarium 
 
-* "The Hobbit" paperback, Harper Collins 1999, black cover (Nicked from one of the kids, but they can have it back if they notice)
-* "The Annotated Hobbit", (Douglas Anderson), hardback Allen & Unwin 1989 (in great condition, bought from a second hand bookshop in Horncastle)
+* "The Hobbit" paperback, Harper Collins 1999 paperback
+* "The Annotated Hobbit", (Douglas Anderson), hardback Allen & Unwin 1989 
 * "The Hobbit" Amazon eBook
 * "The Hobbit" Audible Audiobook, narrated by Andy Serkis
 
 
-* "The Illustrated Hardback Box set" (4 volumes) Harper Collins 2020, illustrated by Alan Lee (Kept for best!)
+* "The Illustrated Hardback Box set" (4 volumes, Hobbit & Lord of the Rings) Harper Collins 2020, illustrated by Alan Lee (Kept for best!)
 * "The Lord of the Rings" single volume paperback, Harper Collins 2005, red cover (for everyday reading)
 * "The Lord of the Rings" single volume Amazon eBook
 * "The Fellowship of the Ring" Audible Audiobook, narrated by Andy Serkis
@@ -84,4 +84,5 @@ with this for now.)
 * "Sir Gawain and the Green Knight", Harper Collins 2021 paperback
 * "Beowulf, A Translation and Commentary", Harper Collins 2016 paperback
 * "Tales from the Perilous Realm" (5 books in 1 volume) Harper Collins 2008 paperback
+* "The Monster and the Critics and other Essays" Harper Collins 2006 paperback
 
