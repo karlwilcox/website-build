@@ -24,6 +24,16 @@ $('audio,video').mediaelementplayer();
 {% endif %}
 {% endif %}
 
+{% if page.stork == true %}
+<script src="/stork/stork.js"></script>
+<script>
+    stork.register(
+        "karlwilcox",
+        "/stork/karlwilcox.st",
+        {}
+    );
+</script>
+{% endif %}
 
 
 

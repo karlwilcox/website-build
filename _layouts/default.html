@@ -12,7 +12,9 @@ layout: compress
 	{% endunless %}
 
 	{% include _masthead.html %}
+	<main>
 	{{ content }}
+	</main>
 
 	{% unless page.skip_boilerplate %}
 	{% include _footer.html %}

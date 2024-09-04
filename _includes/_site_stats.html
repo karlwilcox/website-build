@@ -1,0 +1,41 @@
+
+{% comment %}
+*
+* Print out some site stats
+*
+{% endcomment %}
+
+<h2>Site Statistics</h2>
+<div class="row t60" >
+  <div class="columns medium-4">
+    <div class="alert-box info">
+      <p>This site contains</p>
+      <div class="alert-box success">
+        <p>{{ site.pages | size }}</p>
+      </div>
+      <p>total pages</p>
+    </div>
+  </div>
+  <div class="columns medium-4">
+    <div class="alert-box info">
+      <p>Including</p>
+      <a href="/articles/">
+        <div class="alert-box success">
+          <p>{{ site.categories.articles | size }}</p>
+        </div>
+      </a>
+      <p>articles</p>
+    </div>
+  </div>
+  <div class="columns medium-4">
+    <div class="alert-box info">
+      <p>and</p>
+      <a href="/reviews/">
+        <div class="alert-box success">
+          <p>{{ site.categories.reviews | size }}</p>
+        </div>
+      </a>
+      <p>reviews.</p>
+    </div>
+  </div>
+</div>

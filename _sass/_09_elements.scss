@@ -11,6 +11,7 @@
 - Accordion
 - Lazy Load XT
 - Frontpage Widget
+- Search page specials (KW)
 
 */
 
@@ -58,6 +59,8 @@
 .alert-box {
   font-family: $font-family-sans-serif;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.9);
+  text-align: center;
+  margin-bottom: 0;
 }
   .alert-box p {
     margin-bottom: 0;
@@ -159,4 +162,11 @@ img.lazy {
     padding-top: 50px;
     margin-top: -50px;
   }
+}
+
+/* Search page specials
+------------------------------------------------------------------- */
+
+ul#search-results h3 {
+  display: inline;
 }

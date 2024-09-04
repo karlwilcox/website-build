@@ -15,8 +15,8 @@ gallery:
       caption: Buttress
     - image_url: artwork/architecture/castle-tower.png
       caption: Castle Tower
-    - image_url: artwork/architecture/cathederal.png
-      caption: Cathederal
+    - image_url: artwork/architecture/cathedral.png
+      caption: Cathedral
     - image_url: artwork/architecture/cathedral-close.png
       caption: Cathedral Close
     - image_url: artwork/architecture/disney-hotel.jpg
@@ -42,6 +42,8 @@ gallery:
     - image_url: artwork/architecture/welton-church.png
       caption: Welton Church
 ---
-I like sketching and colouring buildings, as they generally have straight lines and don't move! Most of these are lined with technical pens and coloured with Copic or Specturm Noir marker pens, although the <em>Cathedral Buttress</em> is pastel and pencil, and <em>Vineyard Terrace</em> is poster paint.
+I like sketching and colouring buildings, as they generally have straight lines and don't move! 
+Most of these are lined with technical pens and coloured with Copic or Specturm Noir marker pens, 
+although the <em>Cathedral Buttress</em> is pastel and pencil, and <em>Vineyard Terrace</em> is poster paint.
 
 {% include gallery %}

@@ -11,7 +11,9 @@ paginate:
 			<figcaption>{{ page.picture.caption }}</figcaption>
 		</figure>
 		{% endif %}
-		{{ content }}
+		<div id="search-content">
+			{{ content }}
+		</div>
 		<p>
 			{% include next-previous-post-in-category %}
 		</p>
