@@ -6,6 +6,8 @@ teaser         : ""
 category               : "general"
 comments           : true
 ---
+{% include figure src="/img/articles/stray-screenshot.jpg" caption="My poor cat, pursued by annoyances" align="centre" %}
+
 Now I'm a cat person, so when the video game "Stray" came out for the Xbox, and with an excellent introductory price I jumped at it.
 
 And after 10 or so hours of game play I have to say that I 80% absolutely **love** this game - the atmosphere is terrific, the movements of the cat are totally convincing and the story line engaging with really good puzzles - not too hard but still a worthwhile challenge.

@@ -16,12 +16,6 @@ deploy:
 gallery: do_gallery
 .PHONY: gallery
 
-search_index:
-	./index_file.sh
-
-search_build:
-	stork build --input karlwilcox.toml --output stork/karlwilcox.st
-
 # Usage:
 #   On the command line 'target=path/to/folder make gallery' will scan the named folder for images,
 #   create thumbnails and echo a markdown gallery using the file names as captions.
