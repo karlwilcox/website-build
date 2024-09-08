@@ -1,11 +1,20 @@
 ---
-layout              : article
-title               : "The Pomodoro Technique"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "The Pomodoro Technique"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
+
+
 One of the Computer Science modules that I teach, known as TM112, includes a short section on the
 Pomodoro technique as a study aid. I was vaguely aware of this technique before starting to teach it,
 but since we are encouraging students to use it I thought I should "eat my own dogfood" as the saying has it

@@ -1,10 +1,17 @@
 ---
-layout              : article
+layout: article
+comments: true
 title               : "Leadership and Decision Making"
 subheadline         : "Clearly we are all in agreement..."
-teaser         : ""
-category               : "general"
-comments           : true
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 I’ve been reading about Technology Leadership and thinking about my own experience in this area.
 

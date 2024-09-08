@@ -1,11 +1,20 @@
 ---
-layout              : article
-title               : "Marking Student Papers"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "Marking Student Papers"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
+
+
 Now I teach students. That involves marking papers. Lots and lots of student papers.
 My organisation sets a target for returning student work (which we call TMAs) - 10 working days after the submission date.
 

@@ -1,11 +1,19 @@
 ---
-layout              : article
-title               : "Countries I Have Visited"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "Countries I Have Visited"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
+
 The post on places I have lived has inspired another list, Countries I have visited, other than the country of my birth:
 
 *   Antigua

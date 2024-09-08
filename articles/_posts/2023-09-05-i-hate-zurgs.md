@@ -1,10 +1,17 @@
 ---
-layout              : article
-title               : "I Hate Zurgs..."
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "I Hate Zurgs"
+subheadline: "A brief rant about gaming"
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 {% include figure src="/img/articles/stray-screenshot.jpg" caption="My poor cat, pursued by annoyances" align="centre" %}
 

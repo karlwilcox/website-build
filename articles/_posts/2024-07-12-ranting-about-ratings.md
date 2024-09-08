@@ -1,10 +1,17 @@
----
-layout              : article
-title               : "Ranting About Ratings"
-subheadline         : "I give this rating system 3 stars..."
-teaser         : ""
-category               : "general"
-comments           : true
+----
+layout: article
+comments: true
+title: "Ranting About Ratings"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 Well not really a rant, hopefully more of a considered discussion about ratings...
 

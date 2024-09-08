@@ -1,13 +1,16 @@
 ---
-layout              : article
-title               : "Evil Tutors"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+title: "Evil Tutors"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
-
-
 I moderate online support forums for distance learning and often see postings starting with “will I get penalised if…”,
 and others with a detailed textual analysis of the question.
 

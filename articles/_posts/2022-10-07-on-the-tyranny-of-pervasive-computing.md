@@ -1,10 +1,17 @@
 ---
-layout              : article
-title               : "On the tyranny of pervasive computing"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "On the tyranny of pervasive computing"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 I want to talk to you about work life balance and how I achieved this in my own life.
 

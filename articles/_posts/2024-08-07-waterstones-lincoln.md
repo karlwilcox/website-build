@@ -1,5 +1,6 @@
 ---
 layout: article
+comments: true
 title: "Waterstones Lincoln Store"
 subheadline: "A Brief Photographic Tour"
 teaser: "Thoughts and Ramblings"

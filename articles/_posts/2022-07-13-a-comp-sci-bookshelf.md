@@ -1,10 +1,17 @@
 ---
-layout              : article
-title               : "A Comp-Sci Bookshelf (Updated)"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "A Comp-Sci Bookshelf (Updated)"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 {% include figure src="/img/articles/compsci-bookshelf.png" caption="A computer science bookshelf" align="centre" %}
 

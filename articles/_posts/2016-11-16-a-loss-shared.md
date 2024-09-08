@@ -1,11 +1,19 @@
 ---
-layout              : article
-title               : "A Loss Shared"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "A Loss Shared"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
+
 {% include figure src="/img/articles/graduation-ceremony.jpg" caption="Graduation Ceremony (source Sheffield Hallam Website)" align="centre" %}
 
 It was my son’s graduation ceremony today, and I cried. Not for him, he was great, it was a proud moment but not an occasion for manly tears - the event had been planned for months, he has already moved on to a Master’s degree, with (hopefully) another ceremony in the not too distant future.

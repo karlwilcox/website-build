@@ -1,10 +1,17 @@
 ---
-layout              : article
-title               : "Stack Exchange Rant"
-subheadline         : ""
-teaser         : ""
-category               : "general"
-comments           : true
+layout: article
+comments: true
+title: "Stack Exchange Rant"
+subheadline: ""
+teaser: "Thoughts and Ramblings"
+tags:
+  - post
+categories:
+  - article
+image:
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 My students will attest that I have a tendency to drift off-topic during tutorials and sometimes descend into rants. One subject that 
 often starts me off is Stack Exchange and why it is no longer a useful source for answers to technical questions. Rather than repeat 
