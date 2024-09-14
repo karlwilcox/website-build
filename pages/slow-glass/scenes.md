@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""
@@ -8,7 +8,6 @@ header:
 permalink           : "slow-glass/scenes/"
 ---
 
-[Return to the overview page](/slow-glass/overview/)
 
 It is possible to group script actions into named “scenes”. Actions within the scene will only be carried out when the scene is started by another action.
 
@@ -76,5 +75,4 @@ hide sunny-sky:cloud
 
 from within the rainy-sky scene; although I recommend only very careful use of this - if the other scene isn't running its resources will not be accessible.
 
-[Return to the overview page](/slow-glass/overview/)
 

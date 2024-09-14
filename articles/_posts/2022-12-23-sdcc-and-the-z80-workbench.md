@@ -5,7 +5,7 @@ title: "SDCC and the Z80 Workbench"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - technology
 categories:
   - article
 image:

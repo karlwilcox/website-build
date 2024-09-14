@@ -5,7 +5,7 @@ title: "Ranting About Ratings"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - rant
 categories:
   - article
 image:

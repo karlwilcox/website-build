@@ -5,7 +5,7 @@ title: "On the tyranny of pervasive computing"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
 categories:
   - article
 image:

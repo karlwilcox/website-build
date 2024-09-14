@@ -5,7 +5,7 @@ title: "Z80 Development Environment"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - technology
 categories:
   - article
 image:

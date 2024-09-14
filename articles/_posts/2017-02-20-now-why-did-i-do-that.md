@@ -5,7 +5,7 @@ title: "Now Why Did I Do That?"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
 categories:
   - article
 image:

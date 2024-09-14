@@ -5,7 +5,8 @@ title: "Marking Student Papers"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
+  - cartoon
 categories:
   - article
 image:

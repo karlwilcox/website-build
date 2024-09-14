@@ -5,7 +5,7 @@ title: "Waterstones Lincoln Store"
 subheadline: "A Brief Photographic Tour"
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - personal
 categories:
   - article
 image:

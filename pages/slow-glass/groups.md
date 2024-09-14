@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""
@@ -8,7 +8,6 @@ image_fullwidth  : "headers/slow-glass.jpg"
 permalink           : "slow-glass/groups/"
 ---
 
-[Return to the overview page](/slow-glass/overview/)
 
 Groups can be used to carry out actions on a set of images at the same time. Groups are considered to be a type of resource so can be treated very much like a single image.
 
@@ -63,5 +62,4 @@ A group is considered to be an image source for a sprite so it does have a layer
 
 
 
-[Return to the overview page](/slow-glass/overview/)
 

@@ -5,7 +5,7 @@ title: "The Pomodoro Technique"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
 categories:
   - article
 image:

@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""
@@ -8,7 +8,6 @@ header:
 permalink           : "slow-glass/triggers/"
 ---
 
-[Return to the overview page](/slow-glass/overview/)
 
 Triggers are events that cause all the actions following the trigger to happen. Triggers at the "top level" of the script will be automatically enabled, those within scenes will only be active once the scene has started.
 
@@ -38,5 +37,4 @@ Typically start triggers are used to load resources and place in the scene, and 
 
 ## OnI2C
 
-[Return to the overview page](/slow-glass/overview/)
 

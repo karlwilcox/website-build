@@ -5,7 +5,7 @@ title: "Sharing my thoughts"
 subheadline: "An apology and justification"
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - personal
 categories:
   - article
 image:

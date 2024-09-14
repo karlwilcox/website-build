@@ -5,7 +5,8 @@ title: "A Comp-Sci Bookshelf (Updated)"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
+  - "computer science"
 categories:
   - article
 image:

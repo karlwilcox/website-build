@@ -5,7 +5,8 @@ title: "Stack Exchange Rant"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - cartoon
+  - rant
 categories:
   - article
 image:

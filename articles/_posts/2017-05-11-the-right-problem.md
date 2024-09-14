@@ -5,7 +5,7 @@ title: "The Right Problem"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
 categories:
   - article
 image:

@@ -5,7 +5,7 @@ title               : "Leadership and Decision Making"
 subheadline         : "Clearly we are all in agreement..."
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
 categories:
   - article
 image:

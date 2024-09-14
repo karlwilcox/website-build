@@ -5,7 +5,7 @@ title: "Countries I Have Visited"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - personal
 categories:
   - article
 image:

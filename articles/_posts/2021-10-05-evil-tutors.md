@@ -3,7 +3,8 @@ title: "Evil Tutors"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - productivity
+  - cartoon
 categories:
   - article
 image:

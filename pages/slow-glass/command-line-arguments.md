@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""
@@ -8,7 +8,6 @@ header:
 permalink           : "slow-glass/command-line-arguments/"
 ---
 
-[Return to the overview page](/slow-glass/overview/)
 
 Slow Glass is currently invoked from the command line, e.g.
 
@@ -80,5 +79,4 @@ Adjust the rate at which the program plays...? Might be useful for debugging but
 
 Further suggestions are welcome.
 
-[Return to the overview page](/slow-glass/overview/)
 

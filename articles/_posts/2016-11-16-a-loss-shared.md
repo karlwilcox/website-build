@@ -5,7 +5,7 @@ title: "A Loss Shared"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - personal
 categories:
   - article
 image:

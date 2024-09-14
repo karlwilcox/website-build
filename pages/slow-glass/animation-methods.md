@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""
@@ -8,7 +8,6 @@ header:
 permalink           : "slow-glass/animation-methods/"
 ---
 
-[Return to the overview page](/slow-glass/overview/)
 
 # Introduction
 
@@ -126,6 +125,4 @@ At the same time as scrolling and zooming the display area of the source image, 
 
 And, the source image itself can be a multi-frame animation, advanced either automatically or manually. So, with just a few lines of script we can define a moving, resizing sprite that shows a moveable, zoomable window on to a source image that is itself animated! Do not try this without the aid of a safety net...
 
-
-[Return to the overview page](/slow-glass/overview/)
 

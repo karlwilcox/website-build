@@ -5,13 +5,14 @@ title: "All Aboard the City Bus!"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-- post
+  - electronics
+  - lego
 categories:
-- article
+  - article
 image:
-thumb: fp-gallery/Authority-Figure-thumb.jpg
-title: fp-gallery/Authority-Figure.jpg
-caption_url: "The Author"
+  thumb: fp-gallery/Authority-Figure-thumb.jpg
+  title: fp-gallery/Authority-Figure.jpg
+  caption_url: "The Author"
 ---
 ## Aims
 

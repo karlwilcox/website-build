@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""
@@ -8,7 +8,6 @@ header:
 permalink           : "slow-glass/tutorial/"
 ---
 
-[Return to the overview page](/slow-glass/overview/)
 
 # Getting Started
 
@@ -48,6 +47,5 @@ begin
 ```
 
 
-[Return to the overview page](/slow-glass/overview/)
 
 

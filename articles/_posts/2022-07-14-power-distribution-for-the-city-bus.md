@@ -5,7 +5,8 @@ title: "Power Distribution For the City Bus"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - electronics
+  - lego
 categories:
   - article
 image:

@@ -5,7 +5,8 @@ title: "I Hate Zurgs"
 subheadline: "A brief rant about gaming"
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - games
+  - rant
 categories:
   - article
 image:

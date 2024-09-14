@@ -5,7 +5,7 @@ title: "Places I Have Lived"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - personal
 categories:
   - article
 image:

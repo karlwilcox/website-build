@@ -5,7 +5,8 @@ title: "Technical Architecture"
 subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
-  - post
+  - electronics
+  - lego
 categories:
   - article
 image:
