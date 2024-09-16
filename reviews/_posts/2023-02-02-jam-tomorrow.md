@@ -2,7 +2,7 @@
 layout: review
 title: " Jam Tomorrow"
 subheadline: "A Podcast"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "history"
   - "podcast"

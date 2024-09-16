@@ -2,7 +2,7 @@
 layout: review
 title: "Midshipman's Hope - David Feintuch"
 subheadline: "The Seafort Saga Book 1"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
   - "military"

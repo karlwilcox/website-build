@@ -2,7 +2,7 @@
 layout: review
 title: "Last Seen Wearing - Colin Dexter"
 subheadline: "Inspector Morse book 2"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - ""
 category: 

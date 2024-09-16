@@ -1,8 +1,8 @@
 ---
 layout: review
-title: "The Challenger Launch Decision - Diane Vaughan"
-subheadline: ""
-teaser: "Culture Consumed"
+title: "The Challenger Launch Decision"
+subheadline: "Diane Vaughan"
+teaser: ""
 tags:
   - "space"
   - "history"

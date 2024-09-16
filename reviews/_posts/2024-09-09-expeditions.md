@@ -1,8 +1,8 @@
 ---
 layout: review
-title: "Expenditions - A Mudrunner Game"
+title: "Expeditions - A Mudrunner Game"
 subheadline: "XBox"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "xbox"
   - "driving"

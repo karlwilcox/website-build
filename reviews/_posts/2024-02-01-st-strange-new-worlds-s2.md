@@ -2,7 +2,7 @@
 layout: review
 title: "Star Trek: Strange New Worlds - Season 2"
 subheadline: "Paramount+"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - ""
 category: 

@@ -2,7 +2,7 @@
 layout: review
 title: "Floating Hotel - Grace Curtis"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
 category:  books

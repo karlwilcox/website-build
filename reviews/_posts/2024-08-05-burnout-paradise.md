@@ -2,7 +2,7 @@
 layout: review
 title: "Burnout Paradise"
 subheadline: "XBox Game"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "xbox"
   - "driving"

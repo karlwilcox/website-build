@@ -2,7 +2,7 @@
 layout: review
 title: "The Unbearable Weight of Massive Talent"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "comedy"
   - "crime"

@@ -2,7 +2,7 @@
 layout: review
 title: "The Lost Daughter"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "drama"
 category: movies

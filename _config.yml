@@ -54,7 +54,9 @@ logo: "logo.png"
 plugins:
     - jekyll-asciidoc
     - jekyll-gist
-    - octopress-paginate
+    - jekyll-paginate-v2
+#    - octopress-paginate
+    - jekyll-auto-authors
 
 
 #       ____              _             __  _
@@ -142,6 +144,7 @@ defaults:
     values:
       layout: tag_page
       permalink: tags/:tag/
+
 
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
@@ -289,3 +292,31 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+collections:
+  authors:
+    output: true
+    permalink: authors/:title/
+
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  tags:
+    enabled: true
+  collections:
+    enabled: false
+  # Add this block
+  authors:
+    enabled: true
+    data: '_data/authors.yml' # Data file with the author details
+    # Uncomment the line below to force exclude certain authors from autopage generation.
+    exclude: [ "karlw" ]
+    layouts:
+      - 'author-page.html' # We'll define this layout later
+    title: 'Posts by :author'
+    permalink: '/author/:author/'
+    slugify:
+      mode: 'default' # choose from [raw, default, pretty, ascii or latin]
+      cased: true # if true, the uppercase letters in slug will be converted to lowercase ones.
+

@@ -2,7 +2,7 @@
 layout: review
 title: "The Last Emperox - John Scalzi"
 subheadline: "The Interdependency book 3"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
 category: books

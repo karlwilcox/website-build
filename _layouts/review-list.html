@@ -6,6 +6,8 @@ noindex: true
 ---
 <div class="row">
 	<div class="medium-8 columns t30">
+		<h1>{{ site.data.categories[page.paginate.category].page_title }}</h1>
+		<p class="subheadline">{{ site.data.categories[page.paginate.category].description }}</p>
 		{{ content }}
 		{% include _pagination.html %}
 	</div><!-- /.medium-7.columns -->

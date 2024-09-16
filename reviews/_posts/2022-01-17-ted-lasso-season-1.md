@@ -2,7 +2,7 @@
 layout: review
 title: "'Ted Lasso' - Season 1"
 subheadline: "Apple TV+"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "contemporary"
   - "comedy"

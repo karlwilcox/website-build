@@ -2,7 +2,7 @@
 layout: review
 title: "The Collapsing Empire: John Scalzi"
 subheadline: "The Interdependcy book 1"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
   - "fiction"

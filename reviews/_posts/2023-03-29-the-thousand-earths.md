@@ -2,7 +2,7 @@
 layout: review
 title: "The Thousand Earths - Stephen Baxter"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
     - "sci-fi" 
     - "Stephen Baxter"

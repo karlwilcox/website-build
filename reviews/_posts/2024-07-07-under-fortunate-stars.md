@@ -2,7 +2,7 @@
 layout: review
 title: "Under Fortunate Stars - Ren Hutchings"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
   - "Ren Hutchings"

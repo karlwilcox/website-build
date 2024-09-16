@@ -2,7 +2,7 @@
 layout: review
 title: "The Bone Season - Samantha Shannon"
 subheadline: "Tenth Anniversary Special Edition"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "alt-hist"
   - "fantasy"

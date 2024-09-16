@@ -2,7 +2,7 @@
 layout: review
 title: "Days at the Morisaki Bookshop - Satoshi Yagisawa"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
     - "japan"
     - "fiction"

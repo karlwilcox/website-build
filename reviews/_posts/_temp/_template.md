@@ -2,7 +2,7 @@
 layout: review
 title: "title"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - ""
 category: 

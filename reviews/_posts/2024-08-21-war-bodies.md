@@ -2,7 +2,7 @@
 layout: review
 title: "War Bodies - Neal Asher"
 subheadline: "A Novel of the Polity"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
 category: books

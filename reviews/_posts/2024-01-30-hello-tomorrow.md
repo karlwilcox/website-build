@@ -2,7 +2,7 @@
 layout: review
 title: "Hello Tomorrow - Apple TV+"
 subheadline: "Season One"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "retro"
   - "sci-fi"

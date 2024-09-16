@@ -2,7 +2,7 @@
 layout: review
 title: "Fallout - Season 1"
 subheadline: "Amazon TV, 8 Episodes"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
   - "retro"

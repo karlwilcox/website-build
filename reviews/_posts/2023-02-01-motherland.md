@@ -2,7 +2,7 @@
 layout: review
 title: "Motherland - Netflix"
 subheadline: "Season 3"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "comedy"
   - "contemporary"

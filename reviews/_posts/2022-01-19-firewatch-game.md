@@ -2,7 +2,7 @@
 layout: review
 title: "Firewatch"
 subheadline: "XBox Game"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "mystery"
   - "contemporary"

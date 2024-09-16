@@ -2,7 +2,7 @@
 layout: review
 title: "The Consuming Fire - John Scalzi"
 subheadline: "The Interdependcy book 2"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
     - "sci-fi"
     - "fiction"

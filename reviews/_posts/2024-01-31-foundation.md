@@ -2,7 +2,7 @@
 layout: review
 title: "Foundation - Season 2"
 subheadline: "Apple TV+"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
 category: tvshows

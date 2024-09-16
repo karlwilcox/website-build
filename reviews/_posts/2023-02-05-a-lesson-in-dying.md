@@ -2,7 +2,7 @@
 layout: review
 title: "A Lesson in Dying - Anne Cleeves"
 subheadline: "Audiobook"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "crime"
   - "contemporary"

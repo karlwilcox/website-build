@@ -7,6 +7,8 @@ group :jekyll_plugins do
   gem 'octopress-paginate'
   gem "jekyll-asciidoc"
   gem "jekyll-figure"
+  gem "jekyll-paginate-v2"
+  gem "jekyll-auto-authors"
 end
 
 gem 'asciidoctor', '~> 1.5.4'

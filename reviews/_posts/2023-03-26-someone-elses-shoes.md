@@ -2,7 +2,7 @@
 layout: review
 title: "Someone Else's Shoes - Jojo Moyes"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
     - "romance"
     - "contemporary"

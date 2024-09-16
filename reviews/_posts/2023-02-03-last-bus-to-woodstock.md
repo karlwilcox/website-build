@@ -2,7 +2,7 @@
 layout: review
 title: "Last Bus to Woodstock - Colin Dexter"
 subheadline: "Inspector Morse Book 1"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "crime"
 category: books

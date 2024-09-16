@@ -2,7 +2,7 @@
 layout: review
 title: "Codebreaking: A Practical Guide - Dunin and Scmeh"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
     - "computing" 
 categories: books

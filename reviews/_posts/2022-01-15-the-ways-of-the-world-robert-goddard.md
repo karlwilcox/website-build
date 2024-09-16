@@ -2,7 +2,7 @@
 layout: review
 title: "The Ways of the World - Robert Goddard"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
     - "historical"
     - "fiction"

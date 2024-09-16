@@ -2,7 +2,7 @@
 layout: review
 title: "Piececool 3D Metal Model Kit"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "model"
 category: other

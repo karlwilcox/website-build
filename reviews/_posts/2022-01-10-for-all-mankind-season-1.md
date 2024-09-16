@@ -2,7 +2,7 @@
 layout: review
 title: '"For All Mankind”: Season 1'
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 category: tvshows
 tags:
   - "sci-fi"

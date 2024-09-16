@@ -2,7 +2,7 @@
 layout: review
 title: "Your Place Or Mine"
 subheadline: ""
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "comedy"
   - "romance"

@@ -3,7 +3,7 @@
 layout: review
 title: "Antimatter Blues - Edward Ashton"
 subheadline: "A Mickey 7 novel"
-teaser: "Culture Consumed"
+teaser: ""
 tags:
   - "sci-fi"
 category: books

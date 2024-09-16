@@ -1,0 +1,21 @@
+# Information about the categories for reviews
+tvshows:
+  title: "TV Shows"
+  description: "A single season of a streamed or broadcast TV programme, or a single one-off programme"
+  page_title: "TV Shows I've Watched"
+books:
+  title: "Books"
+  description: "Book, in any form (paperback, hardback, audio, e-book)"
+  page_title: "Books I Have Read"
+movies:
+  title: "Movies"
+  description: "Movies watched on streaming / iPad or broadcast TV (I don't get out to the cinema much)"
+  page_title: "Movies I've Watched"
+games:
+  title: "Games"
+  description: "Games played on XBox, PC or iPad"
+  page_title: "Games I've Played"
+other:
+  title: "Other Things"
+  description: "Anything else that I might want to write about!"
+  page_title: "Things Worthy of Comment"
