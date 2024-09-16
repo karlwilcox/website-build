@@ -1,12 +1,10 @@
 ---
 layout: review
-title: "The Ways of the World - Robert Goddard"
-subheadline: ""
-teaser: ""
+title: "The Ways of the World"
+author: "robert-goddard"
 tags:
     - "historical"
     - "fiction"
-    - "Robert Goddard"
 category: books
 picture:
   src: reviews/ways-of-the-world.jpg

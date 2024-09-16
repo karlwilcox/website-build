@@ -1,8 +1,7 @@
 ---
 layout: review
-title: "Why We Love Middle Earth - Machese and Sisto"
-subheadline: ""
-teaser: ""
+title: "Why We Love Middle Earth"
+suheadline: "Machese and Sisto"
 tags:
   - "tolkien"
   - "literature"

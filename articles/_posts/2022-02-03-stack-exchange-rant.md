@@ -10,8 +10,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/stack-exchange-thumb.jpg
   caption_url: "The Author"
 ---
 My students will attest that I have a tendency to drift off-topic during tutorials and sometimes descend into rants. One subject that 

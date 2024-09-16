@@ -1,12 +1,11 @@
 ---
 layout: review
-title: "Challenger's Hope - David Feintuch"
-subheadline: "The Seafort Saga Book 2"
-teaser: ""
+title: "Challenger's Hope"
+author: "david-feintuch"
+teaser: "The Seafort Saga Book 2"
 tags:
   - "sci-fi"
   - "military"
-  - "David Feintuch"
 category: books
 picture:
   src: reviews/challengers-hope.jpg

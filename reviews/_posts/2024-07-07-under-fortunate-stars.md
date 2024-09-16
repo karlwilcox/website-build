@@ -1,11 +1,9 @@
 ---
 layout: review
-title: "Under Fortunate Stars - Ren Hutchings"
-subheadline: ""
-teaser: ""
+title: "Under Fortunate Stars"
+subheadline: "Ren Hutchings"
 tags:
   - "sci-fi"
-  - "Ren Hutchings"
 category: books
 picture:
   src: reviews/under-fortunate-stars.jpg

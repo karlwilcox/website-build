@@ -10,11 +10,58 @@ ben-aaronovitch:
   surname: "Aaronovitch"
   forename: "Ben"
   note: "Creator of the Rivers of London series"
+neal-asher:
+  forename: "Neal"
+  surname: "Asher"
+  note: "Creator of the polity universe, possibly not the nicest place to live"
+edward-ashton:
+  forename: "Edward"
+  surname: "Ashton"
+stephen-baxter:
+  forename: "Steven"
+  surname: "Baxter"
+  note: "Hard science fiction, usually galactic (and mind-blowing) in scale"
+anne-cleeves:
+  forename: "Anne"
+  surname: "Cleeves"
+  note: "An astonishingly prolific (and successful) crime author"
+grace-curtis:
+  forename: "Grace"
+  surname: "Curtis"
+david-feintuch:
+  forename: "David"
+  surname: "Feintuch"
+  note: "Prolific author of fairly juvenile (but great!) military and space opera fare"
+robert-goddard:
+  forename: "Robert"
+  surname: "Goddard"
+jane-harper:
+  forename: "Jane"
+  surname: "Harper"
+  note: "Probably the leading contemporary Australian novellist in this genre"
+frank-herbert:
+  forename: "Frank"
+  surname: "Herbert"
+  note: "A giant amongst sci-fi authors, even if Dune was all he wrote"
+jojo-moyes:
+  forename: "Jojo"
+  surname: "Moyes"
+  note: "Feelgood, slice of complicated contemporary life that works out OK in the end style author"
 k-s-robinson:
   surname: "Stanley Robinson"
   forename: "Kim"
   note: "Mars, environmental catastrophe, lots and lots of talking - what's not to like?"
+alastair-reynolds:
+  forename: "Alastair"
+  surname: "Reynolds"
+  note: "High concept sci-fi author, often a bit bleak but gripping, and he's a really nice chap too"
 john-scalzi:
   surname: "Scalzi"
   forename: "John"
   note: "Prolific author, best known (to me) for the Old Man's War series"
+samantha-shannon:
+  forename: "Samantha"
+  surname: "Shannon"
+satoshi-yagisawa:
+  forename: "Satoshi"
+  surname: "Yagisawa"

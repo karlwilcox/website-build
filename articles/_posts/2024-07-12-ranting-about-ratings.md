@@ -9,8 +9,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/generic-thumb.jpg
   caption_url: "The Author"
 ---
 Well not really a rant, hopefully more of a considered discussion about ratings...

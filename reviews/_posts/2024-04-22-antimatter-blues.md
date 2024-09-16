@@ -1,9 +1,8 @@
 ---
-
 layout: review
-title: "Antimatter Blues - Edward Ashton"
-subheadline: "A Mickey 7 novel"
-teaser: ""
+title: "Antimatter Blues"
+author: "edward-ashton"
+teaser: "A Mickey 7 novel"
 tags:
   - "sci-fi"
 category: books

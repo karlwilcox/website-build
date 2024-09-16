@@ -1,8 +1,8 @@
 ---
 layout: review
-title: "Last Bus to Woodstock - Colin Dexter"
-subheadline: "Inspector Morse Book 1"
-teaser: ""
+title: "Last Bus to Woodstock"
+teaser: "Inspector Morse Book 1"
+subheadline: "Colin Dexter"
 tags:
   - "crime"
 category: books

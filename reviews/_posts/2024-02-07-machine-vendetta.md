@@ -1,11 +1,10 @@
 ---
 layout: review
-title: "Machine Vendetta - Alastair Reynolds"
-subheadline: "Prefect Dreyfus Book 3"
-teaser: ""
+title: "Machine Vendetta"
+author: "alastair-reynolds"
+teaser: "Prefect Dreyfus Book 3"
 tags:
   - "sci-fi"
-  - "Alastair Reynolds"
 category: books
 picture:
   src: reviews/machine-vendetta.jpg

@@ -1,10 +1,10 @@
 ---
 layout: review
-title: "Heretics of Dune - Frank Herbert"
-subheadline: "Book 5 of the Chronicles of Dune"
-teaser: ""
+title: "Heretics of Dune"
+author: "frank-herbert"
+teaser: "Book 5 of the Chronicles of Dune"
 tags:
-  - ""
+  - "sci-fi"
 category: books
 picture:
   src: reviews/generic.jpg

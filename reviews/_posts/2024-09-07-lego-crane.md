@@ -1,13 +1,12 @@
 ---
 layout: review
-title: "Lego 60409 Mobile Construction Crane"
-subheadline: ""
-teaser: "Culture Consumed"
+title: "60409 Mobile Construction Crane"
+subheadline: "Lego"
 tags:
   - "lego"
 category: other
 picture:
-  src: reviews/lego-crane1.jpg
+  src: reviews/lego-crane-1.jpg
   caption: "Mobile Construction Crane"
   alt: "Author photo"
 ---

@@ -2,7 +2,6 @@
 layout: review
 title: "What Abigail Did That Summer"
 author: ben-aaronovitch
-subheadline:  ""
 teaser: "A Rivers of London Novella"
 tags:
   - "fantasy"

@@ -10,8 +10,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/stray-thumb.jpg
   caption_url: "The Author"
 ---
 {% include figure src="/img/articles/stray-screenshot.jpg" caption="My poor cat, pursued by annoyances" align="centre" %}

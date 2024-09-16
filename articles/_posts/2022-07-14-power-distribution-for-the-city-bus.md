@@ -10,8 +10,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/generic-thumb.jpg
   caption_url: "The Author"
 ---
 Just a follow up on the idea for connecting the Lego City bus lights with TTL outputs. My design in the previous post does work, 

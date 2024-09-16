@@ -1,12 +1,11 @@
 ---
 layout: review
-title: "The Bone Season - Samantha Shannon"
-subheadline: "Tenth Anniversary Special Edition"
-teaser: ""
+title: "The Bone Season"
+author: "samantha-shannon"
+teaser: "Tenth Anniversary Special Edition"
 tags:
   - "alt-hist"
   - "fantasy"
-  - "fiction"
 category: books
 picture:
   src: reviews/the-bone-season.jpg

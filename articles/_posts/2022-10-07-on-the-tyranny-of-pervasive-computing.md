@@ -9,8 +9,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/generic-thumb.jpg
   caption_url: "The Author"
 ---
 I want to talk to you about work life balance and how I achieved this in my own life.

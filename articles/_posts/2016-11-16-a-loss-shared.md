@@ -9,9 +9,8 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
-  caption_url: "The Author"
+  thumb: articles/graduation-thumb.jpg
+  caption_url: "A graduate"
 ---
 
 {% include figure src="/img/articles/graduation-ceremony.jpg" caption="Graduation Ceremony (source Sheffield Hallam Website)" align="centre" %}

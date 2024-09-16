@@ -8,8 +8,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/evil-tutors-thumb.jpg
   caption_url: "The Author"
 ---
 I moderate online support forums for distance learning and often see postings starting with “will I get penalised if…”,

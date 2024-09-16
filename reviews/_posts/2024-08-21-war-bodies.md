@@ -1,8 +1,8 @@
 ---
 layout: review
-title: "War Bodies - Neal Asher"
-subheadline: "A Novel of the Polity"
-teaser: ""
+title: "War Bodies"
+author: "neal-asher"
+teaser: "A Novel of the Polity"
 tags:
   - "sci-fi"
 category: books

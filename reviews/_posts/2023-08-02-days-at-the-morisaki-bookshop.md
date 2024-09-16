@@ -1,8 +1,7 @@
 ---
 layout: review
-title: "Days at the Morisaki Bookshop - Satoshi Yagisawa"
-subheadline: ""
-teaser: ""
+title: "Days at the Morisaki Bookshop"
+author: "satoshi-yagisawa"
 tags:
     - "japan"
     - "fiction"

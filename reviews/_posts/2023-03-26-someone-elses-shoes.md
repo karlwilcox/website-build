@@ -1,13 +1,11 @@
 ---
 layout: review
-title: "Someone Else's Shoes - Jojo Moyes"
-subheadline: ""
-teaser: ""
+title: "Someone Else's Shoes"
+author: "jojo-moyes"
 tags:
     - "romance"
     - "contemporary"
     - "fiction"
-    - "Jojo Moyes"
 category: books
 picture:
   src: reviews/someone-elses-shoes.jpg

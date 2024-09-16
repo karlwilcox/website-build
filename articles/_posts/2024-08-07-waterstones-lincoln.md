@@ -9,9 +9,8 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
-  caption_url: "The Author"
+  thumb: articles/waterstones/waterstones-exterior-thumb.jpg
+  caption_url: "Exterior of the store"
 gallery:
   - image_url: articles/waterstones/waterstones-exterior.jpg
     caption: Waterstones Exterior

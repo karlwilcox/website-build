@@ -1,8 +1,7 @@
 ---
 layout: review
-title: "Floating Hotel - Grace Curtis"
-subheadline: ""
-teaser: ""
+title: "Floating Hotel"
+author: "grace-curtis"
 tags:
   - "sci-fi"
 category:  books

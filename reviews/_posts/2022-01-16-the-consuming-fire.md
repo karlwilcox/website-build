@@ -1,12 +1,10 @@
 ---
 layout: review
-title: "The Consuming Fire - John Scalzi"
-subheadline: "The Interdependcy book 2"
-teaser: ""
+title: "The Consuming Fire"
+author: "john-scalzi"
+teaser: "The Interdependency Book 2"
 tags:
     - "sci-fi"
-    - "fiction"
-    - "John Scalzi"
 category: books
 picture:
   src: reviews/consuming-fire.jpg

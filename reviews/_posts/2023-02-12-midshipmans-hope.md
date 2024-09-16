@@ -1,12 +1,11 @@
 ---
 layout: review
-title: "Midshipman's Hope - David Feintuch"
-subheadline: "The Seafort Saga Book 1"
-teaser: ""
+title: "Midshipman's Hope"
+author: "david-feintuch"
+teaser: "The Seafort Saga Book 1"
 tags:
   - "sci-fi"
   - "military"
-  - "David Feintuch"
 category: books
 picture:
   src: reviews/midshipmans-hope.jpg

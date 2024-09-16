@@ -1,8 +1,7 @@
 ---
 layout: review
-title: "Codebreaking: A Practical Guide - Dunin and Scmeh"
-subheadline: ""
-teaser: ""
+title: "Codebreaking: A Practical Guide"
+subheadline: "Dunin and Scmeh"
 tags:
     - "computing" 
 categories: books

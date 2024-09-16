@@ -1,8 +1,8 @@
 ---
 layout: review
-title: "The Last Emperox - John Scalzi"
-subheadline: "The Interdependency book 3"
-teaser: ""
+title: "The Last Emperox"
+author: "john-scalzi"
+teaser: "The Interdependency Book 3"
 tags:
   - "sci-fi"
 category: books

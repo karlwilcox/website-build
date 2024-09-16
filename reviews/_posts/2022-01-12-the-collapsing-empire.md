@@ -1,12 +1,10 @@
 ---
 layout: review
-title: "The Collapsing Empire: John Scalzi"
-subheadline: "The Interdependcy book 1"
-teaser: ""
+title: "The Collapsing Empire"
+author: "john-scalzi"
+teaser: "The Interdependcy book 1"
 tags:
   - "sci-fi"
-  - "fiction"
-  - "John Scalzi"
 category: books
 picture:
   src: reviews/collapsing-empire.jpg

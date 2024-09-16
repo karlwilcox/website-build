@@ -10,8 +10,7 @@ tags:
 categories:
   - article
 image:
-  thumb: fp-gallery/Authority-Figure-thumb.jpg
-  title: fp-gallery/Authority-Figure.jpg
+  thumb: articles/compsci-bookshelf-thumb.png
   caption_url: "The Author"
 ---
 {% include figure src="/img/articles/compsci-bookshelf.png" caption="A computer science bookshelf" align="centre" %}

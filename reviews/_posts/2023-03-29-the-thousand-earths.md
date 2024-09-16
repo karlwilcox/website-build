@@ -1,11 +1,9 @@
 ---
 layout: review
-title: "The Thousand Earths - Stephen Baxter"
-subheadline: ""
-teaser: ""
+title: "The Thousand Earths"
+author: "stephen-baxter"
 tags:
     - "sci-fi" 
-    - "Stephen Baxter"
 categories: books
 picture:
   src: reviews/the-thousand-earths.jpg

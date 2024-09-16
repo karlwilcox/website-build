@@ -1,12 +1,10 @@
 ---
 layout: review
-title: "A Lesson in Dying - Anne Cleeves"
-subheadline: "Audiobook"
-teaser: ""
+title: "A Lesson in Dying"
+author: "anne-cleeves"
 tags:
   - "crime"
   - "contemporary"
-  - "Anne Cleeves"
 category: books
 picture:
   src: reviews/lesson-in-dying.jpg
