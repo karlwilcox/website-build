@@ -35,14 +35,26 @@ david-feintuch:
 robert-goddard:
   forename: "Robert"
   surname: "Goddard"
+deborah-harkness:
+  forename: "Deborah"
+  surname: "Harkness"
+  note: "Queen of Witches (and vampires, werewolves and the other creatures"
 jane-harper:
   forename: "Jane"
   surname: "Harper"
-  note: "Probably the leading contemporary Australian novellist in this genre"
+  note: "Probably the leading contemporary Australian novelist in this genre"
 frank-herbert:
   forename: "Frank"
   surname: "Herbert"
   note: "A giant amongst sci-fi authors, even if Dune was all he wrote"
+rachel-hore:
+  forename: "Rachel"
+  surname: "Hore"
+  note: "Great for comfort reads and a warm fuzzy romantic feeling. Sometimes gets carried away with dialogues."
+ken-macleod:
+  forename: "Ken"
+  surname: "Macleod"
+  note: "One of the Scottish cluster of contemporary Science Fiction writers"
 jojo-moyes:
   forename: "Jojo"
   surname: "Moyes"
@@ -62,6 +74,14 @@ john-scalzi:
 samantha-shannon:
   forename: "Samantha"
   surname: "Shannon"
+tom-shippey:
+  forename: "Professor Thomas"
+  surname: "Shippey"
+  note: "Tolkien authority, literature professor and all round nice guy"
+adrian-t:
+  forename: "Adrian"
+  surname: "Tchaikovsky"
+  note: "Prolific author in a wide variety of sub-genres in both SF and Fantasy"
 satoshi-yagisawa:
   forename: "Satoshi"
   surname: "Yagisawa"

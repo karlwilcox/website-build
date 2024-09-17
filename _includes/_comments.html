@@ -1,4 +1,3 @@
-			{% if page.comments %}
 				<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
 			{% assign commentList = site.data.comments | where: "url", page.permalink %}
 			{% for commentItem in commentList %}
@@ -9,6 +8,5 @@
 <div id="wufoo-q33ee651u2d94b"> Fill out my <a href="https://karlwilcox.wufoo.com/forms/q33ee651u2d94b">online form</a>. </div> <script type="text/javascript"> var q33ee651u2d94b; (function(d, t) { var s = d.createElement(t), options = { 'userName':'karlwilcox', 'formHash':'q33ee651u2d94b', 'autoResize':true, 'height':'555', 'defaultValues':'field1={{ page.permalink | url_encode }}', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { q33ee651u2d94b = new WufooForm(); q33ee651u2d94b.initialize(options); q33ee651u2d94b.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
 			    <noscript>Please use the direct line to the form below</noscript>
 				<p><a href="https://karlwilcox.wufoo.com/forms/q33ee651u2d94b/">iAlternative Direct link to the Wufoo form</a></p>
-			{% endif %}
 
 

@@ -19,3 +19,7 @@ other:
   title: "Other Things"
   description: "Anything else that I might want to write about!"
   page_title: "Things Worthy of Comment"
+shorts:
+  title: "Short Reviews and Notes"
+  description: "Things that I want to record but don't have a lot to say about"
+  page_title: "A Miscellany of Short Reviews"

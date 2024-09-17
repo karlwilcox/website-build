@@ -10,7 +10,7 @@ tags:
 categories:
   - article
 image:
-  thumb: articles/generic-thumb.jpg
+  thumb: articles/10-working-days-thumb.png
   caption_url: "The Author"
 ---
 
