@@ -51,6 +51,10 @@ frank-herbert:
   forename: "Frank"
   surname: "Herbert"
   note: "A giant amongst sci-fi authors, even if Dune was all he wrote"
+mick-herron:
+  forename: "Mick"
+  surname: "Herron"
+  note: "Didn't he turn out well? The spy master in chief!"
 rachel-hore:
   forename: "Rachel"
   surname: "Hore"
@@ -63,6 +67,10 @@ jojo-moyes:
   forename: "Jojo"
   surname: "Moyes"
   note: "Feelgood, slice of complicated contemporary life that works out OK in the end style author"
+gareth-powell:
+  forename: "Gareth L."
+  surname: "Powell"
+  note: "Writer of the embers of war series"
 k-s-robinson:
   surname: "Stanley Robinson"
   forename: "Kim"
