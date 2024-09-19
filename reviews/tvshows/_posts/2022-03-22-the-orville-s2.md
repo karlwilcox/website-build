@@ -1,0 +1,20 @@
+---
+layout: review
+title: "The Orville"
+subheadline: "Disney+"
+teaser: "Season 2"
+tags:
+  - "sci-fi"
+category: tvshows
+picture:
+  src: the-orville-s2.jpg
+  caption: "The bridge crew"
+  alt: "Source sbs.com.au"
+---
+
+A solid follow-on from season one, there were some real fun episodes here and the
+characters do have some (fairly shallow) development arcs. I did not enjoy the
+two parter - I don't watch this show for endless CGI space battles, we have
+seen them all before and that isn't the USP or the main attraction of this show. Don't try to
+out-Star-Trek Star Trek! The final episode was much better and much closer to the
+heart of what makes this show good.

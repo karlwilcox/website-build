@@ -7,7 +7,7 @@ paginate:
 	<div class="medium-8 columns t30">
 		{% if page.picture %}
 		<figure>
-			<img src="{{ site.urlimg }}{{ page.picture.src }}" alt="{{ page.picture.alt }}"/>
+			<img src="{{ site.urlimg }}reviews/{{ page.category }}/{{ page.picture.src }}" alt="{{ page.picture.alt }}"/>
 			<figcaption>{{ page.picture.caption }}</figcaption>
 		</figure>
 		{% endif %}
@@ -17,9 +17,9 @@ paginate:
 		<p>
 			{% include next-previous-post-in-category %}
 		</p>
-	</div>
+		{% include _comments.html %}
 
-	{% include _comments.html %}
+	</div>
 
 	<div class="medium-4 columns t30">
 		{% include _sidebar2.html %}

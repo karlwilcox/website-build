@@ -7,7 +7,7 @@ tags:
   - ""
 category: 
 picture:
-  src: reviews/generic.jpg
+  src: generic.jpg
   caption: "Karl's reading nook"
   alt: "Armchair with lamp and bookcase"
 ---

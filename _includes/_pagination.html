@@ -14,7 +14,13 @@
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <p class="b15">
         {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
-        {% if post.categories != empty and post.subheadline != empty %} – {{ post.subheadline }}{% endif %}
+        {% unless post.author == "karlw" %}
+         - <a href="/author/{{ post.author }}/">{{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }}</a>
+        {% else %}
+        {% if post.subheadline %}
+         - {{ post.subheadline }}
+        {% endif %}
+        {% endunless %}
       </p>
       <p class="b30">
         {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}

@@ -35,6 +35,10 @@ david-feintuch:
 robert-goddard:
   forename: "Robert"
   surname: "Goddard"
+chris-hammer:
+  forename: "Chris"
+  surname: "Hammer"
+  note: "Australia seems to create great writers of contemporary fiction and crime and Chris is exhibit A."
 deborah-harkness:
   forename: "Deborah"
   surname: "Harkness"
@@ -62,7 +66,9 @@ jojo-moyes:
 k-s-robinson:
   surname: "Stanley Robinson"
   forename: "Kim"
-  note: "Mars, environmental catastrophe, lots and lots of talking - what's not to like?"
+  note: >
+    Mars, environmental catastrophe, lots and lots of talking
+    - what's not to like?
 alastair-reynolds:
   forename: "Alastair"
   surname: "Reynolds"
