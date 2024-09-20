@@ -6,10 +6,6 @@ teaser: "Season 2"
 tags:
   - "sci-fi"
 category: tvshows
-picture:
-  src: foundation-s2.jpg
-  caption: "Foundation Promo Poster"
-  alt: "Source Apple.com"
 ---
 
 I really should have paid more attention and watched this show in a less disjointed manner!

@@ -6,10 +6,6 @@ tags:
     - "japan"
     - "fiction"
 category: books
-picture:
-  src: days-at-morisaki-bookstore.jpg
-  caption: "Paperback Book Cover"
-  alt: "Source Amazon"
 ---
 
 A quirky delight. Beautifully written, slow paced n(truth be told, not a lot actually happens) but a wonderful comfort read. We learn of Takako and her failed engagement taking refuge

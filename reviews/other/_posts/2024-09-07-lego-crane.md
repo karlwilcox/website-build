@@ -5,10 +5,6 @@ subheadline: "Lego"
 tags:
   - "lego"
 category: other
-picture:
-  src: lego-crane-1.jpg
-  caption: "Mobile Construction Crane"
-  alt: "Author photo"
 ---
 Now I like cranes (one of my favourite YouTube subjects) and I like Lego so when I went to the Sheffield Lego store to check 
 out new Notre Dame Kit I came out with the also recently released Mobile Construction crane instead.

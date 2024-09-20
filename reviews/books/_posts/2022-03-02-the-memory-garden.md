@@ -6,10 +6,6 @@ tags:
   - "romance"
   - "contemporary"
 category: books
-picture:
-  src: the-memory-garden.jpg
-  caption: "Book Cover"
-  alt: "Source Amazon"
 ---
 
 Set in Cornwall and taking place over two timelines this is typically Rachel Hore fare -

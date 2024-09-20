@@ -7,10 +7,6 @@ tags:
   - "space"
   - "history"
 category: books
-picture:
-  src: challenger-launch.jpg
-  caption: "Book cover"
-  alt: "Source Amazon"
 ---
 This is a fantastically detailed look at the meeting between Morton Thiokol, Nasa Cape Kennedy and the Marshall Spaceflight Center to discuss SRB joint problems on the night before the Challenger launch, and the sociological and ethnographic background. Despite the depth and potentially tedious detail this was actually a very compelling read.
 

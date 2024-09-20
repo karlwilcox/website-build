@@ -7,10 +7,6 @@ tags:
   - "sci-fi"
   - "military"
 category: books
-picture:
-  src: challengers-hope.jpg
-  caption: "Book cover"
-  alt: "Source amazon"
 ---
 
 Poor Nick has a tough time on his first actual command at the hands of a bullying and weak admiral

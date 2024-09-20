@@ -6,10 +6,6 @@ tags:
   - "crime"
   - "scotland"
 category: tvshows
-picture:
-  src: deadwater-fell.jpg
-  caption: "Show promo image"
-  alt: "Source Amazon"
 ---
 
 An annoyingly out of sequence Scottish set crime drama with the always excellent David Tennant.

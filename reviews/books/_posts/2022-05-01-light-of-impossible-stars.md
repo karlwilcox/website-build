@@ -6,10 +6,6 @@ teaser: "Embers of War Series, Book 3"
 tags:
   - "sci-fi"
 category:
-picture:
-  src: light-of-impossible-stars.jpg
-  caption: "Book Cover"
-  alt: "Source Amazon"
 ---
 
 Listened to this as an audiobook and really enjoyed it, excellent narration by a team of narrators apparently.

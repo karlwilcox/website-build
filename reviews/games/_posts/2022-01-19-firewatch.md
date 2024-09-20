@@ -7,10 +7,6 @@ tags:
   - "mystery"
   - "contemporary"
 category: games
-picture:
-  src: firewatch-game.jpg
-  caption: "Source xbox.com"
-  alt: "Hiker on promontory overlooking valley"
 ---
 
 A very linear, but absorbing story. You are cast as a student

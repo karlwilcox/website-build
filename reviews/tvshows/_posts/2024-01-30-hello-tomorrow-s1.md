@@ -7,10 +7,6 @@ tags:
   - "retro"
   - "sci-fi"
 category: tvshows
-picture:
-  src: hello-tomorrow.jpg
-  caption: "TV Show Poster"
-  alt: "Source Apple.com"
 ---
 
 There's quite some competition between Apple TV+ and Disney+ for the best retro-looking sci-fi show

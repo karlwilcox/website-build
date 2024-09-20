@@ -6,10 +6,6 @@ teaser: ""
 tags:
   - "model"
 category: other
-picture:
-  src: piececool-1.jpg
-  caption: "Piececool Building Kit"
-  alt: "Author photo"
 ---
 
 

@@ -6,10 +6,6 @@ teaser: "Season 1"
 tags:
   - "sci-fi"
 category: tvshows
-picture:
-  src: the-orville.jpg
-  caption: "Show promo image"
-  alt: "Source Amazon"
 ---
 It's great to see some science fiction with humour and heart! This show passed under 
 the radar for me (possibly because of the non-obvious SF title) so I've only recently

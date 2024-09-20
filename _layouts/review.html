@@ -5,19 +5,28 @@ paginate:
 ---
 <div class="row">
 	<div class="medium-8 columns t30">
+		{% capture use_img %}{{ site.urlimg }}reviews/generic.jpg{% endcapture %}
 		{% if page.picture %}
-		<figure>
-			<img src="{{ site.urlimg }}reviews/{{ page.category }}/{{ page.picture.src }}" alt="{{ page.picture.alt }}"/>
-			<figcaption>{{ page.picture.caption }}</figcaption>
-		</figure>
+		{% capture img_path %}{{ site.urlimg }}reviews/{{ page.category }}/{{ page.picture }}.jpg{% endcapture %}
+		{% else %}
+		{% capture img_path %}{{ site.urlimg }}reviews/{{ page.category }}/{{ page.slug }}.jpg{% endcapture %}
 		{% endif %}
+		{% for img_file in site.static_files %}
+		{% if img_file.path == img_path %}
+		{% assign use_img = img_path %}
+		{% continue %}
+		{% endif %}
+		{% endfor %}
+		<figure>
+			<img src="{{ use_img }}" alt="Illustration"/>
+			<figcaption>{{ page.slug }} {{ page.credit }}</figcaption>
+		</figure>
 		<div id="search-content">
 			{{ content }}
 		</div>
 		<p>
 			{% include next-previous-post-in-category %}
 		</p>
-		{% include _comments.html %}
 
 	</div>
 

@@ -5,10 +5,6 @@ author: "grace-curtis"
 tags:
   - "sci-fi"
 category:  books
-picture:
-  src: floating-hotel.jpg
-  caption: "Inscribed page"
-  alt: "Photo by Author"
 ---
 
 This is really much more of a "mood piece" than a novel. We meet a lot of interesting characters, we see them interact

@@ -7,10 +7,6 @@ tags:
   - "xbox"
   - "driving"
 category: games
-picture:
-  src: burnout-cover.jpg
-  caption: "Burnout Disc Cover"
-  alt: "Source Amazon"
 ---
 
 {% include figure src="/img/reviews/games/burnout-paradise.jpg" caption="source - gamingtrend.com" align="centre" %}

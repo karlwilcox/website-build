@@ -7,10 +7,6 @@ tags:
   - "sci-fi"
   - "alt-hist"
 category: tvshows
-picture:
-  src: for-all-mankind-s2.jpg
-  caption: "Astronauts with guns!"
-  alt: "Source Youtube.com"
 ---
 
 Inevitably this moves further away from real events, which is not necessarily a bad thing as the show

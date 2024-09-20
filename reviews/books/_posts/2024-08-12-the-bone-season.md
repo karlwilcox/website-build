@@ -7,10 +7,6 @@ tags:
   - "alt-hist"
   - "fantasy"
 category: books
-picture:
-  src: the-bone-season.jpg
-  caption: "Photo of the hardback"
-  alt: "Site owner's photo"
 ---
 I'm not sure how I feel about this one!
 

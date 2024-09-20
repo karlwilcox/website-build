@@ -6,10 +6,6 @@ teaser: "A White Space Novel"
 tags:
   - "sci-fi"
 category: books
-picture:
-  src: ancestral-night.jpg
-  caption: "Book cover"
-  alt: "Source Amazon"
 ---
 
 This has all the right Space Opera tropes - spaceships, galaxy spanning civilizations, alien races, ancient technologies, conflict and politics and is well written,

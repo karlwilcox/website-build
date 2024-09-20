@@ -7,10 +7,6 @@ tags:
     - "contemporary"
     - "fiction"
 category: books
-picture:
-  src: someone-elses-shoes.jpg
-  caption: "Paperback Book Cover"
-  alt: "Source Amazon"
 ---
 
 Jojo at her most comforting, with a clash of cultures as two women meet, one a hard-pressed Londoner,

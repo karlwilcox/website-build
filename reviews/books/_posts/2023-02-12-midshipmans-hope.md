@@ -7,10 +7,6 @@ tags:
   - "sci-fi"
   - "military"
 category: books
-picture:
-  src: midshipmans-hope.jpg
-  caption: "Book cover"
-  alt: "Source amazon"
 ---
 
 An obvious homage to both C.S. Forestor's Hornblower and to things like Heinlein's "Space Cadet".

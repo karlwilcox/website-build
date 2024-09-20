@@ -6,10 +6,6 @@ teaser: "All Souls Book 2"
 tags:
   - "fantasy"
 category: books
-picture:
-  src: shadow-of-night.jpg
-  caption: "Book Cover"
-  alt: "Source Amazon"
 ---
 
 "Disappointing" - Karl

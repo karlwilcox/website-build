@@ -5,10 +5,6 @@ subheadline: "An XBox Game"
 tags:
   - "moving"
 category: games
-picture:
-  src: unpacking.png
-  caption: "Game screenshot"
-  alt: "Source game website"
 ---
 
 This is a surpisingly fulfilling game, both relaxing and giving you a sense of satisfaction for completion.

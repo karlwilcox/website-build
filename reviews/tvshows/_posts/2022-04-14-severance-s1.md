@@ -5,10 +5,6 @@ subheadline: "Apple TV+"
 tags:
   - "sci-fi"
 category: tvshows
-picture:
-  src: severance.jpg
-  caption: "Show Promo"
-  alt: "Source TVinsider.com"
 ---
 
 My, Apple really are cleaning up when it comes to thoughtful, high-concept SF with great production

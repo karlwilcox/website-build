@@ -7,10 +7,6 @@ tags:
   - "comedy"
   - "contemporary"
 category: tvshows
-picture:
-  src: motherland-s3.jpg
-  caption: "Some mothers"
-  alt: "Source netflix"
 ---
 
 As always a keenly observed and bitingly funny story of our (mostly) middle class Londoners. The actual children, as

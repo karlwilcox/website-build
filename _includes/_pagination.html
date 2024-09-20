@@ -13,7 +13,15 @@
         <p class="b0"><span class="subheadline">{{ site.data.categories[post.category].title | prepend: '<span class="subheader">' | append: '</span>' }}</span> <a href="/reviews/{{ post.category }}/">See all&nbsp;›</a></p>
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <p class="b15">
-        {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+          {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
+          {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.category }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
+          {% for img_file in site.static_files %}
+          {% if img_file.path == thumb_path %}
+          {% assign src_url = thumb_path %}
+          {% continue %}
+          {% endif %}
+          {% endfor %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title escape_once }}"></a>
         {% unless post.author == "karlw" %}
          - <a href="/author/{{ post.author }}/">{{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }}</a>
         {% else %}
@@ -33,18 +41,23 @@
 
 
 <nav id="pagination">
+    {% unless page.paginate.category == "reviews" %}
+    {% assign cat_url = page.paginate.category | prepend: "reviews/" %}
+    {% else %}
+    {% assign cat_url = page.paginate.category %}
+    {% endunless %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-      <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ page.paginate.category }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
+      <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
       {% else %}
-      <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ page.paginate.category }}/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
+      <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
       {% endif %}
     {% endif %}
 
-    <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ page.paginate.category }}/" title="{{ site.data.language.blog_archive }}">Index Page</a>
+    <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/" title="{{ site.data.language.blog_archive }}">Index Page</a>
 
     {% if paginator.next_page %}
-    <a rel="next" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ page.paginate.category }}/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
+    <a rel="next" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
   </nav>
 

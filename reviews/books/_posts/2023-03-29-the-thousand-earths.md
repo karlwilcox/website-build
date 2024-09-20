@@ -5,10 +5,6 @@ author: "stephen-baxter"
 tags:
     - "sci-fi" 
 categories: books
-picture:
-  src: the-thousand-earths.jpg
-  caption: "Paperback Book Cover"
-  alt: "Source Amazon"
 ---
 Stephen Baxter excels at the "long view" and mind-expanding ideas and these skills are on display here.
 I would class this an "artifact" SF novel, the artifact in this case being one of a thousand inhabited flat mega-structures known as plates. 

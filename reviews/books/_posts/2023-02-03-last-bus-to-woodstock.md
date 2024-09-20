@@ -6,10 +6,7 @@ subheadline: "Colin Dexter"
 tags:
   - "crime"
 category: books
-picture:
-  src: morse-books.jpg
-  caption: "Pile of Colin Dexter Morse books"
-  alt: "Photo by Karl"
+picture: morse-books
 ---
 
 This is the first of my intended Inspector Morse re-read. The technology in use places this

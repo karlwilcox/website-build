@@ -6,10 +6,6 @@ tags:
   - "crime"
   - "contemporary"
 category: books
-picture:
-  src: lesson-in-dying.jpg
-  caption: "Book cover"
-  alt: "Source amazon"
 ---
 
 This wasn't great - I gained very little real idea of the character of the lead (or indeed anyone else

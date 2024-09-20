@@ -6,10 +6,6 @@ teaser: ""
 tags:
   - "interactive novel"
 category: games
-picture:
-  src: a-memoire-blue
-  caption: "Game promo image"
-  alt: "Source The Guardian"
 ---
 
 One of the nice things about having a XBox Game Pass subscription is that you can try out games that

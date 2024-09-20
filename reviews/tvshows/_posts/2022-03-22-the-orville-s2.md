@@ -6,10 +6,6 @@ teaser: "Season 2"
 tags:
   - "sci-fi"
 category: tvshows
-picture:
-  src: the-orville-s2.jpg
-  caption: "The bridge crew"
-  alt: "Source sbs.com.au"
 ---
 
 A solid follow-on from season one, there were some real fun episodes here and the

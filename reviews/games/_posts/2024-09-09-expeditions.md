@@ -8,10 +8,6 @@ tags:
   - "driving"
   - "simulation"
 category: games
-picture:
-  src: expeditions.jpg
-  caption: "Expeditions Screenshot"
-  alt: "Source Reddit"
 ---
 Hey, I've finally found a showrunner/mud runner game that I really like!
 

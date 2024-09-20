@@ -6,10 +6,6 @@ teaser: ""
 tags:
   - "grab-bag"
 category: shorts
-picture:
-  src: generic.jpg
-  caption: "Karl's reading nook"
-  alt: "Armchair with lamp and bookcase"
 ---
 
 Being a list of brief notes on other culture consumed over the last few months that I either abandoned or don't feel needs a longer discussion.

@@ -37,3 +37,22 @@ do_gallery:
 			convert -define jpeg:size:400x400 $$i -thumbnail '200x200>' -background white -gravity center -extent 200x200 $$dir/$$base-thumb.$$ext
 		fi
 	done
+
+thumbs: do_thumbs
+.PHONY: thumbs
+
+do_thumbs:
+	echo "thumbs:"
+	for dir in tvshows movies books other games
+	do
+		pushd img/reviews/$$dir > /dev/null
+		mkdir -p thumbs
+		for f in *.jpg
+		do
+			if [ ! -e thumbs/$$f ]
+			then
+				convert -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$f
+			fi
+		done
+		popd > /dev/null
+	done

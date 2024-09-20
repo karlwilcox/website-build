@@ -6,10 +6,6 @@ teaser: "Prefect Dreyfus Book 3"
 tags:
   - "sci-fi"
 category: books
-picture:
-  src: machine-vendetta.jpg
-  caption: "Book cover"
-  alt: "Source Amazon"
 ---
 Al is back! An excellent conclusion to the Dreyfuss series. Cleverly plotted and it moves
 at a cracking pace with some great scenes that fit neatly in to the greater

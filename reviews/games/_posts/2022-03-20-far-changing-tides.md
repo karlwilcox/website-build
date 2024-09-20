@@ -6,10 +6,6 @@ tags:
   - "xbox"
   - "puzzler"
 category: games
-picture:
-  src: far-changing-tides.jpg
-  caption: "Screenshot of the ship interior"
-  alt: "Source eurogamer.net"
 ---
 
 This game was lovely! Really atmospheric 2D scrolling puzzler with superb artwork and really satisfying puzzles and a 

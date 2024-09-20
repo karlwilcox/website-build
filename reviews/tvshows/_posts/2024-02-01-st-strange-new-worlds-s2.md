@@ -6,10 +6,6 @@ teaser: ""
 tags:
   - ""
 category: 
-picture:
-  src: strange-new-worlds-s2.jpg
-  caption: "Strange New Worlds Promo Image"
-  alt: "Source Paramount+"
 ---
 
 This was old school Star Trek nostalgia and I really enjoyed it! The characters had

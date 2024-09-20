@@ -6,10 +6,6 @@ teaser: "The Great Courses"
 tags:
   - "literature"
 category: other
-picture:
-  src: heroes-and-legends.jpg
-  caption: "Course cover"
-  alt: "Source Audible"
 ---
 Tom is always great to listen to, whatever he is talking about and this is no exception. 
 In each lecture he picks a character from literature or legend and talks about their 
