@@ -7,11 +7,7 @@ teaser: "Thoughts and Ramblings"
 tags:
   - games
   - rant
-categories:
-  - article
-image:
-  thumb: articles/stray-thumb.jpg
-  caption_url: "The Author"
+thumb: stray-thumb.jpg
 ---
 {% include figure src="/img/articles/stray-screenshot.jpg" caption="My poor cat, pursued by annoyances" align="centre" %}
 

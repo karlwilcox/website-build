@@ -6,11 +6,6 @@ subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 I want to talk to you about work life balance and how I achieved this in my own life.
 

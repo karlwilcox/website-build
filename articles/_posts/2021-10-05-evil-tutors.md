@@ -5,11 +5,7 @@ teaser: "Thoughts and Ramblings"
 tags:
   - productivity
   - cartoon
-categories:
-  - article
-image:
-  thumb: articles/evil-tutors-thumb.jpg
-  caption_url: "The Author"
+thumb: evil-tutors-thumb.jpg
 ---
 I moderate online support forums for distance learning and often see postings starting with “will I get penalised if…”,
 and others with a detailed textual analysis of the question.

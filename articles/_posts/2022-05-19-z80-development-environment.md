@@ -6,11 +6,6 @@ subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - technology
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 ## Hardware
 

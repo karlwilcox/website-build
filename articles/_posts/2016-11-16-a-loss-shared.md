@@ -6,11 +6,7 @@ subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - personal
-categories:
-  - article
-image:
-  thumb: articles/graduation-thumb.jpg
-  caption_url: "A graduate"
+thumb: graduation-thumb.jpg
 ---
 
 {% include figure src="/img/articles/graduation-ceremony.jpg" caption="Graduation Ceremony (source Sheffield Hallam Website)" align="centre" %}

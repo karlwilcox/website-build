@@ -1,4 +1,4 @@
-----
+---
 layout: article
 comments: true
 title: "Ranting About Ratings"
@@ -6,11 +6,6 @@ subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - rant
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 Well not really a rant, hopefully more of a considered discussion about ratings...
 

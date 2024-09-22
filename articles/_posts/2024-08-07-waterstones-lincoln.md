@@ -6,30 +6,17 @@ subheadline: "A Brief Photographic Tour"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal
-categories:
-  - article
-image:
-  thumb: articles/waterstones/waterstones-exterior-thumb.jpg
-  caption_url: "Exterior of the store"
+thumb: waterstones/waterstones-exterior-thumb.jpg
 gallery:
   - image_url: articles/waterstones/waterstones-exterior.jpg
-    caption: Waterstones Exterior
   - image_url: articles/waterstones/exterior-window.jpg
-    caption: Exterior Window
   - image_url: articles/waterstones/ground-floor-from-entrance.jpg
-    caption: Ground Floor From Entrance
   - image_url: articles/waterstones/ground-floor-childrens-books.jpg
-    caption: Ground Floor Childrens Books
   - image_url: articles/waterstones/ground-floor-games-gifts.jpg
-    caption: Ground Floor Games Gifts
   - image_url: articles/waterstones/first-floor-books-cafe.jpg
-    caption: First Floor Books Cafe
   - image_url: articles/waterstones/cafe-coffee-scone.jpg
-    caption: Cafe Coffee Scone
   - image_url: articles/waterstones/second-floor-books.jpg
-    caption: Second Floor Books
   - image_url: articles/waterstones/second-floor-SF-fantasy-manga.jpg
-    caption: Second Floor SF Fantasy Manga
 ---
 
 Like much British infrastructure, Waterstones Bookshop in Lincoln High Street has reused existing features and had to adapt itself to a space that may not be considered ideal for

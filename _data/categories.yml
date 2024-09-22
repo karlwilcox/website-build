@@ -9,7 +9,7 @@ books:
   page_title: "Books I Have Read"
 movies:
   title: "Movies"
-  description: "Significant movies streamed - more movies in mini-reviews, enter the title into the 'Search' page"
+  description: "Major Movies, mostly streamed"
   page_title: "Movies I've Watched"
 games:
   title: "Games"

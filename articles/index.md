@@ -4,5 +4,5 @@ title: "List of Articles"
 paginate:
     category: articles
     permalink: /page:num/
-    limit: 6
+comments: false
 ---

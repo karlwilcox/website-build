@@ -7,11 +7,7 @@ teaser: "Thoughts and Ramblings"
 tags:
   - productivity
   - cartoon
-categories:
-  - article
-image:
-  thumb: articles/10-working-days-thumb.png
-  caption_url: "The Author"
+thumb: 10-working-days-thumb.png
 ---
 
 

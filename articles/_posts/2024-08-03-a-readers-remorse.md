@@ -6,11 +6,7 @@ subheadline: "A Colin Dexter re-read"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal
-categories:
-  - article
-image:
-  thumb: articles/morse-thumb.jpg
-  caption_url: "The Author"
+thumb: morse-thumb.jpg
 ---
 
 {% include figure src="/img/articles/morse-books.jpg" caption="Assorted Colin Dexter paperbacks, on their way to Oxfam" align="centre" %}

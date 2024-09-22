@@ -6,11 +6,6 @@ subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - personal
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 
 The post on places I have lived has inspired another list, Countries I have visited, other than the country of my birth:

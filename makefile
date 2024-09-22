@@ -4,7 +4,7 @@ SHELL := /bin/bash
 .ONESHELL:
 
 # the default action is to build the site locally
-build:
+build: thumbs
 	bundle exec jekyll build
 
 clean:
@@ -53,6 +53,6 @@ do_thumbs:
 			then
 				convert -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$f
 			fi
-		done
+		done > /dev/null
 		popd > /dev/null
 	done

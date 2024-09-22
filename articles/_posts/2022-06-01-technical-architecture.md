@@ -7,11 +7,6 @@ teaser: "Thoughts and Ramblings"
 tags:
   - electronics
   - lego
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 ## Lego City Aims
 

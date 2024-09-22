@@ -10,11 +10,17 @@
 {% for post in paginator.posts %}
   <div class="row">
     <div class="small-12 columns">
-        <p class="b0"><span class="subheadline">{{ site.data.categories[post.category].title | prepend: '<span class="subheader">' | append: '</span>' }}</span> <a href="/reviews/{{ post.category }}/">See all&nbsp;›</a></p>
+        <p class="b0"><span class="subheadline">{{ site.data.categories[post.category].title | prepend: '<span class="subheader">' | append: '</span>' }}</span> <a href="/{{ page.paginate.category }}/{{ post.category }}/">See all&nbsp;›</a></p>
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <p class="b15">
-          {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
-          {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.category }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
+          {% if page.paginate.category == "articles" %}
+              {% capture src_url %}{{ site.urlimg }}articles/generic-thumb.jpg{% endcapture %}
+              {% capture thumb_path %}{{ site.urlimg }}articles/{{ post.thumb }}{% endcapture %}
+          {% else %}
+              {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
+              {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.category }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
+          {% endif %}
+          Looking for {{ thumb_path }}
           {% for img_file in site.static_files %}
           {% if img_file.path == thumb_path %}
           {% assign src_url = thumb_path %}
@@ -41,7 +47,7 @@
 
 
 <nav id="pagination">
-    {% unless page.paginate.category == "reviews" %}
+    {% unless page.paginate.category == "reviews" or page.paginate.category == "articles" %}
     {% assign cat_url = page.paginate.category | prepend: "reviews/" %}
     {% else %}
     {% assign cat_url = page.paginate.category %}

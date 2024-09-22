@@ -7,11 +7,7 @@ teaser: "Thoughts and Ramblings"
 tags:
   - productivity
   - "computer science"
-categories:
-  - article
-image:
-  thumb: articles/compsci-bookshelf-thumb.png
-  caption_url: "The Author"
+thumb: compsci-bookshelf-thumb.png
 ---
 {% include figure src="/img/articles/compsci-bookshelf.png" caption="A computer science bookshelf" align="centre" %}
 

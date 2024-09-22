@@ -6,11 +6,6 @@ subheadline         : "Clearly we are all in agreement..."
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 I’ve been reading about Technology Leadership and thinking about my own experience in this area.
 

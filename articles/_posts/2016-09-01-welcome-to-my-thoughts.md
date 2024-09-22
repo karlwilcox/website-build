@@ -6,11 +6,6 @@ subheadline: "An apology and justification"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 
 

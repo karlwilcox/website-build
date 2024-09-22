@@ -29,6 +29,44 @@ my various websites each on a different IP addresses.
 The live website is hosted by Amazon Web Services on a tiny [LightSail][6] instance but since it is only
 static pages both performance and storage are adequate.
 
+## File Organisation
+
+(The following information is largely for my own use and unlikely to very interesting to anyone else)
+
+### Articles
+
+Created under articles/_posts, using the article template. Articles have no header image
+so add as required using 'include figure' in the body. You can provide a thumbnail
+with 'thumb: file.jpg' in the front matter, this will be looked for in /img/articles.
+A fall back is provided if required.
+
+### Reviews
+
+Created in the reviews/&lt;category&gt;/_posts folder using the reviews template. Header
+image is added automatically based on the post slug, just put it in /img/reviews/&lt;category&gt;/
+with a name that matches the slug and ends in .jpg. Thumbnails are generated automatically. A fall back
+image is provided if required.
+
+The naming convention is that we use the full name of the item being reviewed using dashes instead
+of spaces but removing any initial "a-" or "the-". TVshows shoule have -sN appended, where N is the
+number of the season.
+
+Frontmatter should be as follows:
+
+- layout: review
+- title: Full title, including 'a' or 'the'
+- either of:
+  - author: key-to-_data/authors.yml
+  - subheadline: free text creator name
+- teaser:
+  - For movies & tv shows, the streaming platform
+  - For books, the series (if any)
+- tags: as required
+- category: one of tvshows / movies / other / books / shorts / games
+
+(This last should be redundant but)
+
+
 
 
 

@@ -7,11 +7,7 @@ teaser: "Thoughts and Ramblings"
 tags:
   - cartoon
   - rant
-categories:
-  - article
-image:
-  thumb: articles/stack-exchange-thumb.jpg
-  caption_url: "The Author"
+thumb: stack-exchange-thumb.jpg
 ---
 My students will attest that I have a tendency to drift off-topic during tutorials and sometimes descend into rants. One subject that 
 often starts me off is Stack Exchange and why it is no longer a useful source for answers to technical questions. Rather than repeat 

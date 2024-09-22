@@ -6,11 +6,6 @@ subheadline: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity
-categories:
-  - article
-image:
-  thumb: articles/generic-thumb.jpg
-  caption_url: "The Author"
 ---
 
 I have not taken a psychological personality type test for many years but I am quite sure that I would be categorised as a 
