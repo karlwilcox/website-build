@@ -64,7 +64,24 @@ Frontmatter should be as follows:
 - tags: as required
 - category: one of tvshows / movies / other / books / shorts / games
 
-(This last should be redundant but)
+(This last should be redundant but it simplifies the pagination)
+
+### Other Pages
+
+Created in an appropriately named folder under pages, you can have any
+organisation that you like but need to provide the permalink
+in the frontmatter and your own navigation;
+either by manually including links or defining your own
+layout in _layouts. Additionally you will need top level
+links to your new pages in _data/navigation.html, usually
+under 'Projects' or 'Interests'.
+
+All contents are automatically included in the search index.
+
+Comments are disabled unless you put comments: true in the
+front matter of each page, or in the defaults section of
+the _config.yml file.
+
 
 
 

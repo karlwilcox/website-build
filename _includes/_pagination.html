@@ -20,7 +20,6 @@
               {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
               {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.category }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
           {% endif %}
-          Looking for {{ thumb_path }}
           {% for img_file in site.static_files %}
           {% if img_file.path == thumb_path %}
           {% assign src_url = thumb_path %}

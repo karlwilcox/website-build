@@ -6,7 +6,7 @@ teaser: "Season 4"
 tags:
   - "sci-fi"
   - "animation"
-category:  movies
+category:  tvshows
 ---
 
 Great call out, to ST:NG as always. This show is never less than entertaining and we have come to love and 

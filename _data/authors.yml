@@ -17,6 +17,10 @@ neal-asher:
 edward-ashton:
   forename: "Edward"
   surname: "Ashton"
+jane-austen:
+  forename: "Jane"
+  surname: "Austen"
+  note: "I'm late to the party on this, but now one of my favourite authors"
 stephen-baxter:
   forename: "Steven"
   surname: "Baxter"

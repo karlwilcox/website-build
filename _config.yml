@@ -144,6 +144,12 @@ defaults:
     values:
       layout: tag_page
       permalink: tags/:tag/
+  -
+    scope:
+      path: 'pages/chase-group'
+      type: 'pages'
+    values:
+      comments: true
 
 
 #       _   __            _             __  _
