@@ -7,13 +7,13 @@ format: blog-index
 		<h1>{{ page.title }}</h1>
 		{{ content }}
 		{% include _pagination.html %}
-		<p>
-			{% include next-previous-post-in-category %}
-		</p>
+		{% if page.comments %}
+			{% include _comments.html %}
+		{% endif %}
 	</div><!-- /.medium-7.columns -->
 
 
 	<div class="medium-4 columns t30">
-		{% include _recent_posts_sidebar.html %}
+		{% include _random_posts_sidebar.html %}
 	</div><!-- /.medium-5.columns -->
 </div><!-- /.row -->

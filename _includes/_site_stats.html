@@ -6,8 +6,8 @@
 {% endcomment %}
 
 <h2>Site Statistics</h2>
-<div class="row t60" >
-  <div class="columns medium-4">
+<div class="row t10" >
+  <div class="columns medium-3">
     <div class="alert-box info">
       <p>This site contains</p>
       <div class="alert-box success">
@@ -16,18 +16,18 @@
       <p>total pages</p>
     </div>
   </div>
-  <div class="columns medium-4">
+  <div class="columns medium-3">
     <div class="alert-box info">
       <p>Including</p>
-      <a href="/articles/">
+      <a href="/blog/">
         <div class="alert-box success">
-          <p>{{ site.categories.articles | size }}</p>
+          <p>{{ site.categories.blog | size }}</p>
         </div>
       </a>
-      <p>articles</p>
+      <p>Blog Posts</p>
     </div>
   </div>
-  <div class="columns medium-4">
+  <div class="columns medium-3">
     <div class="alert-box info">
       <p>and</p>
       <a href="/reviews/">
@@ -35,7 +35,21 @@
           <p>{{ site.categories.reviews | size }}</p>
         </div>
       </a>
-      <p>reviews.</p>
+      <p>Full Reviews</p>
     </div>
   </div>
+  <div class="columns medium-3">
+    <div class="alert-box info">
+      <p>and</p>
+      <a href="/reviews/">
+        <div class="alert-box success">
+          <p>{{ site.data.shorts | size }}</p>
+        </div>
+      </a>
+      <p>Short Reviews</p>
+    </div>
+  </div>
+</div>
+<div class="t10">
+  <p>The site was last updated on {{ site.time | date: "%Y-%m-%d %H:%M" }}</p>
 </div>

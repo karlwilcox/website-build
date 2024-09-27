@@ -8,22 +8,22 @@ tags:
   - personal
 thumb: waterstones/waterstones-exterior-thumb.jpg
 gallery:
-  - image_url: articles/waterstones/waterstones-exterior.jpg
-  - image_url: articles/waterstones/exterior-window.jpg
-  - image_url: articles/waterstones/ground-floor-from-entrance.jpg
-  - image_url: articles/waterstones/ground-floor-childrens-books.jpg
-  - image_url: articles/waterstones/ground-floor-games-gifts.jpg
-  - image_url: articles/waterstones/first-floor-books-cafe.jpg
-  - image_url: articles/waterstones/cafe-coffee-scone.jpg
-  - image_url: articles/waterstones/second-floor-books.jpg
-  - image_url: articles/waterstones/second-floor-SF-fantasy-manga.jpg
+  - image_url: blog/waterstones/waterstones-exterior.jpg
+  - image_url: blog/waterstones/exterior-window.jpg
+  - image_url: blog/waterstones/ground-floor-from-entrance.jpg
+  - image_url: blog/waterstones/ground-floor-childrens-books.jpg
+  - image_url: blog/waterstones/ground-floor-games-gifts.jpg
+  - image_url: blog/waterstones/first-floor-books-cafe.jpg
+  - image_url: blog/waterstones/cafe-coffee-scone.jpg
+  - image_url: blog/waterstones/second-floor-books.jpg
+  - image_url: blog/waterstones/second-floor-SF-fantasy-manga.jpg
 ---
 
 Like much British infrastructure, Waterstones Bookshop in Lincoln High Street has reused existing features and had to adapt itself to a space that may not be considered ideal for
 the purpose. If we take a look at the satellite view of the store and compare it with a 1902 map we see that in fact the footprint of the store occupies most of what was
 in previous times a Hotel, Public House and dining room known as the Saracen's Head, at 298 High Street.
 
-{% include figure src="/img/articles/waterstones/location.png" caption="Contemporary Google Satellite view with Insurance Plan of Lincoln, Sheet 3, Chas E Goad Ltd 1902"
+{% include figure src="/img/blog/waterstones/location.png" caption="Contemporary Google Satellite view with Insurance Plan of Lincoln, Sheet 3, Chas E Goad Ltd 1902"
 align="centre" %}
 
 The floor plan in fact is slightly more complicated that it appears here, a quarter of the ground floor is occupied by a separate jewelry store (presumably this predates the

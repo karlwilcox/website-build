@@ -9,7 +9,7 @@ tags:
 thumb: morse-thumb.jpg
 ---
 
-{% include figure src="/img/articles/morse-books.jpg" caption="Assorted Colin Dexter paperbacks, on their way to Oxfam" align="centre" %}
+{% include figure src="/img/blog/morse-books.jpg" caption="Assorted Colin Dexter paperbacks, on their way to Oxfam" align="centre" %}
 
 So I started a re-read of all the Inspector Morse books by Colin Dexter. I thought this would be doubly nostalgic: I had read them in my 20’s and quite enjoyed them; and they were set in the period that I was growing up during the 1970s and early 80’s. I thought it might be nice to be reminded of simpler times…
 

@@ -1,0 +1,49 @@
+<aside>
+	<div class="panel radius">
+		<h3>Some Random Posts</h3>
+		<ul class="side-nav">
+			<li><a id="url0"><span id="title0"></span></a></li>
+			<li><a id="url1"><span id="title1"></span></a></li>
+			<li><a id="url2"><span id="title2"></span></a></li>
+			<li><a id="url3"><span id="title3"></span></a></li>
+			<li><a id="url4"><span id="title4"></span></a></li>
+		</ul>
+	</div>
+
+  <img class="b30" src="/img/decor/Authority-Figure-1-212x300.png" alt="Karl looking stern">
+
+
+	<div class="border-dotted radius b30">
+		<p>If you enjoyed this site please click on the coffee cup icon below!</p>
+		<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="drawshield" data-description="Support me on Buy me a coffee!" data-message="If you enjoyed this site please feel free to buy me a coffee!" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+	</div>
+</aside>
+
+<script>
+	function randomPosts() {
+		const titles = [
+		{% for post in site.categories['blog'] %}
+			"{{ post.title }}",
+		{% endfor %}
+		];
+		const urls = [
+		{% for post in site.categories['blog'] %}
+			"{{ {{ site.url }}{{ site.baseurl }}{{ post.url }} }}",
+		{% endfor %}
+		];
+		const max = titles.length;
+		var indices = [];
+		while ( indices.length < 5) {
+			var rand = Math.floor(Math.random() * max);
+			if (!indices.includes(rand)) {
+				indices.push(rand);
+			}
+		}
+		for (var i = 0; i < 5; i++ ) {
+			var chosen = indices[i];
+			document.getElementById("url" + i).setAttribute('href', urls[chosen]);
+			document.getElementById("title" + i).textContent = titles[chosen];
+		}
+	}
+	randomPosts();
+</script>

@@ -35,9 +35,9 @@ static pages both performance and storage are adequate.
 
 ### Articles
 
-Created under articles/_posts, using the article template. Articles have no header image
+Created under blog/_posts, using the article template. Articles have no header image
 so add as required using 'include figure' in the body. You can provide a thumbnail
-with 'thumb: file.jpg' in the front matter, this will be looked for in /img/articles.
+with 'thumb: file.jpg' in the front matter, this will be looked for in /img/blog.
 A fall back is provided if required.
 
 ### Reviews

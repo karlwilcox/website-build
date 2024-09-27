@@ -55,19 +55,6 @@ format: post
 		</article>
 	</div><!-- /.medium-8.columns -->
 
-
-	{% if page.sidebar == "left" %}
-	<div class="medium-4 columns medium-pull-8">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-4.columns -->
-	{% endif %}
-
-
-	{% if page.sidebar == "right" %}
-	<div class="medium-4 columns">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-4.columns -->
-	{% endif %}
 	<div class="medium-8 columns medium-offset-1 end">
 	{% if page.comments == true %}
 	{% include _comments.html %}

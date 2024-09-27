@@ -20,6 +20,6 @@ timescale? Did it value speed over quality (or accuracy)? What did students them
 Much informed and (literally) scholarly debate took place, to which my contribution w
 as the following chart illustrating my own experience:
 
-{% include figure src="/img/articles/10-working-days.png" caption="The Four Stages of Marking" align="centre" %}
+{% include figure src="/img/blog/10-working-days.png" caption="The Four Stages of Marking" align="centre" %}
 
 Oddly, I wasn't asked for any further input

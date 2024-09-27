@@ -16,4 +16,4 @@ mark students down if they don’t submit exactly the “right” answer.
 That certainly isn’t how markers see themselves, which made me think about how different these views are,
 and came up with this cartoon to illustrate the ideas…
 
-{% include figure src="/img/articles/evil-tutors.png" caption="Hand-written cartoon" align="centre" %}
+{% include figure src="/img/blog/evil-tutors.png" caption="Hand-written cartoon" align="centre" %}

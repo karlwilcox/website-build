@@ -9,7 +9,7 @@ tags:
   - "computer science"
 thumb: compsci-bookshelf-thumb.png
 ---
-{% include figure src="/img/articles/compsci-bookshelf.png" caption="A computer science bookshelf" align="centre" %}
+{% include figure src="/img/blog/compsci-bookshelf.png" caption="A computer science bookshelf" align="centre" %}
 
 One of my students asked me for recommendations of textbooks to read as background for their Computer Science degree.
 I remembered that I put a list on that very subject together some years ago which, with a little refresh and additions might be a useful post on this subject.
