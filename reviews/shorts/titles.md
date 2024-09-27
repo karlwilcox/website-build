@@ -7,7 +7,6 @@ header:
   image_fullwidth: "gp-header"
 ---
 
-## Titles of All Books with a Full Review
 {% assign reviews = site.data.shorts | sort: "title" %}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
@@ -78,7 +77,7 @@ header:
 {% capture shorts_url %}
 /reviews/shorts/short-reviews-{{ item.year }}-{{ period }}/
 {% endcapture %}
-    <li>{include icon shape={{ item.type }} <a href="{{ site.url }}{{ site.baseurl }}{{ shorts_url }}">{{ item.title }}</a>
+    <li>{% include icon shape=item.type %} <a href="{{ site.url }}{{ site.baseurl }}{{ shorts_url }}">{{ item.title }}</a>
 {% if item.creator %}
 ({{ item.creator }})
 {% endif %}

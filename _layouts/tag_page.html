@@ -2,13 +2,21 @@
 layout: default
 ---
 
-<h1 class="text-start">Posts with tag: {{ page.tag }}</h1>
-<ul>
-    {% for post in page.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date |
-        date_to_string }}) {{ site.data.categories[post.category].title }}
-    </li>
-    {% endfor %}
-</ul>
+<div class="row">
+    <div class="medium-8 columns t30">
+        <h1 class="text-start">Posts with tag: {{ page.tag }}</h1>
+        <ul>
+            {% for post in page.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date |
+                date_to_string }}) {{ site.data.categories[post.category].title }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div><!-- /.medium-7.columns -->
 
+
+    <div class="medium-4 columns t30">
+        <a class="button radius" href="/tag-cloud/">Back to the Tag Cloud... </a>
+    </div><!-- /.medium-5.columns -->
+</div><!-- /.row -->
