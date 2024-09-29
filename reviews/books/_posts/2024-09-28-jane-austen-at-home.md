@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Jane Austen at Home"
-author: jane-austen
+author: lucy-worsley
 teaser: ""
 tags:
   - "jane austen"
