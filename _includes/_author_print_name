@@ -1,0 +1,16 @@
+{% comment %}
+
+usage: include _author_print_name key=<whatever>
+
+returns string containing nicely formatted author name
+
+{% endcomment %}
+
+{% assign output = "Error: unknown author" %}
+{% for author in site.data.authors %}
+{% if author.key == include.key %}
+{% capture output %}author.forename author.surname{% endcapture %}
+{% break %}
+{% endif %}
+{% endfor %}
+{{ output }}

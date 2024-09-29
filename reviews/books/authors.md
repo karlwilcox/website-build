@@ -35,8 +35,24 @@ layout: review-list
 
 {% assign initial = "A" %}
 <p id="toA">A</p>
+
+{% comment %} Create a list of surname/forename,... {% endcomment %}
+{% assign first_author = site.data.authors | first %}
+{% capture keys %}{{ first_author[1].surname }}/{{ first_author[1].forename }}{% endcapture %}
+
+{% for author in site.data.authors offset: 1 %}
+{% capture keys %}{{ keys }},{{ author[1].surname }}/{{ author[1].forename }}{% endcapture %}
+{% endfor %}
+
+{% comment %} Create a sorted array {% endcomment %}
+{% assign author_names = keys | split: "," | sort %}
+
 <ul>
+{% comment %} go through our sorted matching up with the author array {% endcomment %}
+{% for author in author_names %}
+{% assign parts = author | split: "/" %}
 {% for author_data in site.data.authors %}
+{% if author_data[1].surname == parts[0] and author_data[1].forename == parts[1] %}
 {% capture author_ref %}{{ author_data }}{% endcapture %}
 {% assign url_part = author_ref | split: '{' | first %}
 {% assign this_initial = author_data[1].surname | slice: 0 %}
@@ -47,6 +63,11 @@ layout: review-list
 <ul>
 {% endunless %}
 <li><a href="/author/{{ url_part }}/">{{ author_data[1].forename }} {{ author_data[1].surname }}</a></li>
+{% break %}
+{% endif %}
+{% endfor %}
 {% endfor %}
 </ul>
+
+
 

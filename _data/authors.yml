@@ -6,6 +6,10 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 # you can add more authors here
+lucy-worsley:
+  surname: "Worsley"
+  forename: "Lucy"
+  note: "Gifted writer and presenter, and accomplished historian"
 ben-aaronovitch:
   surname: "Aaronovitch"
   forename: "Ben"
@@ -99,6 +103,10 @@ tom-shippey:
   forename: "Professor Thomas"
   surname: "Shippey"
   note: "Tolkien authority, literature professor and all round nice guy"
+karen-swan:
+  forename: "Karen"
+  surname: "Swan"
+  note: "Easy reading romance in exotic settings revealed in the title (usually)"
 adrian-t:
   forename: "Adrian"
   surname: "Tchaikovsky"
