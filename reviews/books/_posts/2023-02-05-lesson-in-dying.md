@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "A Lesson in Dying"
-author: "anne-cleeves"
+author: "ann-cleeves"
 tags:
   - "crime"
   - "contemporary"
