@@ -16,5 +16,5 @@ was OK. The narrative style is already quite well developed and there is some
 human interest in the story arc of the lead character but nowhere near the
 league of Jimmy Perez especially. A pedestrian work that I probably would 
 not have read if had not had Ann's name on the cover but as noted elsewhere,
-the early work was the necessayr grounding for the later big hitters!
+the early work was the necessary grounding for the later big hitters!
 

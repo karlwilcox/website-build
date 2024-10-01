@@ -16,10 +16,16 @@ with the IdeaVim(*) plugin and a colour theme that I can't seem to settle on and
 
 (*) The first editor I learned to use, some 40 years ago, was Vi and the muscle memory is too ingrained to change now!
 
+The build system is the Linux 'make' command with some embedded bash scripts to do things like thumbnail generation.
+
 The page theme is [FEELING RESPONSIVE][4] by phlow.
 
-All images, diagrams, photographs etc. are my own work unless otherwise stated. I use the various tools provided by
+For articles and general topic pages images, diagrams, photographs etc. are my own work unless otherwise stated. I use the various tools provided by
 [Affinity Software][5] for image preparation and diagram creation.
+
+For the reviews images are generally taken from the usual sources - amazon.com, imdb.com, youtube.com or the sites of the
+various studios or publishers. I haven't provided individual attribution for these, sorry, but life is short and I'm
+sure that the organisations involved are big enough to handle the unintended copyright violations.
 
 ## Hosting
 
@@ -55,12 +61,18 @@ Frontmatter should be as follows:
 
 - layout: review
 - title: Full title, including 'a' or 'the'
-- either of:
-  - author: key-to-_data/authors.yml
-  - subheadline: free text creator name
+- author: (Books only) key-to-_data/authors.yml
+- subheadline: 
+  - For books, free format author name (ignored if the author field is present)
+  - For movies & tv shows, the streaming platform and / or studio
+  - For shorts, the full date range as text
+  - For games, the platform
+  - For other, free form explanation
 - teaser:
-  - For movies & tv shows, the streaming platform
   - For books, the series (if any)
+  - For movies, the series (if any)
+  - For tvshows, the season (if any)
+  - For games / other, free form as required
 - tags: as required
 - category: one of tvshows / movies / other / books / shorts / games
 
