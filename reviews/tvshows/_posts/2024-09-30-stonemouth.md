@@ -2,7 +2,7 @@
 layout: review
 title: "Stonemouth"
 subheadline: "BBC iPlayer"
-teaser: "Based on the Iain Banks novel"
+teaser: ""
 tags:
   - "scotland"
   - "drama"

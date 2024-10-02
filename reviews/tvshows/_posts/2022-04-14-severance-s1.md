@@ -2,6 +2,7 @@
 layout: review
 title: "Severance"
 subheadline: "Apple TV+"
+teaser: "Season 1"
 tags:
   - "sci-fi"
 category: tvshows

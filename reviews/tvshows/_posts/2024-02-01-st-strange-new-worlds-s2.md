@@ -1,11 +1,11 @@
 ---
 layout: review
-title: "Star Trek: Strange New Worlds - Season 2"
+title: "Star Trek: Strange New Worlds"
 subheadline: "Paramount+"
-teaser: ""
+teaser: "Season 2"
 tags:
-  - ""
-category: 
+  - "sci-fi"
+category: tvshows
 ---
 
 This was old school Star Trek nostalgia and I really enjoyed it! The characters had

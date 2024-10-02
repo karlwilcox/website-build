@@ -1,8 +1,8 @@
 ---
 layout: review
-title: '"For All Mankind”: Season 1'
-subheadline: ""
-teaser: ""
+title: "For All Mankind"
+subheadline: "Apple TV+"
+teaser: "Season 1"
 category: tvshows
 tags:
   - "sci-fi"

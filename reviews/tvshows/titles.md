@@ -48,11 +48,8 @@ header:
 <ul>
 {% endunless %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
-{% if item.subheadline %}
-({{ item.subheadline }})
-{% else %}
-{% assign author_data = site.data.authors[item.author] %}
-(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>)
+{% if item.teaser %}
+({{ item.teaser }})
 {% endif %}
 </li>
 {% endfor %}

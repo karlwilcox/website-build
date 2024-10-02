@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "Sparrow Academy"
+title: "Umbrella Academy"
 prefix: "The"
 subheadline: "Netflix"
 teaser: "Season 3"
