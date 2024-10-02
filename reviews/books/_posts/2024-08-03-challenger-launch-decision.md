@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Challenger Launch Decision"
+title: "Challenger Launch Decision"
+prefix: "The"
 subheadline: "Diane Vaughan"
 teaser: ""
 tags:

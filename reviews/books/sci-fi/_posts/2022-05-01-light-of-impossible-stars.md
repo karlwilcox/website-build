@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Light of Impossible Stars"
+title: "Light of Impossible Stars"
+prefix: "The"
 author: gareth-powell
 teaser: "Embers of War Series, Book 3"
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The White Lotus"
+title: "White Lotus"
+prefix: "The"
 subheadline: "Netflix?"
 teaser: "Season 2"
 tags:

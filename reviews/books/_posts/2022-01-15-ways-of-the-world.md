@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Ways of the World"
+title: "Ways of the World"
+prefix: "The"
 author: "robert-goddard"
 tags:
     - "historical"

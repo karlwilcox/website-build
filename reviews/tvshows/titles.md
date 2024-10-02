@@ -1,13 +1,14 @@
 ---
 layout: page
-title: "List of Mini Review Titles"
+title: "List of Book Titles"
 subheadline: ""
 teaser: ""
 header:
   image_fullwidth: "gp-header"
 ---
 
-{% assign reviews = site.data.shorts | sort: "title" %}
+## Titles of TV Shows with a Full Review
+{% assign reviews = site.posts | sort: "title" | where: "category", "tvshows" %}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toB">&nbsp;B&nbsp;</a>&nbsp;|&nbsp;
@@ -46,40 +47,12 @@ header:
 <p id="to{{ initial }}">{{ initial }}</p>
 <ul>
 {% endunless %}
-{% case item.month %}
-{% when "Jan" %}
-{% assign period = "Q1" %}
-{% when "Feb" %}
-{% assign period = "Q1" %}
-{% when "Mar" %}
-{% assign period = "Q1" %}
-{% when "Apr" %}
-{% assign period = "Q2" %}
-{% when "May" %}
-{% assign period = "Q2" %}
-{% when "Jun" %}
-{% assign period = "Q2" %}
-{% when "Jul" %}
-{% assign period = "Q3" %}
-{% when "Aug" %}
-{% assign period = "Q3" %}
-{% when "Sep" %}
-{% assign period = "Q3" %}
-{% when "Oct" %}
-{% assign period = "Q4" %}
-{% when "Nov" %}
-{% assign period = "Q4" %}
-{% when "Dec" %}
-{% assign period = "Q4" %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
+{% if item.subheadline %}
+({{ item.subheadline }})
 {% else %}
-{% assign period = "Q?" %}
-{% endcase %}
-{% capture shorts_url %}
-/reviews/shorts/short-reviews-{{ item.year }}-{{ period }}/
-{% endcapture %}
-    <li>{% include icon shape=item.type %} <a href="{{ site.url }}{{ site.baseurl }}{{ shorts_url }}">{{ item.prefix }} {{ item.title }}</a>
-{% if item.creator %}
-({{ item.creator }})
+{% assign author_data = site.data.authors[item.author] %}
+(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>)
 {% endif %}
 </li>
 {% endfor %}

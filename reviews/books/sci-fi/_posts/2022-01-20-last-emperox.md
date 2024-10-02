@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Last Emperox"
+title: "Last Emperox"
+prefix: "The"
 author: "john-scalzi"
 teaser: "The Interdependency Book 3"
 tags:

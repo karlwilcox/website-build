@@ -47,7 +47,7 @@ header:
 <p id="to{{ initial }}">{{ initial }}</p>
 <ul>
 {% endunless %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
 {% if item.subheadline %}
 ({{ item.subheadline }})
 {% else %}

@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Bone Season"
+title: "Bone Season"
+prefix: "The"
 author: "samantha-shannon"
 teaser: "Tenth Anniversary Special Edition"
 tags:

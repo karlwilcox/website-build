@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Collapsing Empire"
+title: "Collapsing Empire"
+prefix: "The"
 author: "john-scalzi"
 teaser: "The Interdependcy book 1"
 tags:

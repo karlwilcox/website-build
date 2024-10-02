@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "A Lesson in Dying"
+title: "Lesson in Dying"
+prefix: "A"
 author: "ann-cleeves"
 tags:
   - "crime"

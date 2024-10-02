@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Lost Daughter"
+title: "Lost Daughter"
+prefix: "The"
 subheadline: ""
 teaser: ""
 tags:

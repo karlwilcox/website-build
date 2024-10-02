@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Hidden Beach"
+title: "Hidden Beach"
+prefix: "The"
 author: "karen-swan"
 teaser: ""
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Consuming Fire"
+title: "Consuming Fire"
+prefix: "The"
 author: "john-scalzi"
 teaser: "The Interdependency Book 2"
 tags:

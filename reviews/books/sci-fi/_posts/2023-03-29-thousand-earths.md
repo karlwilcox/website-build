@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Thousand Earths"
+title: "Thousand Earths"
+prefix: "The"
 author: "stephen-baxter"
 tags:
     - "sci-fi" 

@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Lego Movie"
+title: "Lego Movie"
+prefix: "The"
 subheadline: "Apple TV+"
 teaser: ""
 tags:

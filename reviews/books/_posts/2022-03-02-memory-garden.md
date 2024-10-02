@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Memory Garden"
+title: "Memory Garden"
+prefix: "The"
 author: rachel-hore
 tags:
   - "romance"

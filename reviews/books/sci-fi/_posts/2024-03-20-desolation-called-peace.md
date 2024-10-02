@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "A Desolation Called Peace"
+title: "Desolation Called Peace"
+prefix: "A"
 author: "arkady-martine"
 teaser: "Teixcalaan Book 2"
 tags:

@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Doors of Eden"
+title: "Doors of Eden"
+prefix: "The"
 author: adrian-t
 teaser: ""
 tags:

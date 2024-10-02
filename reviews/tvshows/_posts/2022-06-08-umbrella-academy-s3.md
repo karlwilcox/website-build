@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Sparrow Academy"
+title: "Sparrow Academy"
+prefix: "The"
 subheadline: "Netflix"
 teaser: "Season 3"
 tags:

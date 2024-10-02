@@ -32,7 +32,7 @@ format: post
 					{% if page.teaser %}
 					<p class="teaser">{{ page.teaser }}</p>
 					{% endif %}
-					<h1>{{ page.title }}</h1>
+					<h1>{{ page.prefix}} {{ page.title }}</h1>
 					{% unless page.author == "karlw" %}
 					<p class="subheadline"><a href="/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
 					{% else %}

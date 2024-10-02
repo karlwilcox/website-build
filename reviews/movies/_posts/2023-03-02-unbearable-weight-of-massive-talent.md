@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Unbearable Weight of Massive Talent"
+title: "Unbearable Weight of Massive Talent"
+prefix: "The"
 subheadline: "Netflix"
 teaser: ""
 tags:

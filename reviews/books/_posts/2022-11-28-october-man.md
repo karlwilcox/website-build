@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The October Man"
+title: "October Man"
+prefix: "The"
 author: ben-aaronovitch
 teaser: "A Rivers of London Novella"
 tags:

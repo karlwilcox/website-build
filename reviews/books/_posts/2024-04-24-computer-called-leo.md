@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "A Computer Called Leo"
+title: "Computer Called Leo"
+prefix: "A"
 subheadline: "Georgina Ferry"
 teaser: ""
 tags:
