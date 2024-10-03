@@ -1,0 +1,25 @@
+
+    <div class="row t30 b30">
+        <div class="small-12 text-center columns">
+            <a id="surprise-me" class="button large radius">Surprise me!</a>
+        </div><!-- /.small-12.columns -->
+        <div class="small-12 text-center columns">
+            <p>Pick a random review</p>
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+    <script>
+    function randomReview() {
+      const urls = [
+      {% for post in site.posts %}
+        {% assign prefix = post.url | slice: 1,7 %}
+        {% if prefix == 'reviews' %}
+		"{{ site.url }}{{ site.baseurl }}{{ post.url }}",
+		{% endif %}
+	  {% endfor %}
+      ];
+      var chosen = Math.floor(Math.random() * urls.length);
+      document.getElementById("surprise-me").setAttribute('href', urls[chosen]);
+     }
+     randomReview();
+    </script>

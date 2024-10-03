@@ -2,7 +2,7 @@
 {% for item in site.data.shorts %}
 {% if item.year == include.year and item.month == include.month %}
 <p>
-    {% include icon shape=item.type %} <strong>{{ item.prefix }}{{ item.title }}</strong>
+    {% include icon shape=item.type %} <strong>{{ item.prefix }} {{ item.title }}</strong>
     {% if item.creator %} - {{ item.creator }}. {% endif %}
     {{ item.review }}
 </p>

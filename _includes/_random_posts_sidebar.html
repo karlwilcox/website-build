@@ -28,7 +28,7 @@
 		];
 		const urls = [
 		{% for post in site.categories['blog'] %}
-			"{{ {{ site.url }}{{ site.baseurl }}{{ post.url }} }}",
+			"{{ site.url }}{{ site.baseurl }}{{ post.url }}",
 		{% endfor %}
 		];
 		const max = titles.length;
