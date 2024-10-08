@@ -43,7 +43,13 @@
       <p>and</p>
       <a href="/reviews/shorts">
         <div class="alert-box success">
-          <p>{{ site.data.shorts | size }}</p>
+          {% assign short_count = 0 %}
+          {% for short in site.data.shorts %}
+          {% unless short.type == "draft" %}
+          {% assign short_count = short_count | plus: 1 %}
+          {% endunless %}
+          {% endfor %}
+          <p>{{ short_count }}</p>
         </div>
       </a>
       <p>Short Reviews</p>

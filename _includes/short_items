@@ -1,10 +1,12 @@
 
 {% for item in site.data.shorts %}
 {% if item.year == include.year and item.month == include.month %}
+{% unless item.type == "draft" %}
 <p>
     {% include icon shape=item.type %} <strong>{{ item.prefix }} {{ item.title }}</strong>
     {% if item.creator %} - {{ item.creator }}. {% endif %}
     {{ item.review }}
 </p>
+{% endunless %}
 {% endif %}
 {% endfor %}
