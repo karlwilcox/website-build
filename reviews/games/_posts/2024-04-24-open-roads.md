@@ -5,7 +5,6 @@ subheadline: "XBox"
 teaser: ""
 tags:
   - "linear"
-category: games
 ---
 
 This is soaked in an atmosphere of melancholy, decay and deep time. There is a 

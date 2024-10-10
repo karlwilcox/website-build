@@ -5,7 +5,6 @@ author: ben-aaronovitch
 teaser: "A Rivers of London Novella"
 tags:
   - "fantasy"
-category: books
 ---
 
 I sometimes feel that the novellas in this series are a bit of a cash-in since the paperback is near full priced

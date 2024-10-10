@@ -5,7 +5,6 @@ author: "satoshi-yagisawa"
 tags:
     - "japan"
     - "fiction"
-category: books
 ---
 
 A quirky delight. Beautifully written, slow paced n(truth be told, not a lot actually happens) but a wonderful comfort read. We learn of Takako and her failed engagement taking refuge

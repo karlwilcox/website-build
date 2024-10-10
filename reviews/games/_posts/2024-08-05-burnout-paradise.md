@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "xbox"
   - "driving"
-category: games
 ---
 
 {% include figure src="/img/reviews/games/burnout-paradise.jpg" caption="source - gamingtrend.com" align="centre" %}

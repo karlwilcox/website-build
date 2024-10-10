@@ -5,7 +5,6 @@ author: ken-macleod
 teaser: "Engines of Light: Book 1"
 tags:
   - "sci-fi"
-category: books
 ---
 
 I'm re-reading this in preparation for tackling the whole series. This is a pleasant,

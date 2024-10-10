@@ -5,7 +5,6 @@ subheadline: "Elizabeth Bear"
 teaser: "A White Space Novel"
 tags:
   - "sci-fi"
-category: books
 ---
 
 This has all the right Space Opera tropes - spaceships, galaxy spanning civilizations, alien races, ancient technologies, conflict and politics and is well written,

@@ -5,7 +5,6 @@ author: stephen-baxter
 teaser: ""
 tags:
   - "sci-fi"
-category: books
 ---
 
 The usual mind-expanding themes that we have come to expect from Stephen, in this case an ever-expanding series of multi-verses to get to

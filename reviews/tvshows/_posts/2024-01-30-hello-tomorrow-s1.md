@@ -6,7 +6,6 @@ teaser: "Season 1"
 tags:
   - "retro"
   - "sci-fi"
-category: tvshows
 ---
 
 There's quite some competition between Apple TV+ and Disney+ for the best retro-looking sci-fi show

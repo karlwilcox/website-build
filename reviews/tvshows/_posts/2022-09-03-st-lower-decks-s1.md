@@ -6,7 +6,6 @@ teaser: "Season 1"
 tags:
   - "sci-fi"
   - "animated"
-category: tvshows
 ---
 
 I enjoyed this a *lot* more than I thought I would! I was expecting something a bit silly, or at least

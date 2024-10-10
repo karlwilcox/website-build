@@ -6,7 +6,6 @@ teaser: "Season 2"
 tags:
   - "crime"
   - "scotland"
-category: tvshows
 ---
 
 This was a lot darker than the first season, with more killings, including the sad

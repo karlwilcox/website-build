@@ -6,7 +6,6 @@ teaser: "Season 2"
 tags:
   - "sci-fi"
   - "alt-hist"
-category: tvshows
 ---
 
 Inevitably this moves further away from real events, which is not necessarily a bad thing as the show

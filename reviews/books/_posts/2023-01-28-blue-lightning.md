@@ -6,7 +6,6 @@ teaser: "Jimmy Perez (Shetland) book 4"
 tags:
   - "crime"
   - "scotland"
-category: books
 ---
 
 I missed this one out on my initial read of the 'Shetland' books as I inadvertently read a spoiler

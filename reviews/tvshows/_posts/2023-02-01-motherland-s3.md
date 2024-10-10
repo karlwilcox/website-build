@@ -6,7 +6,6 @@ teaser: "Season 3"
 tags:
   - "comedy"
   - "contemporary"
-category: tvshows
 ---
 
 As always a keenly observed and bitingly funny story of our (mostly) middle class Londoners. The actual children, as

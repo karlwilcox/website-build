@@ -6,7 +6,6 @@ teaser: "Detective Nell Buchanan Book 2"
 tagsj:
   - "crime"
   - "australia"
-category: books
 ---
 
 We are back in the wild outback again and boy does it feel remote here. Another lovely little

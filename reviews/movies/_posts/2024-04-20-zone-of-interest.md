@@ -6,7 +6,6 @@ subheadline: "Apple TV"
 teaser: ""
 tags:
   - "history"
-category: movies
 ---
 
 A compelling drama with a well deserved Oscar for sound design. Subtitled but that actually seemed to draw you in 

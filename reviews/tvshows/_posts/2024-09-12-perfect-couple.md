@@ -7,7 +7,6 @@ teaser: ""
 tags:
   - "crime"
   - "nantucket"
-category: tvshows
 ---
 
 This took a while to get really started but after a couple of episodes became totally gripping. The story

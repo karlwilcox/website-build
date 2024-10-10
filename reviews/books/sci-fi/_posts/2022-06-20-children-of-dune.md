@@ -5,7 +5,6 @@ author: frank-herbert
 teaser: "Dune Sequence Book 3"
 tags:
   - "sci-fi"
-category: books
 ---
 This was as far as I got when reading the sequence as a teenager - I had the first three volumes in paperback
 with the nice pictorial covers. This time around I'm reading them as a 7 volume ebook and enjoying them 

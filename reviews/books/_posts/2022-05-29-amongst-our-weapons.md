@@ -6,7 +6,6 @@ teaser: "Rivers of London book 9"
 tags:
   - "fantasy"
   - "london"
-category: books
 ---
 
 Nice to let DCI Seawoll have a more central role back in his old stomping ground and there are 

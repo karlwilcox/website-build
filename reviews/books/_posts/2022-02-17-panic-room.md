@@ -4,7 +4,6 @@ title: "Panic Room"
 author: robert-goddard
 tags:
   - "thriller"
-category: books
 ---
 
 I listened to this as an audiobook and quite enjoyed it, but with some reservations.

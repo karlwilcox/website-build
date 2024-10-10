@@ -6,7 +6,6 @@ teaser: "The Seafort Saga Book 1"
 tags:
   - "sci-fi"
   - "military"
-category: books
 ---
 
 An obvious homage to both C.S. Forestor's Hornblower and to things like Heinlein's "Space Cadet".

@@ -3,8 +3,7 @@ layout: review-list
 header:
   image_fullwidth: "gp-header"
 paginate:
-  category: books
-  permalink: /page:num/
+    permalink: /page:num/
 ---
 
 Although most books have an entry of their own there are some that I didn't have a great deal to say

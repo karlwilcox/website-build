@@ -7,8 +7,7 @@ layout: default
     {% for post in page.posts %}
     <li>
         <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date |
-        date_to_string }} )  - {{ post.category }}
+        date_to_string }} )  - {{ post.categories[1] }}
     </li>
     {% endfor %}
 </ul>
-

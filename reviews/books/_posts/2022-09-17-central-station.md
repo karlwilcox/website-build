@@ -5,7 +5,6 @@ subheadline: "Lavie Tidhar"
 teaser: ""
 tags:
   - "fantasy"
-category: books
 ---
 
 This was beautifully written and absolutely full of atmosphere but ultimately I was a

@@ -6,7 +6,6 @@ teaser: "Season 2"
 tags:
   - "sci-fi"
   - "animated"
-category: tvshows
 ---
 
 I'm really liking this show, binge watching this season over a most of the last week. What I particularly

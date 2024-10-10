@@ -6,7 +6,6 @@ subheadline: "Georgina Ferry"
 teaser: ""
 tags:
   - "computing history"
-category: books
 ---
 
 An extraordinary story of how benevolent corporations used to act and how much they could achieve. As always I 

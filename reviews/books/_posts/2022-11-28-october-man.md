@@ -8,7 +8,6 @@ tags:
   - "crime"
   - "magic"
   - "germany"
-category: books
 ---
 
 Listened to this as an audiobook, well read by Sam Peter Jackson. I must say that I really enjoyed this, despite being billed as a

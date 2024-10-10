@@ -7,7 +7,6 @@ teaser: ""
 tags:
   - "romance"
   - "sweden"
-category: books
 ---
 
 A very convincing Swedish setting (the hundreds of islands in the bays around Stockholm) and a nice description of Swedish summer activities anchor this story well in its 

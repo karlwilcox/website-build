@@ -3,8 +3,7 @@ layout: review-list
 header:
   image_fullwidth: "gp-header"
 paginate:
-  category: movies
-  permalink: /page:num/
+    permalink: /page:num/
 ---
 
 This list only shows movies that I had something fairly significant to say about - I've 

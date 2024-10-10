@@ -6,7 +6,6 @@ subheadline: "Apple TV+"
 teaser: ""
 tags:
   - "lego"
-category: movies
 ---
 
 The Lego Batman Movie Apple TV+ The final installment of my Lego movie bulk purchase. This was great fun and 

@@ -6,7 +6,6 @@ teaser: "The Seafort Saga Book 2"
 tags:
   - "sci-fi"
   - "military"
-category: books
 ---
 
 Poor Nick has a tough time on his first actual command at the hands of a bullying and weak admiral

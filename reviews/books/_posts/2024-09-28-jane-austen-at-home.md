@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "jane austen"
   - "history"
-category: books
 ---
 
 On the surface this appears to be a straight-forward list and description of all the places that

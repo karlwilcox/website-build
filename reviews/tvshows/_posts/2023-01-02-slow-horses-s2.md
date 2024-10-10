@@ -6,7 +6,6 @@ teaser: "Season 2"
 tags:
   - "espionage"
   - "london"
-category: tvshows
 ---
 
 This is very faithful to the books, and all the better for it. This is the

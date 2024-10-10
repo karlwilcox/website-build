@@ -6,7 +6,6 @@ teaser: "Slough House Book 7"
 tags:
   - "espionage"
   - "london"
-category: books
 ---
 
 I'm sure that I enjoyed but trying to update this review a couple of years later I can't

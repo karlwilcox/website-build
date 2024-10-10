@@ -6,7 +6,6 @@ subheadline: "Apple TV+"
 teaser: ""
 tags:
   - "lego"
-category: movies
 ---
 
 This was a re-watch in preparation for watching the whole box set I've purchased for Apple TV.

@@ -5,7 +5,6 @@ subheadline: "Xbox"
 tags:
   - "xbox"
   - "puzzler"
-category: games
 ---
 
 This game was lovely! Really atmospheric 2D scrolling puzzler with superb artwork and really satisfying puzzles and a 

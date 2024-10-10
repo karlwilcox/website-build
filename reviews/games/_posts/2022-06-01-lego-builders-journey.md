@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "lego"
   - "puzzle"
-category: games
 ---
 
 Picked this up as part of the Apple Arcade that I subscribe to (effectively free if you want iCloud,

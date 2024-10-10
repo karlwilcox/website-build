@@ -6,7 +6,6 @@ teaser: "Season 1"
 tags:
   - "crime"
   - "fantasy"
-category: tvshows
 ---
 
 A canonical part of the **Sandman** univerise this deserves

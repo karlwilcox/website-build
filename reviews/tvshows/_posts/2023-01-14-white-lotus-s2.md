@@ -7,7 +7,6 @@ teaser: "Season 2"
 tags:
   - "drama"
   - "italy"
-category: tvshows
 ---
 
 This was a clever slow-burner of a show, even after 5 episodes we were left guessing as

@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "crime"
   - "california"
-category: books
 ---
 
 The writing here is hauntingly beautiful. It is quite a complex story as every

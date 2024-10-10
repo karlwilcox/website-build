@@ -5,7 +5,6 @@ subheadline: "XBox"
 teaser: ""
 tags:
   - "interactive novel"
-category: games
 ---
 
 One of the nice things about having a XBox Game Pass subscription is that you can try out games that

@@ -5,7 +5,6 @@ subheadline: "Amazon Prime TV"
 tags:
   - "crime"
   - "scotland"
-category: tvshows
 ---
 
 An annoyingly out of sequence Scottish set crime drama with the always excellent David Tennant.

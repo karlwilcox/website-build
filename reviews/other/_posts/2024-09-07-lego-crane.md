@@ -4,7 +4,6 @@ title: "60409 Mobile Construction Crane"
 subheadline: "Lego"
 tags:
   - "lego"
-category: other
 ---
 Now I like cranes (one of my favourite YouTube subjects) and I like Lego so when I went to the Sheffield Lego store to check 
 out new Notre Dame Kit I came out with the also recently released Mobile Construction crane instead.

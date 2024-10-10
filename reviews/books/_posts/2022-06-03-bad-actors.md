@@ -6,7 +6,6 @@ teaser: "Slough House Book 8"
 tags:
   - "espionage"
   - "london"
-category: books
 ---
 
 The very (even more than usual) political one (as in terms of involving politicians). It has all the

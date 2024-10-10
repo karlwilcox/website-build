@@ -5,7 +5,6 @@ author: deborah-harkness
 teaser: "All Souls Book 2"
 tags:
   - "fantasy"
-category: books
 ---
 
 "Disappointing" - Karl

@@ -4,7 +4,6 @@ title: "Unpacking"
 subheadline: "An XBox Game"
 tags:
   - "moving"
-category: games
 ---
 
 This is a surpisingly fulfilling game, both relaxing and giving you a sense of satisfaction for completion.

@@ -7,7 +7,6 @@ teaser: "The Final Architecture book 1"
 tags:
   - "sci-fi"
   - "space opera"
-category: books
 ---
 
 The start of an excellent, intricate space with a good, interesting cast of characters, locations and

@@ -7,7 +7,6 @@ teaser: "Ruth Galloway book 3"
 tags:
   - "crime"
   - "norfolk"
-category: books
 ---
 
 More Norfolk based crime drama, this is the one with links back to the

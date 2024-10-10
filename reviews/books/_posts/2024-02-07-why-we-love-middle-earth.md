@@ -5,7 +5,6 @@ suheadline: "Machese and Sisto"
 tags:
   - "tolkien"
   - "literature"
-category: books
 ---
 Just the right side of annoying (and forgivable if you have listened  to the Prancing Pony Podcasts) this book
 is an absolute Moria's worth mine of information on all things Middle-Earth related. It is interesting in its

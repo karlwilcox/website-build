@@ -5,7 +5,6 @@ subheadline: "Apple TV+"
 teaser: "Season 1"
 tags:
   - "sci-fi"
-category: tvshows
 ---
 
 My, Apple really are cleaning up when it comes to thoughtful, high-concept SF with great production

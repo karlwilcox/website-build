@@ -5,7 +5,6 @@ author: "neal-asher"
 teaser: "A Novel of the Polity"
 tags:
   - "sci-fi"
-category: books
 ---
 
 Definitely one for what Iain Banks refers to as "armamentophiles" - enough rail guns, rotoguns, particle beams

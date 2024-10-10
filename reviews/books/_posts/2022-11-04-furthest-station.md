@@ -6,7 +6,6 @@ author: ben-aaronovitch
 teaser: "A Rivers of London Novella"
 tags:
   - "fantasy"
-category: books
 ---
 
 I listened to this as an audiobook (because these work out a lot cheaper than buying

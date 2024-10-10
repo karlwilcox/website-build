@@ -6,7 +6,6 @@ teaser: "Season 1"
 tags:
   - "crime"
   - "scotland"
-category: tvshows
 ---
 I binge watched this over a couple of nights. It is a police procedural in which the actual crime is less 
 interesting than the personal relationships of the cops involved. It also makes a nice change that the bodies aren't piling 

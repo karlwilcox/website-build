@@ -6,7 +6,6 @@ author: rachel-hore
 tags:
   - "romance"
   - "contemporary"
-category: books
 ---
 
 Set in Cornwall and taking place over two timelines this is typically Rachel Hore fare -

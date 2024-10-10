@@ -5,7 +5,6 @@ subheadline: ""
 teaser: "Early 1980's"
 tags:
   - "magazine"
-category: other
 ---
 
 I've been downloading the PDFs of these from Archive.org and reading them in Apple Books

@@ -7,7 +7,6 @@ teaser: "Tenth Anniversary Special Edition"
 tags:
   - "alt-hist"
   - "fantasy"
-category: books
 ---
 I'm not sure how I feel about this one!
 

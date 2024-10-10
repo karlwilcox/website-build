@@ -5,7 +5,6 @@ author: "ken-macleod"
 teaser: "Lightspeed Trilogy Book 1"
 tags:
   - "sci-fi"
-category: books
 ---
 
 I think I'd like to re-read this one on actual paper - I listened to it as an audiobook, sometimes while

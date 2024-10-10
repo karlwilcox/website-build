@@ -5,7 +5,6 @@ author: frank-herbert
 teaser: "Dune Series Book 2"
 tags:
   - "sci-fi"
-category: books
 ---
 
 This re-read is being done in a single bargain priced 7-volume ebook but for the image I've been able

@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "mystery"
   - "contemporary"
-category: games
 ---
 
 A very linear, but absorbing story. You are cast as a student

@@ -3,7 +3,6 @@ layout: review
 title: "For All Mankind"
 subheadline: "Apple TV+"
 teaser: "Season 1"
-category: tvshows
 tags:
   - "sci-fi"
   - "alt-hist"

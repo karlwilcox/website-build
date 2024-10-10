@@ -5,7 +5,6 @@ author: frank-herbert
 teaser: "Dune Sequence book 4"
 tags:
   - "sci-fi"
-category: books
 ---
 
 Well, four door-stop volumes into my great Dune re-read I'm finally starting to flag a little.

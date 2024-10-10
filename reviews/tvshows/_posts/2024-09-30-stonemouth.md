@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "scotland"
   - "drama"
-category: tvshows
 ---
 
 This came out quite a while ago (2015) but I was inspired to watch it after updating my review of the novel. And, yes

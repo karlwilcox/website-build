@@ -7,7 +7,6 @@ teaser: ""
 tags:
   - "romance"
   - "paris"
-category: books
 ---
 
 Listened to this as audiobook, which was well read but I had to go back over 

@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "scotland"
   - "contemporary"
-category: books
 ---
 
 Another tale of everyday life in Scottish gangster families... 

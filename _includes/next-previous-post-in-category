@@ -15,7 +15,7 @@
 *
 {% endcomment %}
 
-{% assign cat = page.categories | first | join: '' %}
+{% assign cat = page.categories | last | join: '' %}
 {% for post in site.categories.[cat] %}
 {% if post.url == page.url %}
 {% assign post_index0 = forloop.index0 %}

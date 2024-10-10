@@ -7,7 +7,6 @@ tags:
   - "xbox"
   - "driving"
   - "simulation"
-category: games
 ---
 Hey, I've finally found a snowrunner/mud runner game that I really like!
 

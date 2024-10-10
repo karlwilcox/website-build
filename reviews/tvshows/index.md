@@ -3,6 +3,5 @@ layout: review-list
 header:
   image_fullwidth: "gp-header"
 paginate:
-  category: tvshows
-  permalink: /page:num/
+    permalink: /page:num/
 ---

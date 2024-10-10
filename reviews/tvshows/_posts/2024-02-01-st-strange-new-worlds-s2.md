@@ -5,7 +5,6 @@ subheadline: "Paramount+"
 teaser: "Season 2"
 tags:
   - "sci-fi"
-category: tvshows
 ---
 
 This was old school Star Trek nostalgia and I really enjoyed it! The characters had

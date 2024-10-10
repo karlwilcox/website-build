@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "history"
   - "podcast"
-category: other
 ---
 
 An absolutely fascinating history podcast by Ros Taylor covering the social history of

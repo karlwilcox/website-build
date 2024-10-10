@@ -5,7 +5,6 @@ teaser: "Inspector Morse Book 1"
 subheadline: "Colin Dexter"
 tags:
   - "crime"
-category: books
 picture: morse-books
 ---
 

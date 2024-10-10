@@ -6,7 +6,6 @@ author: adrian-t
 teaser: ""
 tags:
   - "sci-fi"
-category: books
 ---
 
 Very cleverly constructed, using lots of alternative timelines to examine options. It seemed to 

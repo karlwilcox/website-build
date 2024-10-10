@@ -6,7 +6,6 @@ tags:
     - "romance"
     - "contemporary"
     - "fiction"
-category: books
 ---
 
 Jojo at her most comforting, with a clash of cultures as two women meet, one a hard-pressed Londoner,

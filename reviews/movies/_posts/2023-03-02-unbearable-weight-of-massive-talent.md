@@ -7,7 +7,6 @@ teaser: ""
 tags:
   - "comedy"
   - "crime"
-category: movies
 ---
 
 Caper involving a rich Nick Cage super-fan crime boss (or is he?), but don’t worry too much about the plot! Nick has made a second career of taking

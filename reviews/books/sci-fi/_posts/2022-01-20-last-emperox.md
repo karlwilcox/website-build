@@ -6,7 +6,6 @@ author: "john-scalzi"
 teaser: "The Interdependency Book 3"
 tags:
   - "sci-fi"
-category: books
 ---
 
 As noted earlier in the review of the 2nd book I was eager to finish this series and it 

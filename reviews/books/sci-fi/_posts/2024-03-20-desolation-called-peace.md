@@ -6,7 +6,6 @@ author: "arkady-martine"
 teaser: "Teixcalaan Book 2"
 tags:
   - "sci=fi"
-category: books
 ---
 
 An absolute tour-de-force of world building and character driven, political plots but still exciting and moving. It 

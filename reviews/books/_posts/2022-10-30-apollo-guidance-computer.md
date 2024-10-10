@@ -7,7 +7,6 @@ teaser: ""
 tags:
   - "computing history"
   - "spaceflight"
-category: books
 ---
 
 I really enjoyed this book. There is plenty of detail, interesting facts and a

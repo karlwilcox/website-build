@@ -6,6 +6,10 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 # you can add more authors here
+jack-campbell:
+  forename: "Jack"
+  surname: "Campbell"
+  note: "Master of military sci-fi (and multi-novel sequences)"
 elly-griffiths:
   forename: "Elly"
   surname: "Griffiths"

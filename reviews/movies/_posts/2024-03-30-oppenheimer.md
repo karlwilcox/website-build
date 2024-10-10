@@ -5,7 +5,6 @@ subheadline: "Sky Cinema"
 teaser: ""
 tags:
   - "history"
-category: movies
 ---
 
 Oppenheimer Sky Cinema For balance with Barbie I also watched Oppenheimer, or at least tried to. I have to admit 

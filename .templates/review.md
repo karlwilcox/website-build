@@ -5,7 +5,6 @@ subheadline: ""
 teaser: ""
 tags:
   - ""
-category: 
 ---
 
 

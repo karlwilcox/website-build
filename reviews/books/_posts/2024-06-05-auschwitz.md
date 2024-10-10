@@ -5,7 +5,6 @@ subheadline: "Laurence Rees"
 teaser: "The Nazis and the 'Final Solution'"
 tags:
   - "history"
-category: books
 ---
 
 This is an important book that needs to widely available. It is well written and deeply compelling -

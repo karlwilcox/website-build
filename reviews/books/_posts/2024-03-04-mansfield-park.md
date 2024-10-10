@@ -5,7 +5,6 @@ author: jane-austen
 teaser: ""
 tags:
   - "historical"
-category: books
 ---
 
 Not quite as much fun as Sts or PtP, the supporting characters are more interesting than the leads. Fanny indeed is 

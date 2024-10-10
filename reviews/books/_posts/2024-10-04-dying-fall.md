@@ -6,7 +6,6 @@ teaser: "Ruth Galloway book 5"
 tags:
   - "crime"
   - "norfolk"
-category: books
 ---
 
 A chance of scene from Norfolk as both Ruth and Nelson head to Blackpool for different

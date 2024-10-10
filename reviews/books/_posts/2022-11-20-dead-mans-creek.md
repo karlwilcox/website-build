@@ -6,7 +6,6 @@ teaser: "Detective Nell Buchanan book 3"
 tags:
   - "crime"
   - "australia"
-category: books
 ---
 
 So it turns out that a major character from the previous book has a family with a

@@ -5,7 +5,6 @@ subheadline: "Apple TV+"
 teaser: "Season 2"
 tags:
   - "sci-fi"
-category: tvshows
 ---
 
 I really should have paid more attention and watched this show in a less disjointed manner!

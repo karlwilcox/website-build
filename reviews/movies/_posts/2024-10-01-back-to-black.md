@@ -5,7 +5,6 @@ subheadline: "Netflix"
 teaser: ""
 tags:
   - "biopic"
-category: movies
 ---
 
 Musical bio-pic of the life of Amy Winehouse. A very convincing lead performance and

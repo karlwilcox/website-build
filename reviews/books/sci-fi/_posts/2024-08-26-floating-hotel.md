@@ -4,7 +4,6 @@ title: "Floating Hotel"
 author: "grace-curtis"
 tags:
   - "sci-fi"
-category:  books
 ---
 
 This is really much more of a "mood piece" than a novel. We meet a lot of interesting characters, we see them interact

@@ -6,7 +6,6 @@ teaser: "Season 1"
 tags:
   - "animation"
   - "sci-fi"
-category: tvshows
 ---
 
 An innovative showcase of animated stories and techniques. Cleverly done with a good range

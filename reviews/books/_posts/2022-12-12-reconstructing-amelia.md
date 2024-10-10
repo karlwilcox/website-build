@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "crime"
   - "new york"
-category: books
 ---
 
 I listened to this as an audiobook and it pretty much held my attention all the way through. The story of a

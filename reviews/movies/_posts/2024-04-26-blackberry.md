@@ -7,7 +7,6 @@ tags:
   - "canada"
   - "drama"
   - "computing history"
-category: movies
 ---
 
 This did a good job telling a complicated technical story but the legal and SEC aspects were skimmed over leaving the viewer 

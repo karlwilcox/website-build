@@ -5,7 +5,6 @@ author: jane-austen
 teaser: ""
 tags:
   - "jane-auster"
-category: books
 ---
 
 I read this in my big volume of collected novels and referred to the York Notes Guide for 'A' level students as I 

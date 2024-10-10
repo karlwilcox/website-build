@@ -5,7 +5,6 @@ subheadline: "iPad"
 teaser: ""
 tags:
   - "puzzle"
-category: games
 ---
 
 I've been looking forward to this since I heard it was coming to the Apple Arcade, and it didn't 

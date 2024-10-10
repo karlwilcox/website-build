@@ -5,7 +5,6 @@ subheadline: "XBox"
 teaser: ""
 tags:
   - "fps"
-category: games 
 ---
 
 (Abandoned)

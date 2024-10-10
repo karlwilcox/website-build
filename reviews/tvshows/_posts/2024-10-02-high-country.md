@@ -6,7 +6,6 @@ teaser: ""
 tags:
   - "crime"
   - "australia"
-category: tvshows
 ---
 
 High Country BBC iPlayer Australian crime drama set in, err, the High Country concerning a 

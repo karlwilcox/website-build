@@ -6,7 +6,6 @@ subheadline: "Sky Atlantic"
 teaser: ""
 tags:
   - "history"
-category: tvshows
 ---
 
 An interesting approach to tell both the story itself and the story of how

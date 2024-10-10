@@ -6,7 +6,6 @@ teaser: "Season 3"
 tags:
   - "sci-fi"
   - "animated"
-category: tvshows
 ---
 
 Continuing the binge watch, but restricting myself to one or two episodes per evening as

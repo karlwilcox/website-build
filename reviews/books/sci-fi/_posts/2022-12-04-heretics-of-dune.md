@@ -5,7 +5,6 @@ author: "frank-herbert"
 teaser: "Book 5 of the Chronicles of Dune"
 tags:
   - "sci-fi"
-category: books
 ---
 
 Some years ago I was able to pick up an eBook of all the original Dune novels for some ridiculously low price from Google

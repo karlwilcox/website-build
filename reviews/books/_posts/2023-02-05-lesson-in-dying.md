@@ -6,7 +6,6 @@ author: "ann-cleeves"
 tags:
   - "crime"
   - "contemporary"
-category: books
 ---
 
 This wasn't great - I gained very little real idea of the character of the lead (or indeed anyone else

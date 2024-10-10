@@ -6,7 +6,6 @@ teaser: "Inspector Ramsay book 2"
 tags:
   - "crime"
   - "contemporary"
-category: books
 ---
 
 An earlier work, pre-dating the big "Vera" and "Shetland" successes.

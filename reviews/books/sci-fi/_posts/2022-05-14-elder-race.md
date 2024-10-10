@@ -5,7 +5,6 @@ author: adrian-t
 teaser: ""
 tags:
   - "sci-fi"
-category: books
 ---
 
 The New York Times reviewed this by comparing it to Ursula Le Guin and this is a valid point, both in the

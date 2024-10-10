@@ -4,7 +4,6 @@ title: "Under Fortunate Stars"
 subheadline: "Ren Hutchings"
 tags:
   - "sci-fi"
-category: books
 ---
 You can take it as read that most of the books I review I enjoy, since I only tend to review finished
 books and I only finish those I like! I pity the paid reviewer who presumably is expected to plow

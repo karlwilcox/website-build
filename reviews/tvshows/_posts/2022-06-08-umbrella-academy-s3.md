@@ -6,7 +6,6 @@ subheadline: "Netflix"
 teaser: "Season 3"
 tags:
   - "superhero"
-category: tvshows
 ---
 This became increasingly dark but also very sweet and intimate in places. The finale
 was overlong, to the point of tedium almost but overall this was another great
