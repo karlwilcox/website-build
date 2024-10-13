@@ -145,10 +145,17 @@ defaults:
     values:
       layout: tag_page
       permalink: tags/:tag/
+      comments: false
   -
     scope:
       path: 'pages/chase-group'
       type: 'pages'
+    values:
+      comments: true
+  -
+    scope:
+      path: blog
+      type: 'blog'
     values:
       comments: true
 

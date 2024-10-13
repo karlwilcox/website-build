@@ -39,6 +39,9 @@ header:
 {% assign initial = "" %}
 <ul>
 {% for item in reviews %}
+{% if item.type == "draft" %}
+{% continue %}
+{% endif %}
 {% assign this_initial = item.title | slice: 0 %}
 {% unless initial == this_initial %}
 {% assign initial = this_initial %}

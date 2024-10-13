@@ -8,7 +8,7 @@ tags:
   - "sci-fi"
 ---
 
-*"Flash! Flash! I love you but we only have 14 hours to save the Earth!"*
+> Flash! Flash! I love you but we only have 14 hours to save the Earth!
 
 Well, his name is Kayl and it is 40 years, but you get the idea...
 
