@@ -3,6 +3,7 @@ layout: review-list
 title: "List of Reviews"
 paginate:
       permalink: /page:num/
+      category: reviews
 comments: false
 ---
 

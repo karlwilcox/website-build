@@ -8,7 +8,7 @@ header:
 ---
 
 ## Titles of All Books with a Full Review
-{% assign reviews = site.posts | sort: "title" | where: "category", "books" %}
+{% assign reviews = site.categories.books | sort: "title" %}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toB">&nbsp;B&nbsp;</a>&nbsp;|&nbsp;

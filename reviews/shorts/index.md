@@ -4,6 +4,7 @@ header:
   image_fullwidth: "gp-header"
 paginate:
     permalink: /page:num/
+    category: shorts
 ---
 
 These pages contain short (one or two line) reviews of anything that interests me.

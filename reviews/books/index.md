@@ -4,6 +4,7 @@ header:
   image_fullwidth: "gp-header"
 paginate:
     permalink: /page:num/
+    category: books
 ---
 
 Although most books have an entry of their own there are some that I didn't have a great deal to say

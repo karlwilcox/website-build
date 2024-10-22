@@ -4,6 +4,7 @@ header:
   image_fullwidth: "gp-header"
 paginate:
     permalink: /page:num/
+    category: movies
 ---
 
 This list only shows movies that I had something fairly significant to say about - I've 
