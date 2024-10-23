@@ -1,0 +1,78 @@
+---
+layout: page
+title: "Todo"
+subheadline: "Build Issues To Be Fixed"
+teaser: "Only of interest to site maintainer"
+permalink: "/todo/"
+header:
+    image_fullwidth: "headers/info.jpg"
+---
+
+This page is largely for administrator use, listing drafts, missing items
+or any other errors noted.
+
+## Missing Review Thumbnails
+
+{% for post in site.posts %}
+          {% if post.categories[0] == "blog" or post.categories[1] == "shorts" %}
+              {% continue %}
+          {% else %}
+              {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
+          {% endif %}
+          {% assign found = false %}
+          {% for img_file in site.static_files %}
+            {% if img_file.path == thumb_path %}
+                {% assign found = true %}
+                {% continue %}
+            {% endif %}
+          {% endfor %}
+          {% if found == false %}
+- {{ thumb_path }} for {{ post.name }}
+          {% endif %}
+{% endfor %}
+
+## Reviews Using Generic Image
+
+{% for page in site.posts %}
+          {% if page.categories[0] == "blog" or page.categories[1] == "shorts" %}
+              {% continue %}
+          {% else %}
+            {% if page.picture %}
+                {% capture img_path %}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.picture }}.jpg{% endcapture %}
+            {% else %}
+                {% capture img_path %}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.slug }}.jpg{% endcapture %}
+            {% endif %}
+          {% endif %}
+          {% assign found = false %}
+          {% for img_file in site.static_files %}
+            {% if img_file.path == img_path %}
+                {% assign found = true %}
+                {% continue %}
+            {% endif %}
+          {% endfor %}
+          {% if found == false %}
+- {{ img_path }} for {{ page.name }}
+          {% endif %}
+{% endfor %}
+
+## Draft Short Reviews
+
+{% for item in site.data.shorts %}
+{% if item.type == "draft" %}
+- {{ item.title }}
+{% endif %}
+{% endfor %}
+
+## Draft Long Reviews
+
+{% for draft in site.drafts %}
+- {{ draft.name }}
+{% endfor %}
+
+## Other Items
+
+(In config.yml)
+
+{% for item in site.todo %}
+- {{ item }}
+{% endfor %}

@@ -28,10 +28,6 @@ author: karlw
 url: ''
 baseurl: ''
 
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content:
-
 # These are variables to control rotating through the various general purpose header images
 gp_header_count: 1
 gp_header_max: 15
@@ -58,6 +54,10 @@ plugins:
 #    - octopress-paginate
     - jekyll-auto-authors
 
+
+todo:
+  - todo item 1
+  - todo item 2
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
@@ -311,6 +311,9 @@ collections:
   authors:
     output: true
     permalink: authors/:title/
+  drafts:
+    output: false
+    permalink: drafts/:title/
 
 autopages:
   enabled: true
