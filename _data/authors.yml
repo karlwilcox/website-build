@@ -6,6 +6,10 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 # you can add more authors here
+michael-drout:
+  forename: "Professor Michael C."
+  surname: "Drout"
+  note: "A fantasic scholar and even better educator"
 jack-campbell:
   forename: "Jack"
   surname: "Campbell"
@@ -59,6 +63,10 @@ david-feintuch:
 robert-goddard:
   forename: "Robert"
   surname: "Goddard"
+adam-roberts:
+  forename: "Adam"
+  surname: "Roberts"
+  note: "An accomplished science fiction author across many sub-genres and a recognised academic. I am in awe of his talents."
 chris-hammer:
   forename: "Chris"
   surname: "Hammer"

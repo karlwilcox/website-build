@@ -69,6 +69,26 @@ or any other errors noted.
 - {{ draft.name }}
 {% endfor %}
 
+## Tags With a Single Instance
+
+<p>
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tags_list = site_tags | split:',' | sort_natural %}
+{% for item in (0..site.tags.size) %}
+{% capture tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
+{% assign count = 0 %}
+{% for article in site.categories['reviews'] %}
+{% if article.tags contains tag %}
+{% capture count %}{{ count | plus: 1 }}{% endcapture %}
+{% endif %}
+{% endfor %}
+{% assign count = count | plus: 0 %}
+{% if count <= 1 %}
+    {{ tag }},
+{% endif %}
+{% endfor %}
+</p>
+
 ## Other Items
 
 (In config.yml)

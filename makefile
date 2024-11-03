@@ -6,12 +6,15 @@ SHELL := /bin/bash
 # the default action is to build the site locally
 build: thumbs
 	bundle exec jekyll build
+	
+test:	
+	rsync --delete -e "ssh -i ~/keys/mini-server" -avP /Volumes/Data/Sites/karlwilcox/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox
 
 clean:
 	bundle exec jekyll clean
 
 deploy:
-	rsync --delete -e "ssh -i ~/keys/aws-karlwilcox.pem" -avP /var/www/karlwilcox/ bitnami@karlwilcox.com:/opt/bitnami/apache/htdocs
+	rsync --delete -e "ssh -i ~/keys/aws-karlwilcox.pem" -avP /Volumes/Data/Sites/karlwilcox/ bitnami@karlwilcox.com:/opt/bitnami/apache/htdocs
 
 gallery: do_gallery
 .PHONY: gallery

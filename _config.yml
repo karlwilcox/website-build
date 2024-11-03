@@ -40,7 +40,8 @@ gp_header_max: 15
 #
 urlimg: '/img/'
 
-destination: /var/www/karlwilcox
+# destination: /var/www/karlwilcox
+destination: /Volumes/Data/Sites/karlwilcox
 
 
 # Logo size is 600x80 pixels
@@ -56,8 +57,8 @@ plugins:
 
 
 todo:
-  - todo item 1
-  - todo item 2
+  - Add graphics pages
+  - Restore pemberley pages
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
