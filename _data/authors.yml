@@ -7,7 +7,7 @@
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 # you can add more authors here
 ursula-le-guin:
-  forname: "Ursula"
+  forename: "Ursula"
   surname: "Le-Guin"
   note: "Arguably a literary fiction author working in a science fiction setting"
 michael-drout:
@@ -21,7 +21,7 @@ jack-campbell:
 jack-mcdevitt:
   forename: "Jack"
   surname: "McDevitt"
-  note: "Cosy, hard sci-fi - undemanding but restful and intersting"
+  note: "Cosy, hard sci-fi - undemanding but restful and interesting"
 elly-griffiths:
   forename: "Elly"
   surname: "Griffiths"
