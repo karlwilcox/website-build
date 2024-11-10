@@ -6,6 +6,10 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 # you can add more authors here
+ursula-le-guin:
+  forname: "Ursula"
+  surname: "Le-Guin"
+  note: "Arguably a literary fiction author working in a science fiction setting"
 michael-drout:
   forename: "Professor Michael C."
   surname: "Drout"
