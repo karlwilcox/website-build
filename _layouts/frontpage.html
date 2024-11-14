@@ -70,16 +70,32 @@ format: frontpage
 
 
     <div class="row">
-        <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
+        <div class="medium-3 columns">
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
-            <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.prefix}} {{ post.title }}</a></h2>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
-            {% endfor %}
         </div><!-- /.medium-5.columns -->
+        <div class="medium-3 columns">
+            {% if post.category == "blog" %}
+            {% capture src_url %}{{ site.urlimg }}blog/generic-thumb.jpg{% endcapture %}
+            {% capture thumb_path %}{{ site.urlimg }}blog/{{ post.thumb }}{% endcapture %}
+        {% else %}
+            {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
+            {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
+        {% endif %}
+              {% for img_file in site.static_files %}
+              {% if img_file.path == thumb_path %}
+              {% assign src_url = thumb_path %}
+              {% continue %}
+              {% endif %}
+              {% endfor %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ post.title | escape_once }}"></a>
+        </div>
+            {% endfor %}
 
 
         <div class="medium-6 columns">

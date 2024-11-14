@@ -54,7 +54,7 @@ homepage: true
 ---
 
 Some Artwork to Enjoy
------
+---
 
 
 

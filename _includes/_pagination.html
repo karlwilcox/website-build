@@ -31,7 +31,7 @@
           {% continue %}
           {% endif %}
           {% endfor %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title escape_once }}"></a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title | escape_once }}"></a>
         {% unless post.author == "karlw" %}
          - <a href="/author/{{ post.author }}/">{{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }}</a>
         {% else %}
