@@ -8,7 +8,7 @@ tags:
   - "history"
 ---
 
-This is an excellent history book. Sometimes history concentrate just on the
+This is an excellent history book. Sometimes history concentrates just on the
 big themes and the major characters, others try to tell the story by offering
 little vignettes of the life of ordinary folk but miss the big picture. Katya
 strikes a nice balance, opening each section with the back story and actions of

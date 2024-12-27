@@ -11,7 +11,7 @@ Interim review - episodes 1 to 5
 
 Oh dear, all that money, all those assembled billionaires, the beautiful
 scenery and the big houses and *no-one* is remotely happy. The brother and
-sister that hate each other, the estranged brother - not mention the dead
+sister that hate each other, the estranged brother - not to mention the dead
 brother(s), the vindictive native American leader, Jimmy "hates this job", and
 poor old John Dutton (well acted by the way) who looks like he carries the
 weight of the world on his shoulders. Even poor little Tate has suffered cuts,

@@ -14,6 +14,10 @@ michael-drout:
   forename: "Professor Michael C."
   surname: "Drout"
   note: "A fantasic scholar and even better educator"
+robert-heinlein:
+  forename: "Robert"
+  surname: "Heinlein"
+  note: "A giant of science fiction, and a bit of a libertarian, allegedly"
 jack-campbell:
   forename: "Jack"
   surname: "Campbell"
@@ -91,6 +95,10 @@ mick-herron:
   forename: "Mick"
   surname: "Herron"
   note: "Didn't he turn out well? The spy master in chief!"
+claire-douglas:
+  forename: "Claire"
+  surname: "Douglas"
+  note: "Queen of the twisty psychological thriller"
 rachel-hore:
   forename: "Rachel"
   surname: "Hore"
