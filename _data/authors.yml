@@ -18,6 +18,10 @@ robert-heinlein:
   forename: "Robert"
   surname: "Heinlein"
   note: "A giant of science fiction, and a bit of a libertarian, allegedly"
+miles-cameron:
+  forename: "Miles"
+  surname: "Cameron"
+  note: "Historical fiction author, and a bit of a polymath, pretty hot at SF too"
 jack-campbell:
   forename: "Jack"
   surname: "Campbell"
