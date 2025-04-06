@@ -54,12 +54,7 @@ homepage: true
 ---
 
 Some Artwork to Enjoy
----
-
-
 
 And here's some pictures, more in the galleries linked above...
 
 {% include gallery %}
-
-

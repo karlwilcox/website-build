@@ -1,0 +1,380 @@
+# Artwork
+# 3D-rendering
+    - image_url: artwork/3D-rendering/GSV-spa4.png
+      caption: (WIP) A multi-level spa in a futuristic setting. The design is inspired by the architecture of the GSVs in the Culture series by Iain M. Banks. Blender 4.0 cycles
+      thumb_url: artwork/3D-rendering/thumbs/GSV-spa4.jpg
+      tags: sci-fi
+    - image_url: artwork/3D-rendering/Insde-GSV13-2.png
+      caption: Inside a GSV from the Culture series by Iain M. Banks. Bryce 5.5
+      thumb_url: artwork/3D-rendering/thumbs/Insde-GSV13-2.jpg
+      tags: sci-fi
+    - image_url: artwork/3D-rendering/Solition-big2.png
+      caption: The ceremonial barge Solition from the Culture book 'Look to Windward' by Iain M. Banks, Vue'de Esprit 
+      thumb_url: artwork/3D-rendering/thumbs/Solition-big2.jpg
+      tags: sci-fi
+    - image_url: artwork/3D-rendering/apartment-building.png
+      caption: Apartment Building, Blender 4.0 cycles, Kitbash3D assets
+      thumb_url: artwork/3D-rendering/thumbs/apartment-building.jpg
+      tags: architecture
+    - image_url: artwork/3D-rendering/forward-lounge.png
+      caption: The forward lounge of a General Contact Unit, Blender 4.0 cycles
+      thumb_url: artwork/3D-rendering/thumbs/forward-lounge.jpg
+      tags: sci-fi
+    - image_url: artwork/3D-rendering/gsv11a.png
+      caption: The GSV 'Serious Lack of Commitment' from the Culture series by Iain M. Banks, Pov-ray 4.0
+      thumb_url: artwork/3D-rendering/thumbs/gsv11a.jpg
+      tags: sci-fi spaceship
+    - image_url: artwork/3D-rendering/japan-street-wip1.png
+      caption: (WIP) A street in Japan, Blender 4.0 cycles, kitbash3D assets
+      thumb_url: artwork/3D-rendering/thumbs/japan-street-wip1.jpg
+      tags: japan architecture
+    - image_url: artwork/3D-rendering/manor-house1.png
+      caption: manor house1
+      thumb_url: artwork/3D-rendering/thumbs/manor-house1.jpg
+      tags: 
+    - image_url: artwork/3D-rendering/manor-house2.png
+      caption: manor house2
+      thumb_url: artwork/3D-rendering/thumbs/manor-house2.jpg
+      tags: 
+    - image_url: artwork/3D-rendering/new-school-building.png
+      caption: new school building
+      thumb_url: artwork/3D-rendering/thumbs/new-school-building.jpg
+      tags: 
+    - image_url: artwork/3D-rendering/orbital-towers.jpg
+      caption: orbital towers
+      thumb_url: artwork/3D-rendering/thumbs/orbital-towers.jpg
+      tags: 
+    - image_url: artwork/3D-rendering/paris2.jpg
+      caption: paris2
+      thumb_url: artwork/3D-rendering/thumbs/paris2.jpg
+      tags: 
+# digital-painting
+    - image_url: artwork/digital-painting/beach-resort.jpg
+      caption: beach resort
+      thumb_url: artwork/digital-painting/thumbs/beach-resort.jpg
+      tags: 
+    - image_url: artwork/digital-painting/belton-house.jpg
+      caption: belton house
+      thumb_url: artwork/digital-painting/thumbs/belton-house.jpg
+      tags: 
+    - image_url: artwork/digital-painting/college-room.png
+      caption: college room
+      thumb_url: artwork/digital-painting/thumbs/college-room.jpg
+      tags: 
+    - image_url: artwork/digital-painting/entrance.jpg
+      caption: entrance
+      thumb_url: artwork/digital-painting/thumbs/entrance.jpg
+      tags: 
+    - image_url: artwork/digital-painting/in-the-park.jpg
+      caption: in the park
+      thumb_url: artwork/digital-painting/thumbs/in-the-park.jpg
+      tags: 
+    - image_url: artwork/digital-painting/on-the-train.jpg
+      caption: on the train
+      thumb_url: artwork/digital-painting/thumbs/on-the-train.jpg
+      tags: 
+    - image_url: artwork/digital-painting/overlook-station.png
+      caption: overlook station
+      thumb_url: artwork/digital-painting/thumbs/overlook-station.jpg
+      tags: 
+    - image_url: artwork/digital-painting/station-platform.jpg
+      caption: station platform
+      thumb_url: artwork/digital-painting/thumbs/station-platform.jpg
+      tags: 
+    - image_url: artwork/digital-painting/venus-sky-base.png
+      caption: venus sky base
+      thumb_url: artwork/digital-painting/thumbs/venus-sky-base.jpg
+      tags: 
+# line-drawings
+    - image_url: artwork/line-drawings/aerostat-label.jpg
+      caption: aerostat label
+      thumb_url: artwork/line-drawings/thumbs/aerostat-label.jpg
+      tags: 
+    - image_url: artwork/line-drawings/busy-city.png
+      caption: busy city
+      thumb_url: artwork/line-drawings/thumbs/busy-city.jpg
+      tags: 
+    - image_url: artwork/line-drawings/castle-tower.jpg
+      caption: castle tower
+      thumb_url: artwork/line-drawings/thumbs/castle-tower.jpg
+      tags: 
+    - image_url: artwork/line-drawings/cloister-court.jpg
+      caption: cloister court
+      thumb_url: artwork/line-drawings/thumbs/cloister-court.jpg
+      tags: 
+    - image_url: artwork/line-drawings/cottage.jpg
+      caption: cottage
+      thumb_url: artwork/line-drawings/thumbs/cottage.jpg
+      tags: 
+    - image_url: artwork/line-drawings/disney-hotel.jpg
+      caption: disney hotel
+      thumb_url: artwork/line-drawings/thumbs/disney-hotel.jpg
+      tags: 
+    - image_url: artwork/line-drawings/fantasy-castle.jpg
+      caption: fantasy castle
+      thumb_url: artwork/line-drawings/thumbs/fantasy-castle.jpg
+      tags: 
+    - image_url: artwork/line-drawings/garden-bench.jpg
+      caption: garden bench
+      thumb_url: artwork/line-drawings/thumbs/garden-bench.jpg
+      tags: 
+    - image_url: artwork/line-drawings/garden-table.jpg
+      caption: garden table
+      thumb_url: artwork/line-drawings/thumbs/garden-table.jpg
+      tags: 
+    - image_url: artwork/line-drawings/gear-detail.jpg
+      caption: gear detail
+      thumb_url: artwork/line-drawings/thumbs/gear-detail.jpg
+      tags: 
+    - image_url: artwork/line-drawings/land-leviathan.jpg
+      caption: land leviathan
+      thumb_url: artwork/line-drawings/thumbs/land-leviathan.jpg
+      tags: 
+    - image_url: artwork/line-drawings/mancunian-hotel.jpg
+      caption: mancunian hotel
+      thumb_url: artwork/line-drawings/thumbs/mancunian-hotel.jpg
+      tags: 
+    - image_url: artwork/line-drawings/new-york.jpg
+      caption: new york
+      thumb_url: artwork/line-drawings/thumbs/new-york.jpg
+      tags: 
+    - image_url: artwork/line-drawings/openings.jpg
+      caption: openings
+      thumb_url: artwork/line-drawings/thumbs/openings.jpg
+      tags: 
+    - image_url: artwork/line-drawings/oriel-window.jpg
+      caption: oriel window
+      thumb_url: artwork/line-drawings/thumbs/oriel-window.jpg
+      tags: 
+    - image_url: artwork/line-drawings/paris-souterrain.jpg
+      caption: paris souterrain
+      thumb_url: artwork/line-drawings/thumbs/paris-souterrain.jpg
+      tags: 
+    - image_url: artwork/line-drawings/starbucks.jpg
+      caption: starbucks
+      thumb_url: artwork/line-drawings/thumbs/starbucks.jpg
+      tags: 
+    - image_url: artwork/line-drawings/tall-city.png
+      caption: tall city
+      thumb_url: artwork/line-drawings/thumbs/tall-city.jpg
+      tags: 
+    - image_url: artwork/line-drawings/tree-fountain.jpg
+      caption: tree fountain
+      thumb_url: artwork/line-drawings/thumbs/tree-fountain.jpg
+      tags: 
+    - image_url: artwork/line-drawings/wall-detail.jpg
+      caption: wall detail
+      thumb_url: artwork/line-drawings/thumbs/wall-detail.jpg
+      tags: 
+# marker-pen
+    - image_url: artwork/marker-pen/caistor.jpeg
+      caption: caistor
+      thumb_url: artwork/marker-pen/thumbs/caistor.jpg
+      tags: 
+    - image_url: artwork/marker-pen/castle-tower.png
+      caption: castle tower
+      thumb_url: artwork/marker-pen/thumbs/castle-tower.jpg
+      tags: 
+    - image_url: artwork/marker-pen/cathedral-close-house.jpg
+      caption: cathedral close house
+      thumb_url: artwork/marker-pen/thumbs/cathedral-close-house.jpg
+      tags: 
+    - image_url: artwork/marker-pen/cathedral-close.png
+      caption: cathedral close
+      thumb_url: artwork/marker-pen/thumbs/cathedral-close.jpg
+      tags: 
+    - image_url: artwork/marker-pen/disney12.jpg
+      caption: disney12
+      thumb_url: artwork/marker-pen/thumbs/disney12.jpg
+      tags: 
+    - image_url: artwork/marker-pen/disney13.jpg
+      caption: disney13
+      thumb_url: artwork/marker-pen/thumbs/disney13.jpg
+      tags: 
+    - image_url: artwork/marker-pen/disney14.jpg
+      caption: disney14
+      thumb_url: artwork/marker-pen/thumbs/disney14.jpg
+      tags: 
+    - image_url: artwork/marker-pen/disney15.jpg
+      caption: disney15
+      thumb_url: artwork/marker-pen/thumbs/disney15.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli01.jpg
+      caption: ghibli01
+      thumb_url: artwork/marker-pen/thumbs/ghibli01.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli02.jpg
+      caption: ghibli02
+      thumb_url: artwork/marker-pen/thumbs/ghibli02.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli03.jpg
+      caption: ghibli03
+      thumb_url: artwork/marker-pen/thumbs/ghibli03.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli04.jpg
+      caption: ghibli04
+      thumb_url: artwork/marker-pen/thumbs/ghibli04.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli05.jpg
+      caption: ghibli05
+      thumb_url: artwork/marker-pen/thumbs/ghibli05.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli06.jpg
+      caption: ghibli06
+      thumb_url: artwork/marker-pen/thumbs/ghibli06.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli07.jpg
+      caption: ghibli07
+      thumb_url: artwork/marker-pen/thumbs/ghibli07.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli08.jpg
+      caption: ghibli08
+      thumb_url: artwork/marker-pen/thumbs/ghibli08.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli09.jpg
+      caption: ghibli09
+      thumb_url: artwork/marker-pen/thumbs/ghibli09.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli10.jpg
+      caption: ghibli10
+      thumb_url: artwork/marker-pen/thumbs/ghibli10.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli11.jpg
+      caption: ghibli11
+      thumb_url: artwork/marker-pen/thumbs/ghibli11.jpg
+      tags: 
+    - image_url: artwork/marker-pen/ghibli12.jpg
+      caption: ghibli12
+      thumb_url: artwork/marker-pen/thumbs/ghibli12.jpg
+      tags: 
+    - image_url: artwork/marker-pen/greenhouse.png
+      caption: greenhouse
+      thumb_url: artwork/marker-pen/thumbs/greenhouse.jpg
+      tags: 
+    - image_url: artwork/marker-pen/lincoln-rooftops.png
+      caption: lincoln rooftops
+      thumb_url: artwork/marker-pen/thumbs/lincoln-rooftops.jpg
+      tags: 
+    - image_url: artwork/marker-pen/modern-hotel.png
+      caption: modern hotel
+      thumb_url: artwork/marker-pen/thumbs/modern-hotel.jpg
+      tags: 
+    - image_url: artwork/marker-pen/plaza.png
+      caption: plaza
+      thumb_url: artwork/marker-pen/thumbs/plaza.jpg
+      tags: 
+    - image_url: artwork/marker-pen/rain-tree.jpg
+      caption: rain tree
+      thumb_url: artwork/marker-pen/thumbs/rain-tree.jpg
+      tags: 
+    - image_url: artwork/marker-pen/welton-church.png
+      caption: welton church
+      thumb_url: artwork/marker-pen/thumbs/welton-church.jpg
+      tags: 
+# painting
+    - image_url: artwork/painting/disney01.jpg
+      caption: disney01
+      thumb_url: artwork/painting/thumbs/disney01.jpg
+      tags: 
+    - image_url: artwork/painting/disney02.jpg
+      caption: disney02
+      thumb_url: artwork/painting/thumbs/disney02.jpg
+      tags: 
+    - image_url: artwork/painting/disney03.jpg
+      caption: disney03
+      thumb_url: artwork/painting/thumbs/disney03.jpg
+      tags: 
+    - image_url: artwork/painting/disney04.jpg
+      caption: disney04
+      thumb_url: artwork/painting/thumbs/disney04.jpg
+      tags: 
+    - image_url: artwork/painting/disney05.jpg
+      caption: disney05
+      thumb_url: artwork/painting/thumbs/disney05.jpg
+      tags: 
+    - image_url: artwork/painting/disney06.jpg
+      caption: disney06
+      thumb_url: artwork/painting/thumbs/disney06.jpg
+      tags: 
+    - image_url: artwork/painting/disney07.jpg
+      caption: disney07
+      thumb_url: artwork/painting/thumbs/disney07.jpg
+      tags: 
+    - image_url: artwork/painting/disney08.jpg
+      caption: disney08
+      thumb_url: artwork/painting/thumbs/disney08.jpg
+      tags: 
+    - image_url: artwork/painting/disney09.jpg
+      caption: disney09
+      thumb_url: artwork/painting/thumbs/disney09.jpg
+      tags: 
+    - image_url: artwork/painting/disney10.jpg
+      caption: disney10
+      thumb_url: artwork/painting/thumbs/disney10.jpg
+      tags: 
+    - image_url: artwork/painting/disney11.jpg
+      caption: disney11
+      thumb_url: artwork/painting/thumbs/disney11.jpg
+      tags: 
+    - image_url: artwork/painting/vineyard-terrace.png
+      caption: vineyard terrace
+      thumb_url: artwork/painting/thumbs/vineyard-terrace.jpg
+      tags: 
+# pencil
+    - image_url: artwork/pencil/apple.jpg
+      caption: apple
+      thumb_url: artwork/pencil/thumbs/apple.jpg
+      tags: 
+    - image_url: artwork/pencil/buttress.png
+      caption: buttress
+      thumb_url: artwork/pencil/thumbs/buttress.jpg
+      tags: 
+    - image_url: artwork/pencil/cat.jpg
+      caption: cat
+      thumb_url: artwork/pencil/thumbs/cat.jpg
+      tags: 
+    - image_url: artwork/pencil/cornet.jpg
+      caption: cornet
+      thumb_url: artwork/pencil/thumbs/cornet.jpg
+      tags: 
+    - image_url: artwork/pencil/eye.jpg
+      caption: eye
+      thumb_url: artwork/pencil/thumbs/eye.jpg
+      tags: 
+# OU doodles
+    - image_url: artwork/ou-doodles/cheat-gpt.png
+      caption: Cheat-GPT - Student Edition
+      thumb_url: artwork/ou-doodles/thumbs/cheat-gpt.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/contract-tion.png
+      caption: "OU Glossary #47 Contract'ion"
+      thumb_url: artwork/ou-doodles/thumbs/contract-tion.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/ema-marking.png
+      caption: EMA Marking
+      thumb_url: artwork/ou-doodles/thumbs/ema-marking.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/ex-tension.png
+      caption: "OU GLossary #23 Ex'tension"
+      thumb_url: artwork/ou-doodles/thumbs/ex-tension.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/marking.png
+      caption: The Four Stages of Marking
+      thumb_url: artwork/ou-doodles/thumbs/marking.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/monitoring.png
+      caption: The Monitoring Report
+      thumb_url: artwork/ou-doodles/thumbs/monitoring.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/tma-instructions.png
+      caption: TMA Instructions
+      thumb_url: artwork/ou-doodles/thumbs/tma-instructions.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/wacko.png
+      caption: More in Sorrow than in Anger
+      thumb_url: artwork/ou-doodles/thumbs/wacko.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/why.png
+      caption: What Makes it all Worthwhile?
+      thumb_url: artwork/ou-doodles/thumbs/why.jpg
+      tags: 
