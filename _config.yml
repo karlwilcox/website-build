@@ -41,7 +41,7 @@ gp_header_max: 15
 urlimg: '/img/'
 
 # destination: /var/www/karlwilcox
-destination: /Volumes/Data/Sites/karlwilcox
+destination: /home/karlw/sites/karlwilcox
 
 
 # Logo size is 600x80 pixels
@@ -54,6 +54,7 @@ plugins:
     - jekyll-paginate-v2
 #    - octopress-paginate
     - jekyll-auto-authors
+    - jekyll_begin_end
 
 
 todo:

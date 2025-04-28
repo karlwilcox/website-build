@@ -9,8 +9,8 @@ group :jekyll_plugins do
   gem "jekyll-figure"
   gem "jekyll-paginate-v2"
   gem "jekyll-auto-authors"
+  gem 'jekyll_begin_end'
 end
 
 gem 'asciidoctor', '~> 1.5.4'
 gem 'coderay', '1.1.1'
-
