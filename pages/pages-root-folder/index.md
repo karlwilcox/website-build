@@ -9,12 +9,12 @@ header:
   image_fullwidth: headers/front-page.jpg
 widget1:
   title: "About Me"
-  url: '/about-me'
+  url: '/about-me/biography/'
   image: widgets/about-me.jpg
   text: "Hi! I'm Karl, an educator, web developer and a bit of a nerd. You can find a bit more about my background here, and my hobbies and interests elsewhere on the website."
 widget2:
   title: "Projects and Interests"
-  url: '/projects'
+  url: '/interests/'
   text: 'I start lots of things, and have ideas in all sorts of directions, some of which I document in the pages here. Under the "Projects" menu you will find things I am currently working on; under "Interests" are things I have finished or information that I have collected'
   image: widgets/projects.jpg
 widget3:
@@ -54,12 +54,7 @@ homepage: true
 ---
 
 Some Artwork to Enjoy
------
-
-
 
 And here's some pictures, more in the galleries linked above...
 
 {% include gallery %}
-
-

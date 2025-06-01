@@ -6,6 +6,22 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 # you can add more authors here
+ursula-le-guin:
+  forename: "Ursula"
+  surname: "Le-Guin"
+  note: "Arguably a literary fiction author working in a science fiction setting"
+michael-drout:
+  forename: "Professor Michael C."
+  surname: "Drout"
+  note: "A fantasic scholar and even better educator"
+robert-heinlein:
+  forename: "Robert"
+  surname: "Heinlein"
+  note: "A giant of science fiction, and a bit of a libertarian, allegedly"
+miles-cameron:
+  forename: "Miles"
+  surname: "Cameron"
+  note: "Historical fiction author, and a bit of a polymath, pretty hot at SF too"
 jack-campbell:
   forename: "Jack"
   surname: "Campbell"
@@ -13,7 +29,7 @@ jack-campbell:
 jack-mcdevitt:
   forename: "Jack"
   surname: "McDevitt"
-  note: "Cosy, hard sci-fi - undemanding but restful and intersting"
+  note: "Cosy, hard sci-fi - undemanding but restful and interesting"
 elly-griffiths:
   forename: "Elly"
   surname: "Griffiths"
@@ -59,6 +75,10 @@ david-feintuch:
 robert-goddard:
   forename: "Robert"
   surname: "Goddard"
+adam-roberts:
+  forename: "Adam"
+  surname: "Roberts"
+  note: "An accomplished science fiction author across many sub-genres and a recognised academic. I am in awe of his talents."
 chris-hammer:
   forename: "Chris"
   surname: "Hammer"
@@ -79,6 +99,10 @@ mick-herron:
   forename: "Mick"
   surname: "Herron"
   note: "Didn't he turn out well? The spy master in chief!"
+claire-douglas:
+  forename: "Claire"
+  surname: "Douglas"
+  note: "Queen of the twisty psychological thriller"
 rachel-hore:
   forename: "Rachel"
   surname: "Hore"
@@ -130,3 +154,12 @@ adrian-t:
 satoshi-yagisawa:
   forename: "Satoshi"
   surname: "Yagisawa"
+arthur-c-clarke:
+  forename: "Arthur C."
+  surname: "Clarke"
+  note: "A giant of science fiction, and a bit of a visionary, technology wise, if not socially"
+david-kynaston:
+  forename: "David"
+  surname: "Kynaston"
+  note: "Historian of post-war Britain, surprisingly entertaining"
+
