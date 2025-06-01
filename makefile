@@ -57,7 +57,7 @@ do_thumbs:
 		do
 			if [ ! -e thumbs/$$f ]
 			then
-				convert -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$f
+				magick -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$f
 			fi
 		done > /dev/null
 		popd > /dev/null
