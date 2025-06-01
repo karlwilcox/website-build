@@ -14,7 +14,7 @@ clean:
 	bundle exec jekyll clean
 
 deploy:
-	rsync --delete -e "ssh -i ~/keys/aws-karlwilcox.pem" -avP /Volumes/Data/Sites/karlwilcox/ bitnami@karlwilcox.com:/opt/bitnami/apache/htdocs
+	rclone sync -v /home/karlw/sites/karlwilcox/ kw-site:/public_html
 
 gallery: do_gallery
 .PHONY: gallery
@@ -40,7 +40,7 @@ do_gallery:
 			echo "      caption: $${caption[@]^}"
 			echo "      thumb_url: $${dir:4}/thumbs/$${base}.jpg"
 			echo "      tags: "
-			magick -define jpeg:size:400x400 $$i -thumbnail '200x200>' -background white -gravity center -extent 200x200 $$dir/thumbs/$${base}.jpg
+			convert -define jpeg:size:400x400 $$i -thumbnail '200x200>' -background white -gravity center -extent 200x200 $$dir/thumbs/$${base}.jpg
 		fi
 	done
 
@@ -57,7 +57,7 @@ do_thumbs:
 		do
 			if [ ! -e thumbs/$$f ]
 			then
-				magick -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$f
+				convert -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$f
 			fi
 		done > /dev/null
 		popd > /dev/null
