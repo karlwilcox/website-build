@@ -48,6 +48,7 @@ different media that I have tried out:
 * [Painting](/artwork/painting)
 * [Pencil](/artwork/pencil)
 * [OU Doodles](/artwork/ou-doodles)
+* [Studio Ghibli Characters](/artwork/ghibli)
 
 ## Images By Subject
 

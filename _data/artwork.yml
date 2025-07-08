@@ -27,69 +27,69 @@
     - image_url: artwork/3D-rendering/japan-street-wip1.png
       caption: (WIP) A street in Japan, Blender 4.0 cycles, kitbash3D assets
       thumb_url: artwork/3D-rendering/thumbs/japan-street-wip1.jpg
-      tags: japan architecture
+      tags: japan streetscene
     - image_url: artwork/3D-rendering/manor-house1.png
-      caption: manor house1
+      caption: A country house, everything but the car and trees created by hand in Pov-ray (one of my earliest images)
       thumb_url: artwork/3D-rendering/thumbs/manor-house1.jpg
-      tags: 
+      tags: 'country house'
     - image_url: artwork/3D-rendering/manor-house2.png
-      caption: manor house2
+      caption: More detailed country house with interior walls, an earlier image in Carrera, source files now lost
       thumb_url: artwork/3D-rendering/thumbs/manor-house2.jpg
-      tags: 
+      tags: 'country house'
     - image_url: artwork/3D-rendering/new-school-building.png
-      caption: new school building
+      caption: Visualisation of a proposed new building for a local school, Bryce 5.5.
       thumb_url: artwork/3D-rendering/thumbs/new-school-building.jpg
-      tags: 
+      tags: architecture
     - image_url: artwork/3D-rendering/orbital-towers.jpg
-      caption: orbital towers
+      caption: Orbital Towers (WIP) on a Banksian Orbital, Vue d'esprit
       thumb_url: artwork/3D-rendering/thumbs/orbital-towers.jpg
-      tags: 
+      tags: sci-fi architecture
     - image_url: artwork/3D-rendering/paris2.jpg
-      caption: paris2
+      caption: Parisian street scene using mostly built-in assets from Vue d'esprit
       thumb_url: artwork/3D-rendering/thumbs/paris2.jpg
-      tags: 
+      tags: streetscene
 # digital-painting
     - image_url: artwork/digital-painting/beach-resort.jpg
-      caption: beach resort
+      caption: Beach Resort, Manga style background, Clip Studio Paint
       thumb_url: artwork/digital-painting/thumbs/beach-resort.jpg
-      tags: 
+      tags: manga
     - image_url: artwork/digital-painting/belton-house.jpg
-      caption: belton house
+      caption: Belton House hand traced from a photograph
       thumb_url: artwork/digital-painting/thumbs/belton-house.jpg
-      tags: 
+      tags: 'country house'
     - image_url: artwork/digital-painting/college-room.png
-      caption: college room
+      caption: My room in college (intended as a Manga background), Clip Studio Paint
       thumb_url: artwork/digital-painting/thumbs/college-room.jpg
-      tags: 
+      tags: manga
     - image_url: artwork/digital-painting/entrance.jpg
-      caption: entrance
+      caption: Entrance to a college building, intended as a Manga background, Clip Studio Paint
       thumb_url: artwork/digital-painting/thumbs/entrance.jpg
-      tags: 
+      tags: manga
     - image_url: artwork/digital-painting/in-the-park.jpg
-      caption: in the park
+      caption: In the park, intended as a Manga background, Clip Studio Paint
       thumb_url: artwork/digital-painting/thumbs/in-the-park.jpg
-      tags: 
+      tags: manga
     - image_url: artwork/digital-painting/on-the-train.jpg
-      caption: on the train
+      caption: on the train, intended as a Manga background, Clip Studio Paint
       thumb_url: artwork/digital-painting/thumbs/on-the-train.jpg
-      tags: 
+      tags: manga
     - image_url: artwork/digital-painting/overlook-station.png
-      caption: overlook station
+      caption: Overlook station
       thumb_url: artwork/digital-painting/thumbs/overlook-station.jpg
       tags: 
     - image_url: artwork/digital-painting/station-platform.jpg
-      caption: station platform
+      caption: station platform, intended as a Manga background, Clip Studio Paint
       thumb_url: artwork/digital-painting/thumbs/station-platform.jpg
-      tags: 
+      tags: manga
     - image_url: artwork/digital-painting/venus-sky-base.png
-      caption: venus sky base
+      caption: Venus sky base floating in the temperate layer (all vectors), Serif Designer
       thumb_url: artwork/digital-painting/thumbs/venus-sky-base.jpg
-      tags: 
+      tags: sci-fi
 # line-drawings
     - image_url: artwork/line-drawings/aerostat-label.jpg
-      caption: aerostat label
+      caption: Aerostat luggage label, technical pen on beige paper
       thumb_url: artwork/line-drawings/thumbs/aerostat-label.jpg
-      tags: 
+      tags: steampunk
     - image_url: artwork/line-drawings/busy-city.png
       caption: busy city
       thumb_url: artwork/line-drawings/thumbs/busy-city.jpg
@@ -107,9 +107,9 @@
       thumb_url: artwork/line-drawings/thumbs/cottage.jpg
       tags: 
     - image_url: artwork/line-drawings/disney-hotel.jpg
-      caption: disney hotel
+      caption: The Disneyland Paris Hotel from the gardens, sepia ink pen on art paper
       thumb_url: artwork/line-drawings/thumbs/disney-hotel.jpg
-      tags: 
+      tags: architecturel
     - image_url: artwork/line-drawings/fantasy-castle.jpg
       caption: fantasy castle
       thumb_url: artwork/line-drawings/thumbs/fantasy-castle.jpg
@@ -123,13 +123,13 @@
       thumb_url: artwork/line-drawings/thumbs/garden-table.jpg
       tags: 
     - image_url: artwork/line-drawings/gear-detail.jpg
-      caption: gear detail
+      caption: Gear detail, intended as a web page watermark, ink on beige art paper
       thumb_url: artwork/line-drawings/thumbs/gear-detail.jpg
-      tags: 
+      tags: steampunk
     - image_url: artwork/line-drawings/land-leviathan.jpg
-      caption: land leviathan
+      caption: Land leviathan luggage label, ink on beige art paper
       thumb_url: artwork/line-drawings/thumbs/land-leviathan.jpg
-      tags: 
+      tags: steampunk
     - image_url: artwork/line-drawings/mancunian-hotel.jpg
       caption: mancunian hotel
       thumb_url: artwork/line-drawings/thumbs/mancunian-hotel.jpg
