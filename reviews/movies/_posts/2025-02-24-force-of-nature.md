@@ -4,7 +4,7 @@ title: "Force of Nature"
 teaser: "(The Dry 2)"
 subheadline: "(streamed)"
 tags:
-  - "Australia"
+  - "australia"
 ---
 Possibly the least appropriate subtitle in television history as it never stopped bloody raining...
 Faithful adaptation of the Jane Harper novel (the least interesting of the Aaron Falk books in my

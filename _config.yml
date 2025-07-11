@@ -43,7 +43,7 @@ urlimg: '/img/'
 # destination: /var/www/karlwilcox
 destination: /home/karlw/sites/karlwilcox
 
-incremental: true
+incremental: false
 
 # Logo size is 600x80 pixels
 logo: "logo.png"

@@ -7,7 +7,13 @@ header:
   image_fullwidth: "gp-header"
 ---
 
-{% assign reviews = site.data.shorts | sort: "title" %}
+{% assign shorts_unsorted = "" | split: "" %}
+{% for file_list in site.data.shorts %}
+{% for review in file_list[1] %}
+{% assign shorts_unsorted = shorts_unsorted | push: review %}
+{% endfor %}
+{% endfor %}
+{% assign reviews = shorts_unsorted | sort: "title" %}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toB">&nbsp;B&nbsp;</a>&nbsp;|&nbsp;

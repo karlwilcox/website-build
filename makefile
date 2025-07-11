@@ -14,7 +14,7 @@ clean:
 	bundle exec jekyll clean
 
 deploy:
-	rclone sync -v /home/karlw/sites/karlwilcox/ kw-site:/public_html
+	rclone sync -u -v /home/karlw/sites/karlwilcox/ kw-site:/public_html
 
 gallery: do_gallery
 .PHONY: gallery
