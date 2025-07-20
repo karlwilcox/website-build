@@ -1,7 +1,6 @@
 ---
 layout: review
 title: "Scrublands"
-prefix: "The"
 subheadline: "BBC iPlayer"
 teaser: "Season 1"
 tags:

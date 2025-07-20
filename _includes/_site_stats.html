@@ -44,10 +44,12 @@
       <a href="/reviews/shorts">
         <div class="alert-box success">
           {% assign short_count = 0 %}
-          {% for short in site.data.shorts %}
+          {% for file_list in site.data.shorts %}
+          {% for short in file_list[1] %}
           {% unless short.type == "draft" %}
           {% assign short_count = short_count | plus: 1 %}
           {% endunless %}
+          {% endfor %}
           {% endfor %}
           <p>{{ short_count }}</p>
         </div>

@@ -60,7 +60,7 @@
       url: "/reviews/games/"
     - title: "Other"
       url: "/reviews/other/"
-    - title: "Mini-reviews"
+    - title: "Short Reviews"
       url: "/reviews/shorts/"
     - title: "Tag Cloud"
       url: "/tag-cloud/"
