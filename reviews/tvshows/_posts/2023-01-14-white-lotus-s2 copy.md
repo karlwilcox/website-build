@@ -2,15 +2,17 @@
 layout: review
 title: "White Lotus"
 prefix: "The"
-subheadline: "Netflix?"
-teaser: "Season 2"
+subheadline: "Netflix"
+teaser: "Season 3"
 tags:
   - "drama"
-  - "italy"
+  - "thailand"
 ---
 
-This was a clever slow-burner of a show, even after 5 episodes we were left guessing as
-anything could still happen to anybody! The setting, as usual was lovely and the cinematography
-was lovely (having all that Italian sunshine probably helps!). Despite the "shock" ending
-(which we already knew about from the opener) there were more happy (or at least, not unpleasent)
-endings for many of the characters - something of a pleasing contrast to the first season.
+Sooo slow, so much padding and so many portentious atmosphere shots of bloody monkeys.
+I didn't even care enough
+about any of the characters to be interested who died at the end.
+
+I felt that there were way too many hares set running for no real reason, pointless story
+lines and wasted talent. I really didn't like this at all, it was
+frustrating, claustrophobic and dull I'm afraid.
