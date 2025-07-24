@@ -91,8 +91,8 @@ or any other errors noted.
 
 ## Other Items
 
-(In config.yml)
+(In data/todo.yml)
 
-{% for item in site.todo %}
+{% for item in site.data.todo.general %}
 - {{ item }}
 {% endfor %}

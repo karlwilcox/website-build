@@ -53,8 +53,8 @@ permalink: /index.html
 homepage: true
 ---
 
-Some Artwork to Enjoy
+<h2>Artwork Sampler</h2>
 
-And here's some pictures, more in the galleries linked above...
+And here's some pictures, more under the "Interests => Artwork" menu entry above.
 
 {% include gallery %}

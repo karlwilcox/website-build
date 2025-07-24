@@ -58,10 +58,6 @@ plugins:
     - jekyll_begin_end
 
 
-todo:
-  - Add graphics pages
-  - Restore pemberley pages
-
 # Always show future posts (short reviews are retrospective)
 future: true
 
