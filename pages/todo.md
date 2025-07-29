@@ -57,10 +57,12 @@ or any other errors noted.
 
 ## Draft Short Reviews
 
-{% for item in site.data.shorts %}
+{% for file_list in site.data.shorts %}
+{% for item in file_list[1] %}
 {% if item.type == "draft" %}
 - {{ item.title }}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Draft Long Reviews

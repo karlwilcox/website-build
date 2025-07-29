@@ -29,7 +29,9 @@
   {% if category == NULL and tag == NULL %}
 
     {% for post in site.posts limit:include.entries offset:include.offset %}
-      <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.prefix}} {{ post.title }}</strong></a>{% if post.subheadline != NULL %} &middot; {{ post.subheadline }} {% endif %}</li>
+      <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.prefix}} {{ post.title }}</strong></a>
+        {% if post.subheadline != NULL %} &middot; {{ post.subheadline }} {% endif %}
+        {% if post.author != NULL %} &middot; {{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }} {% endif %}</li>
     {% endfor %}
       <li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/blog/"><strong>{{ site.data.language.more }}</strong></a></li>
 
