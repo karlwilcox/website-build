@@ -10,30 +10,43 @@ header:
 
 ## Tools
 
-The site consists entirely of static pages created using the [Jekyll][1]] Static Site Generator. Development
-work is carried out a Mini-PC running [Pop!OS][2], for text editing I use IntelliJ Idea from [JetBrains][3]
-with the IdeaVim(*) plugin and a colour theme that I can't seem to settle on and changes every few weeks.
+The site consists entirely of static pages created using the [Jekyll][1]
+Static Site Generator. Development work is carried out on my Mac Mini M4 Pro
+with a Studio Display while the build and test site hosting is carried out a
+Mini-PC running [Pop!OS][2]
 
-(*) The first editor I learned to use, some 40 years ago, was Vi and the muscle memory is too ingrained to change now!
+As an IDE I use VSCode with the IdeaVim plugin and a colour theme that I can't
+seem to settle on and changes every few weeks. (Vi was first editor I learned
+to use, some 40 years ago, and the muscle memory is too ingrained to change
+now!) I use the various tools provided by [Affinity Software][3] for image
+preparation and diagram creation.
 
-The build system is the Linux 'make' command with some embedded bash scripts to do things like thumbnail generation.
+The build system is the Linux 'make' command with some embedded bash scripts to
+do things like thumbnail generation.
 
 The page theme is [FEELING RESPONSIVE][4] by phlow.
 
-For articles and general topic pages images, diagrams, photographs etc. are my own work unless otherwise stated. I use the various tools provided by
-[Affinity Software][5] for image preparation and diagram creation.
+## Copyrights
 
-For the reviews images are generally taken from the usual sources - amazon.com, imdb.com, youtube.com or the sites of the
-various studios or publishers. I haven't provided individual attribution for these, sorry, but life is short and I'm
-sure that the organisations involved are big enough to handle the unintended copyright violations.
+All written content is my original work, unless otherwise stated and remains
+copyright Karl R. Wilcox 2025.
+
+For articles and general topic pages images, diagrams, photographs etc. are my
+own work unless otherwise stated.
+
+For the reviews images are generally taken from the usual sources - amazon.com,
+imdb.com, youtube.com or the sites of the various studios or publishers. I
+haven't provided individual attribution for these, sorry, but life is short and
+I'm sure that the organisations involved are big enough to handle the
+unintended copyright violations.
 
 ## Hosting
 
-As above, development work is done on my Pop!OS Linux Mini-PC which hosts multiple test versions of 
-my various websites each on a different IP addresses.
+As noted above, my Pop!OS Linux Mini-PC hosts multiple test versions of my
+various websites each on a different IP addresses.
 
-The live website is hosted by Amazon Web Services on a tiny [LightSail][6] instance but since it is only
-static pages both performance and storage are adequate.
+The live website is hosted by UKHost4u on a Virtual Private Server. The site is entirely static,
+with just HTML, CSS, JavaScript and image files.
 
 ## File Organisation
 
@@ -74,34 +87,21 @@ Frontmatter should be as follows:
   - For tvshows, the season (if any)
   - For games / other, free form as required
 - tags: as required
-- category: one of tvshows / movies / other / books / shorts / games
-
-(This last should be redundant but it simplifies the pagination)
 
 ### Other Pages
 
 Created in an appropriately named folder under pages, you can have any
-organisation that you like but need to provide the permalink
-in the frontmatter and your own navigation;
-either by manually including links or defining your own
-layout in _layouts. Additionally you will need top level
-links to your new pages in _data/navigation.html, usually
-under 'Projects' or 'Interests'.
+organisation that you like but need to provide the permalink in the frontmatter
+and your own navigation; either by manually including links or defining your
+own layout in \_layouts. Additionally you will need top level links to your new
+pages in \_data/navigation.html, usually under 'Projects' or 'Interests'.
 
 All contents are automatically included in the search index.
 
-Comments are disabled unless you put comments: true in the
-front matter of each page, or in the defaults section of
-the _config.yml file.
-
-
-
-
-
+Comments are disabled unless you put comments: true in the front matter of each
+page, or in the defaults section of the _config.yml file.
 
  [1]: http://jekyllrb.com/
  [2]: https://pop.system76.com/
- [3]: https://www.jetbrains.com/
+ [3]: https://affinity.serif.com/
  [4]: http://phlow.github.io/feeling-responsive/
- [5]: https://affinity.serif.com/
- [6]: https://aws.amazon.com/lightsail/

@@ -6,7 +6,7 @@
   title: "The DrawShield Heraldry Site"
 
 - name: "Linked-In"
-  url: "https://linkd.in/karlwilcox"
+  url: "https:/linkedin.com/in/karlwilcox"
   class: "res-link"
   title: "My Linked In Profile"
 
@@ -14,8 +14,3 @@
   url: "https://github.com/karlwilcox"
   class: "rss-link"
   title: "Github Code Repos"
-
-- name: "Open University Blog Posts"
-  url: "https://learn1.open.ac.uk/mod/oublog/view.php?user=116374"
-  class: "res-link"
-  title: "Open University Blog Posts"
