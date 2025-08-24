@@ -1,0 +1,36 @@
+---
+layout              : chase-group
+title               : "GPR 40 Calibration"
+subheadline         : ""
+teaser              : "Products of the Chase Group"
+header:
+   image_fullwidth  : "headers/gpr40-header.png"
+sidebar: "chase-group"
+permalink           : "/chase-group/gpr40/calibration/"
+---
+
+<p>I also have considerable information on the process of calibrating the reciever, however, I'm not sure how much use it really is(!) It relies on a very specific set of equipment, connected in a precise way and controlled by a very old version of MS Basic...</p>
+
+<p>Anyway, for what it is worth, here is the information that I have.</p>
+
+<h2 >Overall Findings</h2>
+
+<p>The document attached here is a summary of the findings, these relate to the various BASIC programs and other files contained in the zip file that follows. </p>
+
+<div class="responsive-embed">
+  <iframe width="640" height="480" src="/chase-group/GPRFindings.pdf" ></iframe>
+</div>
+<p>
+   <a href="/chase-group/GPRFindings.pdf">Download</a>
+</p>
+
+<h2 >Zip File Containing Programs and Data</h2>
+
+<p>This is the file referred to above, containing MS BASIC and BBC Basic programs, along with instructions for calibration of the receiver, but as noted, this requires some specific and ancient kit to operate.</p>
+
+<div class="responsive-embed">
+  <iframe width="640" height="480" src="/chase-group/GPR-calibration.zip" ></iframe>
+</div>
+<p>
+   <a href="/chase-group/GPR-calibration.zip">Download</a>
+</p>

@@ -34,7 +34,7 @@
   side: left
   dropdown:
     - title: "Chase Group Products"
-      url: "/chase-group/overview"
+      url: "/chase-group/"
     - title: "Book Collections"
       url: "/collections/"
       side: left

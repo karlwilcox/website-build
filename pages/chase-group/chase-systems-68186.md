@@ -1,0 +1,30 @@
+---
+layout              : chase-group
+title               : "Chase Systems 68186"
+subheadline         : ""
+teaser              : "Products of the Chase Group"
+header:
+   image_fullwidth  : "headers/gpr40-header.png"
+sidebar: "chase-group"
+permalink           : "/chase-group/chase-systems-68186/"
+---
+<p>The Chase Systems was an innovative but not particularly successful Unix computer system of the mid 1980s.</p>
+
+<p>The innovative part (and hence its name) was the dual processor approach - a Motorola 68000 CPU runs a standard Unix Operating System, while an Intel 80186 co-processor with a custom written "mini" OS provides all the device driver services like hard disk management, serial comms, the real-time clock and so on.</p>
+
+<!-- wp:media-text {"mediaId":1400,"mediaLink":"/chase-group/chase-systems-68186/chase-booth/","mediaType":"image"} -->
+<div ><figure ><img src="/chase-group/chase-booth-1024x691.png" alt="" /></figure><div ><!-- wp:paragraph {"placeholder":"Content…","fontSize":"large"} -->
+<p class="has-large-font-size">Chase Booth at Comdex</p>
+
+<p>This was at Olympia, London in 1985 or 86. Left to right: unnamed H/W Designer; Jim Mockler, Managing Director; Bob Dunlop, Technical Director</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<p>I don't have a lot of information on this device, other than the promotional brochure that was produced. (Sorry about the image quality, I will re-scan this soon with the half-tone option selected.)</p>
+
+<div class="responsive-embed">
+  <iframe width="640" height="480" src="/chase-group/chase-systems-68186-brochure.pdf" ></iframe>
+</div>
+<p>
+   <a href=""  download aria-describedby="/chase-group/chase-systems-68186-brochure.pdf">Download</a>
+</p>

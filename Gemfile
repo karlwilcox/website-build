@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-auto-authors"
   gem 'jekyll_begin_end'
+  gem 'jekyll-postfiles'
 end
 
 gem 'asciidoctor', '~> 1.5.4'

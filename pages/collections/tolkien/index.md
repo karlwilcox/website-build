@@ -7,6 +7,7 @@ header:
    image_fullwidth  : "gp-header"
 permalink           : "/collections/tolkien/"
 comments            : true
+sidebar             : "tolkien"
 ---
 
 I first came across Tolkien when I was around 15 years old - a close friend was raving about this
@@ -27,7 +28,7 @@ Over the years I gave away or sold almost every book from my youth, partly due t
 partly in favour of e-books, but as my children have moved out and left behind empty rooms I've once
 again started to collect and physical books.
 
-{% include figure src="/img/tolkien/tolkien-shelf.jpg" caption="The collection so far" %}
+{% include figure src="tolkien-shelf.jpg" caption="The collection so far" %}
 
 Not only collecting but looking at them anew, with fresh, older (and perhaps wiser) eyes
 and coming to realise just what a staggering achievement the entire legendarium was!

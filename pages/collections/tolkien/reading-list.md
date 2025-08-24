@@ -7,6 +7,7 @@ header:
    image_fullwidth  : "gp-header"
 permalink           : "/collections/tolkien/reading-list/"
 comments            : true
+sidebar             : "tolkien"
 ---
 
 I had a friend who had amassed an impressive collection of "Magic the Gathering" cards - being an organised
@@ -17,7 +18,7 @@ do actually want to read all of these, but here's my own list, of the Tolkien se
 (Some of the categorisation is a bit arbitrary here and you could argue for inclusion elsewhere, but I'm going
 with this for now.)
 
-## The Legendarium 
+## The Legendarium
 
 * "The Hobbit" paperback, Harper Collins 1999 paperback
 * "The Annotated Hobbit", (Douglas Anderson), hardback Allen & Unwin 1989 
