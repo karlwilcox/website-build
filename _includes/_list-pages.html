@@ -1,0 +1,15 @@
+{% comment %}
+    List pages in same directory as the current page, excluding the page itself.
+{% endcomment %}
+
+{% assign page_dir = page.path | remove_last: page.name %}
+<ul>
+    {% for item in site.pages %}        
+        {% if item.dir == page.dir and item.path != page.path %}
+        <li>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+

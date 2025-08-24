@@ -6,6 +6,8 @@ SHELL := /bin/bash
 # the default action is to build the site locally
 build: thumbs
 	bundle exec jekyll build
+	echo -n "Completed at: "
+	date
 	
 test:	
 	rsync --delete -e "ssh -i ~/keys/mini-server" -avP /Volumes/Data/Sites/karlwilcox/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox

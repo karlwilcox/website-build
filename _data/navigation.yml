@@ -17,32 +17,36 @@
   url: "/projects/"
   side: left
   dropdown:
-  - title: "Heraldry"
-    url: "/heraldry/overview"
-  - title: "Slow Glass"
-    url: "/slow-glass/overview"
-  - title: "New Pemberley"
-    url: "/new-pemberley/overview"
-  - title: "Lego City"
-    url: "/lego-city/overview"
-  - title: "Electronics"
-    url: "/electronics/overview"
+    - title: "Heraldry"
+      url: "/heraldry/overview"
+    - title: "Slow Glass"
+      url: "/slow-glass/overview"
+    - title: "New Pemberley"
+      url: "/new-pemberley/overview"
+    - title: "Lego City"
+      url: "/lego-city/overview"
+    - title: "Electronics"
+      url: "/electronics/overview"
 
 
 - title: "Interests"
   url: "/interests/"
   side: left
   dropdown:
-  - title: "Chase Group Products"
-    url: "/chase-group/overview"
-  - title: "Works of Tolkien"
-    url: "/tolkien/overview"
-  - title: "Works of Jane Austen"
-    url: "/jane-austen/overview"
-  - title: "Artwork"
-    url: "/artwork/overview/"
-  - title: "Other Stuff"
-    url: "/misc/overview"
+    - title: "Chase Group Products"
+      url: "/chase-group/overview"
+    - title: "Book Collections"
+      url: "/collections/"
+      side: left
+      dropdown:
+        - title: "Works of Tolkien"
+          url: "/collections/tolkien/"
+        - title: "Works of Jane Austen"
+          url: "/collections/jane-austen/"
+    - title: "Artwork"
+      url: "/artwork/overview/"
+    - title: "Other Stuff"
+      url: "/misc/overview"
 
 
 

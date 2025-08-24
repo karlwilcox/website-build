@@ -1,0 +1,19 @@
+# sidebar navigation menus, indexed by key value
+austen:
+  - title: "Collections Home"
+    url: "/collections/"
+  - title: "Jane Austen"
+    url: "/collections/jane-austen/"
+  - title: "Jane Austen Reading List"
+    url: "/collections/jane-austen/reading-list/"
+chase-group:
+  - title: "Chase Group Home"
+  - url: "/chase-group/overview"
+tolkien:
+  - title: "Collections Home"
+    url: "/collections/"
+  - title: "J.R.R. Tolkien"
+    url: "/collections/tolkien/"
+  - title: "Tolkien Reading List"
+    url: "/collections/tolkien/reading-list"
+  

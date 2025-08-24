@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Strange Weather in Tokyo"
-subheadline: "Hiromi Kawakami"
+author: hiromi-kawakami
 teaser: ""
 tags:
   - "japan"

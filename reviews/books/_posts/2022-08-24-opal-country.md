@@ -13,4 +13,3 @@ map in the frontispiece sets the scene for a complex but ultimately satisfying t
 like a locked-room mystery but down a mine-shaft.  The book is infused with flawed, realistic
 characters and absolutely oozing with atmosphere and a sense of place. Chris is well on form
 here.
-
