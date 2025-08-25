@@ -1,5 +1,5 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "GPR40 Promotional Material"
 subheadline         : ""
 teaser              : "Products of the Chase Group"
@@ -9,48 +9,26 @@ sidebar: "chase-group"
 permalink           : "/chase-group/gpr40/promotional-material/"
 ---
 
-<h2 >1 - Chase Flyer / Specification Sheet</h2>
+## 1 - Chase Flyer / Specification Sheet
 
-<p>This was produced around 1985 for use at exhibitions and in response to customer enquiries.</p>
+This was produced around 1985 for use at exhibitions and in response to customer enquiries.
 
-<div class="responsive-embed">
-  <iframe width="640" height="480" src="/chase-group/GPR40-2.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/GPR40-2.pdf"  download >Download</a>
-</p>
+{% include download src="/chase-group/gpr40/GPR40-2.pdf" desc="Specification Sheet" %}
 
-<h2 >2 - Simple Specification Sheet</h2>
+## 2 - Simple Specification Sheet
 
-<p>Source and unknown, but predates the sale to Willtek.</p>
+Source and unknown, but predates the sale to Willtek.
 
+{% include download src="/chase-group/gpr40/Chase-RX-Simple-Specs.pdf" desc="Specification Sheet" %}
 
-<div class="responsive-embed">
-   <iframe width="640" height="480" src="/chase-group/Chase-RX-Simple-Specs.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/Chase-RX-Simple-Specs.pdf"  download >Download</a>
-</p>
-<h2 >3 - Will'tek Flyer / Specification Sheet</h2>
+## 3 - Will'tek Flyer / Specification Sheet
 
-<p>Copyright dated 2004</p>
+Copyright dated 2004
 
+{% include download src="/chase-group/gpr40/Willtek_8100_ds322_1204_en.pdf" desc="Specification Sheet" %}
 
-<div class="responsive-embed">
-   <iframe width="640" height="480" src="/chase-group/Willtek_8100_ds322_1204_en.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/Willtek_8100_ds322_1204_en.pdf"  download >Download</a>
-</p>
-<h2 >4 - Will'Tek Down Convertor Flyer / Specification Sheet</h2>
+## 4 - Will'Tek Down Convertor Flyer / Specification Sheet
 
-<p>Copyright date 2002</p>
+Copyright date 2002
 
-
-
-<div class="responsive-embed">
-   <iframe width="640" height="480" src="/chase-group/Willtek_8181_ds323_1002_en.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/Willtek_8181_ds323_1002_en.pdf"  download >Download</a>
-</p>
+{% include download src="/chase-group/gpr40/Willtek_8181_ds323_1002_en.pdf" desc="Down Convertor Specification Sheet" %}

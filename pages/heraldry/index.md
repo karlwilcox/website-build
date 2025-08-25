@@ -5,7 +5,7 @@ subheadline         : ""
 teaser              : ""
 header:
    image_fullwidth  : heraldry/header.png
-permalink           : "heraldry/overview/"
+permalink           : "/heraldry/"
 ---
 {% include alert info="This section under construction, please check back soon (September 2024)" %}
 

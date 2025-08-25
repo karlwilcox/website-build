@@ -1,47 +1,28 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "GPR40 Manuals"
 subheadline         : ""
 teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/gpr40/manuals/"
+permalink           : "/chase-group/gpr40/gpr40/manuals/"
 ---
 
-<h2 >1 - Will'tek Getting Started Manual (1)</h2>
+## 1 - Will'tek Getting Started Manual (1)
 
-<p>Will'Tek <strong>Getting Started Manual</strong> (for serial numbers 0506001 and higher) - copyright dated 2003</p>
+Will'Tek **Getting Started Manual** (for serial numbers 0506001 and higher) - copyright dated 2003
 
-<div class="responsive-embed">
-  <iframe width="640" height="480" src="/chase-group/GPR_gs_0304-100-A.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/GPR_gs_0304-100-A.pdf">Download</a>
-</p>
+{% include download src="/chase-group/gpr40/GPR_gs_0304-100-A.pdf" desc="Getting Started" %}
 
-<h2 >2 - Will'Tek Getting Started Manual (2)</h2>
+## 2 - Will'Tek Getting Started Manual (2)
 
-<p></p>
+Will'Tek **Getting Started Manual** - copyright dated 2002 - 2007
 
-<p>Will'Tek <strong>Getting Started Manual</strong> - copyright dated 2002 - 2007</p>
+{% include download src="/chase-group/gpr40/GPR_gs_0710-100-A.pdf" desc="Getting Started" %}
 
+## 3 - Will'tek User Guide V.4
 
-<div class="responsive-embed">
-  <iframe width="640" height="480" src="/chase-group/GPR_gs_0710-100-A.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/GPR_gs_0710-100-A.pdf">Download</a>
-</p>
+Will'Tek **User's Guide Version 4.00** - copyright dated 2007
 
-<h2 >3 - Will'tek User Guide V.4</h2>
-
-<p>Will'Tek <strong>User's Guide Version 4.00</strong>  - copyright dated 2007<strong> </strong></p>
-
-
-<div class="responsive-embed">
-  <iframe width="640" height="480" src="/chase-group/GPR_ug_0710-400-A.pdf" ></iframe>
-</div>
-<p>
-   <a href="/chase-group/GPR_ug_0710-400-A.pdf">Download</a>
-</p>
+{% include download src="/chase-group/gpr40/GPR_ug_0710-400-A.pdf" desc="User Guide" %}

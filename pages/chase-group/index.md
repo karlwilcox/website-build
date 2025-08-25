@@ -1,5 +1,5 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "Products of the Chase Group"
 subheadline         : ""
 teaser              : "Products of the Chase Group"

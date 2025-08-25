@@ -1,0 +1,19 @@
+{% comment %}
+* include an iframe and a download link to a resource
+*
+* usage:
+*
+* download src="URL" desc="Description"
+*
+{% endcomment %}
+
+<figure>
+{% if include.desc %}
+<figcaption>{{ include.desc }}</figcaption>
+{% endif %}
+<div class="responsive-embed">
+   <iframe width="640" height="480" src="{{ include.src }}" ></iframe>
+</div>
+
+<p>   <a href="{{ include.src }}"  download >Download</a></p>
+</figure>

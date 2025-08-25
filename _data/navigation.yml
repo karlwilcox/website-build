@@ -18,7 +18,7 @@
   side: left
   dropdown:
     - title: "Heraldry"
-      url: "/heraldry/overview"
+      url: "/heraldry/"
     - title: "Slow Glass"
       url: "/slow-glass/overview"
     - title: "New Pemberley"

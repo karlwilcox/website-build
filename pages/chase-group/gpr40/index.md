@@ -1,5 +1,5 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "GPR40 Information"
 subheadline         : ""
 teaser              : "Products of the Chase Group"

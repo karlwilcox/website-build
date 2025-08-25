@@ -1,5 +1,5 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "GPR40 Assembly Diagrams"
 subheadline         : ""
 teaser              : "Products of the Chase Group"
@@ -15,37 +15,18 @@ The following diagrams showing assembly of some of the main components are avail
 
 This is the physical view, with dates from 19/12/1989 to 15/07/2002.
 
-<div class="responsive-embed">
-  <iframe width="640" height="480" src="/chase-group/gpr40/BattModule1.pdf" ></iframe>
-</div>
-
-   <a href="/chase-group/gpr40/BattModule1.pdf"  download>Download</a>
-
+{% include download src="/chase-group/gpr40/BattModule1.pdf" desc="Battery Module - Physical" %}
 
 And this is the circuit diagram with dates from 20/10/1989 to 14/11/2001.
 
-<div class="responsive-embed">
-   <iframe width="640" height="480" src="/chase-group/gpr40/BattModule2.pdf" ></iframe>
-</div>
-
-   <a href="/chase-group/gpr40/BattModule2.pdf"  download >Download</a>
-
+{% include download src="/chase-group/gpr40/BattModule2.pdf" desc="Battery Module - Circuit" %}
 
 ## 2 - Main Assembly
 
 The actual outer case and connections, dates from 29/08/1990 to 29/03/2001.
 
-
-<div class="responsive-embed">
-   <iframe width="640" height="480" src="/chase-group/gpr40/MainAssyDrwg.pdf" ></iframe>
-</div>
-
-   <a href="/chase-group/gpr40/MainAssyDrwg.pdf"  download >Download</a>
+{% include download src="/chase-group/gpr40/MainAssyDrwg.pdf" desc="Outer case" %}
 
 And a parts list for the above, dated 22/07/2022
 
-<div class="responsive-embed">
-   <iframe width="640" height="480" src="/chase-group/gpr40/MainAssy.pdf" ></iframe>
-</div>
-
-   <a href="/chase-group/gpr40/MainAssy.pdf"  download >Download</a>
+{% include download src="/chase-group/gpr40/MainAssy.pdf" desc="Parts List" %}

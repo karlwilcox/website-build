@@ -1,5 +1,5 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "Chase Research IOPro"
 subheadline         : ""
 teaser              : "Products of the Chase Group"
@@ -8,75 +8,46 @@ header:
 sidebar: "chase-group"
 permalink           : "/chase-group/chase-research-iopro/"
 ---
-<p>This was effectively the ultimate point of host bused serial line concentrators. The serial control hardware and intelligence have been moved into the breakout box, leaving just the bus interface hardware in the pc expansion slot; and more ports can to added by slotting additional breakout boxes together without needing further expansion shots in the pc case.</p>
 
-<p>Lets take a detailed look at the card and cables (separate cables for data and power, taken from a hard disk power supply)</p>
+This was effectively the ultimate point of host bused serial line
+concentrators. The serial control hardware and intelligence have been moved
+into the breakout box, leaving just the bus interface hardware in the pc
+expansion slot; and more ports can to added by slotting additional breakout
+boxes together without needing further expansion shots in the pc case.
 
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure ><!-- wp:image {"id":1499,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3017.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+Lets take a detailed look at the card and cables (separate cables for data and
+power, taken from a hard disk power supply" desc="" %}
 
-<!-- wp:image {"id":1498,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3016.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3017.jpeg" desc="" %}
 
-<!-- wp:image {"id":1497,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3015.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3016.jpeg" desc="" %}
 
-<!-- wp:image {"id":1496,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3014.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3015.jpeg" desc="" %}
 
-<!-- wp:image {"id":1495,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3013.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3014.jpeg" desc="" %}
 
-<!-- wp:image {"id":1494,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3012.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3013.jpeg" desc="" %}
 
-<!-- wp:image {"id":1493,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3011.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3012.jpeg" desc="" %}
 
-<!-- wp:image {"id":1492,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3010.jpeg" alt="" /></figure>
-<!-- /wp:image --></figure>
-<!-- /wp:gallery -->
+{% include figure src="/chase-group/IMG_3011.jpeg" desc="" %}
 
-<p></p>
+{% include figure src="/chase-group/IMG_3010.jpeg" desc="" %}
 
-<p>And now we will take a few views of thebreakout box exterior...</p>
+And now we will take a few views of thebreakout box exterior...
 
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure ><!-- wp:image {"id":1505,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3024.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3024.jpeg" desc="" %}
 
-<!-- wp:image {"id":1504,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3023.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3023.jpeg" desc="" %}
 
-<!-- wp:image {"id":1503,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3022.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3022.jpeg" desc="" %}
 
-<!-- wp:image {"id":1500,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3018.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3018.jpeg" desc="" %}
 
-<!-- wp:image {"id":1501,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3019.jpeg" alt="" /></figure>
-<!-- /wp:image -->
+{% include figure src="/chase-group/IMG_3019.jpeg" desc="" %}
 
-<!-- wp:image {"id":1502,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="size-large"><img src="/chase-group/IMG_3021.jpeg" alt="" /></figure>
-<!-- /wp:image --></figure>
-<!-- /wp:gallery -->
+{% include figure src="/chase-group/IMG_3021.jpeg" desc="" %}
 
-<p>And finally, the inside components of the break out box.</p>
+And finally, the inside components of the break out box.
 
-<p>( to be done)</p>
-<!-- /wp:paragraph -->
+( to be done )

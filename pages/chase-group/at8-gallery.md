@@ -1,5 +1,5 @@
 ---
-layout              : chase-group
+layout              :  page
 title               : "AT8+ Gallery"
 subheadline         : ""
 teaser              : "Products of the Chase Group"
@@ -26,24 +26,24 @@ When we first located the 78-way plug and socket the pair constituted the single
 
 The PCB is copyright 1989 but the build date is probably the 91/25, the 25th week (or day / batch) of 1991. The board is in lovely condition for being more than 30 years old! The firmware is V4.02, I'll post a copy of it here in Intel Hex format soon.
 
-{% include figure src="/chase-group/pcb-rom-ram.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-rom-ram.jpg" caption="PCB showing the ROM and RAM chips" %}
 
-{% include figure src="/chase-group/pcb-front-centre.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-front-centre.jpg" caption="Front (top) side of PCB, centre" %}
 
-{% include figure src="/chase-group/pcb-front-left.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-front-left.jpg" caption="Front (top) side of PCB, left side" %}
 
-{% include figure src="/chase-group/pcb-front-centre-2.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-front-centre-2.jpg" caption="Front (top) side of PCB, centre detail" %}
 
-{% include figure src="/chase-group/pcb-front-right.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-front-right.jpg" caption="Front (top) side of PCB, right side" %}
 
-{% include figure src="/chase-group/pcb-front.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-front.jpg" caption="Front (top) side of PCB, entire" %}
 
 ## PCB Rear Side
 
 Note the initials of the hardware designer here, Frank Budd, employed as a contractor when new board designs were required.
 
-{% include figure src="/chase-group/pcb-back-right.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-back-right.jpg" caption="Back (bottom) side of PCB, right" %}
 
-{% include figure src="/chase-group/pcb-back-centre.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-back-centre.jpg" caption="Back (bottom) side of PCB, centre" %}
 
-{% include figure src="/chase-group/pcb-back-left.jpg" caption="xxx" %}
+{% include figure src="/chase-group/pcb-back-left.jpg" caption="Back (bottom) side of PCB, left" %}
