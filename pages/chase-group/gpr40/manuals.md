@@ -6,7 +6,7 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/gpr40/gpr40/manuals/"
+permalink           : "/chase-group/gpr40/manuals/"
 ---
 
 ## 1 - Will'tek Getting Started Manual (1)

@@ -6,7 +6,7 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/gpr40chase-group/gpr40/calibration/"
+permalink           : "/chase-group/gpr40/calibration/"
 ---
 
 I also have considerable information on the process of calibrating the
