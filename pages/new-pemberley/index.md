@@ -4,13 +4,13 @@ title               : "New Pemberley Overview"
 subheadline         : ""
 teaser              : ""
 header:
-   image_fullwidth  : new-pemberley/massing.png
-permalink           : "new-pemberley/overview/"
+   image_fullwidth  : headers/massing.png
+permalink           : "new-pemberley/"
 ---
 {% include alert info="This section under construction, please check back soon (Sep 2024)" %}
 
 Here's a thought - if we were to design a grand country house like Mr. Darcy's "Pemberley" using modern
-ideas and materials what would it look like? And how would it "work" as a real, viable building and 
+ideas and materials what would it look like? And how would it "work" as a real, viable building and
 estate?
 
 ## Constraints
@@ -35,8 +35,7 @@ We should define our requirements for the country house and the sort of activiti
 4) To be able to host meetings or conferences of up to 200 people with light refreshments
 5) To be able to host a garden party for up to 250 guests with light refreshments
 6) The ability to" mothball" all or part of the building for extended periods of time with minimal staffing.
- 
- 
+
 The above has implications for sleeping, catering and domestic arrangements, but what else might we want to include in our house or its attached estate? Facilities should include:
 
 - a swimming pool
@@ -47,7 +46,7 @@ The above has implications for sleeping, catering and domestic arrangements, but
 - stabling for horses
 - garaging for various vehicles
 - workshop and/or hobby room
-- ballroom/conference space 
+- ballroom/conference space
 
 We would also like our estate to largely self contained, which implies
 
@@ -62,6 +61,5 @@ We would also like our estate to largely self contained, which implies
 And we also have some" non-functional" requirements
 
 - Guest and stuff areas clearly separated, including access
-- aesthetically pleasing with well disguised" services"
+- aesthetically pleasing with well disguised "services"
 - But not" in your face" flashy, it should be in keeping with both contemporary and historical vernacular architecture of the region.
-
