@@ -42,6 +42,7 @@ urlimg: '/img/'
 
 # destination: /var/www/karlwilcox
 destination: /home/karlw/sites/karlwilcox
+# destination: /Users/karlwilcox/Sites
 
 incremental: false
 

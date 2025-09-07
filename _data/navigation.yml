@@ -3,7 +3,7 @@
   side: left
 
 - title: About Me
-  url: "/about-me/biography/"
+  url: "/about-me/"
   side: left
   dropdown:
     - title: "Education"
@@ -20,7 +20,7 @@
     - title: "Heraldry"
       url: "/heraldry/"
     - title: "Slow Glass"
-      url: "/slow-glass/overview"
+      url: "/slow-glass/"
     - title: "New Pemberley"
       url: "/new-pemberley/"
     - title: "Lego City"

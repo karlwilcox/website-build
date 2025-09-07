@@ -8,7 +8,7 @@ header:
 ---
 
 ## Titles of TV Shows with a Full Review
-{% assign reviews = site.posts | sort: "title" | where: "category", "tvshows" %}
+{% assign reviews = site.categories.tvshows | sort: "title" %}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toB">&nbsp;B&nbsp;</a>&nbsp;|&nbsp;

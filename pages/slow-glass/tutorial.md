@@ -1,5 +1,6 @@
 ---
-layout: slow-glass
+layout: page
+sidebar: slow-glass
 title               : "Slow Glass Animation System"
 subheadline         : ""
 teaser              : ""

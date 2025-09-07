@@ -5,9 +5,6 @@ SHELL := /bin/bash
 
 # the default action is to build the site locally
 build: thumbs
-	echo -n "Nextcloud Status: "
-	nextcloud-status
-	sleep 2
 	bundle exec jekyll build
 	echo forcing page asset copy
 	(cd pages; find . -path ./pages-root-folder -prune -o -type f -not -name "*.md" -not -name "*.html" -exec cp "{}" ~/sites/karlwilcox/{} \; )

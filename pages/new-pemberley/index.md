@@ -1,13 +1,12 @@
 ---
-layout              : new-pemberley
+layout              : page
+sidebar             : new-pemberley
 title               : "New Pemberley Overview"
 subheadline         : ""
 teaser              : ""
-header:
-   image_fullwidth  : headers/massing.png
-permalink           : "new-pemberley/"
+permalink           : "/new-pemberley/"
 ---
-{% include alert info="This section under construction, please check back soon (Sep 2024)" %}
+{% include alert info="This section under construction, please check back soon (Sep 2025)" %}
 
 Here's a thought - if we were to design a grand country house like Mr. Darcy's "Pemberley" using modern
 ideas and materials what would it look like? And how would it "work" as a real, viable building and
@@ -17,13 +16,19 @@ estate?
 
 First though we need some ground rules to give us some context and constraints.
 
-1) Physics exists. So we can't place our house one a flying Island supported by an endlessly cascading waterfall.
+1) Physics exists. So we can't place our house on a flying Island supported by
+an endlessly cascading waterfall.
 
-2) Laws exist. So, as much as we are able we should abide by building codes and consider things like disabled access and sustainability.
+2) Laws exist. So, as much as we are able we should abide by building codes and
+consider things like disabled access and sustainability.
 
-3) Money is unlimited but not infinite. So we are not constrained by finances but should not be unnecessarily profligate. Quality materials, expensive rooms but not gold plated window fittings.
+3) Money is unlimited but not infinite. So we are not constrained by finances
+but should not be unnecessarily profligate. Quality materials, expensive rooms
+but not gold plated window fittings.
 
-4) A specific region-so we can take account of climate and environment. We are going to be in the English Midlands, in the countryside but within a few miles of a large market town (so quite a lot like old Pemberley then)
+4) A specific region-so we can take account of climate and environment. We are
+going to be in the English Midlands, in the countryside but within a few miles
+of a large market town (so quite a lot like old Pemberley then)
 
 ## Requirements
 
@@ -63,3 +68,15 @@ And we also have some" non-functional" requirements
 - Guest and stuff areas clearly separated, including access
 - aesthetically pleasing with well disguised "services"
 - But not" in your face" flashy, it should be in keeping with both contemporary and historical vernacular architecture of the region.
+
+## Getting Started
+
+We are probably going to need several interconnected buildings rather than a
+single massive edifice, so let's start by sketching out a few ideas for the
+main residential block on squared paper:
+
+{% include figure src="/new-pemberley/hand-drawn-plan.jpg" caption="First thoughts" %}
+
+That's all very well, but we probably need some better
+[tools and reference materials](/new-pemberley/resources/),
+let us get those organised first...

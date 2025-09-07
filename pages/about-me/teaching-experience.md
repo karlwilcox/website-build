@@ -11,7 +11,7 @@ permalink       : "/about-me/teaching-experience/"
 ## Teaching &amp; Lecturing
 
 
-{% include figure align="right" src="/img/about-me/Gown1.jpg" caption="Karl in academic garb"  title="Gown" %}
+{% include figure align="right" src="/about-me/Gown1.jpg" caption="Karl in academic garb"  title="Gown" %}
 
 
  The world changed forever on September 11th 2001, and one minor effect was on me. With the slump in the airline business, Honeywell closed the division I was in, making me redundant.
@@ -30,7 +30,7 @@ During my time at Reading I was pleased to be nominated by students for the "Tea
 I prepared and taught both first and second year courses in Software Engineering, using Somerville as the course text. The first year included an individual assignment looking at failed projects, the second year included a group project based on a real world business problem. I set and marked final examinations for both courses. We used Ian Sommerville's "Software Engineering" as the course text.
 
 
-{% include figure align="left" src="/img/about-me/Graduating.jpg" caption="Reading Graduates Celebrate"  title="Graduating" %}
+{% include figure align="left" src="/about-me/Graduating.jpg" caption="Reading Graduates Celebrate"  title="Graduating" %}
 
 
 ### Commercial Off-The-Shelf Software
@@ -47,7 +47,7 @@ This was an 'A' level equivalent course offered to overseas students without rec
 ### Communications and Networks
 
 
-{% include figure align="right" src="/img/about-me/Soton-Lecture.jpg" caption="Southampton Lecture Theatre"  title="Soton-Lecture" %}
+{% include figure align="right" src="/about-me/Soton-Lecture.jpg" caption="Southampton Lecture Theatre"  title="Soton-Lecture" %}
 
 
 I taught 80% of this course, concentrating on the high level protocols, with Peterson and Davie's "Computer Networks" as the course text. I also set and marked 5 out of 6 final examination questions. There were usually around 120 students on this course.
@@ -58,7 +58,7 @@ I taught 80% of this course, concentrating on the high level protocols, with Pet
 ### Operating Systems
 
 
-{% include figure align="left" src="/img/about-me/rhul-building.png" caption="Royal Holloway Main Building"  title="rhul-building" %}
+{% include figure align="left" src="/about-me/rhul-building.png" caption="Royal Holloway Main Building"  title="rhul-building" %}
 
 
 This was a classic second year OS course, a lot like the one I listened to 20 year's before, disk queueing algorithms and all. I did however try to draw parallels with more other areas of computer science and business to demonstrate the applicability of these algorithms in other areas. There were 3 compulsory assignments and a 90 minute examination, all of which I set and marked.
