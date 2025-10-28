@@ -1,24 +1,24 @@
-{% comment %}
+{%- comment -%}
 * include an image with correct figure elements
 *
 * usage:
 *
 *  figure src="URL" caption="CAPTION" align=left|right|centre link="URL"
 *
-{% endcomment %}
+{%- endcomment -%}
 
-{% if include.align == Null %}
-{% assign include.align = "centre" %}
-{% endif %}
+{%- if include.align == Null -%}
+{%- assign include.align = "centre" -%}
+{%- endif -%}
 
 <figure class="{{ include.align }}">
-    {% if include.link %}
+    {%- if include.link -%}
     <a href="{{ include.link }}">
-    {% endif %}
+    {%- endif -%}
     <img src="{{ include.src }}" alt="{{ include.caption }}" />
-    {% if include.link %}
+    {%- if include.link -%}
     </a>
-    {% endif %}
+    {%- endif -%}
     <figcaption>{{ include.caption }}</figcaption>
 </figure>
 

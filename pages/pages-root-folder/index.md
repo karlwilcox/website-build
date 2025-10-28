@@ -9,7 +9,7 @@ header:
   image_fullwidth: headers/front-page.jpg
 widget1:
   title: "About Me"
-  url: '/about-me/biography/'
+  url: '/about-me/'
   image: widgets/about-me.jpg
   text: "Hi! I'm Karl, an educator, web developer and a bit of a nerd. You can find a bit more about my background here, and my hobbies and interests elsewhere on the website."
 widget2:

@@ -5,6 +5,7 @@ subheadline: ""
 teaser: ""
 header:
   image_fullwidth: "gp-header"
+permalink: /reviews/shorts/titles/
 ---
 
 {% assign shorts_unsorted = "" | split: "" %}

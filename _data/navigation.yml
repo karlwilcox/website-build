@@ -43,10 +43,12 @@
           url: "/collections/tolkien/"
         - title: "Works of Jane Austen"
           url: "/collections/jane-austen/"
+        - title: "Science Fiction Greats"
+          url: "/collections/science-fiction-greats/"
     - title: "Artwork"
-      url: "/artwork/overview/"
+      url: "/artwork/"
     - title: "Other Stuff"
-      url: "/misc/overview"
+      url: "/misc/"
 
 
 

@@ -22,14 +22,14 @@
 <script>
 	function randomPosts() {
 		const titles = [
-		{% for post in site.categories['blog'] %}
+		{%- for post in site.categories['blog'] -%}
 			"{{ post.title }}",
-		{% endfor %}
+		{%- endfor -%}
 		];
 		const urls = [
-		{% for post in site.categories['blog'] %}
+		{%- for post in site.categories['blog'] -%}
 			"{{ site.url }}{{ site.baseurl }}{{ post.url }}",
-		{% endfor %}
+		{%- endfor -%}
 		];
 		const max = titles.length;
 		var indices = [];

@@ -5,9 +5,9 @@ pagination:
 ---
 
 
-{% assign author = page.pagination.author_data %}
+{%- assign author = page.pagination.author_data -%}
 
 <h1 class="text-start">Books by {{ author.forename }} {{ author.surname }}</h1>
-{% if author.note %}
+{%- if author.note -%}
 <p>{{ author.note }}</p>
-{% endif %}
+{%- endif -%}

@@ -1,14 +1,14 @@
 
-{% for file_list in site.data.shorts %}
-{% for item in file_list[1] %}
-{% if item.year == include.year and item.month == include.month %}
-{% unless item.type == "draft" %}
+{%- for file_list in site.data.shorts -%}
+{%- for item in file_list[1] -%}
+{%- if item.year == include.year and item.month == include.month -%}
+{%- unless item.type == "draft" -%}
 <p>
-    {% include icon shape=item.type %} <strong>{{ item.prefix }} {{ item.title }}</strong>
-    {% if item.creator %} - {{ item.creator }}. {% endif %}
+    {%- include icon shape=item.type -%} <strong>{{ item.prefix }} {{ item.title }}</strong>
+    {%- if item.creator -%} - {{ item.creator }}. {%- endif -%}
     {{ item.review }}
 </p>
-{% endunless %}
-{% endif %}
-{% endfor %}
-{% endfor %}
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}

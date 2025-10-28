@@ -16,10 +16,10 @@ Includes without an underscore are commands you can use in posts and pages. I le
 
 Checkout for example `alert`:
 
-{% include alert success="Yay! you did it!" %}
+{%- include alert success="Yay! you did it!" -%}
 
 or
 
-{% include gallery %}
+{%- include gallery -%}
 
 Enjoy :)

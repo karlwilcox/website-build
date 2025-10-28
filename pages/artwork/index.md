@@ -5,7 +5,7 @@ subheadline         : "A Miscellany of Mediocre Art"
 teaser              : "Mediocrity in many media"
 header:
    image_fullwidth  : "headers/art-materials.jpg"
-permalink           : "/artwork/overview/"
+permalink           : "/artwork/"
 ---
 
 Over the years I have dabbled in various art media and quite enjoyed it, although

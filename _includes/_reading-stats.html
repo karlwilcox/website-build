@@ -1,153 +1,153 @@
-{% assign height = 300 %}
-{% capture current_year %}{{ site.time | date: "%Y" }}{% endcapture %}
-{% capture short_year %}{{ site.time | date: "%y" }}{% endcapture %}
-{% comment %}
+{%- assign height = 300 -%}
+{%- capture current_year -%}{{ site.time | date: "%Y" }}{%- endcapture -%}
+{%- capture short_year -%}{{ site.time | date: "%y" }}{%- endcapture -%}
+{%- comment -%}
 * We use inspect to turn the number back into a string for comparison
-{% endcomment %}
-{% assign last_year = current_year | minus: 1 | inspect %}
-{% comment %}
+{%- endcomment -%}
+{%- assign last_year = current_year | minus: 1 | inspect -%}
+{%- comment -%}
 * Set all counters to zero (we count columns separately since arrays are hard)
-{% endcomment %}
-{% assign year_count = 0 %}
-{% assign last_year_count = 0 %}
-{% assign col1_count = 0 %}
-{% assign col2_count = 0 %}
-{% assign col3_count = 0 %}
-{% assign col4_count = 0 %}
-{% assign col5_count = 0 %}
-{% assign col6_count = 0 %}
-{% assign col7_count = 0 %}
-{% assign col8_count = 0 %}
-{% assign col9_count = 0 %}
-{% assign col10_count = 0 %}
-{% assign col11_count = 0 %}
-{% assign col12_count = 0 %}
-{% assign count_2022 = 0 %}
-{% assign count_2023 = 0 %}
-{% assign count_2024 = 0 %}
-{% assign count_2025 = 0 %}
-{% comment %}
+{%- endcomment -%}
+{%- assign year_count = 0 -%}
+{%- assign last_year_count = 0 -%}
+{%- assign col1_count = 0 -%}
+{%- assign col2_count = 0 -%}
+{%- assign col3_count = 0 -%}
+{%- assign col4_count = 0 -%}
+{%- assign col5_count = 0 -%}
+{%- assign col6_count = 0 -%}
+{%- assign col7_count = 0 -%}
+{%- assign col8_count = 0 -%}
+{%- assign col9_count = 0 -%}
+{%- assign col10_count = 0 -%}
+{%- assign col11_count = 0 -%}
+{%- assign col12_count = 0 -%}
+{%- assign count_2022 = 0 -%}
+{%- assign count_2023 = 0 -%}
+{%- assign count_2024 = 0 -%}
+{%- assign count_2025 = 0 -%}
+{%- comment -%}
 * Work out our column labels (also used for recognition / counting)
-{% endcomment %}
-{% capture last_month %}{{ site.time | date: "%m" | minus: 1 | inspect }}{% endcapture %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col1 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col2 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col3 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col4 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col5 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col6 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col7 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col8 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col9 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col10 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col11 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% assign last_month = last_month | minus: 1 | inspect %}
-{% if last_month == "0" %}
-{%	assign last_month = "12" %}
-{%	assign short_year = short_year | minus: 1 | inspect %}
-{% endif %}
-{% capture col12 %}{{ short_year }}/{{ last_month }}{% endcapture %}
-{% comment %}
+{%- endcomment -%}
+{%- capture last_month -%}{{ site.time | date: "%m" | minus: 1 | inspect }}{%- endcapture -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col1 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col2 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col3 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col4 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col5 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col6 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col7 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col8 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col9 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col10 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col11 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- assign last_month = last_month | minus: 1 | inspect -%}
+{%- if last_month == "0" -%}
+{%	assign last_month = "12" -%}
+{%	assign short_year = short_year | minus: 1 | inspect -%}
+{%- endif -%}
+{%- capture col12 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- comment -%}
 * Now loop, updating counters as we go
-{% endcomment %}
-{% for book_review in site.categories.books %}
-{% 	assign review_year = book_review.date | date: "%Y" %}
-{% 	if current_year == review_year %}
-{% 		assign year_count = year_count | plus: 1 %}
-{% 	elsif last_year == review_year %}
-{% 		assign last_year_count = last_year_count | plus: 1 %}
-{% 	endif %}
-{%    if review_year == "2022" %}
-{%       assign count_2022 = count_2022 | plus: 1 %}
-{%    elsif review_year == "2023" %}
-{%       assign count_2023 = count_2023 | plus: 1 %}
-{%    elsif review_year == "2024" %}
-{%       assign count_2024 = count_2024 | plus: 1 %}
-{%    elsif review_year == "2025" %}
-{%       assign count_2025 = count_2025 | plus: 1 %}
-{%    endif %}
-{%	assign review_month = book_review.date | date: "%m" | remove_first: "0" %}
-{%	capture year_month %}{{ book_review.date | date: "%y" }}/{{ review_month }}{% endcapture %}
-{%	if year_month == col1 %}
-{%		assign col1_count = col1_count | plus: 50 %}
-{%	elsif year_month == col2 %}
-{%		assign col2_count = col2_count | plus: 50 %}
-{%	elsif year_month == col3 %}
-{%		assign col3_count = col3_count | plus: 50 %}
-{%	elsif year_month == col4 %}
-{%		assign col4_count = col4_count | plus: 50 %}
-{%	elsif year_month == col5 %}
-{%		assign col5_count = col5_count | plus: 50 %}
-{%	elsif year_month == col6 %}
-{%		assign col6_count = col6_count | plus: 50 %}
-{%	elsif year_month == col7 %}
-{%		assign col7_count = col7_count | plus: 50 %}
-{%	elsif year_month == col8 %}
-{%		assign col8_count = col8_count | plus: 50 %}
-{%	elsif year_month == col9 %}
-{%		assign col9_count = col9_count | plus: 50 %}
-{%	elsif year_month == col10 %}
-{%		assign col10_count = col10_count | plus: 50 %}
-{%	elsif year_month == col11 %}
-{%		assign col11_count = col11_count | plus: 50 %}
-{%	elsif year_month == col12 %}
-{%		assign col12_count = col12_count | plus: 50 %}
-{%	endif %}
-{% endfor %}
+{%- endcomment -%}
+{%- for book_review in site.categories.books -%}
+{%- 	assign review_year = book_review.date | date: "%Y" -%}
+{%- 	if current_year == review_year -%}
+{%- 		assign year_count = year_count | plus: 1 -%}
+{%- 	elsif last_year == review_year -%}
+{%- 		assign last_year_count = last_year_count | plus: 1 -%}
+{%- 	endif -%}
+{%-    if review_year == "2022" -%}
+{%-       assign count_2022 = count_2022 | plus: 1 -%}
+{%-    elsif review_year == "2023" -%}
+{%-       assign count_2023 = count_2023 | plus: 1 -%}
+{%-    elsif review_year == "2024" -%}
+{%-       assign count_2024 = count_2024 | plus: 1 -%}
+{%-    elsif review_year == "2025" -%}
+{%-       assign count_2025 = count_2025 | plus: 1 -%}
+{%-    endif -%}
+{%	assign review_month = book_review.date | date: "%m" | remove_first: "0" -%}
+{%	capture year_month -%}{{ book_review.date | date: "%y" }}/{{ review_month }}{%- endcapture -%}
+{%	if year_month == col1 -%}
+{%		assign col1_count = col1_count | plus: 50 -%}
+{%	elsif year_month == col2 -%}
+{%		assign col2_count = col2_count | plus: 50 -%}
+{%	elsif year_month == col3 -%}
+{%		assign col3_count = col3_count | plus: 50 -%}
+{%	elsif year_month == col4 -%}
+{%		assign col4_count = col4_count | plus: 50 -%}
+{%	elsif year_month == col5 -%}
+{%		assign col5_count = col5_count | plus: 50 -%}
+{%	elsif year_month == col6 -%}
+{%		assign col6_count = col6_count | plus: 50 -%}
+{%	elsif year_month == col7 -%}
+{%		assign col7_count = col7_count | plus: 50 -%}
+{%	elsif year_month == col8 -%}
+{%		assign col8_count = col8_count | plus: 50 -%}
+{%	elsif year_month == col9 -%}
+{%		assign col9_count = col9_count | plus: 50 -%}
+{%	elsif year_month == col10 -%}
+{%		assign col10_count = col10_count | plus: 50 -%}
+{%	elsif year_month == col11 -%}
+{%		assign col11_count = col11_count | plus: 50 -%}
+{%	elsif year_month == col12 -%}
+{%		assign col12_count = col12_count | plus: 50 -%}
+{%	endif -%}
+{%- endfor -%}
 <h2>Book Reading Statistics</h2>
 <p>I began keeping notes of the books I had read in late January 2022. 
 The annual total
@@ -227,10 +227,6 @@ about entering reviews into the website so recent figures are more reliable.</p>
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 100,151.5 H 75.079"
        id="path14" />
-    <path
-       id="rect14"
-       style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 120,800 h 60 v -{{ col1_count }} h -60 z" />
     <text
        xml:space="preserve"
        style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle"
@@ -241,49 +237,53 @@ about entering reviews into the website so recent figures are more reliable.</p>
          x="593.097"
          y="64.5202">Books Read Per Month</tspan></text>
     <path
+       id="rect14"
+       style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
+       d="m 120,800 h 60 v -{{ col12_count }} h -60 z" />
+    <path
        id="path15"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 200,800 h 60 v -{{ col2_count }} h -60 z" />
+       d="m 200,800 h 60 v -{{ col11_count }} h -60 z" />
     <path
        id="path16"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 280,800 h 60 v -{{ col3_count }} h -60 z" />
+       d="m 280,800 h 60 v -{{ col10_count }} h -60 z" />
     <path
        id="path17"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 360,800 h 60 v -{{ col4_count }} h -60 z" />
+       d="m 360,800 h 60 v -{{ col9_count }} h -60 z" />
     <path
        id="path18"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 440,800 h 60 v -{{ col5_count }} h -60 z" />
+       d="m 440,800 h 60 v -{{ col8_count }} h -60 z" />
     <path
        id="path19"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 520,800 h 60 v -{{ col6_count }} h -60 z" />
+       d="m 520,800 h 60 v -{{ col7_count }} h -60 z" />
     <path
        id="path20"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 600,800 h 60 v -{{ col7_count }} h -60 z" />
+       d="m 600,800 h 60 v -{{ col6_count }} h -60 z" />
     <path
        id="path21"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 680,800 h 60 v -{{ col8_count }} h -60 z" />
+       d="m 680,800 h 60 v -{{ col5_count }} h -60 z" />
     <path
        id="path22"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 760,800 h 60 v -{{ col9_count }} h -60 z" />
+       d="m 760,800 h 60 v -{{ col4_count }} h -60 z" />
     <path
        id="path23"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 840,800 h 60 v -{{ col10_count }} h -60 z" />
+       d="m 840,800 h 60 v -{{ col3_count }} h -60 z" />
     <path
        id="path25"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 920,800 h 60 v -{{ col11_count }} h -60 z" />
+       d="m 920,800 h 60 v -{{ col2_count }} h -60 z" />
     <path
        id="path26"
        style="fill:#558822;fill-rule:evenodd;stroke:#808080;stroke-width:3"
-       d="m 1000,800 h 60 v -{{ col12_count }} h -60 z" />
+       d="m 1000,800 h 60 v -{{ col1_count }} h -60 z" />
     <text
        xml:space="preserve"
        style="font-size:40px;line-height:1.25;font-family:sans-serif"

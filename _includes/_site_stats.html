@@ -1,9 +1,9 @@
 
-{% comment %}
+{%- comment -%}
 *
 * Print out some site stats
 *
-{% endcomment %}
+{%- endcomment -%}
 
 <h2>Site Statistics</h2>
 <div class="row t10" >
@@ -43,14 +43,14 @@
       <p>and</p>
       <a href="/reviews/shorts">
         <div class="alert-box success">
-          {% assign short_count = 0 %}
-          {% for file_list in site.data.shorts %}
-          {% for short in file_list[1] %}
-          {% unless short.type == "draft" %}
-          {% assign short_count = short_count | plus: 1 %}
-          {% endunless %}
-          {% endfor %}
-          {% endfor %}
+          {%- assign short_count = 0 -%}
+          {%- for file_list in site.data.shorts -%}
+          {%- for short in file_list[1] -%}
+          {%- unless short.type == "draft" -%}
+          {%- assign short_count = short_count | plus: 1 -%}
+          {%- endunless -%}
+          {%- endfor -%}
+          {%- endfor -%}
           <p>{{ short_count }}</p>
         </div>
       </a>

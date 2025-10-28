@@ -46,6 +46,12 @@ chase-group:
       url: "/chase-group/chase-research-iolan/"
     - title: "The IOPro Family"
       url: "/chase-group/chase-research-iopro/"
+science-fiction:
+  menu:
+    - title: "Collections Home"
+      url: "/collections/"
+    - title: "Science Fiction Greats"
+      url: "/collections/science-fiction-greats/"
 tolkien:
   menu:
     - title: "Collections Home"

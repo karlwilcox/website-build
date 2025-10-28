@@ -2,50 +2,50 @@
 layout: default
 format: post
 ---
-{% assign site.gp_header_count = site.gp_header_count | plus: 1 %}
-{% if site.gp_header_count > site.gp_header_max %}
-{% assign site.gp_header_count = 1 %}
-{% endif %}
+{%- assign site.gp_header_count = site.gp_header_count | plus: 1 -%}
+{%- if site.gp_header_count > site.gp_header_max -%}
+{%- assign site.gp_header_count = 1 -%}
+{%- endif -%}
 
-{% if page.sidebar.header %}
-{% assign page.header.image_fullwidth = page.sidebar.header %}
-{% endif %}
+{%- if page.sidebar.header -%}
+{%- assign page.header.image_fullwidth = page.sidebar.header -%}
+{%- endif -%}
 
-{% assign permalink = page.dir | remove_first: "/pages" %}
+{%- assign permalink = page.dir | remove_first: "/pages" -%}
 <div class="row t30">
-	<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-1 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
+	<div class="medium-8 columns{%- if page.sidebar == NULL -%} medium-offset-1 end{%- endif -%}{%- if page.sidebar == "left" -%} medium-push-4{%- endif -%}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
-				{% if page.image.title %}
+				{%- if page.image.title -%}
 				<figure>
 					<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
 
-					{% if page.image.caption_url and page.image.caption %}
+					{%- if page.image.caption_url and page.image.caption -%}
 					<figcaption class="text-right">
 						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 					</figcaption>
-					{% elsif page.image.caption %}
+					{%- elsif page.image.caption -%}
 					<figcaption class="text-right">
 						{{ page.image.caption }}
 					</figcaption>
-					{% endif %}
+					{%- endif -%}
 				</figure>
-				{% endif %}
+				{%- endif -%}
 
-			{% include _breadcrumb.html %}
+			{%- include _breadcrumb.html -%}
 
 				<div itemprop="name">
-					{% if page.teaser %}
+					{%- if page.teaser -%}
 					<p class="teaser">{{ page.teaser }}</p>
-					{% endif %}
+					{%- endif -%}
 					<h1>{{ page.prefix}} {{ page.title }}</h1>
-					{% unless page.author == "karlw" %}
+					{%- unless page.author == "karlw" -%}
 					<p class="subheadline"><a href="/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
-					{% else %}
-					{% if page.subheadline %}
+					{%- else -%}
+					{%- if page.subheadline -%}
 					<p class="subheadline">{{ page.subheadline }}</p>
-					{% endif %}
-					{% endunless %}
+					{%- endif -%}
+					{%- endunless -%}
 				</div>
 			</header>
 
@@ -53,21 +53,21 @@ format: post
 			{{ content }}
 			</div>
 
-			{% if page.show_meta == true %}
-			{% include _meta_information.html %}
-			{% endif %}
+			{%- if page.show_meta == true -%}
+			{%- include _meta_information.html -%}
+			{%- endif -%}
 
 		</article>
-		{% include _breadcrumb.html %}
+		{%- include _breadcrumb.html -%}
 		<div class="medium-8 columns medium-offset-1 end">
-		{% if page.comments == true %}
-		{% include _comments.html %}
-		{% endif %}
+		{%- if page.comments == true -%}
+		{%- include _comments.html -%}
+		{%- endif -%}
 		</div>
 	</div><!-- /.medium-8.columns -->
-	{% if page.sidebar != NULL %}
+	{%- if page.sidebar != NULL -%}
 	<div class="medium-4 columns t30">
-		{% include _page_sidebar.html %}
+		{%- include _page_sidebar.html -%}
 	</div>
-	{% endif %}
+	{%- endif -%}
 </div><!-- /.row -->

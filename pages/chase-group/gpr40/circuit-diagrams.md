@@ -54,7 +54,7 @@ readable. Filename as supplied 36198004\_S.pdf.
 This is the board that I am most familiar with. It is known to be missing the
 serial comms "daughter board" that was mounted up in one corner and contained
 an UART and associated circuitry - for more details see the [remote operation
-page](/chase-group/gpr-40-remote-operation/).
+page](/chase-group/gpr40/remote-operation/).
 
 The earliest date is January 1985 (which slightly pre-dates my arrival later in
 that year) and the latest is 17/7/2001. A good quality scan with all parts

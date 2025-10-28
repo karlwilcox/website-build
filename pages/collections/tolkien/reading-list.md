@@ -78,7 +78,7 @@ with this for now.)
 * "Why We Love Middle Earth", Shawn Marchese and Alan Sisto, Mango Publishing 2023 paperback
 * "Anything You Can Imagine - Peter Jackson and the making of Middle Earth", Ian Nathan Harper Collins 2019 paperback
 * "The Real Middle Earth", Brian Bates, Pan Macmillan 2022 paperback
-* ["The Prancing Pony Podcast"](http://theprancingponypodcast.com)
+* ["The Prancing Pony Podcast"](https://theprancingponypodcast.com)
 
 ## Other Works by Tolkien
 

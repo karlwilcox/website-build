@@ -1,16 +1,16 @@
-{% comment %}
+{%- comment -%}
 * include an iframe and a download link to a resource
 *
 * usage:
 *
 * download src="URL" desc="Description"
 *
-{% endcomment %}
+{%- endcomment -%}
 
 <figure>
-{% if include.desc %}
+{%- if include.desc -%}
 <figcaption>{{ include.desc }}</figcaption>
-{% endif %}
+{%- endif -%}
 <div class="responsive-embed">
    <iframe width="640" height="480" src="{{ include.src }}" ></iframe>
 </div>

@@ -2,24 +2,24 @@
 	<div class="panel radius">
 		<h3>Pages In This Section</h3>
 		<ul>
-            {% for entry in site.data.sidebar[page.sidebar].menu %}
+            {%- for entry in site.data.sidebar[page.sidebar].menu -%}
 			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-			  {% if entry.submenu != NULL %}
+			  {%- if entry.submenu != NULL -%}
 			  <ul>
-				{% for subentry in entry.submenu %}
+				{%- for subentry in entry.submenu -%}
 				<li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
-				{% endfor %}
+				{%- endfor -%}
 			  </ul>
-			  {% endif %}
-			{% endfor %}
+			  {%- endif -%}
+			{%- endfor -%}
 		</ul>
 	</div>
 
-	{% if site.data.sidebar[page.sidebar].image != NULL %}
+	{%- if site.data.sidebar[page.sidebar].image != NULL -%}
 	<img class="b30" src="{{ site.data.sidebar[page.sidebar].image }}" alt="Sidebar Image">
-	{% else %}
+	{%- else -%}
 	<img class="b30" src="/img/decor/Authority-Figure-1-212x300.png" alt="Karl looking stern">
-	{% endif %}
+	{%- endif -%}
 
 
 	<div class="border-dotted radius b30">

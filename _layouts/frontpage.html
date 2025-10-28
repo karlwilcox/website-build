@@ -10,58 +10,58 @@ format: frontpage
 </div><!-- /#header-home -->
 
 
-{% comment %}
+{%- comment -%}
 *
 * First check, if widget is empty or not by checking if there is a title
 *
-{% endcomment %}
+{%- endcomment -%}
 <div class="row t60">
-	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
-	{% endif %}
+	{%- if page.widget1.image or page.widget1.video or page.widget1.title -%}
+		{%- include _frontpage-widget.html widget=page.widget1 -%}
+	{%- endif -%}
 
-	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
-	{% endif %}
+	{%- if page.widget2.image or page.widget2.video or page.widget2.title -%}
+		{%- include _frontpage-widget.html widget=page.widget2 -%}
+	{%- endif -%}
 
-	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
-	{% endif %}
+	{%- if page.widget3.image or page.widget3.video or page.widget3.title -%}
+		{%- include _frontpage-widget.html widget=page.widget3 -%}
+	{%- endif -%}
 </div><!-- /.row -->
 
-{% comment %}
+{%- comment -%}
 
 *
 * First check, if there is a call for action-button
 *
-{% endcomment %}
-{% if page.callforaction.url contains 'http' %}
-{% assign url = '' %}
-{% else %}
-{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-{% endif %}
-{% if page.callforaction %}
+{%- endcomment -%}
+{%- if page.callforaction.url contains 'http' -%}
+{%- assign url = '' -%}
+{%- else -%}
+{%- capture url -%}{{ site.url }}{{ site.baseurl }}{%- endcapture -%}
+{%- endif -%}
+{%- if page.callforaction -%}
 <div class="row t30 b30">
     <div class="small-12 text-center columns">
-        <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+        <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{%- if page.callforaction.url contains 'http' -%} target="_blank" {%- endif -%}>{{ page.callforaction.text }}</a>
     </div><!-- /.small-12.columns -->
 </div><!-- /.row -->
-{% endif %}
+{%- endif -%}
 
 
 <div class="row t0">
-{% include _site_stats.html %}
+{%- include _site_stats.html -%}
 </div><!-- /.row -->
 
-{% include surprise_me %}
+{%- include surprise_me -%}
 
-{% comment %}
+{%- comment -%}
 *
 * First check, if there are any posts at all
 *
-{% endcomment %}
+{%- endcomment -%}
 
-{% unless site.posts == empty %}
+{%- unless site.posts == empty -%}
     <div class="row t10 b20 homepage">
         <div class="small-12 columns">
             <h2>{{ site.data.language.new_blog_entries }}</h2>
@@ -70,50 +70,50 @@ format: frontpage
 
 
     <div class="row">
-            {% for post in site.posts limit:1 %}
+            {%- for post in site.posts limit:1 -%}
         <div class="medium-3 columns">
-            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
+            {%- if post.subheadline -%}<p class="subheadline">{{ post.subheadline }}</p>{%- endif -%}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.prefix}} {{ post.title }}</a></h2>
             <p>
-                {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+                {%- if post.meta_description -%}{{ post.meta_description | strip_html | escape }}{%- else post.teaser -%}{{ post.teaser | strip_html | escape }}{%- endif -%}
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
         </div><!-- /.medium-5.columns -->
         <div class="medium-3 columns">
-            {% if post.category == "blog" %}
-            {% capture src_url %}{{ site.urlimg }}blog/generic-thumb.jpg{% endcapture %}
-            {% capture thumb_path %}{{ site.urlimg }}blog/{{ post.thumb }}{% endcapture %}
-        {% else %}
-            {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
-            {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
-        {% endif %}
-              {% for img_file in site.static_files %}
-              {% if img_file.path == thumb_path %}
-              {% assign src_url = thumb_path %}
-              {% continue %}
-              {% endif %}
-              {% endfor %}
+            {%- if post.category == "blog" -%}
+            {%- capture src_url -%}{{ site.urlimg }}blog/generic-thumb.jpg{%- endcapture -%}
+            {%- capture thumb_path -%}{{ site.urlimg }}blog/{{ post.thumb }}{%- endcapture -%}
+        {%- else -%}
+            {%- capture src_url -%}{{ site.urlimg }}reviews/generic-thumb.jpg{%- endcapture -%}
+            {%- capture thumb_path -%}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{%- endcapture -%}
+        {%- endif -%}
+              {%- for img_file in site.static_files -%}
+              {%- if img_file.path == thumb_path -%}
+              {%- assign src_url = thumb_path -%}
+              {%- continue -%}
+              {%- endif -%}
+              {%- endfor -%}
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ post.title | escape_once }}"></a>
         </div>
-            {% endfor %}
+            {%- endfor -%}
 
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {%- include list-posts entries='3' offset='1' -%}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
-{% endunless %}
+{%- endunless -%}
 
 <div class="row t0">
-{% include _reading-stats.html %}
+{%- include _reading-stats.html -%}
 </div><!-- /.row -->
 
-{% comment %}
+{%- comment -%}
 *
 * Finally, if there is content, spit it out.
 *
-{% endcomment %}
+{%- endcomment -%}
 
 <div class="row">
     {{ content }}

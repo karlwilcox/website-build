@@ -11,12 +11,12 @@
     <script>
     function randomReview() {
       const urls = [
-      {% for post in site.posts %}
-        {% assign prefix = post.url | slice: 1,7 %}
-        {% if prefix == 'reviews' %}
+      {%- for post in site.posts -%}
+        {%- assign prefix = post.url | slice: 1,7 -%}
+        {%- if prefix == 'reviews' -%}
 		"{{ site.url }}{{ site.baseurl }}{{ post.url }}",
-		{% endif %}
-	  {% endfor %}
+		{%- endif -%}
+	  {%- endfor -%}
       ];
       var chosen = Math.floor(Math.random() * urls.length);
       document.getElementById("surprise-me").setAttribute('href', urls[chosen]);

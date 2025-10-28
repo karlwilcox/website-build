@@ -1,73 +1,78 @@
-{% comment %}
+{%- comment -%}
 *  This loops through the paginated posts
 *
 *  Total posts: {{ paginator.total_posts }}
 *  Total paginate-pages: {{ paginator.total_pages }}
 *
-{% endcomment %}
+{%- endcomment -%}
 
 
-{% for post in paginator.posts %}
+{%- for post in paginator.posts -%}
   <div class="row">
     <div class="small-12 columns">
-          {% if page.paginate.category == "blog" %}
-          {% assign see_all_url = "blog" %}
-          {% else %}
-          {% capture see_all_url %}reviews/{{ post.categories[1] }}{% endcapture %}
-          {% endif %}
+          {%- if page.paginate.category == "blog" -%}
+          {%- assign see_all_url = "blog" -%}
+          {%- else -%}
+          {%- capture see_all_url -%}reviews/{{ post.categories[1] }}{%- endcapture -%}
+          {%- endif -%}
         <p class="b0"><span class="subheadline">{{ site.data.categories[post.category].title | prepend: '<span class="subheader">' | append: '</span>' }}</span> <a href="/{{ see_all_url }}/{{ post.category }}/">See all&nbsp;›</a></p>
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.prefix }} {{ post.title }}</a></h2>
       <p class="b15">
-          {% if page.paginate.category == "blog" %}
-              {% capture src_url %}{{ site.urlimg }}blog/generic-thumb.jpg{% endcapture %}
-              {% capture thumb_path %}{{ site.urlimg }}blog/{{ post.thumb }}{% endcapture %}
-          {% else %}
-              {% capture src_url %}{{ site.urlimg }}reviews/generic-thumb.jpg{% endcapture %}
-              {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
-          {% endif %}
-          {% for img_file in site.static_files %}
-          {% if img_file.path == thumb_path %}
-          {% assign src_url = thumb_path %}
-          {% continue %}
-          {% endif %}
-          {% endfor %}
+          {%- if page.paginate.category == "blog" -%}
+              {%- capture src_url -%}{{ site.urlimg }}blog/generic-thumb.jpg{%- endcapture -%}
+              {%- capture thumb_path -%}{{ site.urlimg }}blog/{{ post.thumb }}{%- endcapture -%}
+          {%- else -%}
+              {%- capture src_url -%}{{ site.urlimg }}reviews/generic-thumb.jpg{%- endcapture -%}
+              {%- capture thumb_path -%}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{%- endcapture -%}
+          {%- endif -%}
+          {%- for img_file in site.static_files -%}
+          {%- if img_file.path == thumb_path -%}
+          {%- assign src_url = thumb_path -%}
+          {%- continue -%}
+          {%- endif -%}
+          {%- endfor -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title | escape_once }}"></a>
-        {% unless post.author == "karlw" %}
+        {%- unless post.author == "karlw" -%}
          - <a href="/author/{{ post.author }}/">{{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }}</a>
-        {% else %}
-        {% if post.subheadline %}
+        {%- else -%}
+        {%- if post.subheadline -%}
          - {{ post.subheadline }}
-        {% endif %}
-        {% endunless %}
+        {%- endif -%}
+        {%- endunless -%}
       </p>
       <p class="b30">
-        {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+        {%- if post.meta_description -%}{{ post.meta_description | strip_html | escape }}{%- elsif post.teaser -%}{{ post.teaser | strip_html | escape }}{%- endif -%}
 
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
       </p>
     </div><!-- /.small-12.columns -->
   </div><!-- /.row -->
-{% endfor %}
+{%- endfor -%}
 
 
 <nav id="pagination">
-    {% unless page.paginate.category == "reviews" or page.paginate.category == "blog" %}
-    {% assign cat_url = page.paginate.category | prepend: "reviews/" %}
-    {% else %}
-    {% assign cat_url = page.paginate.category %}
-    {% endunless %}
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
+    {%- unless page.paginate.category == "reviews" or page.paginate.category == "blog" -%}
+      {%- if page.paginate.parent -%}
+        {%- capture prefix -%}reviews/{{ page.paginate.parent }}/{%- endcapture -%}
+      {%- else -%}
+        {%- assign prefix = "reviews/" -%}
+      {%- endif -%}
+    {%- assign cat_url = page.paginate.category | prepend: prefix -%}
+    {%- else -%}
+    {%- assign cat_url = page.paginate.category -%}
+    {%- endunless -%}
+    {%- if paginator.previous_page -%}
+      {%- if paginator.previous_page == 1 -%}
       <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
-      {% else %}
+      {%- else -%}
       <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
-      {% endif %}
-    {% endif %}
+      {%- endif -%}
+    {%- endif -%}
 
     <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/" title="{{ site.data.language.blog_archive }}">Index Page</a>
 
-    {% if paginator.next_page %}
+    {%- if paginator.next_page -%}
     <a rel="next" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
-    {% endif %}
+    {%- endif -%}
   </nav>
 

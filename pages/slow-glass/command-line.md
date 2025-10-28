@@ -6,7 +6,7 @@ subheadline         : ""
 teaser              : ""
 header:
    image_fullwidth  : "headers/slow-glass.jpg"
-permalink           : "slow-glass/command-line-arguments/"
+permalink           : "slow-glass/command-line/"
 ---
 
 

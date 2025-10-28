@@ -69,7 +69,7 @@ I have a couple of screen dumps from the program - these are dated 1986 but
 have 25 lines of text and what looks like 320 pixels of width so I'm not sure
 what computer they were produced on.
 
-{% include download src="(chase-group/Channel-Occupancy.pdf" desc="Channel Occupancy" %}
+{% include download src="(chase-group/gpr40/Channel-Occupancy.pdf" desc="Channel Occupancy" %}
 
 This **Channel Occupancy** plot covers a range of frequencies in South London,
 including emergency services and private operators, all voice channels The

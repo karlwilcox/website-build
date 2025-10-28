@@ -33,7 +33,7 @@ I have information on the following devices:
 
 [The Chase Systems 68186 Unix Computer](/chase-group/chase-systems-68186/)
 
-[The Chase Electrics GPR40 / Will'Tek 8100 Radio Receiver](/chase-group/gpr40/information/)
+[The Chase Electrics GPR40 / Will'Tek 8100 Radio Receiver](/chase-group/gpr40/)
 
 [The Chase Research AT4/8/16 terminal concentrators](/chase-group/chase-research-at-family/)
 

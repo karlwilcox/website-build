@@ -1,17 +1,17 @@
-{% if page.permalink %}
-{% assign urlkey = page.permalink %}
-{% elsif post.permalink %}
-{% assign urlkey = post.permalink %}
-{% else %}
-{% assign urlkey = "none" %}
-{% endif %}
+{%- if page.permalink -%}
+{%- assign urlkey = page.permalink -%}
+{%- elsif post.permalink -%}
+{%- assign urlkey = post.permalink -%}
+{%- else -%}
+{%- assign urlkey = "none" -%}
+{%- endif -%}
 
 <h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
-{% assign commentList = site.data.comments | where: "url", urlkey %}
-{% for commentItem in commentList %}
+{%- assign commentList = site.data.comments | where: "url", urlkey -%}
+{%- for commentItem in commentList -%}
 <p>On {{ commentItem.date }} {{ commentItem.name | default: "Anonymous" }} said:</p>
 <p class="comment">{{ commentItem.comment }}</p>
-{% endfor %}
+{%- endfor -%}
 
 <div id="wufoo-q33ee651u2d94b"> Fill out my <a href="https://karlwilcox.wufoo.com/forms/q33ee651u2d94b">online form</a>.</div>
 				<script type="text/javascript"> var q33ee651u2d94b; (function(d, t) { var s = d.createElement(t), options = { 'userName':'karlwilcox', 'formHash':'q33ee651u2d94b', 'autoResize':true, 'height':'555', 'defaultValues':'field1=' + d.location.pathname, 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { q33ee651u2d94b = new WufooForm(); q33ee651u2d94b.initialize(options); q33ee651u2d94b.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
