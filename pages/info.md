@@ -102,6 +102,6 @@ Comments are disabled unless you put comments: true in the front matter of each
 page, or in the defaults section of the _config.yml file.
 
  [1]: https://jekyllrb.com/
- [2]: https://pop.system76.com/
+ [2]: https://system76.com/pop/
  [3]: https://affinity.serif.com/
  [4]: https://phlow.github.io/feeling-responsive/

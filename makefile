@@ -7,7 +7,7 @@ SHELL := /bin/bash
 build: thumbs
 	bundle exec jekyll build
 	echo forcing page asset copy
-	(cd pages; find . -path ./pages-root-folder -prune -o -type f -not -name "*.md" -not -name "*.html" -exec cp "{}" /Users/karlw/Sites/{} \; )
+	(cd pages; find . -path ./pages-root-folder -prune -o -type f -not -name "*.md" -not -name "*.html" -print | cpio -pd /Users/karlw/Sites/ \; )
 	chmod -R go+r /Users/karlw/Sites
 	echo -n "Completed at: "
 	date
@@ -31,6 +31,28 @@ gallery: do_gallery
 #   This can be pasted into the top matter of the target file and {% include gallery %} inserted where required.
 do_gallery:
 	echo "gallery:"
+	mkdir -p $(target)/thumbs 
+	/bin/rm -f  $(target)/thumbs/*-thumb.{jpg,png,jpeg}
+	for i in $(target)/*;
+	do
+		file="$${i##*/}"
+		dir="$${i%/*}"
+		ext="$${file##*.}"
+		base="$${file%.*}"
+		caption=( $${base//-/ } )
+		if [[ $$ext == 'png' || $$ext == 'jpeg' || $$ext == 'jpg' ]]
+		then
+			echo "    - image_url: $${i:4}"
+			echo "      caption: $${caption[@]^}"
+			echo "      thumb_url: $${dir:4}/thumbs/$${base}.jpg"
+			echo "      tags: "
+			magick -define jpeg:size:400x400 $$i -thumbnail '200x200>' -background white -gravity center -extent 200x200 $$dir/thumbs/$${base}.jpg
+		fi
+	done
+	
+do_artwork:
+	echo "folder?"
+	read target
 	mkdir -p $(target)/thumbs 
 	/bin/rm -f  $(target)/thumbs/*-thumb.{jpg,png,jpeg}
 	for i in $(target)/*;

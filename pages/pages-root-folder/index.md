@@ -22,15 +22,7 @@ widget3:
   url: '/reviews'
   image: widgets/reviews.jpg
   text: 'I read a lot of books, watch films and TV shows and play the odd computer game. I like to make a few notes on all the media I consume so I thought it might be nice to share these with you. You may not agree with my assessments, but that is fine!'
-gallery:
-  - image_url: fp-gallery/cathedral.jpg
-  - image_url: fp-gallery/Beach-Resort-Daytime.jpg
-  - image_url: fp-gallery/Authority-Figure.jpg
-  - image_url: fp-gallery/busy-city.jpg
-  - image_url: fp-gallery/Entrance.jpg
-  - image_url: fp-gallery/venus-sky-base.jpg
-  - image_url: fp-gallery/tall-city.jpg
-  - image_url: fp-gallery/Buttress.jpg
+
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -53,8 +45,8 @@ permalink: /index.html
 homepage: true
 ---
 
-<h2>Artwork Sampler</h2>
+## Artwork Sampler
 
-And here's some pictures, more under the "Interests => Artwork" menu entry above.
+And here's some of my attempts at creating art, more under the "Interests => Artwork" menu entry above.
 
-{% include gallery %}
+{% include random-art %}

@@ -1,5 +1,6 @@
 ---
-layout              : artwork
+layout              : page
+sidebar       : artwork
 title               : "Painting"
 subheadline         : ""
 header:

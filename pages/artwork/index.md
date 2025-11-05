@@ -1,10 +1,9 @@
 ---
-layout              : artwork
+layout              : page
+sidebar       : artwork
 title               : "Artwork"
 subheadline         : "A Miscellany of Mediocre Art"
 teaser              : "Mediocrity in many media"
-header:
-   image_fullwidth  : "headers/art-materials.jpg"
 permalink           : "/artwork/"
 ---
 
@@ -23,7 +22,7 @@ that is a pleasant bonus!
 function setSample() {
    const imgs = [
       {% for img in site.data.artwork -%}
-               "{{ site.urlimg }}/{{ img.thumb_url }}",
+               "/{{ img.thumb_url }}",
       {%- endfor %}
    ];
    var chosen = Math.floor(Math.random() * imgs.length);
@@ -35,22 +34,5 @@ setSample();
 Artworks are presented in galleries of thumbnails like the (non-functional) example
 above. Click on any of the thumbnails to see a larger version and a brief description.
 
-## Images by Media
-
-I have organised the work by various categories (so you will see duplicates if 
-you visit every page here). Here is a list of pages showcasing the various
-different media that I have tried out:
-
-* [3D Renderings](/artwork/3D-rendering/)
-* [Digital Painting](/artwork/digital-painting)
-* [Line Drawings](/artwork/line-drawings/)
-* [Marker Pens](/artwork/marker-pen)
-* [Painting](/artwork/painting)
-* [Pencil](/artwork/pencil)
-* [OU Doodles](/artwork/ou-doodles)
-* [Studio Ghibli Characters](/artwork/ghibli)
-
-## Images By Subject
-
-* [Science Fiction](/artwork/sci-fi/)
-* [Architecture](/artwork/architecture)
+I have organised the work by various categories in the sidebar menu (so you will see duplicates if
+you visit every page here).

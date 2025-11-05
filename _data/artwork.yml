@@ -87,41 +87,29 @@
       tags: sci-fi
 # line-drawings
     - image_url: artwork/line-drawings/aerostat-label.jpg
-      caption: Aerostat luggage label, technical pen on beige paper
+      caption: Aerostat luggage label, sepia technical pen on beige paper
       thumb_url: artwork/line-drawings/thumbs/aerostat-label.jpg
       tags: steampunk
     - image_url: artwork/line-drawings/busy-city.png
-      caption: busy city
+      caption: Imaginary city, black fine liner on art paper
       thumb_url: artwork/line-drawings/thumbs/busy-city.jpg
-      tags: 
+      tags: architecture
     - image_url: artwork/line-drawings/castle-tower.jpg
-      caption: castle tower
+      caption: Part of Lincoln Castle, black fine liner on art paper (compare with marker pen drawings for a different angle)
       thumb_url: artwork/line-drawings/thumbs/castle-tower.jpg
-      tags: 
+      tags: architecture
     - image_url: artwork/line-drawings/cloister-court.jpg
-      caption: cloister court
+      caption: View of Lincoln Cathedral from within the cloister court, black fine liner on art paper
       thumb_url: artwork/line-drawings/thumbs/cloister-court.jpg
-      tags: 
+      tags: architecture
     - image_url: artwork/line-drawings/cottage.jpg
-      caption: cottage
+      caption: Pair of cottages, sepia fine liner on art paper
       thumb_url: artwork/line-drawings/thumbs/cottage.jpg
-      tags: 
+      tags: architecture
     - image_url: artwork/line-drawings/disney-hotel.jpg
       caption: The Disneyland Paris Hotel from the gardens, sepia ink pen on art paper
       thumb_url: artwork/line-drawings/thumbs/disney-hotel.jpg
       tags: architecturel
-    - image_url: artwork/line-drawings/fantasy-castle.jpg
-      caption: fantasy castle
-      thumb_url: artwork/line-drawings/thumbs/fantasy-castle.jpg
-      tags: 
-    - image_url: artwork/line-drawings/garden-bench.jpg
-      caption: garden bench
-      thumb_url: artwork/line-drawings/thumbs/garden-bench.jpg
-      tags: 
-    - image_url: artwork/line-drawings/garden-table.jpg
-      caption: garden table
-      thumb_url: artwork/line-drawings/thumbs/garden-table.jpg
-      tags: 
     - image_url: artwork/line-drawings/gear-detail.jpg
       caption: Gear detail, intended as a web page watermark, ink on beige art paper
       thumb_url: artwork/line-drawings/thumbs/gear-detail.jpg
@@ -142,10 +130,6 @@
       caption: openings
       thumb_url: artwork/line-drawings/thumbs/openings.jpg
       tags: 
-    - image_url: artwork/line-drawings/oriel-window.jpg
-      caption: oriel window
-      thumb_url: artwork/line-drawings/thumbs/oriel-window.jpg
-      tags: 
     - image_url: artwork/line-drawings/paris-souterrain.jpg
       caption: paris souterrain
       thumb_url: artwork/line-drawings/thumbs/paris-souterrain.jpg
@@ -157,10 +141,6 @@
     - image_url: artwork/line-drawings/tall-city.png
       caption: tall city
       thumb_url: artwork/line-drawings/thumbs/tall-city.jpg
-      tags: 
-    - image_url: artwork/line-drawings/tree-fountain.jpg
-      caption: tree fountain
-      thumb_url: artwork/line-drawings/thumbs/tree-fountain.jpg
       tags: 
     - image_url: artwork/line-drawings/wall-detail.jpg
       caption: wall detail
@@ -202,51 +182,51 @@
     - image_url: artwork/marker-pen/ghibli01.jpg
       caption: ghibli01
       thumb_url: artwork/marker-pen/thumbs/ghibli01.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli02.jpg
       caption: ghibli02
       thumb_url: artwork/marker-pen/thumbs/ghibli02.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli03.jpg
       caption: ghibli03
       thumb_url: artwork/marker-pen/thumbs/ghibli03.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli04.jpg
       caption: ghibli04
       thumb_url: artwork/marker-pen/thumbs/ghibli04.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli05.jpg
       caption: ghibli05
       thumb_url: artwork/marker-pen/thumbs/ghibli05.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli06.jpg
       caption: ghibli06
       thumb_url: artwork/marker-pen/thumbs/ghibli06.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli07.jpg
       caption: ghibli07
       thumb_url: artwork/marker-pen/thumbs/ghibli07.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli08.jpg
       caption: ghibli08
       thumb_url: artwork/marker-pen/thumbs/ghibli08.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli09.jpg
       caption: ghibli09
       thumb_url: artwork/marker-pen/thumbs/ghibli09.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli10.jpg
       caption: ghibli10
       thumb_url: artwork/marker-pen/thumbs/ghibli10.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli11.jpg
       caption: ghibli11
       thumb_url: artwork/marker-pen/thumbs/ghibli11.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/ghibli12.jpg
       caption: ghibli12
       thumb_url: artwork/marker-pen/thumbs/ghibli12.jpg
-      tags: 
+      tags: ghibli
     - image_url: artwork/marker-pen/greenhouse.png
       caption: greenhouse
       thumb_url: artwork/marker-pen/thumbs/greenhouse.jpg
@@ -321,6 +301,26 @@
       thumb_url: artwork/painting/thumbs/vineyard-terrace.jpg
       tags: 
 # pencil
+    - image_url: artwork/pencil/tree-fountain.jpg
+      caption: tree fountain
+      thumb_url: artwork/pencil/thumbs/tree-fountain.jpg
+      tags: 
+    - image_url: artwork/pencil/oriel-window.jpg
+      caption: oriel window
+      thumb_url: artwork/pencil/thumbs/oriel-window.jpg
+      tags: 
+    - image_url: artwork/pencil/garden-bench.jpg
+      caption: garden bench
+      thumb_url: artwork/pencil/thumbs/garden-bench.jpg
+      tags: 
+    - image_url: artwork/pencil/garden-table.jpg
+      caption: garden table
+      thumb_url: artwork/pencil/thumbs/garden-table.jpg
+      tags: 
+    - image_url: artwork/pencil/fantasy-castle.jpg
+      caption: fantasy castle
+      thumb_url: artwork/pencil/thumbs/fantasy-castle.jpg
+      tags: 
     - image_url: artwork/pencil/apple.jpg
       caption: apple
       thumb_url: artwork/pencil/thumbs/apple.jpg
@@ -373,6 +373,10 @@
     - image_url: artwork/ou-doodles/wacko.png
       caption: More in Sorrow than in Anger
       thumb_url: artwork/ou-doodles/thumbs/wacko.jpg
+      tags: 
+    - image_url: artwork/ou-doodles/after-the-marking.png
+      caption: After the Marking
+      thumb_url: artwork/ou-doodles/thumbs/after-the-marking.jpg
       tags: 
     - image_url: artwork/ou-doodles/why.png
       caption: What Makes it all Worthwhile?

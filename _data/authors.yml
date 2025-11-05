@@ -86,7 +86,7 @@ chris-hammer:
 deborah-harkness:
   forename: "Deborah"
   surname: "Harkness"
-  note: "Queen of Witches (and vampires, werewolves and the other creatures"
+  note: "Queen of Witches (and vampires, werewolves and the other creatures)"
 jane-harper:
   forename: "Jane"
   surname: "Harper"
@@ -154,6 +154,7 @@ adrian-t:
 satoshi-yagisawa:
   forename: "Satoshi"
   surname: "Yagisawa"
+  note: "Delightful and moving slices of Japanese life"
 arthur-c-clarke:
   forename: "Arthur C."
   surname: "Clarke"

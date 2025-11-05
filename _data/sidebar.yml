@@ -52,6 +52,9 @@ science-fiction:
       url: "/collections/"
     - title: "Science Fiction Greats"
       url: "/collections/science-fiction-greats/"
+    - title: "The Reading List"
+      url: "/collections/science-fiction-greats/shelf-list/"
+  image: "/collections/science-fiction-greats/sf-logo.jpg"
 tolkien:
   menu:
     - title: "Collections Home"
@@ -108,4 +111,36 @@ new-pemberley:
       url: "/new-pemberley/ballroom/"
     - title: "Grounds and Ancillary Buildings" 
       url: "/new-pemberley/outside-areas/"
-  
+artwork:
+  header: "/artwork/art-materials.jpg"
+  menu:
+    - title: Artwork Home
+      url: "/artwork/"
+    - title: Images by Media
+      url: "/artwork/"
+      submenu:
+        - title: "3D Renderings"
+          url: "/artwork/3D-rendering"
+        - title: "Digital Painting"
+          url: /artwork/digital-painting
+        - title: "Line Drawings"
+          url: "/artwork/line-drawings/"
+        - title: "Marker Pens"
+          url: "/artwork/marker-pen"
+        - title: "Painting"
+          url: "/artwork/painting"
+        - title: "Pencil"
+          url: "/artwork/pencil"
+    - title: Images by Subject
+      url: "/artwork/"
+      submenu:
+        - title: "Science Fiction"
+          url: "/artwork/sci-fi/"
+        - title: "Architecture"
+          url: "/artwork/architecture"
+        - title: "Studio Ghibli Characters"
+          url: "/artwork/ghibli"
+        - title: "OU Doodles"
+          url: "/artwork/ou-doodles"
+  image: "/artwork/marker-pens.jpg"
+ 

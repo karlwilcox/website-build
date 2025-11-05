@@ -34,73 +34,73 @@
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col1 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col1 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col2 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col2 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col3 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col3 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col4 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col4 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col5 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col5 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col6 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col6 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col7 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col7 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col8 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col8 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col9 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col9 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col10 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col10 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col11 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col11 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- assign last_month = last_month | minus: 1 | inspect -%}
 {%- if last_month == "0" -%}
 {%	assign last_month = "12" -%}
 {%	assign short_year = short_year | minus: 1 | inspect -%}
 {%- endif -%}
-{%- capture col12 -%}{{ short_year }}/{{ last_month }}{%- endcapture -%}
+{%- capture col12 -%}{{ last_month }}/{{ short_year }}{%- endcapture -%}
 {%- comment -%}
 * Now loop, updating counters as we go
 {%- endcomment -%}
@@ -120,8 +120,11 @@
 {%-    elsif review_year == "2025" -%}
 {%-       assign count_2025 = count_2025 | plus: 1 -%}
 {%-    endif -%}
-{%	assign review_month = book_review.date | date: "%m" | remove_first: "0" -%}
-{%	capture year_month -%}{{ book_review.date | date: "%y" }}/{{ review_month }}{%- endcapture -%}
+{%	assign review_month = book_review.date | date: "%m" -%} 
+{%- unless review_month == "10" -%}
+{%- assign review_month = review_month | remove_first: "0" -%}
+{%- endunless -%}
+{%	capture year_month -%}{{ review_month }}/{{ book_review.date | date: "%y" }}{%- endcapture -%}
 {%	if year_month == col1 -%}
 {%		assign col1_count = col1_count | plus: 50 -%}
 {%	elsif year_month == col2 -%}
