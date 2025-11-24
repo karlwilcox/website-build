@@ -7,6 +7,7 @@ header:
    image_fullwidth  : "gp-header"
 permalink           : "/collections/"
 comments            : true
+sidebar			     : collections
 ---
 
 I've always known that I was a reader and had amassed quite a stock of books,

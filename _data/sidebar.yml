@@ -55,6 +55,24 @@ science-fiction:
     - title: "The Reading List"
       url: "/collections/science-fiction-greats/shelf-list/"
   image: "/collections/science-fiction-greats/sf-logo.jpg"
+japanese:
+  menu:
+    - title: "Collections Home"
+      url: "/collections/"
+    - title: "Japanese and Korean Novels"
+      url: "/collections/japanese-and-korean/"
+    - title: "The Reading List"
+      url: "/collections/japanese-and-korean/shelf-list/"
+  image: "/collections/japanese-and-korean/japanese.jpg"
+british-history:
+  menu:
+    - title: "Collections Home"
+      url: "/collections/"
+    - title: "Modern British History"
+      url: "/collections/modern-british-history/"
+    - title: "British History Reading List"
+      url: "/collections/modern-british-history/reading-list/"
+  image: "/collections/modern-british-history/boy-watching.jpg"
 tolkien:
   menu:
     - title: "Collections Home"
@@ -64,6 +82,19 @@ tolkien:
     - title: "Tolkien Reading List"
       url: "/collections/tolkien/reading-list"
   image: "/collections/tolkien/tolkien-portrait.jpg"
+collections:
+  menu:
+    - title: "J.R.R. Tolkien"
+      url: "/collections/tolkien/"
+    - title: "Jane Austen"
+      url: "/collections/jane-austen/"
+    - title: "Japanese and Korean Novels"
+      url: "/collections/japanese-and-korean/"
+    - title: "Science Fiction Greats"
+      url: "/collections/science-fiction-greats/"
+    - title: "Modern British History"
+      url: "/collections/modern-british-history/"
+  image: "/collections/books.jpg"
 slow-glass:
   menu:
     - title: "Slow Glass Home"
