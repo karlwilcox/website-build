@@ -53,9 +53,9 @@ do_gallery:
 do_artwork:
 	echo "folder?"
 	read target
-	mkdir -p $(target)/thumbs 
-	/bin/rm -f  $(target)/thumbs/*-thumb.{jpg,png,jpeg}
-	for i in $(target)/*;
+	mkdir -p $${target}/thumbs 
+	/bin/rm -f  $${target}/thumbs/*-thumb.{jpg,png,jpeg}
+	for i in $${target}/*;
 	do
 		file="$${i##*/}"
 		dir="$${i%/*}"

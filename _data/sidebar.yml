@@ -153,15 +153,17 @@ artwork:
         - title: "3D Renderings"
           url: "/artwork/3D-rendering"
         - title: "Digital Painting"
-          url: /artwork/digital-painting
+          url: "/artwork/digital-painting/"
         - title: "Line Drawings"
           url: "/artwork/line-drawings/"
         - title: "Marker Pens"
-          url: "/artwork/marker-pen"
+          url: "/artwork/marker-pen/"
         - title: "Painting"
-          url: "/artwork/painting"
+          url: "/artwork/painting/"
         - title: "Pencil"
-          url: "/artwork/pencil"
+          url: "/artwork/pencil/"
+        - title: "Canva AI"
+          url: "/artwork/canva-ai/"
     - title: Images by Subject
       url: "/artwork/"
       submenu:

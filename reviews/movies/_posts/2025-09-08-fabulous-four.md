@@ -1,6 +1,7 @@
 ---
 layout: review
-title: "The Fabulous Four"
+title: "Fabulous Four"
+prefix: "The"
 subheadline: ""
 teaser: "Netflix"
 tags:

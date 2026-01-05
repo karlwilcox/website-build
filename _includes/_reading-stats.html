@@ -26,6 +26,7 @@
 {%- assign count_2023 = 0 -%}
 {%- assign count_2024 = 0 -%}
 {%- assign count_2025 = 0 -%}
+{%- assign count_2026 = 0 -%}
 {%- comment -%}
 * Work out our column labels (also used for recognition / counting)
 {%- endcomment -%}
@@ -119,6 +120,8 @@
 {%-       assign count_2024 = count_2024 | plus: 1 -%}
 {%-    elsif review_year == "2025" -%}
 {%-       assign count_2025 = count_2025 | plus: 1 -%}
+{%-    elsif review_year == "2026" -%}
+{%-       assign count_2026 = count_2026 | plus: 1 -%}
 {%-    endif -%}
 {%	assign review_month = book_review.date | date: "%m" -%} 
 {%- unless review_month == "10" -%}
@@ -433,13 +436,15 @@ about entering reviews into the website so recent figures are more reliable.</p>
             <th>2023</th>
             <th>2024</th>
             <th>2025</th>
+            <th>2026</th>
          </tr>
          <tr>
             <td>{{ count_2022 }}</td>
             <td>{{ count_2023 }}</td>
             <td>{{ count_2024 }}</td>
             <td>{{ count_2025 }}</td>
+            <td>{{ count_2026 }}</td>
          </tr>
       </table>
-      <p>(2023 looks a bit low as I still have backlog of notes to write up)</p>
+      <p>(2023 looks a bit low as I have backlog of notes that didn't get written up)</p>
 </div>
