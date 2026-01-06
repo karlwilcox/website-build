@@ -64,7 +64,7 @@ format: frontpage
 {%- unless site.posts == empty -%}
     <div class="row t10 b20 homepage">
         <div class="small-12 columns">
-            <h2>{{ site.data.language.new_blog_entries }}</h2>
+            <h2>{{ site.data.text.new_blog_entries }}</h2>
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
@@ -76,7 +76,7 @@ format: frontpage
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.prefix}} {{ post.title }}</a></h2>
             <p>
                 {%- if post.meta_description -%}{{ post.meta_description | strip_html | escape }}{%- else post.teaser -%}{{ post.teaser | strip_html | escape }}{%- endif -%}
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.text.read_more }}</strong></a>
             </p>
         </div><!-- /.medium-5.columns -->
         <div class="medium-3 columns">
@@ -99,7 +99,7 @@ format: frontpage
 
 
         <div class="medium-6 columns">
-            <p><strong>{{ site.data.language.more_articles }}</strong></p>
+            <p><strong>{{ site.data.text.more_articles }}</strong></p>
             {%- include list-posts entries='3' offset='1' -%}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->

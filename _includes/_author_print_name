@@ -9,7 +9,7 @@ returns string containing nicely formatted author name
 {%- assign output = "Error: unknown author" -%}
 {%- for author in site.data.authors -%}
 {%- if author.key == include.key -%}
-{%- capture output -%}author.forename author.surname{%- endcapture -%}
+{%- capture output -%}author.title author.forename author.surname{%- endcapture -%}
 {%- break -%}
 {%- endif -%}
 {%- endfor -%}

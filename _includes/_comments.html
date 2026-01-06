@@ -6,7 +6,7 @@
 {%- assign urlkey = "none" -%}
 {%- endif -%}
 
-<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
+<h3 id="comments" class="t60">{{ site.data.text.comments_headline }}</h3>
 {%- assign commentList = site.data.comments | where: "url", urlkey -%}
 {%- for commentItem in commentList -%}
 <p>On {{ commentItem.date }} {{ commentItem.name | default: "Anonymous" }} said:</p>

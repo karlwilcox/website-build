@@ -329,7 +329,7 @@ autopages:
   # Add this block
   authors:
     enabled: true
-    data: '_data/authors.yml' # Data file with the author details
+    data: '_data/authors.json' # Data file with the author details
     # Uncomment the line below to force exclude certain authors from autopage generation.
     exclude: [ "karlw" ]
     layouts:

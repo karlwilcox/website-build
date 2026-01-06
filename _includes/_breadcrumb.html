@@ -5,7 +5,7 @@
 {%- endcomment -%}
 
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- <a href="/">{{ site.data.language.breadcrumb_start }}</a>
+ <a href="/">{{ site.data.text.breadcrumb_start }}</a>
  {%- assign crumbs = page.url | split: '/' -%}
    {%- for crumb in crumbs offset: 1 -%}
     {%- if forloop.last -%}

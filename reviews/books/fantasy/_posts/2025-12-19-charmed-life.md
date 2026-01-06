@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Charmed Life"
-subheadline: "Diana Wynne Jones"
+author: d-w-jones
 teaser: "Chrestomanci Series 1"
 tags:
   - ""
