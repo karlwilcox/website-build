@@ -2,8 +2,8 @@
 layout: review
 title: "White Lotus"
 prefix: "The"
-subheadline: "Netflix"
-teaser: "Season 3"
+network: "Netflix"
+season: "3"
 tags:
   - "drama"
   - "thailand"

@@ -4,7 +4,7 @@ title			: "British History Volumes"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /collections/modern-british-history/reading-list/
 comments		: true
 sidebar			: british-history

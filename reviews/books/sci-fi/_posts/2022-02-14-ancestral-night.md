@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Ancestral Night"
-subheadline: "Elizabeth Bear"
-teaser: "A White Space Novel"
+subtitle: "Elizabeth Bear"
+series: "A White Space Novel"
 tags:
   - "sci-fi"
 ---

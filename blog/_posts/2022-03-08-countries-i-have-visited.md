@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Countries I Have Visited"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

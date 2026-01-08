@@ -2,7 +2,7 @@
 layout: review
 title: "In Our Stars"
 author: jack-campbell
-teaser: "Book 1 of something!"
+series: "Book 1 of something!"
 tags:
   - "military"
   - "sci-fi"

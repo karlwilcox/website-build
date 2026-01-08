@@ -3,7 +3,7 @@ layout: review
 title: "Collapsing Empire"
 prefix: "The"
 author: "john-scalzi"
-teaser: "The Interdependcy book 1"
+series: "The Interdependcy book 1"
 tags:
   - "sci-fi"
 ---

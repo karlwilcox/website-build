@@ -2,8 +2,8 @@
 layout: review
 title: "Making of the Atomic Bomb"
 prefix: "The"
-subheadline: "Richard Rhodes"
-teaser: "25th Anniversary Edition"
+subtitle: "Richard Rhodes"
+series: "25th Anniversary Edition"
 tags:
   - ""
 ---

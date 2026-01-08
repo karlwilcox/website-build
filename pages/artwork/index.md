@@ -2,7 +2,7 @@
 layout              : page
 sidebar       : artwork
 title               : "Artwork"
-subheadline         : "A Miscellany of Mediocre Art"
+subtitle         : "A Miscellany of Mediocre Art"
 teaser              : "Mediocrity in many media"
 permalink           : "/artwork/"
 ---

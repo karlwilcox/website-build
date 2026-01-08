@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Reconstructing Amelia"
-subheadline: "Kimberley McCreight"
-teaser: ""
+subtitle: "Kimberley McCreight"
+series: ""
 tags:
   - "crime"
   - "new york"

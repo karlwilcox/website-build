@@ -2,7 +2,7 @@
 layout: review
 title: "Mansfield Park"
 author: jane-austen
-teaser: ""
+series: ""
 tags:
   - "historical"
 ---

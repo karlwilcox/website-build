@@ -3,7 +3,7 @@ layout: review
 title: "Hydrogen Sonata"
 prefix: "The"
 author: iain-banks
-teaser: "The Culture re-read"
+series: "The Culture re-read"
 tags:
   - "space opera"
 ---

@@ -2,8 +2,8 @@
 layout: review
 title: "Skeleton Key"
 prefix: "The"
-subheadline: "Erin Kelly"
-teaser: ""
+subtitle: "Erin Kelly"
+series: ""
 tags:
   - "london"
   - "bookclub"

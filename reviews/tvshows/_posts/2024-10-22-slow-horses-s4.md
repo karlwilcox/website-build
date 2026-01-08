@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Slow Horses"
-subheadline: "Apple TV+"
-teaser: "Season 4"
+network: "Apple TV+"
+season: "4"
 tags:
   - "london"
   - "espionage"

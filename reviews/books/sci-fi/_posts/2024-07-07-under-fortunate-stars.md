@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Under Fortunate Stars"
-subheadline: "Ren Hutchings"
+subtitle: "Ren Hutchings"
 tags:
   - "sci-fi"
 ---

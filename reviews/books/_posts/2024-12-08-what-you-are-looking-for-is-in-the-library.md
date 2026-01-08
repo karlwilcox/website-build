@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "What Your Are Looking For is in the Library"
-subheadline: "Michilo Aoyama"
-teaser: ""
+subtitle: "Michilo Aoyama"
+series: ""
 tags:
   - "japan"
 ---

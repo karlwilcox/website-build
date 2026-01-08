@@ -2,7 +2,7 @@
 layout: review
 title: "Persausion"
 author: jane-austen
-teaser: ""
+series: ""
 tags:
   - "regency"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Halo Infinite"
-subheadline: "XBox"
+platform: "XBox"
 teaser: ""
 tags:
   - "fps"

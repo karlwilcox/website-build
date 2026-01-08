@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Challenger"
-subheadline: "Adam Higginbottom"
-teaser: ""
+subtitle: "Adam Higginbottom"
+series: ""
 tags:
   - "space"
   - "history"

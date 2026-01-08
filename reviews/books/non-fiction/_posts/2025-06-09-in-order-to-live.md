@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "In Order To Live"
-subheadline: "Yeong-mi Park"
-teaser: ""
+subtitle: "Yeong-mi Park"
+series: ""
 tags:
   - "korea"
 ---

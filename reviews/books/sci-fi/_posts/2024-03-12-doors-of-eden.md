@@ -3,7 +3,7 @@ layout: review
 title: "Doors of Eden"
 prefix: "The"
 author: adrian-t
-teaser: ""
+series: ""
 tags:
   - "sci-fi"
 ---

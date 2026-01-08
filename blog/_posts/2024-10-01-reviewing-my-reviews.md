@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Reviewing My Reviews"
-subheadline: "Is it all worth it?"
+subtitle: "Is it all worth it?"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

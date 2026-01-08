@@ -2,7 +2,7 @@
 layout: review
 title: "Machine Vendetta"
 author: "alastair-reynolds"
-teaser: "Prefect Dreyfus Book 3"
+series: "Prefect Dreyfus Book 3"
 tags:
   - "sci-fi"
 ---

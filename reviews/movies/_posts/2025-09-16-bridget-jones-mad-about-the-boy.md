@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Bridget Jones"
-subheadline: "Sky Store"
+network: "Sky Store"
 teaser: "Mad About the Boy"
 tags:
   - "london"

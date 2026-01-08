@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Firewatch"
-subheadline: "XBox Game"
+platform: "XBox Game"
 teaser: ""
 tags:
   - "mystery"

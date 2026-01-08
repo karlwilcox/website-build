@@ -3,7 +3,7 @@ layout: review
 title: "History of Science Fiction"
 prefix: "The"
 author: adam-roberts
-teaser: "2nd Ed."
+series: "2nd Ed."
 tags:
   - "sci-fi"
   - "literature"

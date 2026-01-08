@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Dead Boy Detectives"
-subheadline: "Netflix"
-teaser: "Season 1"
+network: "Netflix"
+season: "1"
 tags:
   - "crime"
   - "fantasy"

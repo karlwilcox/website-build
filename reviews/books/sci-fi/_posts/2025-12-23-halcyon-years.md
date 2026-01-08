@@ -2,7 +2,7 @@
 layout: review
 title: "Halcyon Years"
 author: alastair-reynolds
-teaser: ""
+series: ""
 tags:
   - ""
 ---

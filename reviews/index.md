@@ -1,5 +1,6 @@
 ---
 layout: review-list
+sidebar: reviews
 title: "List of Reviews"
 paginate:
       permalink: /page:num/

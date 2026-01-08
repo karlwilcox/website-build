@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Yellowstone"
-subheadline: "Paramount+"
-teaser: "Season 1"
+network: "Paramount+"
+season: "1"
 tags:
   - "Montana"
 ---

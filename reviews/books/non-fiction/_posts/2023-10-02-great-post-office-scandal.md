@@ -2,8 +2,8 @@
 layout: review
 title: "Great Post Office Scandal"
 prefix: "The"
-subheadline: "Nick Wallis"
-teaser: ""
+subtitle: "Nick Wallis"
+series: ""
 tags:
   - "crime"
   - "history"

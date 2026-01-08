@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Ranting About Ratings"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - rant

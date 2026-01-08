@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Senlin Ascends"
-subheadline: "Josiah Bancroft"
-teaser: "Tower of Babel Series Book 1"
+subtitle: "Josiah Bancroft"
+series: "Tower of Babel Series Book 1"
 tags:
   - "fantasy"
   - "steampunk"

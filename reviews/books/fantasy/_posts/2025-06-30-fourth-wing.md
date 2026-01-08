@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Fourth Wing"
-subheadline: "Rebecca Yarros"
-teaser: "Empyrean Series Book 1"
+subtitle: "Rebecca Yarros"
+series: "Empyrean Series Book 1"
 tags:
   - "romantasy"
 ---

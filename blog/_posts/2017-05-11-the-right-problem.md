@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "The Right Problem"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity

@@ -13,7 +13,7 @@ format: post
 
 {%- assign permalink = page.dir | remove_first: "/pages" -%}
 <div class="row t30">
-	<div class="medium-8 columns{%- if page.sidebar == NULL -%} medium-offset-1 end{%- endif -%}{%- if page.sidebar == "left" -%} medium-push-4{%- endif -%}">
+	<div class="medium-8 columns t30">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
 				{%- if page.image.title -%}
@@ -35,17 +35,26 @@ format: post
 			{%- include _breadcrumb.html -%}
 
 				<div itemprop="name">
+					<h1>{{ page.prefix}} {{ page.title }}</h1>
 					{%- if page.teaser -%}
 					<p class="teaser">{{ page.teaser }}</p>
 					{%- endif -%}
-					<h1>{{ page.prefix}} {{ page.title }}</h1>
-					{%- unless page.author == "karlw" -%}
-					<p class="subheadline"><a href="/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
-					{%- else -%}
-					{%- if page.subheadline -%}
-					<p class="subheadline">{{ page.subheadline }}</p>
+					{%- if page.author == "karlw" -%}
+					    <!-- Just an ordinary page -->
+						{%- if page.subtitle -%}
+							<p class="subtitle">{{ page.subtitle }}</p>
+						{%- endif -%}
+					{%- elsif page.author != "" and page.author != Nil -%} 
+						<!-- Found a book review -->
+						<p class="subtitle"><a href="/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
+						{%- if page.series != "" and page.series != Nil -%}
+							<p>{{ site.data.text.series_start }} {{ page.series}} {{ site.data.text.series_end }}
+								{%- if page.booknum -%}
+								, {{ site.data.text.booknum }} {{ page.booknum }}
+								{%- endif -%}
+								.</p>
+						{%- endif -%}
 					{%- endif -%}
-					{%- endunless -%}
 				</div>
 			</header>
 
@@ -58,16 +67,23 @@ format: post
 			{%- endif -%}
 
 		</article>
-		{%- include _breadcrumb.html -%}
-		<div class="medium-8 columns medium-offset-1 end">
-		{%- if page.comments == true -%}
-		{%- include _comments.html -%}
-		{%- endif -%}
-		</div>
 	</div><!-- /.medium-8.columns -->
-	{%- if page.sidebar != NULL -%}
+	{%- if page.categories[0] == "reviews" -%}
 	<div class="medium-4 columns t30">
-		{%- include _page_sidebar.html -%}
+		{%- include surprise_me -%}
+		{%- include _page_sidebar.html barname="reviews" -%}
+	</div>
+	{%- elsif page.sidebar != "" and page.sidebar != Nil -%}
+	<div class="medium-4 columns t30">
+		{%- include _page_sidebar.html barname=page.sidebar -%}
 	</div>
 	{%- endif -%}
 </div><!-- /.row -->
+<div class="row t30">
+	{%- include _breadcrumb.html -%}
+	<div class="medium-8 columns medium-offset-1 end">
+	{%- if page.comments == true -%}
+	{%- include _comments.html -%}
+	{%- endif -%}
+	</div>
+</div>

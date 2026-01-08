@@ -72,7 +72,7 @@ format: frontpage
     <div class="row">
             {%- for post in site.posts limit:1 -%}
         <div class="medium-3 columns">
-            {%- if post.subheadline -%}<p class="subheadline">{{ post.subheadline }}</p>{%- endif -%}
+            {%- if post.subtitle -%}<p class="subtitle">{{ post.subtitle }}</p>{%- endif -%}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.prefix}} {{ post.title }}</a></h2>
             <p>
                 {%- if post.meta_description -%}{{ post.meta_description | strip_html | escape }}{%- else post.teaser -%}{{ post.teaser | strip_html | escape }}{%- endif -%}

@@ -3,8 +3,6 @@ layout: page
 paginate:
   category: reviews
 ---
-<div class="row">
-	<div class="medium-8 columns t30">
 		{%- capture use_img -%}{{ site.urlimg }}reviews/generic.jpg{%- endcapture -%}
 		{%- if page.picture -%}
 		{%- capture img_path -%}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.picture }}.jpg{%- endcapture -%}
@@ -27,10 +25,3 @@ paginate:
 		<p>
 			{%- include next-previous-post-in-category -%}
 		</p>
-
-	</div>
-
-	<div class="medium-4 columns t30">
-		{%- include _review_sidebar.html -%}
-	</div>
-</div>

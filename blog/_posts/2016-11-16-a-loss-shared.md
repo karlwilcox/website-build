@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "A Loss Shared"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

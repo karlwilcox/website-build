@@ -2,7 +2,7 @@
 layout: review
 title: "Stone and SKy"
 author: ben-aaronovitch
-teaser: "Rivers of London book whatever"
+series: "Rivers of London book whatever"
 tags:
   - "scotland"
 ---

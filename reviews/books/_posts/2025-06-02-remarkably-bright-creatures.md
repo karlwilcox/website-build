@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Remarkably Bright Creatures"
-subheadline: "Shelby van-Pelt"
-teaser: "That Octopus Book"
+subtitle: "Shelby van-Pelt"
+series: "That Octopus Book"
 tags:
   - "seattle"
   - "contemporary"

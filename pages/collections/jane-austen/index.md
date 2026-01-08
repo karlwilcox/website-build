@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "The Jane Austen Reading Project"
-subheadline         : ""
+subtitle         : ""
 teaser              : "Reading the author of the 18th century"
 header:
    image_fullwidth  : "gp-header"

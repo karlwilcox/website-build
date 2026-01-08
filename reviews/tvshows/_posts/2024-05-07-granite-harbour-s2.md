@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Granite Harbour"
-subheadline: "BBC iPlayer"
-teaser: "Season 2"
+network: "BBC iPlayer"
+season: "2"
 tags:
   - "crime"
   - "scotland"

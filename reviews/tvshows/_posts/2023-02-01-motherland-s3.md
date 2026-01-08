@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Motherland"
-subheadline: "Netflix"
-teaser: "Season 3"
+network: "Netflix"
+season: "3"
 tags:
   - "comedy"
   - "contemporary"

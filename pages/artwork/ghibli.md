@@ -2,7 +2,7 @@
 layout              : page
 sidebar       : artwork
 title               : "Studio Ghibli"
-subheadline         : ""
+subtitle         : ""
 header:
    image_fullwidth  : "headers/art-materials.jpg"
 permalink           : "/artwork/ghibli/"

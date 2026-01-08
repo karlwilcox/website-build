@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "A Text Analysis of the Blazon Corpus"
-subheadline         : ""
+subtitle         : ""
 teaser              : ""
 header:
    image_fullwidth  : heraldy/header.png

@@ -3,7 +3,7 @@ layout: review
 title: "Paris Secret"
 author: karen-swan
 prefix: "The"
-teaser: ""
+series: ""
 tags:
   - "romance"
   - "paris"

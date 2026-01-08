@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "On the tyranny of pervasive computing"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity

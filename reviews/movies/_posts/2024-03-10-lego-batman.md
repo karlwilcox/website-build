@@ -2,7 +2,7 @@
 layout: review
 title: "Lego Batman Movie"
 prefix: "The"
-subheadline: "Apple TV+"
+network: "Apple TV+"
 teaser: ""
 tags:
   - "lego"

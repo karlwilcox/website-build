@@ -2,7 +2,7 @@
 layout: review
 title: "Dead Man's Creek"
 author: chris-hammer
-teaser: "Detective Nell Buchanan book 3"
+series: "Detective Nell Buchanan book 3"
 tags:
   - "crime"
   - "australia"

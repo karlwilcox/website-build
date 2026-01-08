@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Outer Range"
-subheadline: "Amazon Prime"
-teaser: "Season 1"
+network: "Amazon Prime"
+season: "1"
 tags:
   - "Wyoming"
   - "sci-fi"

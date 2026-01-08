@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Stack Exchange Rant"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - cartoon

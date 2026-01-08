@@ -2,7 +2,7 @@
 layout: review
 title: "War Bodies"
 author: "neal-asher"
-teaser: "A Novel of the Polity"
+series: "A Novel of the Polity"
 tags:
   - "sci-fi"
 ---

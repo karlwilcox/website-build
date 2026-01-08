@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Rings of Power"
-subheadline: "Amazon Prime"
+network: "Amazon Prime"
 teaser: "seasson 1"
 tags:
   - "tolkien"

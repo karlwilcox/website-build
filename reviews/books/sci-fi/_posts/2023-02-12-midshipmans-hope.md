@@ -2,7 +2,7 @@
 layout: review
 title: "Midshipman's Hope"
 author: "david-feintuch"
-teaser: "The Seafort Saga Book 1"
+series: "The Seafort Saga Book 1"
 tags:
   - "sci-fi"
   - "military"

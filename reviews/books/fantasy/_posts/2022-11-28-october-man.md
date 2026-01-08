@@ -3,7 +3,7 @@ layout: review
 title: "October Man"
 prefix: "The"
 author: ben-aaronovitch
-teaser: "A Rivers of London Novella"
+series: "A Rivers of London Novella"
 tags:
   - "crime"
   - "magic"

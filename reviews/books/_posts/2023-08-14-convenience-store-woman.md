@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Convenience Store Woman"
-subheadline: "Sayaka Murata"
+subtitle: "Sayaka Murata"
 tags:
   - "japan"
   - "contemporary"

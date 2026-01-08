@@ -1,9 +1,9 @@
 ---
 layout: review
 title: "New World on Mars"
-subheadline: "Robert Zubrin"
+subtitle: "Robert Zubrin"
 prefix: "The"
-teaser: ""
+series: ""
 tags:
   - "mars"
 ---

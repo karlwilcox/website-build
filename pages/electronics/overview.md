@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "Placeholder"
-subheadline         : ""
+subtitle         : ""
 teaser              : ""
 header:
    image_fullwidth  : "gp-header"

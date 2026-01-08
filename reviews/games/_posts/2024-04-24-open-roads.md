@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Open Roads"
-subheadline: "XBox"
+platform: "XBox"
 teaser: ""
 tags:
   - "linear"

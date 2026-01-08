@@ -2,7 +2,7 @@
 layout              : page
 sidebar             : new-pemberley
 title               : "New Pemberley Overview"
-subheadline         : ""
+subtitle         : ""
 teaser              : ""
 permalink           : "/new-pemberley/"
 ---

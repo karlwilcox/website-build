@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "North Shore"
-subheadline: "ITVX"
-teaser: "Season 1"
+network: "ITVX"
+season: "1"
 tags:
   - "crime"
   - "australia"

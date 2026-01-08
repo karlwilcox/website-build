@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Scrublands: Silver"
-subheadline: "BBC iPlayer"
-teaser: "Season 2"
+network: "BBC iPlayer"
+season: "2"
 tags:
   - "australia"
 ---

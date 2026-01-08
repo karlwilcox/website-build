@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Burnout Paradise"
-subheadline: "XBox Game"
+platform: "XBox Game"
 teaser: ""
 tags:
   - "xbox"

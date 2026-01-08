@@ -2,7 +2,7 @@
 layout: review
 title: "Northanger Abbey"
 author: jane-austen
-teaser: ""
+series: ""
 tags:
   - "jane-auster"
 ---

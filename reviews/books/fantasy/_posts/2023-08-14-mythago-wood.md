@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Mythago Wood"
-subheadline: "Robert Holdstock"
-teaser: "Mythago Wood Trilogy book 1"
+subtitle: "Robert Holdstock"
+series: "Mythago Wood Trilogy book 1"
 tags:
   - "fantasy"
 ---

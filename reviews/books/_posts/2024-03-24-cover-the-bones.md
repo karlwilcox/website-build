@@ -2,7 +2,7 @@
 layout: review
 title: "Cover the Bones"
 author: chris-hammer
-teaser: "Nell Buchanan book 3"
+series: "Nell Buchanan book 3"
 tags:
   - "crime"
   - "australia"

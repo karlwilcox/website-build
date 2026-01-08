@@ -1,5 +1,6 @@
 ---
 layout: review-list
+sidebar: reviews
 header:
   image_fullwidth: "gp-header"
 paginate:
@@ -8,4 +9,3 @@ paginate:
     parent: books
 ---
 
-I'm trying to bring a bit more categorisation to my mass of book reviews, so have separated works of non-fiction into this section.

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "All The Lovers In The Night"
-subheadline: "Meiko Kawakami"
-teaser: "japan"
+subtitle: "Meiko Kawakami"
+series: "japan"
 tags:
   - ""
 ---

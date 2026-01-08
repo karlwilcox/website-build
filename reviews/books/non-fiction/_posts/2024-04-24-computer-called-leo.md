@@ -2,8 +2,8 @@
 layout: review
 title: "Computer Called Leo"
 prefix: "A"
-subheadline: "Georgina Ferry"
-teaser: ""
+subtitle: "Georgina Ferry"
+series: ""
 tags:
   - "computing history"
 ---

@@ -2,7 +2,7 @@
 layout: review
 title: "Dying Fall"
 author: elly-griffiths
-teaser: "Ruth Galloway book 5"
+series: "Ruth Galloway book 5"
 tags:
   - "crime"
   - "norfolk"

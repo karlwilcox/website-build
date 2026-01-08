@@ -1,7 +1,7 @@
 ---
 layout              :  page
 title               : "Chase Memories"
-subheadline         : ""
+subtitle         : ""
 teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"

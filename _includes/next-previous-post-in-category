@@ -31,7 +31,7 @@
 {%- endif -%}
 {%- endfor -%}
 {%- if prev_post -%}
-<a class="left button tiny radius icon-chevron-left r15" href="{{site.url}}{{site.baseurl}}{{ prev_post }}">{{ site.data.text.previous_post_in }} {{ cat | upcase }}</a>
+<a class="button tiny radius icon-chevron-left r15" href="{{site.url}}{{site.baseurl}}{{ prev_post }}">{{ site.data.text.previous_post_in }} {{ cat | upcase }}</a>
 {%- endif -%}
 {%- if next_post -%}
 <a class="button tiny radius" href="{{site.url}}{{site.baseurl}}{{ next_post }}">{{ site.data.text.next_post_in }} {{ cat | upcase }}<span class="icon-chevron-right"></span></a>

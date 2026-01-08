@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Sympathy Tower Tokyo"
-subheadline: "Rie Qudan"
-teaser: ""
+subtitle: "Rie Qudan"
+series: ""
 tags:
   - "japan"
 ---

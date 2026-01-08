@@ -31,14 +31,41 @@
         {%- unless post.author == "karlw" -%}
          - <a href="/author/{{ post.author }}/">{{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }}</a>
         {%- else -%}
-        {%- if post.subheadline -%}
-         - {{ post.subheadline }}
+        {%- if post.subtitle -%}
+         - {{ post.subtitle }}
         {%- endif -%}
         {%- endunless -%}
       </p>
+      {%- if post.season != "" and post.season != nil -%}
       <p class="b30">
-        {%- if post.meta_description -%}{{ post.meta_description | strip_html | escape }}{%- elsif post.teaser -%}{{ post.teaser | strip_html | escape }}{%- endif -%}
+        {{ site.data.text.season }} {{ post.season | strip_html | escape }}
       </p>
+      {%- endif -%}
+      {%- if post.series != "" and post.series != nil -%}
+      <p class="b30">
+        {{ site.data.text.series_start }} {{ post.series | strip_html | escape }} {{ site.data.text.series_end }} 
+      </p>
+        {%- if post.booknum != "" and post.booknum != nil -%}
+        <p class="b30">
+          {{ site.data.text.booknum }} {{ post.booknum | strip_html | escape }}
+        </p>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if post.network != "" and post.network != nil -%}
+      <p class="b30">
+        {{ site.data.text.network }} {{ post.network | strip_html | escape }}
+      </p>
+      {%- endif -%}
+      {%- if post.platform != "" and post.platform != nil -%}
+      <p class="b30">
+        {{ site.data.text.platform }} {{ post.platform | strip_html | escape }}
+      </p>
+      {%- endif -%}
+      {%- if post.teaser != "" and post.teaser != nil -%}
+      <p class="b30">
+        {{ post.teaser | strip_html | escape }}
+      </p>
+      {%- endif -%}
       <p class="b30">
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.text.read }} {{ post.title | escape_once }}"><strong>{{ link_text }}</strong></a>
       </p>
@@ -62,14 +89,14 @@
       {%- if paginator.previous_page == 1 -%}
       <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/" title="{{ site.data.text.previous_posts }}">&laquo; {{ site.data.text.previous_posts }}</a>
       {%- else -%}
-      <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.previous_page }}/" title="{{ site.data.text.previous_posts }}">&laquo; {{ site.data.text.previous }}</a>
+      <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.previous_page }}/" title="{{ site.data.text.previous_posts }}">&laquo; {{ site.data.text.previous_posts }}</a>
       {%- endif -%}
     {%- endif -%}
 
     <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/" title="{{ site.data.text.blog_archive }}">{{ site.data.text.link_to_cat_index }}</a>
 
     {%- if paginator.next_page -%}
-    <a rel="next" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.next_page }}/" title="{{ site.data.text.next_posts }}">{{ site.data.text.next }} &raquo;</a>
+    <a rel="next" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/{{ cat_url }}/page{{ paginator.next_page }}/" title="{{ site.data.text.next_posts }}">{{ site.data.text.next_posts }} &raquo;</a>
     {%- endif -%}
   </nav>
 

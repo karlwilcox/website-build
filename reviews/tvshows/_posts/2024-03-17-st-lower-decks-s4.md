@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Star Trek: Lower Decks"
-subheadline: "Paramount+"
-teaser: "Season 4"
+network: "Paramount+"
+season: "4"
 tags:
   - "sci-fi"
   - "animation"

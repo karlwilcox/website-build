@@ -1,7 +1,7 @@
 ---
 layout              :  page
 title               : "GPR40 Software Manuals"
-subheadline         : ""
+subtitle         : ""
 teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"

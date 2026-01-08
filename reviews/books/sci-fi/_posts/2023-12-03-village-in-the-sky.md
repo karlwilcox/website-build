@@ -2,7 +2,7 @@
 layout: review
 title: "Village in the Sky"
 author: jack-mcdevitt
-teaser: ""
+series: ""
 tags:
   - "sci-fi"
 ---

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Hello Tomorrow"
-subheadline: "Apple TV+"
-teaser: "Season 1"
+network: "Apple TV+"
+season: "1"
 tags:
   - "retro"
   - "sci-fi"

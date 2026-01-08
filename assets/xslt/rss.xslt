@@ -7,7 +7,7 @@ rootMatcher: '/rss'
 disclaimer: 'This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">RSS feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.'
 ---
 <header class="t30 row">
-	<p class="subheadline"><xsl:value-of select="channel/description" disable-output-escaping="yes" /></p>
+	<p class="subtitle"><xsl:value-of select="channel/description" disable-output-escaping="yes" /></p>
 	<h1>
 		<xsl:element name="a">
 			<xsl:attribute name="href">

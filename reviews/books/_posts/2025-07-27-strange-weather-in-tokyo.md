@@ -2,7 +2,7 @@
 layout: review
 title: "Strange Weather in Tokyo"
 author: hiromi-kawakami
-teaser: ""
+series: ""
 tags:
   - "japan"
 ---

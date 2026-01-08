@@ -2,7 +2,7 @@
 layout: review
 title: "Elder Race"
 author: adrian-t
-teaser: ""
+series: ""
 tags:
   - "sci-fi"
 ---

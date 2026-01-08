@@ -3,7 +3,7 @@ layout: page
 #
 # Content
 #
-subheadline: ""
+subtitle: ""
 title: ""
 teaser: ""
 categories:

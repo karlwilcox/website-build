@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Monument Valley III"
-subheadline: "iPad"
+platform: "iPad"
 teaser: ""
 tags:
   - "Relaxing puzzler"

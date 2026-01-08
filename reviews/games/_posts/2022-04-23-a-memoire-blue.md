@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "A Memoire Blue"
-subheadline: "XBox"
+platform: "XBox"
 teaser: ""
 tags:
   - "interactive novel"

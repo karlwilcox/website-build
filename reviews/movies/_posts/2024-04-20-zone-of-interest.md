@@ -2,7 +2,7 @@
 layout: review
 title: "Zone of Interest"
 prefix: "The"
-subheadline: "Apple TV"
+network: "Apple TV"
 teaser: ""
 tags:
   - "history"

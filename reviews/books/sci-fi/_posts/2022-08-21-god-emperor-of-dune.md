@@ -2,7 +2,7 @@
 layout: review
 title: "God Emporer of Dune"
 author: frank-herbert
-teaser: "Dune Sequence book 4"
+series: "Dune Sequence book 4"
 tags:
   - "sci-fi"
 ---

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Celestial"
-subheadline: "M. D. Lachlan"
-teaser: ""
+subtitle: "M. D. Lachlan"
+series: ""
 tags:
   - "sci-fi"
 ---

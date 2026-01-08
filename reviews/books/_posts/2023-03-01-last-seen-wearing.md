@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Last Seen Wearing"
-subheadline: "Colin Dexter"
-teaser: "Inspector Morse book 2"
+subtitle: "Colin Dexter"
+series: "Inspector Morse book 2"
 tags:
   - "crime"
 picture: morse-books

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "List of Book Titles"
-subheadline: ""
+title: "List of TV Show Titles"
+subtitle: ""
 teaser: ""
 header:
   image_fullwidth: "gp-header"
@@ -48,8 +48,8 @@ header:
 <ul>
 {% endunless %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
-{% if item.teaser %}
-({{ item.teaser }})
+{% if item.season %}
+(Season {{ item.season }})
 {% endif %}
 </li>
 {% endfor %}

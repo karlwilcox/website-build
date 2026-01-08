@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "How to Stop Time"
-subheadline: "Matt Haig"
-teaser: ""
+subtitle: "Matt Haig"
+series: ""
 tags:
   - ""
 ---

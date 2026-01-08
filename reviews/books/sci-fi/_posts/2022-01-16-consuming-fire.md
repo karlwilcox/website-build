@@ -3,7 +3,7 @@ layout: review
 title: "Consuming Fire"
 prefix: "The"
 author: "john-scalzi"
-teaser: "The Interdependency Book 2"
+series: "The Interdependency Book 2"
 tags:
     - "sci-fi"
 ---

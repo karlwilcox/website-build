@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "A Reader’s Remorse"
-subheadline: "A Colin Dexter re-read"
+subtitle: "A Colin Dexter re-read"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

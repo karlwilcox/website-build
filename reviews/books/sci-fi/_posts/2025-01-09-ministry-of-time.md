@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Ministry of Time"
-subheadline: "Kaliane Bradley"
-teaser: ""
+subtitle: "Kaliane Bradley"
+series: ""
 prefix: "The"
 tags:
   - "time travel"

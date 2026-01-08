@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "The Tolkien Reading Project"
-subheadline         : ""
+subtitle         : ""
 teaser              : "Reading the author of the century"
 header:
    image_fullwidth  : "gp-header"

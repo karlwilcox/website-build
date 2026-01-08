@@ -2,7 +2,7 @@
 layout: review
 title: "Redemption Ark"
 author: alastair-reynolds
-teaser: "Reveleation Space Book 3"
+series: "Reveleation Space Book 3"
 tags:
   - "scf-fi"
 ---

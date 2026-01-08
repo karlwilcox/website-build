@@ -2,7 +2,7 @@
 layout: review
 title: "Broken River"
 author: chris-hammer
-teaser: "Nell Buchanan & Ivan Lucic"
+series: "Nell Buchanan & Ivan Lucic"
 prefix: "The"
 tags:
   - "australia"

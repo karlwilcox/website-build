@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Arms of the Sphinx"
-subheadline: "Josiah Bancroft"
-teaser: "Tower of Babel Book 2"
+subtitle: "Josiah Bancroft"
+series: "Tower of Babel Book 2"
 tags:
   - "steampunk"
 ---

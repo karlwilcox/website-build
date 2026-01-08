@@ -2,7 +2,7 @@
 layout: review
 title: "Woman in Cabin 10"
 prefix: "The"
-subheadline: "Netflix"
+network: "Netflix"
 teaser: ""
 tags:
   - "norway"

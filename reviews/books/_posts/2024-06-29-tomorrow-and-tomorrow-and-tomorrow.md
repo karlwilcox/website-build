@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Tomorrow and Tomorrow and Tomorrow"
-subheadline: "Gabrielle Zevin"
-teaser: ""
+subtitle: "Gabrielle Zevin"
+series: ""
 tags:
   - "computing history"
 ---

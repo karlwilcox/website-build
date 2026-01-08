@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Blackberry"
-subheadline: "Sky Cinema"
+network: "Sky Cinema"
 teaser: ""
 tags:
   - "canada"

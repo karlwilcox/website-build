@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "My Jane Austen Reading List"
-subheadline         : "Bonnets, ribbons, dances and country houses"
+subtitle         : "Bonnets, ribbons, dances and country houses"
 teaser              : ""
 header:
    image_fullwidth  : "gp-header"

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Star Trek: Lower Decks"
-subheadline: "Paramount+"
-teaser: "Season 3"
+network: "Paramount+"
+season: "3"
 tags:
   - "sci-fi"
   - "animated"

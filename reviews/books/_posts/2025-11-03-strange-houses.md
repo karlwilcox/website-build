@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Strange Houses"
-subheadline: "Uketsu"
-teaser: "Strange Things Series Book 2"
+subtitle: "Uketsu"
+series: "Strange Things Series Book 2"
 tags:
   - "japan"
 ---

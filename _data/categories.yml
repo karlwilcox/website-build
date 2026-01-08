@@ -23,3 +23,15 @@ shorts:
   title: "Short Reviews and Notes"
   description: "Things that I want to record but don't have a lot to say about"
   page_title: "A Miscellany of Short Reviews"
+non-fiction:
+  title: "Non-fiction books"
+  description: "Quite a bit of history, some politics maybe..."
+  page_title: "Non-Fiction Books"
+fantasy:
+  title: "Fantasy Books"
+  description: "From Tolkien to Romantasy and beyond"
+  page_title: "Fantasy Books"
+sci-fi:
+  title: "Science Fiction"
+  description: "Probably my favourite genre"
+  page_title: "Science Fiction Books"

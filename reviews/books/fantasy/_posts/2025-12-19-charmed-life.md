@@ -2,7 +2,8 @@
 layout: review
 title: "Charmed Life"
 author: d-w-jones
-teaser: "Chrestomanci Series 1"
+series: "Chrestomanci"
+booknum: "2"
 tags:
   - ""
 ---

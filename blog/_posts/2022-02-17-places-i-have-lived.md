@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Places I Have Lived"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

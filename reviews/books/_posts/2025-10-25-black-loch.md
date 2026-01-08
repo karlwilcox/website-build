@@ -3,7 +3,7 @@ layout: review
 title: "Black Loch"
 author: peter-may
 prefix: "The"
-teaser: ""
+series: ""
 tags:
   - "scotland"
 ---

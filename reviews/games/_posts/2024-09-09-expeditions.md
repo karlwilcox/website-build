@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Expeditions - A Mudrunner Game"
-subheadline: "XBox"
+platform: "XBox"
 teaser: ""
 tags:
   - "xbox"

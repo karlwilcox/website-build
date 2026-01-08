@@ -2,7 +2,7 @@
 layout              : page
 sidebar       : artwork
 title               : "Architecture"
-subheadline         : ""
+subtitle         : ""
 header:
    image_fullwidth  : "headers/art-materials.jpg"
 permalink           : "/artwork/architecture/"

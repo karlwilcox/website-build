@@ -1,5 +1,6 @@
 # sidebar navigation menus, indexed by key value
 austen:
+  title: "Austen Collection Links"
   menu:
     - title: "Collections Home"
       url: "/collections/"
@@ -9,6 +10,7 @@ austen:
       url: "/collections/jane-austen/reading-list/"
   image: "/collections/jane-austen/austen-portrait.jpg"
 chase-group:
+  title: "Chase Product Links"
   image: "/chase-group/chase-systems.png"
   menu:
     - title: "Chase Group Home"
@@ -47,6 +49,7 @@ chase-group:
     - title: "The IOPro Family"
       url: "/chase-group/chase-research-iopro/"
 science-fiction:
+  title: "SF Collections Links"
   menu:
     - title: "Collections Home"
       url: "/collections/"
@@ -56,6 +59,7 @@ science-fiction:
       url: "/collections/science-fiction-greats/shelf-list/"
   image: "/collections/science-fiction-greats/sf-logo.jpg"
 japanese:
+  title: "Japanese Collection Links"
   menu:
     - title: "Collections Home"
       url: "/collections/"
@@ -65,6 +69,7 @@ japanese:
       url: "/collections/japanese-and-korean/shelf-list/"
   image: "/collections/japanese-and-korean/japanese.jpg"
 british-history:
+  title: "British History Collection Links"
   menu:
     - title: "Collections Home"
       url: "/collections/"
@@ -74,6 +79,7 @@ british-history:
       url: "/collections/modern-british-history/reading-list/"
   image: "/collections/modern-british-history/boy-watching.jpg"
 tolkien:
+  title: "Tolkien Collection Links"
   menu:
     - title: "Collections Home"
       url: "/collections/"
@@ -96,6 +102,7 @@ collections:
       url: "/collections/modern-british-history/"
   image: "/collections/books.jpg"
 slow-glass:
+  title: "Slow Glass Links"
   menu:
     - title: "Slow Glass Home"
       url: "/slow-glass/"
@@ -143,6 +150,7 @@ new-pemberley:
     - title: "Grounds and Ancillary Buildings" 
       url: "/new-pemberley/outside-areas/"
 artwork:
+  title: "Artwork Links"
   header: "/artwork/art-materials.jpg"
   menu:
     - title: Artwork Home
@@ -176,4 +184,38 @@ artwork:
         - title: "OU Doodles"
           url: "/artwork/ou-doodles"
   image: "/artwork/marker-pens.jpg"
- 
+reviews:
+  title: "Review Links"
+  header: "/img/decor/Authority-Figure-1-212x300.png"
+  menu:
+    - title: "Books (all types)"
+      url: "/reviews/books/"
+      submenu:
+        - title: "Science Fiction"
+          url: "/reviews/books/sci-fi/"
+        - title: "Fantasy"
+          url: "/reviews/books/fantasy/"
+        - title: "Non-Fiction"
+          url: "/reviews/books/non-fiction/"
+        - title: "List of Authors"
+          url: "/reviews/books/authors/"
+        - title: "Books by Title"
+          url: "/reviews/books/titles/"
+    - title: "Movies"
+      url: "/reviews/movies/"
+    - title: "TV Shows"
+      url: "/reviews/tvshows/"
+      submenu:
+        - title: "TV Shows by Title"
+          url: "/reviews/tvshows/titles/"
+    - title: "Video Games"
+      url: "/reviews/games/"
+    - title: "Other Reviews"
+      url: "/reviews/other/"
+    - title: "Short Reviews"
+      url: "/reviews/shorts/"
+      submenu:
+      - title: "Shorts by Title"
+        url: "/reviews/shorts/titles/"
+    - title: "Tag Cloud"
+      url: "/tag-cloud/"

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "How Westminster Works"
-subheadline: "Ian Dunt"
-teaser: "And Why It Doesn't"
+subtitle: "Ian Dunt"
+series: "And Why It Doesn't"
 tags:
   - "politics"
 ---

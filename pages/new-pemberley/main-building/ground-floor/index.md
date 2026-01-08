@@ -4,7 +4,7 @@ title			: "Main Building Ground Floor"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /new-pemberley/main-building/ground-floor/
 comments		: true
 sidebar			: new-pemberley

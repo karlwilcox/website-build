@@ -2,7 +2,7 @@
 layout              : page
 sidebar       : artwork
 title               : "3D Renders"
-subheadline         : ""
+subtitle         : ""
 header:
    image_fullwidth  : "headers/art-materials.jpg"
 permalink           : "/artwork/3D-rendering/"

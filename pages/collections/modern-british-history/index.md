@@ -4,7 +4,7 @@ title			: "Modern British History"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /collections/modern-british-history/
 comments		: true
 sidebar			: british-history

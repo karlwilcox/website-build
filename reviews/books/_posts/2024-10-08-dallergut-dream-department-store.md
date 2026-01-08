@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "DallerGut Dream Department Store"
-subheadline: "Miye Lee"
-teaser: ""
+subtitle: "Miye Lee"
+series: ""
 tags:
   - "japan"
 ---

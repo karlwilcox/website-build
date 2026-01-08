@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Sharing my thoughts"
-subheadline: "An apology and justification"
+subtitle: "An apology and justification"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

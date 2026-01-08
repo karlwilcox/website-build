@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Far: Changing Tides"
-subheadline: "Xbox"
+platform: "Xbox"
 tags:
   - "xbox"
   - "puzzler"

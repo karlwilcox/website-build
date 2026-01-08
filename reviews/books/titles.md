@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "List of Book Titles"
-subheadline: ""
-teaser: ""
+subtitle: ""
+series: ""
 header:
   image_fullwidth: "gp-header"
 ---
@@ -48,8 +48,8 @@ header:
 <ul>
 {% endunless %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
-{% if item.subheadline %}
-({{ item.subheadline }})
+{% if item.subtitle %}
+({{ item.subtitle }})
 {% else %}
 {% assign author_data = site.data.authors[item.author] %}
 (<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>)

@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Byte Magazine"
-subheadline: ""
+subtitle: ""
 teaser: "Early 1980's"
 tags:
   - "magazine"

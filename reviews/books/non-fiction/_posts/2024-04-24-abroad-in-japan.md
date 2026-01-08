@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Abroad in Japan"
-subheadline: "Chris Broad"
-teaser: ""
+subtitle: "Chris Broad"
+series: ""
 tags:
   - "japan"
 ---

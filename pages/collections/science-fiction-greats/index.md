@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "Great Works of Science Fiction"
-subheadline         : ""
+subtitle         : ""
 teaser              : "A Personal Selection"
 header:
    image_fullwidth  : "gp-header"

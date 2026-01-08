@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Wake Up Dead Man"
-subheadline: "A Knives Out Mystery"
+network: "A Knives Out Mystery"
 teaser: "Netflix"
 tags:
   - ""

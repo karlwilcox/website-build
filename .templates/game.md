@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "title"
-subheadline: ""
-teaser: ""
+subtitle: ""
+platform: ""
 tags:
   - ""
 ---

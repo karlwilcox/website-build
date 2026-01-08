@@ -2,7 +2,7 @@
 layout: review
 title: "Monster and the Critics"
 prefix: "The"
-subheadline: "J.R.R. Tolkien"
+subtitle: "J.R.R. Tolkien"
 teaser: "Essay"
 tags:
   - "tolkien"

@@ -3,7 +3,7 @@ layout: review
 title: "Fall of Moondust"
 prefix: "A"
 author: arthur-c-clarke
-teaser: ""
+series: ""
 tags:
   - "moon"
 ---

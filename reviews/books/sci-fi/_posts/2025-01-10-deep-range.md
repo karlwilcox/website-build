@@ -3,7 +3,7 @@ layout: review
 title: "Deep Range"
 prefix: "The"
 author: arthur-c-clarke
-teaser: "Audible Audiobook"
+series: "Audible Audiobook"
 tags:
   - "oceania"
   - "sci-fi"

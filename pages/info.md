@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Info"
-subheadline: "Site Credits"
+subtitle: "Site Credits"
 teaser: "I'd like to thank all the creators and developers whose work I'm building on here."
 permalink: "/info/"
 header:
@@ -75,7 +75,7 @@ Frontmatter should be as follows:
 - layout: review
 - title: Full title, including 'a' or 'the'
 - author: (Books only) key-to-_data/authors.yml
-- subheadline: 
+- subtitle: 
   - For books, free format author name (ignored if the author field is present)
   - For movies & tv shows, the streaming platform and / or studio
   - For shorts, the full date range as text

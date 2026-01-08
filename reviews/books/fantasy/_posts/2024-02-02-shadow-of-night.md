@@ -2,7 +2,7 @@
 layout: review
 title: "Shadow of Night"
 author: deborah-harkness
-teaser: "All Souls Book 2"
+series: "All Souls Book 2"
 tags:
   - "fantasy"
 ---

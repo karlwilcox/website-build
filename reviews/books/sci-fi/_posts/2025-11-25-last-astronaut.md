@@ -2,8 +2,8 @@
 layout: review
 title: "Last Astronaut"
 prefix: "The"
-subheadline: "David Wellington"
-teaser: ""
+subtitle: "David Wellington"
+series: ""
 tags:
 ---
 

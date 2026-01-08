@@ -2,7 +2,7 @@
 layout: review
 title: "Heretics of Dune"
 author: "frank-herbert"
-teaser: "Book 5 of the Chronicles of Dune"
+series: "Book 5 of the Chronicles of Dune"
 tags:
   - "sci-fi"
 ---

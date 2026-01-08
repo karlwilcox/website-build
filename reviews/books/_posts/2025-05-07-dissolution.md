@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Dissolution"
-subheadline: "C.J Sansom"
-teaser: "Matthew Shardlake Book 1"
+subtitle: "C.J Sansom"
+series: "Matthew Shardlake Book 1"
 tags:
   - "historical"
 ---

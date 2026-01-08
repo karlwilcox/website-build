@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Star Trek: Strange New Worlds"
-subheadline: "Paramount+"
-teaser: "Season 2"
+network: "Paramount+"
+season: "2"
 tags:
   - "sci-fi"
 ---

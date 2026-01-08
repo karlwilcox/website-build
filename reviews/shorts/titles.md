@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "List of Mini Review Titles"
-subheadline: ""
+subtitle: ""
 teaser: ""
 header:
   image_fullwidth: "gp-header"

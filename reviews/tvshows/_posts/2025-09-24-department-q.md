@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Department Q"
-subheadline: "Netflix"
+network: "Netflix"
 teaser: ""
 tags:
   - "scotland"

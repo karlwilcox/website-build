@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Karen Pirie"
-subheadline: "ITVx"
-teaser: "Season 2"
+network: "ITVx"
+season: "2"
 tags:
   - "scotland"
 ---

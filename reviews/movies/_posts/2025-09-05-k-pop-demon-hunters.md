@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "K-pop Demon Hunters"
-subheadline: "Netflix"
+network: "Netflix"
 teaser: ""
 tags:
   - "korea"

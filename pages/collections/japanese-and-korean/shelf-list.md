@@ -4,7 +4,7 @@ title			: "List of Novels"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /collections/japanese-and-korean/shelf-list/
 comments		: true
 sidebar			: japanese

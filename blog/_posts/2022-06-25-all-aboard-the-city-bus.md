@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "All Aboard the City Bus!"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - electronics

@@ -3,7 +3,7 @@ layout: review
 title: "House at Seas End"
 prefix: "The"
 author: elly-griffiths
-teaser: "Ruth Galloway book 3"
+series: "Ruth Galloway book 3"
 tags:
   - "crime"
   - "norfolk"

@@ -2,7 +2,7 @@
 layout: review
 title: "Jane Austen at Home"
 author: lucy-worsley
-teaser: ""
+series: ""
 tags:
   - "jane austen"
   - "history"

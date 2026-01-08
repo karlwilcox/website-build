@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "The Pomodoro Technique"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity

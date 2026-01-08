@@ -4,7 +4,7 @@ title			: "Outside Areas"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /new-pemberley/outside-areas/
 comments		: true
 sidebar			: new-pemberley

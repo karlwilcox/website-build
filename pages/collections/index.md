@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "Book Collections"
-subheadline         : ""
+subtitle         : ""
 teaser              : "Its what I made a shelf for"
 header:
    image_fullwidth  : "gp-header"

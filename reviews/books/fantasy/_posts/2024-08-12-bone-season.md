@@ -3,7 +3,7 @@ layout: review
 title: "Bone Season"
 prefix: "The"
 author: "samantha-shannon"
-teaser: "Tenth Anniversary Special Edition"
+series: "Tenth Anniversary Special Edition"
 tags:
   - "alt-hist"
   - "fantasy"

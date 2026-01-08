@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Masterpieced"
-subheadline: "Apple Arcade"
+platform: "Apple Arcade"
 teaser: ""
 tags:
   - ""

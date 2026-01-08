@@ -2,7 +2,7 @@
 layout: review
 title: "Bad Actors"
 author: mick-herron
-teaser: "Slough House Book 8"
+series: "Slough House Book 8"
 tags:
   - "espionage"
   - "london"

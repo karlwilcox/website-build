@@ -2,7 +2,7 @@
 layout: review
 title: "Perfect Couple"
 prefix: "The"
-subheadline: "Netflix"
+network: "Netflix"
 teaser: ""
 tags:
   - "crime"

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Todo"
-subheadline: "Build Issues To Be Fixed"
+subtitle: "Build Issues To Be Fixed"
 teaser: "Only of interest to site maintainer"
 permalink: "/todo/"
 header:

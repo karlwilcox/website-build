@@ -2,8 +2,8 @@
 layout: review
 title: "Umbrella Academy"
 prefix: "The"
-subheadline: "Netflix"
-teaser: "Season 4"
+network: "Netflix"
+season: "4"
 tags:
   - "superhero"
 ---

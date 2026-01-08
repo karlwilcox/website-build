@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "Education"
-subheadline         : ""
+subtitle         : ""
 teaser              : "Thoughts and ramblings"
 header:
    image_fullwidth  : "gp-header"

@@ -2,7 +2,7 @@
 layout: review
 title: "Girls Who Disappeared"
 author: claire-douglas
-teaser: "Twisty Thriller"
+series: "Twisty Thriller"
 tags:
   - "mystery"
 ---

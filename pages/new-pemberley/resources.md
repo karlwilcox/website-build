@@ -2,7 +2,7 @@
 layout              : page
 sidebar             : new-pemberley
 title               : "Resources and Tools"
-subheadline         : ""
+subtitle         : ""
 teaser              : ""
 permalink           : "/new-pemberley/resources/"
 ---

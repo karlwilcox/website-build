@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "A Comp-Sci Bookshelf (Updated)"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - productivity

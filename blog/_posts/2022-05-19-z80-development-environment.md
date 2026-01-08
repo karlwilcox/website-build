@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Z80 Development Environment"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - technology

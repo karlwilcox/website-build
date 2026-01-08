@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Last Bus to Woodstock"
-teaser: "Inspector Morse Book 1"
-subheadline: "Colin Dexter"
+series: "Inspector Morse Book 1"
+subtitle: "Colin Dexter"
 tags:
   - "crime"
 picture: morse-books

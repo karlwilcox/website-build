@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "title"
-subheadline: ""
+subtitle: ""
 teaser: ""
 tags:
   - personal

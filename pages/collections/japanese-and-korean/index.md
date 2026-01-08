@@ -4,7 +4,7 @@ title			: "Japanese and Korean Novels"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /collections/japanese-and-korean/
 comments		: true
 sidebar			: japanese

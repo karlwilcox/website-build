@@ -2,7 +2,7 @@
 layout: review
 title: "Slough House"
 author: mick-herron
-teaser: "Slough House Book 7"
+series: "Slough House Book 7"
 tags:
   - "espionage"
   - "london"

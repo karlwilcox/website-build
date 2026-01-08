@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "The End of the Arc"
-subheadline: "Thoughts on crime series"
+subtitle: "Thoughts on crime series"
 teaser: ""
 tags:
   - personal

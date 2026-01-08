@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Beyond the Wall"
-subheadline: "Katja Hoyer"
-teaser: "East Germany, 1949-1990"
+subtitle: "Katja Hoyer"
+series: "East Germany, 1949-1990"
 tags:
   - "cold war"
   - "history"

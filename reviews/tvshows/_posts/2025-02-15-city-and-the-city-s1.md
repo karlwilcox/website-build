@@ -2,8 +2,8 @@
 layout: review
 title: "City and the City"
 prefix: "The"
-subheadline: "Prime TV"
-teaser: "Season 1"
+network: "Prime TV"
+season: "1"
 tags:
   - "sci-fi"
 ---

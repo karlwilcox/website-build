@@ -3,7 +3,7 @@ layout: review
 title: "Shards of Earth"
 prefix: "The"
 author: adrian-t
-teaser: "The Final Architecture book 1"
+series: "The Final Architecture book 1"
 tags:
   - "sci-fi"
   - "space opera"

@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Monument Valley II"
-subheadline: "iPad"
+platform: "iPad"
 teaser: ""
 tags:
   - "puzzle"

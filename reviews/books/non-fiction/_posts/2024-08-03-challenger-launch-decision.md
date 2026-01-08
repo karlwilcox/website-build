@@ -2,8 +2,8 @@
 layout: review
 title: "Challenger Launch Decision"
 prefix: "The"
-subheadline: "Diane Vaughan"
-teaser: ""
+subtitle: "Diane Vaughan"
+series: ""
 tags:
   - "space"
   - "history"

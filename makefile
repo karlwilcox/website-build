@@ -106,7 +106,7 @@ newpage:
 	touch $$output
 	echo -e "---\nlayout\t\t\t: page\ntitle\t\t\t: \"$$title\"" >> $$output
 	echo -e "teaser\t\t\t: \"\"\nheader:\n    image_fullwidth\t: \"gp-header\"" >> $$output
-	echo -e "subheadline\t\t: \"\"" >> $$output
+	echo -e "subtitle\t\t: \"\"" >> $$output
 	echo -e "permalink\t\t: $$permalink" >> $$output
 	echo -e "comments\t\t: true" >> $$output
 	if [[ -n $$sidebar ]]; then echo -e "sidebar\t\t\t: $$sidebar"; fi >> $$output

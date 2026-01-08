@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "On Consequences"
-subheadline: "Contrasting the 2nd Seasons of 'Andor' and 'Outer Range'"
+subtitle: "Contrasting the 2nd Seasons of 'Andor' and 'Outer Range'"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal

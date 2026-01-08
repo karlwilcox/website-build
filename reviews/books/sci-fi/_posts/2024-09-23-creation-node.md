@@ -2,7 +2,7 @@
 layout: review
 title: "Creation Node"
 author: stephen-baxter
-teaser: ""
+series: ""
 tags:
   - "sci-fi"
 ---

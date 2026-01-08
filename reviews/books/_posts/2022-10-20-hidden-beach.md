@@ -3,7 +3,7 @@ layout: review
 title: "Hidden Beach"
 prefix: "The"
 author: "karen-swan"
-teaser: ""
+series: ""
 tags:
   - "romance"
   - "sweden"

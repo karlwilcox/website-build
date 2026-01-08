@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Scrublands"
-subheadline: "BBC iPlayer"
-teaser: "Season 1"
+network: "BBC iPlayer"
+season: "1"
 tags:
   - "australia"
 ---

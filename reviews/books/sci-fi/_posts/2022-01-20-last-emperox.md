@@ -3,7 +3,7 @@ layout: review
 title: "Last Emperox"
 prefix: "The"
 author: "john-scalzi"
-teaser: "The Interdependency Book 3"
+series: "The Interdependency Book 3"
 tags:
   - "sci-fi"
 ---

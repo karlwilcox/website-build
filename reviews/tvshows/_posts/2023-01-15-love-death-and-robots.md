@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Love, Death and Robots"
-subheadline: "Netflix"
-teaser: "Season 1"
+network: "Netflix"
+season: "1"
 tags:
   - "animation"
   - "sci-fi"

@@ -3,7 +3,7 @@ layout: review
 title: "Nakano Thrift Shop"
 prefix: "The"
 author: hiromi-kawakami
-teaser: ""
+series: ""
 tags:
   - "japan"
 ---

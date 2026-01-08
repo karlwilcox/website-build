@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "Topics in Heraldry"
-subheadline         : ""
+subtitle         : ""
 teaser              : ""
 header:
    image_fullwidth  : heraldry/header.png

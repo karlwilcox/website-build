@@ -2,8 +2,8 @@
 layout: review
 title: "Cautious Traveller's Guide to the Wastelands"
 prefix: "The"
-subheadline: "Sarah Brooks"
-teaser: ""
+subtitle: "Sarah Brooks"
+series: ""
 tags:
   - "fantasy"
 ---

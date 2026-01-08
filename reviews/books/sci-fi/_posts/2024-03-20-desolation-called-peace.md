@@ -3,7 +3,7 @@ layout: review
 title: "Desolation Called Peace"
 prefix: "A"
 author: "arkady-martine"
-teaser: "Teixcalaan Book 2"
+series: "Teixcalaan Book 2"
 tags:
   - "sci=fi"
 ---

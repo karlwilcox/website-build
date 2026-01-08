@@ -4,7 +4,7 @@ title			: "Ballroom"
 teaser			: ""
 header:
     image_fullwidth	: "gp-header"
-subheadline		: ""
+subtitle		: ""
 permalink		: /new-pemberley/ballroom/
 comments		: true
 sidebar			: new-pemberley

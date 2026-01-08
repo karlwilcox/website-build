@@ -1,7 +1,7 @@
 ---
 layout              : page
 title               : "My Tolkien Reading List"
-subheadline         : "An excellent use of shelf space..."
+subtitle         : "An excellent use of shelf space..."
 teaser              : ""
 header:
    image_fullwidth  : "gp-header"

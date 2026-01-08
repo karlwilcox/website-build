@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Shrinking"
-subheadline: "Apple TV+"
-teaser: "Season 2"
+network: "Apple TV+"
+season: "2"
 tags:
   - "therapy"
 ---

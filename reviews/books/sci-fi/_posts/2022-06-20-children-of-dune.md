@@ -2,7 +2,7 @@
 layout: review
 title: "Children of Dune"
 author: frank-herbert
-teaser: "Dune Sequence Book 3"
+series: "Dune Sequence Book 3"
 tags:
   - "sci-fi"
 ---

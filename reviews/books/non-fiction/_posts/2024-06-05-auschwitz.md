@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Auschwitz"
-subheadline: "Laurence Rees"
-teaser: "The Nazis and the 'Final Solution'"
+subtitle: "Laurence Rees"
+series: "The Nazis and the 'Final Solution'"
 tags:
   - "history"
 ---

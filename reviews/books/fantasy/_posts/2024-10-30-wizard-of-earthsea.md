@@ -3,7 +3,7 @@ layout: review
 title: "Wizard of Earthsea"
 prefix: "A"
 author: ursula-le-guin
-teaser: "Earthsea Book 1"
+series: "Earthsea Book 1"
 tags:
   - "fantasy"
 ---

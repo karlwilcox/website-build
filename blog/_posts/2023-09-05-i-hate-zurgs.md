@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "I Hate Zurgs"
-subheadline: "A brief rant about gaming"
+subtitle: "A brief rant about gaming"
 teaser: "Thoughts and Ramblings"
 tags:
   - games

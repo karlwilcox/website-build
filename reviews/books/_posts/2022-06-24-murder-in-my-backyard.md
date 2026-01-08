@@ -2,7 +2,7 @@
 layout: review
 title: "Murder in my Backyard"
 author: "ann-cleeves"
-teaser: "Inspector Ramsay book 2"
+series: "Inspector Ramsay book 2"
 tags:
   - "crime"
   - "contemporary"

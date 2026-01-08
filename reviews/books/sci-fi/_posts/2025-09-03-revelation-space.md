@@ -2,7 +2,7 @@
 layout: review
 title: "Revelation Space"
 author: alastair-reynolds
-teaser: "Revelation Space Book 1"
+series: "Revelation Space Book 1"
 tags:
   - ""
 ---

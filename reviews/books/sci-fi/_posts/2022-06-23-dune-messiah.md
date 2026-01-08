@@ -2,7 +2,7 @@
 layout: review
 title: "Dune Messiah"
 author: frank-herbert
-teaser: "Dune Series Book 2"
+series: "Dune Series Book 2"
 tags:
   - "sci-fi"
 ---

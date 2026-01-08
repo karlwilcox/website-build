@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Wednesday"
-subheadline: "Netflix"
-teaser: "Season 2"
+network: "Netflix"
+season: "2"
 tags:
   - ""
 ---

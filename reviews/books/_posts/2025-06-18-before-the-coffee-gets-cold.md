@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Before The Coffee Gets Cold"
-subheadline: "Tashikaza Kawaguchi"
-teaser: "Book 1 of 4"
+subtitle: "Tashikaza Kawaguchi"
+series: "Book 1 of 4"
 tags:
   - "japan"
 ---

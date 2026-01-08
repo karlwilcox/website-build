@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Britain's War - Into Battle"
-subheadline: "Daniel Todman"
-teaser: "1939 - 1941"
+subtitle: "Daniel Todman"
+series: "1939 - 1941"
 tags:
   - "britain"
   - "history"

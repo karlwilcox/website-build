@@ -2,7 +2,7 @@
 layout: review
 title: "Force of Nature"
 teaser: "(The Dry 2)"
-subheadline: "(streamed)"
+network: "(streamed)"
 tags:
   - "australia"
 ---

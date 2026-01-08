@@ -2,7 +2,7 @@
 layout              : page
 sidebar       : artwork
 title               : "Pencil"
-subheadline         : ""
+subtitle         : ""
 header:
    image_fullwidth  : "headers/art-materials.jpg"
 permalink           : "/artwork/pencil/"

@@ -1,8 +1,8 @@
-<aside>
+<aside class="sidebar_menu {{ include.barname }}">
 	<div class="panel radius">
-		<h3>Pages In This Section</h3>
+		<h3>{{ site.data.sidebar[include.barname].title | default: site.data.text.sidebar_title }}</h3>
 		<ul>
-            {%- for entry in site.data.sidebar[page.sidebar].menu -%}
+            {%- for entry in site.data.sidebar[include.barname].menu -%}
 			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
 			  {%- if entry.submenu != NULL -%}
 			  <ul>
@@ -15,8 +15,8 @@
 		</ul>
 	</div>
 
-	{%- if site.data.sidebar[page.sidebar].image != NULL -%}
-	<img class="b30" src="{{ site.data.sidebar[page.sidebar].image }}" alt="Sidebar Image">
+	{%- if site.data.sidebar[include.barname].image != NULL -%}
+	<img class="b30" src="{{ site.data.sidebar[include.barname].image }}" alt="Sidebar Image">
 	{%- else -%}
 	<img class="b30" src="/img/decor/Authority-Figure-1-212x300.png" alt="Karl looking stern">
 	{%- endif -%}

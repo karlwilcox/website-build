@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Donut County"
-subheadline: "XBox"
+platform: "XBox"
 teaser: ""
 tags:
   - "comedy"

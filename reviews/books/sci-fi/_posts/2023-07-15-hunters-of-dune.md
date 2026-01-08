@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Hunters of Dune"
-subheadline: "Kevin J. Anderson and Brian Herbert"
-teaser: "Dune Series Sequel"
+subtitle: "Kevin J. Anderson and Brian Herbert"
+series: "Dune Series Sequel"
 tags:
   - ""
 ---

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "Central Station"
-subheadline: "Lavie Tidhar"
-teaser: ""
+subtitle: "Lavie Tidhar"
+series: ""
 tags:
   - "fantasy"
 ---

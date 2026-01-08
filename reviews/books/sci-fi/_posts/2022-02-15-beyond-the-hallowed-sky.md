@@ -2,7 +2,7 @@
 layout: review
 title: "Beyond The Hallowed Sky"
 author: "ken-macleod"
-teaser: "Lightspeed Trilogy Book 1"
+series: "Lightspeed Trilogy Book 1"
 tags:
   - "sci-fi"
 ---

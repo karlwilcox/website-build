@@ -1,5 +1,6 @@
 ---
 layout: review-list
+sidebar: reviews
 ---
 
 # List of Major Authors

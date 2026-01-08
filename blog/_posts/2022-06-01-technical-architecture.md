@@ -2,7 +2,7 @@
 layout: article
 comments: true
 title: "Technical Architecture"
-subheadline: ""
+subtitle: ""
 teaser: "Thoughts and Ramblings"
 tags:
   - electronics

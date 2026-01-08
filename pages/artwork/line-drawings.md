@@ -2,7 +2,7 @@
 layout              : page
 sidebar       : artwork
 title               : "Line Drawings"
-subheadline         : ""
+subtitle         : ""
 header:
    image_fullwidth  : "headers/art-materials.jpg"
 permalink           : "/artwork/line-drawings/"

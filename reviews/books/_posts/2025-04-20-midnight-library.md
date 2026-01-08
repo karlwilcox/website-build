@@ -1,9 +1,9 @@
 ---
 layout: review
 title: "Midnight Library"
-subheadline: "Matt Haig"
+subtitle: "Matt Haig"
 prefix: "The"
-teaser: ""
+series: ""
 tags:
   - "inspirational"
 ---

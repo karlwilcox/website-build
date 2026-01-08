@@ -2,7 +2,7 @@
 layout: review
 title: "Unbearable Weight of Massive Talent"
 prefix: "The"
-subheadline: "Netflix"
+network: "Netflix"
 teaser: ""
 tags:
   - "comedy"

@@ -1,8 +1,8 @@
 ---
 layout: review
 title: "How To Lose The Time War"
-subheadline: "Max Gladstone"
-teaser: ""
+subtitle: "Max Gladstone"
+series: ""
 tags:
   - "romance"
   - "literature"

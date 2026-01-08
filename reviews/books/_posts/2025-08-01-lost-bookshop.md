@@ -1,9 +1,9 @@
 ---
 layout: review
 title: "Lost Bookshop"
-subheadline: "Evie Woods"
+subtitle: "Evie Woods"
 prefix: "The"
-teaser: ""
+series: ""
 tags:
   - "ireland"
 ---
