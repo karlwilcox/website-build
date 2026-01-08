@@ -3,7 +3,8 @@ layout: review
 title: "Killing Stones"
 prefix: "The"
 author: ann-cleeves
-series: "Jimmy Perez Book 9"
+series: "Jimmy Perez"
+booknum: "9"
 tags:
   - "scotland"
 ---

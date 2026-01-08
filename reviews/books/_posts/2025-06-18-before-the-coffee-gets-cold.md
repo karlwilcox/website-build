@@ -1,10 +1,12 @@
 ---
 layout: review
 title: "Before The Coffee Gets Cold"
-subtitle: "Tashikaza Kawaguchi"
-series: "Book 1 of 4"
+author: "tashikaza-kawaguchi"
+series: "Before The Coffee Gets Cold"
+booknum: "1"
 tags:
   - "japan"
+  - "comforting"
 ---
 
 An excellent read, so cleverly constructed. Such a small stage (literally, as

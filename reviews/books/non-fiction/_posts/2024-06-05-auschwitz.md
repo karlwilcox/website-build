@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Auschwitz"
-subtitle: "Laurence Rees"
+author: "laurence-rees"
 series: "The Nazis and the 'Final Solution'"
 tags:
   - "history"

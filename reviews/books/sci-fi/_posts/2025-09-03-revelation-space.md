@@ -2,9 +2,11 @@
 layout: review
 title: "Revelation Space"
 author: alastair-reynolds
-series: "Revelation Space Book 1"
+series: "Revelation Space"
+booknum: "1"
 tags:
-  - ""
+  - "space opera"
+  - "artifact"
 ---
 
 Re-read of the eBook following the disappointment of spending £50 on a
@@ -15,7 +17,7 @@ products called "The Relevation Space Collection", one an ebook collection of 7
 novels, the other the collected short stories. Hence my confusion!
 
 My first read was quite some time ago and while I vividly remember certain
-scenes (Chasm City, the Nostalgia for Infinity and the Hades/Cerberus artefact)
+scenes (Chasm City, the Nostalgia for Infinity and the Hades/Cerberus artifact)
 I couldn’t remember how it all fitted together, and I’m not actually sure that
 I really did back then.
 

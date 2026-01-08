@@ -2,7 +2,8 @@
 layout: review
 title: "Opal Country"
 author: chris-hammer
-series: "Detective Nell Buchanan Book 2"
+series: "Detective Nell Buchanan"
+booknum: "2"
 tagsj:
   - "crime"
   - "australia"

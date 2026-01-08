@@ -3,7 +3,7 @@ layout: review
 title: "Masquerades of Spring"
 prefix: "The"
 author: ben-aaronovitch
-series: "A Rivers of London Novella"
+series: "Rivers of London"
 tags:
   - "new-york"
 ---

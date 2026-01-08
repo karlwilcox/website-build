@@ -2,7 +2,8 @@
 layout: review
 title: "Austerity Britain 1945 - 1951"
 author: david-kynaston
-series: "New Jerusalem books 1 & 2"
+series: "New Jerusalem"
+bookhum: "1 & 2"
 tags:
   - "history"
   - "britain"

@@ -2,10 +2,10 @@
 layout: review
 title: "Challenger's Hope"
 author: "david-feintuch"
-series: "The Seafort Saga Book 2"
+series: "Seafort Saga"
+booknum: "2"
 tags:
-  - "sci-fi"
-  - "military"
+  - "military sf"
 ---
 
 Poor Nick has a tough time on his first actual command at the hands of a bullying and weak admiral

@@ -2,8 +2,7 @@
 layout: review
 title: "Apollo Guidance Computer"
 prefix: "The"
-subtitle: "Frank O'Brien"
-series: ""
+author: "frank-obrien"
 tags:
   - "computing history"
   - "spaceflight"

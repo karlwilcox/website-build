@@ -2,7 +2,8 @@
 layout: review
 title: "Chasm City"
 author: alastair-reynolds
-series: "Revelation Space Book 2"
+series: "Revelation Space"
+booknum: "2"
 tags:
   - ""
 ---

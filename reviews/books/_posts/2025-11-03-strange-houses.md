@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Strange Houses"
-subtitle: "Uketsu"
-series: "Strange Things Series Book 2"
+author: "uketsu"
+series: "Strange Things"
+booknum: "2"
 tags:
   - "japan"
 ---

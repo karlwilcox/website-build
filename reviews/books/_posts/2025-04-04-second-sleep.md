@@ -2,10 +2,9 @@
 layout: review
 title: "Second Sleep"
 prefix: "The"
-subtitle: "Robert Harris"
-series: ""
+author: "robert-harris"
 tags:
-  - "alt-hist"
+  - "alt history"
 ---
 
 (with spoilers)

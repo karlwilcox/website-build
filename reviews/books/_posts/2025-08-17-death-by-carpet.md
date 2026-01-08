@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Death by Carpet"
-subtitle: "P. F. Ford"
-series: "A Slater and Norman Mystery Book 1"
+author: p-f-ford
+series: "Slater and Norman"
+booknum: "1"
 tags:
   - "crime"
 ---

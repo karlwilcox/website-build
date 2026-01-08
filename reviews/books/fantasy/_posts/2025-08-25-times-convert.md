@@ -2,7 +2,8 @@
 layout: review
 title: "Times Convert"
 author: deborah-harkness
-series: "All Souls Trilogy Book 4"
+series: "All Souls Trilogy"
+booknum: "4"
 tags:
   - "magical-realism"
 ---

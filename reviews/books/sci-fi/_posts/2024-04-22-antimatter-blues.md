@@ -2,10 +2,13 @@
 layout: review
 title: "Antimatter Blues"
 author: "edward-ashton"
-series: "A Mickey 7 novel"
+series: "Mickey 7"
 tags:
-  - "sci-fi"
+  - "adventure"
 ---
 
-There was a point about two-thirds of the way through were snarky banter crossed the line into irritating bickering, but apart from that I did read the whole thing in 3 days! A worthy sequel, if something of an exhausting read. Not quite as good as the first one, but works within the limits set by the course of the previous volume.
-
+There was a point about two-thirds of the way through were snarky banter
+crossed the line into irritating bickering, but apart from that I did read the
+whole thing in 3 days! A worthy sequel, if something of an exhausting read. Not
+quite as good as the first one, but works within the limits set by the course
+of the previous volume.

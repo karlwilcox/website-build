@@ -1,10 +1,9 @@
 ---
 layout: review
 title: "All The Lovers In The Night"
-subtitle: "Meiko Kawakami"
-series: "japan"
+author: "meiko-kawakami"
 tags:
-  - ""
+  - "japan"
 ---
 
 Another Japanese novel that I am unsure about. Not that I didn’t enjoy it, I

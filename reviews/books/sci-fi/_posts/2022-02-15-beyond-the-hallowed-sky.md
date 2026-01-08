@@ -2,9 +2,10 @@
 layout: review
 title: "Beyond The Hallowed Sky"
 author: "ken-macleod"
-series: "Lightspeed Trilogy Book 1"
+series: "Lightspeed Trilogy"
+booknum: "1"
 tags:
-  - "sci-fi"
+  - "time travel"
 ---
 
 I think I'd like to re-read this one on actual paper - I listened to it as an audiobook, sometimes while
@@ -16,4 +17,3 @@ so it all seems a bit disjoint.
 
 I think there is a good book here, and a strong trilogy and I really need that re-read to
 do it proper justice. If I ever get round to it I'll update this review accordingly.
-

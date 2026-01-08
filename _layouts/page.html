@@ -36,17 +36,18 @@ format: post
 
 				<div itemprop="name">
 					<h1>{{ page.prefix}} {{ page.title }}</h1>
+					{%- if page.subtitle -%}
+						<p class="subtitle">{{ page.subtitle }}</p>
+					{%- endif -%}
 					{%- if page.teaser -%}
 					<p class="teaser">{{ page.teaser }}</p>
 					{%- endif -%}
-					{%- if page.author == "karlw" -%}
-					    <!-- Just an ordinary page -->
-						{%- if page.subtitle -%}
-							<p class="subtitle">{{ page.subtitle }}</p>
-						{%- endif -%}
-					{%- elsif page.author != "" and page.author != Nil -%} 
-						<!-- Found a book review -->
+					{%- if page.author != "" and page.author != Nil and page.author != "karlw" -%} 
+						<!-- Things for a book review -->
 						<p class="subtitle"><a href="/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
+						{%- if page.author2 != "" and page.author2 != Nil -%}
+						{{ site.data.text.conjunction }} <a href="/author/{{ page.author2 }}/">{{ site.data.authors[page.author2].forename }} {{ site.data.authors[page.author2].surname }}</a>
+						{%- endif -%}
 						{%- if page.series != "" and page.series != Nil -%}
 							<p>{{ site.data.text.series_start }} {{ page.series}} {{ site.data.text.series_end }}
 								{%- if page.booknum -%}
@@ -54,6 +55,20 @@ format: post
 								{%- endif -%}
 								.</p>
 						{%- endif -%}
+						<!-- Things for a TV Show -->
+						 {%- if page.season != "" and page.season != Nil -%}
+						 <p class="subtitle">{{ site.data.text.season }}{{ page.season }}</p>
+						 {%- endif -%}
+						<!-- Things for a TV Show or movie -->
+						 {%- if page.network != "" and page.network != Nil -%}
+						 <p>{{ site.data.text.network }}{{ page.network }}</p>
+						 {%- endif -%}
+						 <!-- Things for games -->
+						 {%- if page.platform != "" and page.platform != Nil -%}
+						 <p>{{ site.data.text.platform }}{{ page.platform }}</p>
+						 {%- endif -%}
+					{%- else -%}
+					    <!-- Just an ordinary page -->
 					{%- endif -%}
 				</div>
 			</header>

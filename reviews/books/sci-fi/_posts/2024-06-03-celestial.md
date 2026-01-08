@@ -1,10 +1,9 @@
 ---
 layout: review
 title: "Celestial"
-subtitle: "M. D. Lachlan"
-series: ""
+author: "m-d-lachlan"
 tags:
-  - "sci-fi"
+  - "alt history"
 ---
 
 Sorry, but I didn't like this and only grudgingly read all the way to the end.

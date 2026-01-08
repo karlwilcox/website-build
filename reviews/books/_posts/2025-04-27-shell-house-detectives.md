@@ -1,9 +1,8 @@
 ---
 layout: review
 title: "Shell House Detectives"
-subtitle: "Emilia Hall"
+author: "emilia-hall"
 prefix: "The"
-series: ""
 tags:
   - "crime"
   - "cornwall"

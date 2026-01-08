@@ -1,11 +1,10 @@
 ---
 layout: review
 title: "Midnight Library"
-subtitle: "Matt Haig"
+author: matt-haig
 prefix: "The"
-series: ""
 tags:
-  - "inspirational"
+  - "comforting"
 ---
 
 This is another example of why I should avoid so much book switching! The

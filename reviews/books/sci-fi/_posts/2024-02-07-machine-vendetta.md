@@ -2,10 +2,12 @@
 layout: review
 title: "Machine Vendetta"
 author: "alastair-reynolds"
-series: "Prefect Dreyfus Book 3"
+series: "Prefect Dreyfus"
+booknum: "3"
 tags:
-  - "sci-fi"
+  - "space opera"
 ---
+
 Al is back! An excellent conclusion to the Dreyfuss series. Cleverly plotted and it moves
 at a cracking pace with some great scenes that fit neatly in to the greater
 "Revelation Space" universe. It isn't forced but there are ominous hints of the plague to

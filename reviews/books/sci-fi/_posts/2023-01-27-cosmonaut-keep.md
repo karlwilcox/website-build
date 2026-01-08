@@ -2,7 +2,8 @@
 layout: review
 title: "Cosmonaut Keep"
 author: ken-macleod
-series: "Engines of Light: Book 1"
+series: "Engines of Light:"
+booknum: "1"
 tags:
   - "sci-fi"
 ---

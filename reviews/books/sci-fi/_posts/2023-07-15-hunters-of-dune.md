@@ -1,14 +1,15 @@
 ---
 layout: review
 title: "Hunters of Dune"
-subtitle: "Kevin J. Anderson and Brian Herbert"
-series: "Dune Series Sequel"
+author: "kevin-j-anderson"
+author2: "brian-herbert"
+series: "Dune Sequels"
 tags:
-  - ""
+  - "future history"
 ---
 
 I spent many months engrossed in the world of Dune and the two original
-trilogies, even after planning through 1000 pages I need to get back into that
+trilogies, even after plowing through 1000 pages I need to get back into that
 immersive story.
 
 Kevin and Brian continue that theme and do a faithful job of taking forwards

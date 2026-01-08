@@ -2,8 +2,7 @@
 layout: review
 title: "First Murder on Mars"
 prefix: "The"
-subtitle: ""
-series: "Sam Wilson"
+author: "sam-wilson"
 tags:
   - "mars"
 ---

@@ -3,9 +3,10 @@ layout: review
 title: "Last Emperox"
 prefix: "The"
 author: "john-scalzi"
-series: "The Interdependency Book 3"
+series: "Interdependency"
+booknum: "3"
 tags:
-  - "sci-fi"
+  - "space-opera"
 ---
 
 As noted earlier in the review of the 2nd book I was eager to finish this series and it 

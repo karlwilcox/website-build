@@ -2,9 +2,9 @@
 layout: review
 title: "War Bodies"
 author: "neal-asher"
-series: "A Novel of the Polity"
+series: "Polity"
 tags:
-  - "sci-fi"
+  - "military sf"
 ---
 
 Definitely one for what Iain Banks refers to as "armamentophiles" - enough rail guns, rotoguns, particle beams

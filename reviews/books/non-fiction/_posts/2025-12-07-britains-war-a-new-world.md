@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Britain's War - Into Battle"
-subtitle: "Daniel Todman"
-series: "1942 - 1947"
+author: "daniel-todman"
+series: "Britain's War"
+subtitle: "1942 - 1947"
 tags:
   - "britain"
   - "history"

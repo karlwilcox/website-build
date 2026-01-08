@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Embedded Experts Guide to C"
-subtitle: "Dr Chris Rose"
+author: chris-rose
 series: ""
 tags:
   - "computing"

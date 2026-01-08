@@ -1,7 +1,8 @@
 ---
 layout: review
 title: "Green Mars"
-series: "Mars Trilogy Book 2"
+series: "Mars Trilogy"
+booknum: "2"
 author: "k-s-robinson"
 tags:
   - "mars"

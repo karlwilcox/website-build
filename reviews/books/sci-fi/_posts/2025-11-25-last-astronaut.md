@@ -2,9 +2,10 @@
 layout: review
 title: "Last Astronaut"
 prefix: "The"
-subtitle: "David Wellington"
-series: ""
+author: "david-wellington"
 tags:
+  - "alt history"
+  - "artifact"
 ---
 
 Our author makes competent use of some familiar SF tropes (the “big dumb

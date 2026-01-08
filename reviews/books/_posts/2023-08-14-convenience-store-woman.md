@@ -1,10 +1,9 @@
 ---
 layout: review
 title: "Convenience Store Woman"
-subtitle: "Sayaka Murata"
+author: "sayaka-murata"
 tags:
   - "japan"
-  - "contemporary"
 ---
 
 The reviewer quoted on the cover who called this 'hilarious' has a strange

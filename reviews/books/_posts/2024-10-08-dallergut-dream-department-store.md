@@ -1,10 +1,10 @@
 ---
 layout: review
 title: "DallerGut Dream Department Store"
-subtitle: "Miye Lee"
-series: ""
+author: "miye-lee"
 tags:
   - "japan"
+  - "comforting"
 ---
 
 This was strange but ultimately it must have been good since I did read it to

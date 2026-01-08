@@ -3,8 +3,7 @@ layout: review
 title: "Starship Troopers"
 author: robert-heinlein
 tags:
-  - "military"
-  - "sci-fi"
+  - "military sf"
 ---
 
 Re-reading this prompted by Michael Drout's lectures on Science Fiction (and I've

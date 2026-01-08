@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Foxglove Farm"
-subtitle: "Christie Barlow"
-series: "Love heart Lane book 2"
+author: "christie-barlow"
+series: "Love heart Lane"
+booknum: "2"
 tags:
   - "scotland"
 ---

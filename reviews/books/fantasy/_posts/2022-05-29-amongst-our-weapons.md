@@ -2,7 +2,8 @@
 layout: review
 title: "Amongst Our Weapons"
 author: ben-aaronovitch
-series: "Rivers of London book 9"
+series: "Rivers of London"
+booknum: "9"
 tags:
   - "fantasy"
   - "london"

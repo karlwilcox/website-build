@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Love Heart Lane"
-subtitle: "Christie Barlow"
-series: "Love Heart Lane Book 1"
+author: "christie-barlow"
+series: "Love Heart Lane"
+booknum: "1"
 tags:
   - "scotland"
 ---

@@ -1,10 +1,10 @@
 ---
 layout: review
 title: "What Your Are Looking For is in the Library"
-subtitle: "Michilo Aoyama"
-series: ""
+author: "michilo-aoyama"
 tags:
   - "japan"
+  - "comforting"
 ---
 
 With the obligatory (and not especially relevant) cat on the cover this is another

@@ -1,14 +1,16 @@
 ---
 layout: review
 title: "Arms of the Sphinx"
-subtitle: "Josiah Bancroft"
-series: "Tower of Babel Book 2"
+author: "josiah-bancroft"
+series: "Tower of Babel"
+booknum: "2"
 tags:
   - "steampunk"
+  - "world building"
 ---
 
-You could actually call this volume “Senlin Ascends Further “ as this is indeed
-what I hero does, both geographically and climbing further at the tower and
+You could actually call this volume “Senlin Ascends Further“ as this is indeed
+what our hero does, both geographically and climbing further at the tower and
 also socially by inadvertently becoming captain of a pirate airship and leader
 of a band of brigands. The story continues with Senlin still pursuing his
 intended - very commedable, although from what we have seen of her she seems to
@@ -24,4 +26,3 @@ good quality fantasy steampunk fare.
 I have not (at time of writing this, in August 2025) moved to the final volume,
 I needed a bit of break from the rather intense narrative but fully intend to
 complete my reading at a later date and see if our lovers are finally reunited.
-

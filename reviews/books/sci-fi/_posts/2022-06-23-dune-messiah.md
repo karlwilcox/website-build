@@ -2,9 +2,10 @@
 layout: review
 title: "Dune Messiah"
 author: frank-herbert
-series: "Dune Series Book 2"
+series: "Original Dune Trilogy"
+booknum: "2"
 tags:
-  - "sci-fi"
+  - "future history"
 ---
 
 This re-read is being done in a single bargain priced 7-volume ebook but for the image I've been able

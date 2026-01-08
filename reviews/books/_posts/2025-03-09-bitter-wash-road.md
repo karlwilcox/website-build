@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Bitter Wash Road"
-subtitle: "Garry Disher"
-series: "Constable Hirsch book 1"
+author: "garry-disher"
+series: "Constable Hirsch"
+booknum: "1"
 tags:
   - "australia"
   - "crime"

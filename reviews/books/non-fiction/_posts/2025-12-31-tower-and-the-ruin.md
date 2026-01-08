@@ -3,7 +3,6 @@ layout: review
 title: "Tower and the Ruin"
 prefix: "The"
 author: michael-drout
-series: ""
 tags:
   - "tolkien"
 ---

@@ -3,9 +3,9 @@ layout: review
 title: "Shards of Earth"
 prefix: "The"
 author: adrian-t
-series: "The Final Architecture book 1"
+series: "The Final Architecture"
+booknum: "1"
 tags:
-  - "sci-fi"
   - "space opera"
 ---
 
@@ -14,4 +14,4 @@ a good back story that sets up an interesting universe for us to explore. Intial
 start out following Idris, whose genetically enhanced telepathic skills are now
 redundant following the end of the war and the disappearance of the planet shattering architects.
 Or are they really gone? Sufficient depth to bear
-re-reading, which I should do some time.
+re-reading, which I should do some time and hence be able to tell you more about this one...

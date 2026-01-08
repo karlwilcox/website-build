@@ -3,9 +3,10 @@ layout: review
 title: "Wizard of Earthsea"
 prefix: "A"
 author: ursula-le-guin
-series: "Earthsea Book 1"
+series: "Earthsea"
+booknum: "1"
 tags:
-  - "fantasy"
+  - ""
 ---
 
 A re-read after probably 40 years but a suprising amount had stayed with me,

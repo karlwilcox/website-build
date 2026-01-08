@@ -1,10 +1,9 @@
 ---
 layout: review
 title: "Central Station"
-subtitle: "Lavie Tidhar"
-series: ""
+author: "lavie-tidhar"
 tags:
-  - "fantasy"
+  - "world building"
 ---
 
 This was beautifully written and absolutely full of atmosphere but ultimately I was a

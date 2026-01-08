@@ -1,11 +1,12 @@
 ---
 layout: review
 title: "Remarkably Bright Creatures"
-subtitle: "Shelby van-Pelt"
-series: "That Octopus Book"
+author: "shelby-van-pelt"
+teaser: "That Octopus Book"
 tags:
   - "seattle"
   - "contemporary"
+  - "bookclub"
 ---
 
 I can't imagine the conversation between the author and her agent when pitching the idea!

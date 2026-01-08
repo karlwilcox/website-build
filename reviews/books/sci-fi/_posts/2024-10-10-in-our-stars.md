@@ -2,10 +2,10 @@
 layout: review
 title: "In Our Stars"
 author: jack-campbell
-series: "Book 1 of something!"
+series: "Doomed Earth"
+booknum: "1"
 tags:
-  - "military"
-  - "sci-fi"
+  - "military sf"
 ---
 
 > Flash! Flash! I love you but we only have 14 hours to save the Earth!

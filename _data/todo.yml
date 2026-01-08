@@ -1,10 +1,8 @@
 general:
-  - Add graphics pages
   - Restore pemberley pages
   - Restore heraldry pages
   - index of interests on /interests
   - same for /projects
-  - collection of modern british history
-  - collection of sci-fi greats
-  - collection of japanese / korean novels
-  - update reading stats so it says month/year
+  - test multiple authors (e.g, abundance) - do we need to check for an array?
+  - test display of subtitles in review-list and review
+  - count books per author for author list (note possibbilty array above...?)

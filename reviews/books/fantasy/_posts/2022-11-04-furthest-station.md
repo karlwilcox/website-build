@@ -3,7 +3,7 @@ layout: review
 title: "Furthest Station"
 prefix: "The"
 author: ben-aaronovitch
-series: "A Rivers of London Novella"
+series: "Rivers of London"
 tags:
   - "fantasy"
 ---

@@ -2,7 +2,6 @@
 layout: review
 title: "Days at the Torunka Cafe"
 author: satoshi-yagisawa
-series: ""
 tags:
   - "japan"
 ---

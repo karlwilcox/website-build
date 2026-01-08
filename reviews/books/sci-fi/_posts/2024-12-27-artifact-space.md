@@ -2,7 +2,8 @@
 layout: review
 title: "Artifact Space"
 author: miles-cameron
-series: "Arcana Imperii Book 1"
+series: "Arcana Imperii"
+booknum: "1"
 tags:
   - "space opera"
 ---

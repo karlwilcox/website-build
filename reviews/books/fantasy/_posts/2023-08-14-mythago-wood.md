@@ -1,10 +1,11 @@
 ---
 layout: review
 title: "Mythago Wood"
-subtitle: "Robert Holdstock"
-series: "Mythago Wood Trilogy book 1"
+author: "robert-holdstock"
+series: "Mythago Wood Trilogy"
+booknum: "1"
 tags:
-  - "fantasy"
+  - "england"
 ---
 
 I read this at the prompting of one of the great courses on science fiction and

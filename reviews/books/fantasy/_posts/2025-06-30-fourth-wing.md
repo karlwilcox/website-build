@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Fourth Wing"
-subtitle: "Rebecca Yarros"
-series: "Empyrean Series Book 1"
+author: "rebecca-yarros"
+series: "Empyrean"
+booknum: "1"
 tags:
   - "romantasy"
 ---
@@ -27,4 +28,3 @@ from the final battle.
 I can completely understand why this book has been so popular and I’m looking
 forward to the second instalment. There are also some really nice special
 editions that I am starting to covet!
-

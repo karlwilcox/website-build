@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Strange Pictures"
-subtitle: "Uketsu"
-series: "Macabre interwoven stories"
+author: "uketsu"
+teaser: "Macabre interwoven stories"
+series: "Strange Things"
 tags:
   - "japan"
 ---

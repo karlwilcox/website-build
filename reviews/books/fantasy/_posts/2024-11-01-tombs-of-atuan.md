@@ -3,7 +3,8 @@ layout: review
 title: "Tombs of Atuan"
 prefix: "The"
 author: ursula-le-guin
-series: "Earthsea Book 2"
+series: "Earthsea"
+booknum: "2"
 tags:
   - "fantasy"
 ---

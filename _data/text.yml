@@ -35,5 +35,6 @@ season: "Season: "
 network: ""
 platform: ""
 booknum: "Book"
+conjunction: "and"
 # Sidebar defaults
 sidebar_title: "Pages in this Section"

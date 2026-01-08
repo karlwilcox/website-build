@@ -3,9 +3,10 @@ layout: review
 title: "Discovery of Witches"
 prefix: "A"
 author: deborah-harkness
-series: "All Souls Book 1"
+series: "All Souls"
+booknum: "1"
 tags:
-  - "fantasy"
+  - "oxford"
 ---
 
 A fantastically rich and detailed story of the competing realms of

@@ -2,9 +2,10 @@
 layout: review
 title: "Heretics of Dune"
 author: "frank-herbert"
-series: "Book 5 of the Chronicles of Dune"
+series: "Second Dune Trilogy"
+booknum: "2"
 tags:
-  - "sci-fi"
+  - "future history"
 ---
 
 Some years ago I was able to pick up an eBook of all the original Dune novels for some ridiculously low price from Google

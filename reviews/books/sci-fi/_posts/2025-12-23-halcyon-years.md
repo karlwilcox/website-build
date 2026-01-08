@@ -2,9 +2,8 @@
 layout: review
 title: "Halcyon Years"
 author: alastair-reynolds
-series: ""
 tags:
-  - ""
+  - "starship"
 ---
 
 As soon as I began reading this I thought “Century Rain” meets “Poseidon’s

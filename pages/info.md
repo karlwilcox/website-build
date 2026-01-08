@@ -67,26 +67,40 @@ with a name that matches the slug and ends in .jpg. Thumbnails are generated aut
 image is provided if required.
 
 The naming convention is that we use the full name of the item being reviewed using dashes instead
-of spaces but removing any initial "a-" or "the-". TVshows shoule have -sN appended, where N is the
+of spaces but removing any initial "a-" or "the-". TV shows should have -sN appended, where N is the
 number of the season.
 
 Frontmatter should be as follows:
 
+#### Common properties
+
+- title: Item title without prefix (if any)
+- prefix: "A", "An", "The" etc.
+- subtitle: Any subtitle, as required
+- teaser: Whatever additional information you want to show near the top
+- picture: Override name of picture (taken from same img folder, if not present use slug)
 - layout: review
-- title: Full title, including 'a' or 'the'
-- author: (Books only) key-to-_data/authors.yml
-- subtitle: 
-  - For books, free format author name (ignored if the author field is present)
-  - For movies & tv shows, the streaming platform and / or studio
-  - For shorts, the full date range as text
-  - For games, the platform
-  - For other, free form explanation
-- teaser:
-  - For books, the series (if any)
-  - For movies, the series (if any)
-  - For tvshows, the season (if any)
-  - For games / other, free form as required
 - tags: as required
+
+#### For Books
+
+- author: a key value, indexing authors.json
+- author2: ditto, use subtitle or teaser for even more authors and set author2 to "others"
+- series: Name (only) of whatever set of books this is from
+- booknum: Only used if series is set, number of the book in that series in reading order
+
+#### For TV
+
+- season: number
+- network: source
+
+#### For Movies
+
+- network: source
+
+#### For Games
+
+- plaform: device
 
 ### Other Pages
 

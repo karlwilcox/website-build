@@ -1,8 +1,7 @@
 ---
 layout: review
 title: "Tomorrow and Tomorrow and Tomorrow"
-subtitle: "Gabrielle Zevin"
-series: ""
+author: "gabrielle-zevin"
 tags:
   - "computing history"
 ---

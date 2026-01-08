@@ -1,10 +1,9 @@
 ---
 layout: review
 title: "How to Stop Time"
-subtitle: "Matt Haig"
-series: ""
+author: "matt-haig"
 tags:
-  - ""
+  - "motivational"
 ---
 
 I listened to this an audiobook, I think I must’ve picked it up in one of the

@@ -2,7 +2,6 @@
 layout: review
 title: "Love and Freindship and other Youthful Writings"
 author: jane-austen
-series: ""
 tags:
   - "regency"
 ---

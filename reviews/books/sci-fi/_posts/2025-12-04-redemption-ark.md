@@ -2,9 +2,10 @@
 layout: review
 title: "Redemption Ark"
 author: alastair-reynolds
-series: "Reveleation Space Book 3"
+series: "Revelation Space"
+booknum: "3"
 tags:
-  - "scf-fi"
+  - "space opera"
 ---
 
 Another step in the revelation space re-read...

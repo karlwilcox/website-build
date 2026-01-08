@@ -2,10 +2,10 @@
 layout: review
 title: "Midshipman's Hope"
 author: "david-feintuch"
-series: "The Seafort Saga Book 1"
+series: "Seafort Saga"
+booknum: "1"
 tags:
-  - "sci-fi"
-  - "military"
+  - "military sf"
 ---
 
 An obvious homage to both C.S. Forestor's Hornblower and to things like Heinlein's "Space Cadet".

@@ -1,8 +1,7 @@
 ---
 layout: review
 title: "Don't Close Your Eyes"
-subtitle: "P. S. Cunliffe"
-series: ""
+author: "p-s-cunliffe"
 tags:
   - "london"
 ---

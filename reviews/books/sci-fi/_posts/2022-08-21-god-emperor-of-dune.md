@@ -1,10 +1,11 @@
 ---
 layout: review
-title: "God Emporer of Dune"
+title: "God Emperor of Dune"
 author: frank-herbert
-series: "Dune Sequence book 4"
+series: "Second Dune Trilogy"
+booknum: "1"
 tags:
-  - "sci-fi"
+  - "future history"
 ---
 
 Well, four door-stop volumes into my great Dune re-read I'm finally starting to flag a little.

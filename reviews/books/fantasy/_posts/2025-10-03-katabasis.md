@@ -1,8 +1,7 @@
 ---
 layout: review
 title: "Katabasis"
-subtitle: "R. F. Huang"
-series: ""
+author: "r-f-kuang"
 tags:
   - "hell"
   - "cambridge"

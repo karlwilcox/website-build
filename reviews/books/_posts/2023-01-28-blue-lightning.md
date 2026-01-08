@@ -2,7 +2,8 @@
 layout: review
 title: "Blue Lightning"
 author: ann-cleeves
-series: "Jimmy Perez (Shetland) book 4"
+series: "Jimmy Perez (Shetland)"
+booknum: "4"
 tags:
   - "crime"
   - "scotland"

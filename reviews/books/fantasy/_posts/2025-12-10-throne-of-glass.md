@@ -2,7 +2,8 @@
 layout: review
 title: "Throne of Glass"
 author: sarah-j-maas
-series: "Throne of Glass Book 1"
+series: "Throne of Glass"
+booknum: "1"
 tags:
   - ""
 ---

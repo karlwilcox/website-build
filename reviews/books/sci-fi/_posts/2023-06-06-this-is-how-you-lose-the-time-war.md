@@ -1,11 +1,11 @@
 ---
 layout: review
 title: "How To Lose The Time War"
-subtitle: "Max Gladstone"
-series: ""
+author: "max-gladstone"
 tags:
   - "romance"
   - "literature"
+  - "time travel"
 ---
 
 This was lovely, and probably more cleverly constructed than I realised at the

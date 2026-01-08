@@ -1,8 +1,7 @@
 ---
 layout: review
 title: "We Begin at the End"
-subtitle: "Chris Whitaker"
-series: ""
+author: "chris-whitaker"
 tags:
   - "crime"
   - "california"

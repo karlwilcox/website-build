@@ -2,7 +2,6 @@
 layout: review
 title: "Stonemouth"
 author: "iain-banks"
-series: ""
 tags:
   - "scotland"
   - "contemporary"

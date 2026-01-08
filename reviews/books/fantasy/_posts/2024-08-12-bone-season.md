@@ -3,10 +3,11 @@ layout: review
 title: "Bone Season"
 prefix: "The"
 author: "samantha-shannon"
-series: "Tenth Anniversary Special Edition"
+subtitle: "Tenth Anniversary Special Edition"
+series: "Bone Season"
+booknum: "1"
 tags:
   - "alt-hist"
-  - "fantasy"
 ---
 I'm not sure how I feel about this one!
 

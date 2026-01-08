@@ -1,8 +1,7 @@
 ---
 layout: review
-title: "Persausion"
+title: "Persuasion"
 author: jane-austen
-series: ""
 tags:
   - "regency"
 ---

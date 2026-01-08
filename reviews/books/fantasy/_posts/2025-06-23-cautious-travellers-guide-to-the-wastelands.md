@@ -2,10 +2,9 @@
 layout: review
 title: "Cautious Traveller's Guide to the Wastelands"
 prefix: "The"
-subtitle: "Sarah Brooks"
-series: ""
+author: "sarah-brooks"
 tags:
-  - "fantasy"
+  - "russia"
 ---
 
 The Hellbound train runs through Vandermeer‘s southern reach in a beautifully

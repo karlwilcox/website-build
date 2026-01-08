@@ -3,9 +3,8 @@ layout: review
 title: "Couple at No.9"
 prefix: "The"
 author: claire-douglas
-series: ""
 tags:
-  - ""
+  - "thriller"
 ---
 
 A kitchen extension is underway in a small town in the west country when bodies

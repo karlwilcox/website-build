@@ -1,8 +1,9 @@
 ---
 layout: review
 title: "Abundance"
-subtitle: "Ezra Klein and Derek Thomson"
-series: "How we build a better future"
+author: "ezra-klein"
+author2: "derek-thomson"
+subtitle: "How we build a better future"
 tags:
   - "politics"
 ---

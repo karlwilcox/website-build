@@ -3,7 +3,8 @@ layout: review
 title: "Court of Thorns and Roses"
 prefix: "A"
 author: sarah-j-maas
-series: "A Court of Thorns and Roses book 1"
+series: "Court of Thorns and Roses"
+booknum: "1"
 tags:
   - "romantasy"
 ---

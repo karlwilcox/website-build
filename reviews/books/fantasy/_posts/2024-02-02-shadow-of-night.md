@@ -2,9 +2,10 @@
 layout: review
 title: "Shadow of Night"
 author: deborah-harkness
-series: "All Souls Book 2"
+series: "All Souls"
+booknum: "2"
 tags:
-  - "fantasy"
+  - "london"
 ---
 
 "Disappointing" - Karl
