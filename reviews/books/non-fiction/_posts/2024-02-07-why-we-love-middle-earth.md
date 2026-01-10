@@ -1,7 +1,8 @@
 ---
 layout: review
 title: "Why We Love Middle Earth"
-suheadline: "Machese and Sisto"
+author: shawn-marchese
+author2: alan-sisto
 tags:
   - "tolkien"
   - "literature"

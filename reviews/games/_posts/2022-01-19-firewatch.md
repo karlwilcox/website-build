@@ -1,16 +1,19 @@
 ---
 layout: review
 title: "Firewatch"
-platform: "XBox Game"
-teaser: ""
+platform: "XBox"
 tags:
   - "mystery"
   - "contemporary"
 ---
 
-A very linear, but absorbing story. You are cast as a student
-isolated in a watch tower for the summer with your only contact
-a fellow watcher on your portable radio. Other characters move
-in the periphery and there is clearly a mystery to be solved here, which
-the games play moves you through. 
-There was something I failed to find in the tent (got scared about being caught!) and went back to the cabin on stilts, but had to do it all again the next day before I could move on. Quite a lonely experience (deliberately), but beautifully rendered and I for one could lose my bearings within 50 feet of the watch tower so perhaps I'm not the woodsman I thought I was. Would like to try more games like this.
+A very linear, but absorbing story. You are cast as a student isolated in a
+watch tower for the summer with your only contact a fellow watcher on your
+portable radio. Other characters move in the periphery and there is clearly a
+mystery to be solved here, which the games play moves you through. There was
+something I failed to find in the tent (got scared about being caught!) and
+went back to the cabin on stilts, but had to do it all again the next day
+before I could move on. Quite a lonely experience (deliberately), but
+beautifully rendered and I for one could lose my bearings within 50 feet of the
+watch tower so perhaps I'm not the woodsman I thought I was. Would like to try
+more games like this.

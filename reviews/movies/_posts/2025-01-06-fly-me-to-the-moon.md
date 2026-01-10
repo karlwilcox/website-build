@@ -2,11 +2,11 @@
 layout: review
 title: "Fly Me to the Moon"
 network: "Apple TV+"
-teaser: ""
 tags:
-  - "sci-fi"
   - "comedy"
+  - "alt history"
 ---
+
 A wonderful evocation of the 1960's in clothes, attitudes, cars and even the almost
 Technicolor grading! This was a fun story from the Apollo era with a lot
 of great lines, effective scenes and a story with a surprising amount

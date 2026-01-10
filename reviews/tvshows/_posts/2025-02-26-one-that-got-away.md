@@ -3,7 +3,6 @@ layout: review
 title: "One That Got Away"
 prefix: "The"
 network: "BBC iPlayer"
-teaser: ""
 tags:
   - "wales"
   - "crime"

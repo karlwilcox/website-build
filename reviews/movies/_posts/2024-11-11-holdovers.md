@@ -3,7 +3,6 @@ layout: review
 title: "Holdovers"
 prefix: "The"
 network: "Sky Cinema"
-teaser: ""
 tags:
   - "boston"
 ---

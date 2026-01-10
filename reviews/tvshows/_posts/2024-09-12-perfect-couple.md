@@ -3,7 +3,6 @@ layout: review
 title: "Perfect Couple"
 prefix: "The"
 network: "Netflix"
-teaser: ""
 tags:
   - "crime"
   - "nantucket"

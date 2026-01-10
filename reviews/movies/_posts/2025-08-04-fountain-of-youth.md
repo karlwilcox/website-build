@@ -2,7 +2,6 @@
 layout: review
 title: "Fountain of Youth"
 network: "Apple TV"
-teaser: ""
 tags:
   - "action"
 ---

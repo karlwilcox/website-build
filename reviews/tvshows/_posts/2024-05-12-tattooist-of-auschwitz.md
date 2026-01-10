@@ -3,7 +3,6 @@ layout: review
 title: "Tattooist of Auschwitz"
 prefix: "The"
 network: "Sky Atlantic"
-teaser: ""
 tags:
   - "history"
 ---

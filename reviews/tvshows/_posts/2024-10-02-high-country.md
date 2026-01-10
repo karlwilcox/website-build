@@ -2,7 +2,6 @@
 layout: review
 title: "High Country"
 network: "BBC iPlayer"
-teaser: ""
 tags:
   - "crime"
   - "australia"

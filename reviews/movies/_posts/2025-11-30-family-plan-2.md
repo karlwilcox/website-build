@@ -1,9 +1,8 @@
 ---
 layout: review
-title: "Family Plan"
+title: "Family Plan 2"
 prefix: "The"
 network: "Apple TV"
-teaser: ""
 tags:
   - "london"
   - "paris"

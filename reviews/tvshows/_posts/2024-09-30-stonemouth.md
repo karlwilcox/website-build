@@ -2,7 +2,6 @@
 layout: review
 title: "Stonemouth"
 network: "BBC iPlayer"
-teaser: ""
 tags:
   - "scotland"
   - "drama"

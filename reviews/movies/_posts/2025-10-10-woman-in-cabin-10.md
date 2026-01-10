@@ -3,13 +3,12 @@ layout: review
 title: "Woman in Cabin 10"
 prefix: "The"
 network: "Netflix"
-teaser: ""
 tags:
   - "norway"
 ---
 
 Keira Knightley just doesn’t know when to shut up on board an astonishingly
-ugly super yacht (presumably Netflix didn’t b build it themselves hired it in
+ugly super yacht (presumably Netflix didn’t build it themselves but hired it in
 from some existing billionaire, in which case they have absolutely no taste in
 interior decor).
 

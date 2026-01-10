@@ -2,7 +2,6 @@
 layout: review
 title: "Donut County"
 platform: "XBox"
-teaser: ""
 tags:
   - "comedy"
   - "puzzle"

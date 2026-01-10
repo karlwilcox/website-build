@@ -3,7 +3,6 @@ layout: review
 title: "Lego Ninjago Movie"
 prefix: "The"
 network: "Apple TV+"
-teaser: ""
 tags:
   - "lego"
 ---

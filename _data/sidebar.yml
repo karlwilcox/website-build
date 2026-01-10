@@ -186,6 +186,7 @@ artwork:
   image: "/artwork/marker-pens.jpg"
 reviews:
   title: "Review Links"
+  surprise_me: true
   header: "/img/decor/Authority-Figure-1-212x300.png"
   menu:
     - title: "Books (all types)"

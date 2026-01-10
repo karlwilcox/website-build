@@ -2,7 +2,6 @@
 layout: review
 title: "Down Cemetery Road"
 network: "Apple TV"
-teaser: ""
 tags:
   - "oxford"
 ---

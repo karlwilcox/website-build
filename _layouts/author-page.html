@@ -1,4 +1,5 @@
 ---
+sidebar: "reviews"
 layout: review-list
 pagination:
   enabled: true
@@ -8,6 +9,15 @@ pagination:
 {%- assign author = page.pagination.author_data -%}
 
 <h1 class="text-start">{{ site.data.text.author_books }} {{ author.forename }} {{ author.surname }}</h1>
-{%- if author.note -%}
+{%- if author.note != "" and author.note != Nil -%}
 <p>{{ author.note }}</p>
 {%- endif -%}
+<!-- Additional books for second author -->
+{%- assign reviews = site.categories.books | sort: "title" -%}
+{%- for this_item in reviews -%}
+  {%- if this_item.author2 == page.pagination.author -%}
+  <div class="row">
+    {%- include _item-details.html item=this_item -%}
+  </div><!-- /.row -->
+  {%- endif -%}
+{%- endfor %}

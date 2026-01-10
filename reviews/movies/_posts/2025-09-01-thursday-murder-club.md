@@ -2,8 +2,7 @@
 layout: review
 title: "Thursday Murder Club"
 prefex: "The"
-network: ""
-teaser: "Netflix"
+network: "Netflix"
 tags:
   - "england"
 ---

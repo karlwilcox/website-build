@@ -1,10 +1,9 @@
 ---
 layout: review
 title: "Masterpieced"
-platform: "Apple Arcade"
-teaser: ""
+platform: "iPad"
 tags:
-  - ""
+  - "puzzlek"
 ---
 
 A straightforward jigsaw puzzle game which pretty much gets everything right.

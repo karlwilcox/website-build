@@ -2,7 +2,6 @@
 layout: review
 title: "Like Father"
 network: "Netflix"
-teaser: ""
 tags:
   - "carribean"
 ---

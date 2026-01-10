@@ -1,13 +1,13 @@
 ---
 layout: review
-title: "Expeditions - A Mudrunner Game"
+title: "Expeditions"
+subtitle: "A Mudrunner Game"
 platform: "XBox"
-teaser: ""
 tags:
-  - "xbox"
   - "driving"
   - "simulation"
 ---
+
 Hey, I've finally found a snowrunner/mud runner game that I really like!
 
 All these games are part of the XBox Game Pass (great value in my view) so I've tried both mud and snow. 

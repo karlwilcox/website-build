@@ -83,16 +83,9 @@ format: post
 
 		</article>
 	</div><!-- /.medium-8.columns -->
-	{%- if page.categories[0] == "reviews" -%}
-	<div class="medium-4 columns t30">
-		{%- include surprise_me -%}
-		{%- include _page_sidebar.html barname="reviews" -%}
-	</div>
-	{%- elsif page.sidebar != "" and page.sidebar != Nil -%}
 	<div class="medium-4 columns t30">
 		{%- include _page_sidebar.html barname=page.sidebar -%}
 	</div>
-	{%- endif -%}
 </div><!-- /.row -->
 <div class="row t30">
 	{%- include _breadcrumb.html -%}

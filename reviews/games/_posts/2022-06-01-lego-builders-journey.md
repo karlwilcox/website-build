@@ -2,7 +2,6 @@
 layout: review
 title: "Lego - The Builder's Journey"
 platform: "iPad"
-teaser: ""
 tags:
   - "lego"
   - "puzzle"

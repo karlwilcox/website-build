@@ -8,7 +8,7 @@ header:
 ---
 
 ## Titles of All Books with a Full Review
-{% assign reviews = site.categories.books | sort: "title" %}
+{%- assign reviews = site.categories.books | sort: "title" -%}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toB">&nbsp;B&nbsp;</a>&nbsp;|&nbsp;
@@ -37,23 +37,31 @@ header:
     <a href="#toY">&nbsp;Y&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toZ">&nbsp;Z&nbsp;</a>
 </p>
-{% assign initial = "" %}
+{%- assign initial = "" -%}
 <ul>
-{% for item in reviews %}
-{% assign this_initial = item.title | slice: 0 %}
-{% unless initial == this_initial %}
-{% assign initial = this_initial %}
+{%- for item in reviews -%}
+{%- assign this_initial = item.title | slice: 0 -%}
+{%- unless initial == this_initial -%}
+{%- assign initial = this_initial -%}
 </ul>
 <p id="to{{ initial }}">{{ initial }}</p>
 <ul>
-{% endunless %}
+{%- endunless -%}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
-{% if item.subtitle %}
-({{ item.subtitle }})
-{% else %}
-{% assign author_data = site.data.authors[item.author] %}
-(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>)
-{% endif %}
+{%- if item.author != "" and item.author != Nil -%}
+{%- assign author_data = site.data.authors[item.author] -%}
+(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
+{%- if item.author2 != "" and item.author2 != Nil -%}
+  {%- assign author_data = site.data.authors[item.author2] -%}
+  {{ site.data.text.conjunction }}
+  <a href="/author/{{ item.author2 }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
+{%- endif -%}
+)
+{%- else -%}
+  {%- if item.subtitle != "" and item.subtitle != Nil -%}
+  ({{ item.subtitle }})
+  {%- endif -%}
+{%- endif -%}
 </li>
-{% endfor %}
+{%- endfor -%}
 </ul>

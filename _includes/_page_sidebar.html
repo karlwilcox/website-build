@@ -1,4 +1,7 @@
 <aside class="sidebar_menu {{ include.barname }}">
+	{%- if site.data.sidebar[include.barname].surprise_me -%}
+		{%- include surprise_me -%}
+	{%- endif -%}
 	<div class="panel radius">
 		<h3>{{ site.data.sidebar[include.barname].title | default: site.data.text.sidebar_title }}</h3>
 		<ul>

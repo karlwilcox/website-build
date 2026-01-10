@@ -9,70 +9,7 @@
 
 {%- for post in paginator.posts -%}
   <div class="row">
-    <div class="small-12 columns">
-      <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.prefix }} {{ post.title }}</a></h2>
-      <p class="b15">
-          {%- if page.paginate.category == "blog" -%}
-              {%- capture src_url -%}{{ site.urlimg }}blog/generic-thumb.jpg{%- endcapture -%}
-              {%- capture thumb_path -%}{{ site.urlimg }}blog/{{ post.thumb }}{%- endcapture -%}
-              {%- assign link_text == site.data.text.link_to_post -%}
-          {%- else -%}
-              {%- capture src_url -%}{{ site.urlimg }}reviews/generic-thumb.jpg{%- endcapture -%}
-              {%- capture thumb_path -%}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{%- endcapture -%}
-              {%- assign link_text == site.data.text.link_to_review -%}
-          {%- endif -%}
-          {%- for img_file in site.static_files -%}
-          {%- if img_file.path == thumb_path -%}
-          {%- assign src_url = thumb_path -%}
-          {%- continue -%}
-          {%- endif -%}
-          {%- endfor -%}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title | escape_once }}"></a>
-        {%- unless post.author == "karlw" -%}
-         - <a href="/author/{{ post.author }}/">{{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }}</a>
-           {%- if post.author2 != "" and post.author2 != Nil -%}
-         {{ site.data.text.conjunction }}&nbsp; <a href="/author/{{ post.author2 }}/">{{ site.data.authors[post.author2].forename }} {{ site.data.authors[post.author2].surname }}</a>
-         {%- endif -%}
-        {%- else -%}
-        {%- if post.subtitle -%}
-         - {{ post.subtitle }}
-        {%- endif -%}
-        {%- endunless -%}
-      </p>
-      {%- if post.season != "" and post.season != nil -%}
-      <p class="b30">
-        {{ site.data.text.season }} {{ post.season | strip_html | escape }}
-      </p>
-      {%- endif -%}
-      {%- if post.series != "" and post.series != nil -%}
-      <p class="b30">
-        {{ site.data.text.series_start }} {{ post.series | strip_html | escape }} {{ site.data.text.series_end }} 
-      </p>
-        {%- if post.booknum != "" and post.booknum != nil -%}
-        <p class="b30">
-          {{ site.data.text.booknum }} {{ post.booknum | strip_html | escape }}
-        </p>
-        {%- endif -%}
-      {%- endif -%}
-      {%- if post.network != "" and post.network != nil -%}
-      <p class="b30">
-        {{ site.data.text.network }} {{ post.network | strip_html | escape }}
-      </p>
-      {%- endif -%}
-      {%- if post.platform != "" and post.platform != nil -%}
-      <p class="b30">
-        {{ site.data.text.platform }} {{ post.platform | strip_html | escape }}
-      </p>
-      {%- endif -%}
-      {%- if post.teaser != "" and post.teaser != nil -%}
-      <p class="b30">
-        {{ post.teaser | strip_html | escape }}
-      </p>
-      {%- endif -%}
-      <p class="b30">
-        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.text.read }} {{ post.title | escape_once }}"><strong>{{ link_text }}</strong></a>
-      </p>
-    </div><!-- /.small-12.columns -->
+    {%- include _item-details.html item=post -%}
   </div><!-- /.row -->
 {%- endfor -%}
 

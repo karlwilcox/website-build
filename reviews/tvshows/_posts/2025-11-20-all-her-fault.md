@@ -2,7 +2,6 @@
 layout: review
 title: "All Her Fault"
 network: "Sky Atlantic"
-teaser: ""
 tags:
   - "chicago"
 ---

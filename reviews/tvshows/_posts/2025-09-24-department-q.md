@@ -2,7 +2,7 @@
 layout: review
 title: "Department Q"
 network: "Netflix"
-teaser: ""
+season: "1"
 tags:
   - "scotland"
 ---

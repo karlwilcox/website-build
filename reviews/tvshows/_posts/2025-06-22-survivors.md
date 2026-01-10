@@ -2,7 +2,6 @@
 layout: review
 title: "Survivors"
 network: "Netflix"
-teaser: ""
 tags:
   - "australia"
 ---

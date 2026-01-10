@@ -2,9 +2,8 @@
 layout: review
 title: "A Memoire Blue"
 platform: "XBox"
-teaser: ""
 tags:
-  - "interactive novel"
+  - "interactive fiction"
 ---
 
 One of the nice things about having a XBox Game Pass subscription is that you can try out games that

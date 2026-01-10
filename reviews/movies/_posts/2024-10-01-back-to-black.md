@@ -2,7 +2,6 @@
 layout: review
 title: "Back To Black"
 network: "Netflix"
-teaser: ""
 tags:
   - "biopic"
 ---

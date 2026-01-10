@@ -159,6 +159,18 @@ defaults:
       type: 'blog'
     values:
       comments: true
+  -
+    scope:
+      path: 'reviews'
+      type: 'pages'
+    values:
+      sidebar: "reviews"
+  -
+    scope:
+      path: 'reviews'
+      type: 'posts'
+    values:
+      sidebar: "reviews"
 
 
 #       _   __            _             __  _

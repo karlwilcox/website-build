@@ -2,10 +2,9 @@
 layout: review
 title: "Fabulous Four"
 prefix: "The"
-network: ""
-teaser: "Netflix"
+network: "Netflix"
 tags:
-  - "florida"
+  - "usa"
 ---
 
 In two words - “watchably bad”. This is undeniably a bad film - outrageous
