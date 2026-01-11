@@ -15,7 +15,7 @@ breadcrumb_start: "Home"
 # Redirection page
 if_you_are_not_redirected_automatically: "If you are not redirected automatically,"
 click_here: "click here"
-# Random links
+# Random links (surprise me)
 random_review_button: "Surprise me!"
 random_review_caption: "Take me to a random review"
 # Begging letters
@@ -38,3 +38,9 @@ booknum: "Book"
 conjunction: "and"
 # Sidebar defaults
 sidebar_title: "Pages in this Section"
+# Contact details
+contact_button: "Get in touch..."
+contact_caption: "Contact form for Karl"
+# What's new
+whats_new_button: "What's new?"
+whats_new_caption: "Something I've been working on"

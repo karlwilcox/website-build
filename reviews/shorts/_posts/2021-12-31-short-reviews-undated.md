@@ -2,8 +2,7 @@
 layout: review
 title: "Short Reviews"
 subtitle: "Undated"
-teaser: ""
-tags:
+/reviewstags:
   - "grab-bag"
 ---
 

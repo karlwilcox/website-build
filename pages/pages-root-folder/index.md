@@ -24,25 +24,12 @@ widget3:
   text: 'I read a lot of books, watch films and TV shows and play the odd computer game. I like to make a few notes on all the media I consume so I thought it might be nice to share these with you. You may not agree with my assessments, but that is fine!'
 
 #
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-callforaction:
-  url: /contact
-  text: Get in touch with Karl... ›
-  style: alert
-permalink: /index.html
-#
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
 #
 homepage: true
+
+permalink: /index.html
 ---
 
 ## Artwork Sampler

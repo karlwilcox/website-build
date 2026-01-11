@@ -5,8 +5,7 @@ layout: page
 #
 subtitle: ""
 title: ""
-teaser: ""
-categories:
+/reviewscategories:
   -
 tags:
   -

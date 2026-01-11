@@ -1,0 +1,9 @@
+
+    <div class="row">
+        <div class="small-12 text-center columns">
+            <a class="button large radius secondary" href="/contact/">{{ site.data.text.contact_button }}</a>
+        </div><!-- /.small-12.columns -->
+        <div class="small-12 text-center columns">
+            <p>{{ site.data.text.contact_caption }}</p>
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->

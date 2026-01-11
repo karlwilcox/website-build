@@ -2,8 +2,7 @@
 layout: review
 title: "Piececool 3D Metal Model Kit"
 subtitle: ""
-teaser: ""
-tags:
+/reviewstags:
   - "model"
 ---
 

@@ -2,8 +2,7 @@
 layout: page
 title: "List of TV Show Titles"
 subtitle: ""
-teaser: ""
-header:
+/reviewsheader:
   image_fullwidth: "gp-header"
 ---
 

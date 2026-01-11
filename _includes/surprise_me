@@ -1,5 +1,5 @@
 
-    <div class="row t30 b30">
+    <div class="row">
         <div class="small-12 text-center columns">
             <a id="surprise-me" class="button large radius">{{ site.data.text.random_review_button }}</a>
         </div><!-- /.small-12.columns -->

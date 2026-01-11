@@ -2,8 +2,7 @@
 layout: page
 title: "List of Mini Review Titles"
 subtitle: ""
-teaser: ""
-header:
+/reviewsheader:
   image_fullwidth: "gp-header"
 permalink: /reviews/shorts/titles/
 ---

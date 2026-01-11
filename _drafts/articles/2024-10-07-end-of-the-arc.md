@@ -3,8 +3,7 @@ layout: article
 comments: true
 title: "The End of the Arc"
 subtitle: "Thoughts on crime series"
-teaser: ""
-tags:
+/reviewstags:
   - personal
   - "crime"
 ---

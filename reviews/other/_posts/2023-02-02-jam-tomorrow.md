@@ -2,8 +2,7 @@
 layout: review
 title: " Jam Tomorrow"
 subtitle: "A Podcast"
-teaser: ""
-tags:
+/reviewstags:
   - "history"
   - "podcast"
 ---
