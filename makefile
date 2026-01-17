@@ -6,8 +6,11 @@ SHELL := /bin/bash
 # the default action is to build the site locally
 build: thumbs
 	bundle exec jekyll build
-	echo forcing page asset copy
-	(cd pages; find . -path ./pages-root-folder -prune -o -type f -not -name "*.md" -not -name "*.html" -print | cpio -pd /Users/karlw/Sites/ \; )
+	# echo forcing page asset copy
+	# (cd pages; find . -path ./pages-root-folder -prune -o -type f -not -name "*.md" -not -name "*.html" -print | cpio -pd /Users/karlw/Sites/ \; )
+	# rsync -a /Users/karlw/Sites/pages /Users/karlw/Sites
+	# cp -R /Users/karlw/Sites/pages/* /Users/karlw/Sites/
+	# rm -rf /Users/karlw/Sites/pages
 	chmod -R go+r /Users/karlw/Sites
 	echo -n "Completed at: "
 	date
@@ -20,7 +23,10 @@ clean:
 	bundle exec jekyll clean
 
 deploy:
-	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html
+	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html --exclude '/nextcloud/**' --exclude '/404.shtml'
+
+deploy-all:
+	rclone sync -v /Users/karlw/Sites kw-site:/public_html --exclude '/nextcloud/**' --exclude '/404.shtml'
 
 gallery: do_gallery
 .PHONY: gallery

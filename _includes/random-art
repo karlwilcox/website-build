@@ -1,13 +1,15 @@
 <div>
-	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
-        <li><img id="img1" data-caption="" src="" alt=""></li>
-        <li><img id="img2" data-caption="" src="" alt=""></li>
-        <li><img id="img3" data-caption="" src="" alt=""></li>
-        <li><img id="img4" data-caption="" src="" alt=""></li>
-        <li><img id="img5" data-caption="" src="" alt=""></li>
-        <li><img id="img6" data-caption="" src="" alt=""></li>
-        <li><img id="img7" data-caption="" src="" alt=""></li>
-        <li><img id="img8" data-caption="" src="" alt=""></li>
+   <h2>Artwork Sampler</h2>
+
+<p>And here's some of my attempts at creating art, more under the "Interests => Artwork" menu entry above.</p>
+
+	<ul class="clearing-thumbs small-block-grid-3" data-clearing>
+        <li id="img1"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
+        <li id="img2"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
+        <li id="img3"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
+        <li id="img4"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
+        <li id="img5"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
+        <li id="img6"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
 	</ul>
 </div>
 
@@ -15,18 +17,22 @@
 function setGallery() {
    const imgs = [
       {% for img in site.data.artwork -%}
-               "/{{ img.thumb_url }}",
+               [ "/{{ img.thumb_url }}", "{{ img.caption }}", "{{ img.title }}" ],
       {%- endfor %}
    ];
    var entries = [];
    var num = 1;
-   while (num <= 8) {
+   while (num <= 6) {
      var chosen = Math.floor(Math.random() * imgs.length);
        if (entries.includes(chosen)) {
         continue;
        } // else
        entries.push(chosen);
-       document.getElementById("img" + num).setAttribute('src', imgs[chosen]);
+       const item = document.getElementById("img" + num);
+       item.childNodes[0].setAttribute('src', imgs[chosen][0]);
+       item.childNodes[0].setAttribute('alt', imgs[chosen][1].substring(0,30));
+       item.childNodes[0].setAttribute('data-caption', imgs[chosen][1]);
+       item.childNodes[1].textContent = imgs[chosen][2];
        num += 1;
    }
 }

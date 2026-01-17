@@ -1,14 +1,18 @@
 ---
 layout: page
-title: "List of Book Titles"
-subtitle: ""
-series: ""
 header:
   image_fullwidth: "gp-header"
 ---
 
-## Titles of All Books with a Full Review
-{%- assign reviews = site.categories.books | sort: "title" -%}
+# List of Book Titles
+
+This is a list of titles of all books with a full review.
+
+Additionally there are some shorter or abandonded books that I didn't have a great deal to say
+about so these are included in the [short reviews](/reviews/shorts/). You can
+use the [Search Page](/search/) to find a specific title, or look at the alphabetical list of all
+[short review titles](/reviews/shorts/titles/), where books are marked with an appropriate icon.
+
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toB">&nbsp;B&nbsp;</a>&nbsp;|&nbsp;
@@ -37,6 +41,8 @@ header:
     <a href="#toY">&nbsp;Y&nbsp;</a>&nbsp;|&nbsp;
     <a href="#toZ">&nbsp;Z&nbsp;</a>
 </p>
+
+{%- assign reviews = site.categories.books | sort: "title" -%}
 {%- assign initial = "" -%}
 <ul>
 {%- for item in reviews -%}
@@ -50,10 +56,10 @@ header:
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
 {%- if item.author != "" and item.author != Nil -%}
 {%- assign author_data = site.data.authors[item.author] -%}
-(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
+&nbsp;(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
 {%- if item.author2 != "" and item.author2 != Nil -%}
   {%- assign author_data = site.data.authors[item.author2] -%}
-  {{ site.data.text.conjunction }}
+  &nbsp;{{ site.data.text.conjunction }}
   <a href="/author/{{ item.author2 }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
 {%- endif -%}
 )

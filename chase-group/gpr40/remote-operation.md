@@ -26,7 +26,7 @@ the functions.
 I don't recall all the details of this (and it was implemented as a daughter
 board in a corner of the CPU board so doesn't appear in the circuit diagrams),
 however I think it used a 16450 UART, for which the chip select line is visible
-as pin 14 on the address decoder (IC17) in the 
+as pin 14 on the address decoder (IC17) in the
 [CPU circuit diagram](/chase-group/gpr40/circuit-diagrams/). There was also a MAX232 which
 uses diode charge pumps to create +9/-9V from a +5V supply rail so we could
 have proper RS232 signalling.
@@ -58,7 +58,7 @@ Will'tek User Guide available as item 6 on the
 ## Demonstration Programs
 
 I was also asked to create some demonstration programs to show off the remote
-capabilities and was given (I think, an EPSON PX-8 (
+capabilities and was given a suitable device, I think it was an EPSON PX-8 (
 [https://en.wikipedia.org/wiki/Epson\_PX-8\_Geneva](https://en.wikipedia.org/wiki/Epson_PX-8_Geneva)
 ) as this was portable, had a 480 x 64 pixel 8 line display, a built in RS322
 port and Microsoft BASIC. Since this whole field was rather new no-one could
@@ -69,7 +69,7 @@ I have a couple of screen dumps from the program - these are dated 1986 but
 have 25 lines of text and what looks like 320 pixels of width so I'm not sure
 what computer they were produced on.
 
-{% include download src="(chase-group/gpr40/Channel-Occupancy.pdf" desc="Channel Occupancy" %}
+{% include download src="/chase-group/gpr40/Channel-Occupancy.pdf" desc="Channel Occupancy" %}
 
 This **Channel Occupancy** plot covers a range of frequencies in South London,
 including emergency services and private operators, all voice channels The

@@ -1,13 +1,15 @@
 
 <div>
-	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
+	<ul class='clearing-thumbs small-block-grid-{{ include.grid_size | default: "3" }}' data-clearing>
 		{%- for item in site.data.artwork -%}
 			{%- capture mediatype -%}/{{ include.type }}/{%- endcapture -%}
 			{%- if include.type and item.image_url contains mediatype -%}
-				<li><a href="/{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a></li>
+				<li><a href="/{{ item.image_url }}"><img class="gallery-thumb" {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a>
+					<p class="gallery-caption">{{ item.title }}</p></li>
 			{%- endif -%}
 			{%- if include.tag and item.tags contains include.tag -%}
-				<li><a href="/{{ item.image_url }}"><img {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a></li>
+				<li><a href="/{{ item.image_url }}"><img class="gallery-thumb" {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a>{{ item.title }}
+					<p class="gallery-caption">{{ item.title }}</p></li>
 			{%- endif -%}
 		{%- endfor -%}
 	</ul>

@@ -23,7 +23,11 @@ credits: '<p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll<
 # See > authors.yml
 author: karlw
 
-whats_new_url: "/artwork/canva-ai/"
+# whats_new_url: "/artwork/canva-ai/"
+whats_new_url: 
+  - "/chase-group/help-wanted/"
+  - "/artwork/canva-ai/"
+  - "/chase-group/vhr3000/"
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #

@@ -1,9 +1,23 @@
 
     <div class="row">
         <div class="small-12 text-center columns">
-            <a class="button large radius warning" href="{{ site.whats_new_url }}">{{ site.data.text.whats_new_button }}</a>
+            <a id="what-new-button" class="button large radius warning" href="{{ site.whats_new_url[0] }}">{{ site.data.text.whats_new_button }}</a>
         </div><!-- /.small-12.columns -->
         <div class="small-12 text-center columns">
             <p>{{ site.data.text.whats_new_caption }}</p>
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
+
+<script>
+function setWhatsNew() {
+    const urls = [
+        {% for url in site.whats_new_url %}
+        "{{ url }}",
+        {% endfor %}
+    ];
+    var button = document.getElementById("what-new-button");
+    var choice = Math.floor(Math.random() * urls.length);
+    button.setAttribute("href",urls[choice]);
+}
+setWhatsNew();
+</script>

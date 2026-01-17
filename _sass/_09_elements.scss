@@ -170,3 +170,13 @@ img.lazy {
 ul#search-results h3 {
   display: inline;
 }
+
+
+/* Image gallery
+-------------------------------------------------------------------- */
+.gallery-thumb, .gallery-caption {
+  padding: inherit;
+  margin: auto;
+  display: block;
+  text-align: center;
+}

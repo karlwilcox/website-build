@@ -31,9 +31,3 @@ homepage: true
 
 permalink: /index.html
 ---
-
-## Artwork Sampler
-
-And here's some of my attempts at creating art, more under the "Interests => Artwork" menu entry above.
-
-{% include random-art %}

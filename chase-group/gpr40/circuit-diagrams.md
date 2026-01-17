@@ -53,12 +53,19 @@ readable. Filename as supplied 36198004\_S.pdf.
 
 This is the board that I am most familiar with. It is known to be missing the
 serial comms "daughter board" that was mounted up in one corner and contained
-an UART and associated circuitry - for more details see the [remote operation
-page](/chase-group/gpr40/remote-operation/).
+an UART and associated circuitry - for more details see the 
+[remote operation page](/chase-group/gpr40/remote-operation/).
 
 The earliest date is January 1985 (which slightly pre-dates my arrival later in
 that year) and the latest is 17/7/2001. A good quality scan with all parts
 readable. Filename as supplied 36198108\_S.pdf.
+
+Note that IC1 and IC2 are both shown with
+[DS1213C sockets](https://www.analog.com/en/products/ds1213c.html) - these have a built in
+battery and controller that essentially make the static RAM chips non-volatile. I
+think only IC1, the 8K chip actually stored the calibration data so IC2 was
+sometimes just fitted in a plain socket. Be aware that this socket was only
+rated for a 10 year life so is very unlikely to still be operational today!
 
 {% include download src="/chase-group/gpr40/Micro-Board.pdf" desc="Microprocessor Board" %}
 

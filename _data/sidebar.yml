@@ -15,6 +15,8 @@ chase-group:
   menu:
     - title: "Chase Group Home"
       url: "/chase-group/"
+    - title: "Can You Help?"
+      url: "/chase-group/help-wanted/"
     - title: "Chase Memories"
       url: "/chase-group/chase-memories/"
     - title: "Chase Systems 68186"
@@ -48,6 +50,8 @@ chase-group:
       url: "/chase-group/chase-research-iolan/"
     - title: "The IOPro Family"
       url: "/chase-group/chase-research-iopro/"
+    - title: "VHR3000 Receiver"
+      url: "/chase-group/vhr3000/"
 science-fiction:
   title: "SF Collections Links"
   menu:

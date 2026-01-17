@@ -29,19 +29,6 @@ format: frontpage
 	{%- endif -%}
 </div><!-- /.row -->
 
-{%- comment -%}
-
-*
-* First check, if there is a call for action-button
-*
-{%- endcomment -%}
-{%- if page.callforaction.url contains 'http' -%}
-{%- assign url = '' -%}
-{%- else -%}
-{%- capture url -%}{{ site.url }}{{ site.baseurl }}{%- endcapture -%}
-{%- endif -%}
-
-
 <div class="row t0">
 {%- include _site_stats.html -%}
 </div><!-- /.row -->
@@ -111,6 +98,8 @@ format: frontpage
 <div class="row t0">
 {%- include _reading-stats.html -%}
 </div><!-- /.row -->
+
+{% include random-art %}
 
 {%- comment -%}
 *

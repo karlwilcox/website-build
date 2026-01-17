@@ -13,7 +13,7 @@ as a distraction from my rather insular and unexciting village life.
 
 I’ve been largely ignoring AI image generators as I felt they have developed
 either an unsavoury reputation (used to create harmful or hateful fakes) or a
-poor reputation (unrealistic or just downright wierd AI slop). But a free month
+poor reputation (unrealistic or just downright weird AI slop). But a free month
 of Canvas AI has persuaded me to take a proper look and to also investigate
 open source locally hosted alternatives. These are my considered reflections
 after a few days investigation (so don’t expect any hugely profound thoughts or
