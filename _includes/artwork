@@ -1,6 +1,6 @@
 
 <div>
-	<ul class='clearing-thumbs small-block-grid-{{ include.grid_size | default: "3" }}' data-clearing>
+	<ul class='small-block-grid-{{ include.grid_size | default: "3" }}'>
 		{%- for item in site.data.artwork -%}
 			{%- capture mediatype -%}/{{ include.type }}/{%- endcapture -%}
 			{%- assign item_found = "false" -%}
@@ -10,13 +10,33 @@
 				{% assign item_found = "true" -%}
 			{%- endif -%}
 			{%- if item_found == "true" -%}
-				<li><a href="/{{ item.image_url }}">
-					<img class="gallery-thumb" {% if item.caption %}data-caption="{% if item.page_url %}<a href='/{{ item.page_url }}/'>More Information...</a> {% endif %}{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a>
+				<li>
+					<a href="/{{ item.image_url }}" data-robroy data-robroy-index="{% increment counter %}">
+						<img class="gallery-thumb" src="/{{ item.thumb_url }}" alt="{{ item.caption }}">
+					</a>
 					<p class="gallery-caption">
+					{%- if item.page_url != "" and item.page_url != Nil -%}
 						<a href="/{{ item.page_url }}/">* {{ item.title }} *</a>
-					{{ item.title }}
-					</p></li>
+					{%- else -%}
+						{{ item.title }}
+					{% endif %}
+					</p>
+				</li>
 			{%- endif -%}
 		{%- endfor -%}
 	</ul>
 </div>
+
+<script>
+window.robroy({
+  // Set to true to allow navigating from the first image to the last image and vice-versa.
+    enableLoop: true,
+
+    // Set to true to show the current image number and the total number of images.
+    showNumber: true,
+	
+	hideFullScreenButton: true,
+	animateInClass: 'robroy-fade-in',
+    animateOutClass: 'robroy-fade-out',
+});
+</script>
