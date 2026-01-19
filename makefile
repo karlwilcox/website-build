@@ -23,10 +23,10 @@ clean:
 	bundle exec jekyll clean
 
 deploy:
-	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html --exclude '/nextcloud/**' --exclude '/404.shtml'
+	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml'
 
 deploy-all:
-	rclone sync -v /Users/karlw/Sites kw-site:/public_html --exclude '/nextcloud/**' --exclude '/404.shtml'
+	rclone sync -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml'
 
 gallery: do_gallery
 .PHONY: gallery

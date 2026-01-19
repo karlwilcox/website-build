@@ -3,13 +3,19 @@
 	<ul class='clearing-thumbs small-block-grid-{{ include.grid_size | default: "3" }}' data-clearing>
 		{%- for item in site.data.artwork -%}
 			{%- capture mediatype -%}/{{ include.type }}/{%- endcapture -%}
+			{%- assign item_found = "false" -%}
 			{%- if include.type and item.image_url contains mediatype -%}
-				<li><a href="/{{ item.image_url }}"><img class="gallery-thumb" {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a>
-					<p class="gallery-caption">{{ item.title }}</p></li>
+				{% assign item_found = "true" -%}
+			{%- elsif include.tag and item.tags contains include.tag -%}
+				{% assign item_found = "true" -%}
 			{%- endif -%}
-			{%- if include.tag and item.tags contains include.tag -%}
-				<li><a href="/{{ item.image_url }}"><img class="gallery-thumb" {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a>{{ item.title }}
-					<p class="gallery-caption">{{ item.title }}</p></li>
+			{%- if item_found == "true" -%}
+				<li><a href="/{{ item.image_url }}">
+					<img class="gallery-thumb" {% if item.caption %}data-caption="{% if item.page_url %}<a href='/{{ item.page_url }}/'>More Information...</a> {% endif %}{{ item.caption }}"{% endif %} src="/{{ item.thumb_url }}" alt="{{ item.caption }}"></a>
+					<p class="gallery-caption">
+						<a href="/{{ item.page_url }}/">* {{ item.title }} *</a>
+					{{ item.title }}
+					</p></li>
 			{%- endif -%}
 		{%- endfor -%}
 	</ul>
