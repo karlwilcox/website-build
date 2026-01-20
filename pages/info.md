@@ -24,12 +24,13 @@ preparation and diagram creation.
 The build system is the Linux 'make' command with some embedded bash scripts to
 do things like thumbnail generation.
 
-The page theme is [FEELING RESPONSIVE][4] by phlow.
+The page theme is [FEELING RESPONSIVE][4] by phlow, although quite heavily
+modified. I've also used the [Robroy lightbox][5].
 
 ## Copyrights
 
 All written content is my original work, unless otherwise stated and remains
-copyright Karl R. Wilcox 2025.
+copyright Karl R. Wilcox 2025, 2026
 
 For articles and general topic pages images, diagrams, photographs etc. are my
 own work unless otherwise stated.
@@ -104,11 +105,25 @@ Frontmatter should be as follows:
 
 ### Other Pages
 
-Created in an appropriately named folder under pages, you can have any
-organisation that you like but need to provide the permalink in the frontmatter
-and your own navigation; either by manually including links or defining your
-own layout in \_layouts. Additionally you will need top level links to your new
-pages in \_data/navigation.html, usually under 'Projects' or 'Interests'.
+Created in an appropriately named folder in the root folder, you can have any
+organisation that you like and generally the permalinks will use that file
+organisation. You do need to provide your own navigation; either by manually
+including links or defining your own layout in \_layouts or creating a custom
+sidebar in \_data/sidebar.yml. Additionally you will need top level links to
+your new pages in \_data/navigation.html, usually under 'Projects' or
+'Interests'.
+
+## Galleries
+
+Two types of gallery are available, the Foundation style gallery that
+came with the theme, and should be used for a related set of images that
+do not require any titles or links, details of images are supplied
+in the front matter of the page containing the image.
+
+There is also the RobRoy lightbox
+gallery that selects images from \_data/artwork.yml according to various
+criteria and allows for titles, extended captions and links to more
+detail on other pages. See \_includes/artwork for details.
 
 All contents are automatically included in the search index.
 
@@ -119,3 +134,4 @@ page, or in the defaults section of the _config.yml file.
  [2]: https://system76.com/pop/
  [3]: https://affinity.serif.com/
  [4]: https://phlow.github.io/feeling-responsive/
+ [5]: https://www.cssscript.com/gallery-lightbox-robroy/

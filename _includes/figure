@@ -7,9 +7,9 @@
 *
 {%- endcomment -%}
 
-{%- if include.align == Null -%}
+{%- unless include.align -%}
 {%- assign include.align = "centre" -%}
-{%- endif -%}
+{%- endunless -%}
 
 <figure class="{{ include.align }}">
     {%- if include.link -%}

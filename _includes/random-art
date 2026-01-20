@@ -3,13 +3,13 @@
 
 <p>And here's some of my attempts at creating art, more under the "Interests => Artwork" menu entry above.</p>
 
-	<ul class="clearing-thumbs small-block-grid-3" data-clearing>
-        <li id="img1"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
-        <li id="img2"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
-        <li id="img3"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
-        <li id="img4"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
-        <li id="img5"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
-        <li id="img6"><img class="gallery-thumb" data-caption="" src="" alt=""><p class="gallery-caption"></p></li>
+	<ul class="small-block-grid-3" data-clearing>
+        <li><figure id="img1"><a href="" data-robroy data-robroy-index="0"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+        <li><figure id="img2"><a href="" data-robroy data-robroy-index="1"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+        <li><figure id="img3"><a href="" data-robroy data-robroy-index="2"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+        <li><figure id="img4"><a href="" data-robroy data-robroy-index="3"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+        <li><figure id="img5"><a href="" data-robroy data-robroy-index="4"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+        <li><figure id="img6"><a href="" data-robroy data-robroy-index="5"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
 	</ul>
 </div>
 
@@ -17,7 +17,7 @@
 function setGallery() {
    const imgs = [
       {% for img in site.data.artwork -%}
-               [ "/{{ img.thumb_url }}", "{{ img.caption }}", "{{ img.title }}" ],
+               [ "/{{ img.thumb_url }}", "{{ img.title}} {{ img.caption }}", "{{ img.image_url }}" ],
       {%- endfor %}
    ];
    var entries = [];
@@ -29,10 +29,11 @@ function setGallery() {
        } // else
        entries.push(chosen);
        const item = document.getElementById("img" + num);
-       item.childNodes[0].setAttribute('src', imgs[chosen][0]);
-       item.childNodes[0].setAttribute('alt', imgs[chosen][1].substring(0,30));
-       item.childNodes[0].setAttribute('data-caption', imgs[chosen][1]);
-       item.childNodes[1].textContent = imgs[chosen][2];
+       item.childNodes[0].setAttribute('href', imgs[chosen][2]);
+       item.childNodes[0].childNodes[0].setAttribute('src', imgs[chosen][0]);
+       item.childNodes[0].childNodes[0].setAttribute('alt', imgs[chosen][1].substring(0,30));
+       item.childNodes[0].childNodes[0].setAttribute('data-caption', imgs[chosen][1]);
+       item.childNodes[1].childNodes[0].textContent = imgs[chosen][1];
        num += 1;
    }
 }

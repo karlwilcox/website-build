@@ -1,4 +1,4 @@
-
+<!-- lightbox from https://www.cssscript.com/gallery-lightbox-robroy/ -->
 <div>
 	<ul class='small-block-grid-{{ include.grid_size | default: "3" }}'>
 		{%- for item in site.data.artwork -%}
@@ -11,16 +11,25 @@
 			{%- endif -%}
 			{%- if item_found == "true" -%}
 				<li>
-					<a href="/{{ item.image_url }}" data-robroy data-robroy-index="{% increment counter %}">
-						<img class="gallery-thumb" src="/{{ item.thumb_url }}" alt="{{ item.caption }}">
-					</a>
-					<p class="gallery-caption">
-					{%- if item.page_url != "" and item.page_url != Nil -%}
-						<a href="/{{ item.page_url }}/">* {{ item.title }} *</a>
-					{%- else -%}
-						{{ item.title }}
-					{% endif %}
-					</p>
+					<figure>
+						<a href="/{{ item.image_url }}" data-robroy data-robroy-index="{% increment counter %}">
+							<img class="gallery-thumb" src="/{{ item.thumb_url }}" alt="{{ item.caption }}">
+						</a>
+						<figcaption>
+							<p class="gallery-caption">
+							{%- if item.page_url != "" and item.page_url != Nil -%}
+								{%- if item.title -%}
+									{%- assign link_text = item.title -%}
+								{%- else -%}
+									{%- assign link_text = "More details..." -%}
+								{%- endif -%}
+								<a href="/{{ item.page_url }}/">* {{ link_text }} *</a> {{ item.caption }}
+							{%- else -%}
+								{{ item.title }} {{ item.caption }}
+							{% endif %}
+							</p>
+						</figcaption>
+					</figure>
 				</li>
 			{%- endif -%}
 		{%- endfor -%}
@@ -38,5 +47,6 @@ window.robroy({
 	hideFullScreenButton: true,
 	animateInClass: 'robroy-fade-in',
     animateOutClass: 'robroy-fade-out',
+	disableOverlayClickListener: true,
 });
 </script>
