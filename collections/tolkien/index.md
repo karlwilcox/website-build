@@ -48,6 +48,6 @@ academic and popular.
 All told, I know have about six shelf-feet of books, well over a million words
 that I am working through...
 
-I have listed all these owned works in the [reading list here](/tolkien/reading-list) ,
-and you can find my notes on each of the works by searching out the "tolkien" 
+I have listed all these owned works in the [reading list here](/tolkien/reading-list/) ,
+and you can find my notes on each of the works by searching out the "tolkien"
 tag in my reviews section (also TBD).

@@ -12,7 +12,7 @@ sidebar             : "austen"
 
 It all started with Tom Shippey really...
 
-As you know from the [Tolkien Reading Project](/collections/tolkien/overview) Tom has made some
+As you know from the [Tolkien Reading Project](/collections/tolkien/) Tom has made some
 significant contributions to Tolkien scholarship. Having enjoyed his work there,
 when an opportunity to listen to his lecture series "Heroes of Literature"
 on Audible I gave it a go...

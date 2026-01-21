@@ -29,4 +29,4 @@ This is the file referred to above, containing MS BASIC and BBC Basic programs,
 along with instructions for calibration of the receiver, but as noted, this
 requires some specific and ancient kit to operate.
 
-[Download](chase-group/gpr40/GPR-calibration.zip)
+[Download](GPR-calibration.zip)

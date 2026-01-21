@@ -1,0 +1,3 @@
+<p>
+    <a class="button large radius secondary" href="{{ include.url }}">{{ site.data.text.back_to }} {{ include.text }}</a>
+</p>

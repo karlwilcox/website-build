@@ -12,6 +12,7 @@ read_more: "Read More&nbsp;›"
 next_post_in: "Next Post in"
 previous_post_in: "Previous Post in"
 breadcrumb_start: "Home"
+back_to: "Back to"
 # Redirection page
 if_you_are_not_redirected_automatically: "If you are not redirected automatically,"
 click_here: "click here"

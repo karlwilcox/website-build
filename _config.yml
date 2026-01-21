@@ -177,6 +177,8 @@ defaults:
       type: 'posts'
     values:
       sidebar: "reviews"
+      header:
+        image_fullwidth  : "headers/buccolic-fields.jpg"
 
 
 #       _   __            _             __  _

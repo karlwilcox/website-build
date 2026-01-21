@@ -423,13 +423,13 @@
       thumb_url: artwork/ou-doodles/thumbs/marking-pile.jpg
       tags:
 # canva-ai
-    - image_url: artwork/canva-ai/beach-front-cafe.png
-      page_url: artwork/canva-ai/beach-front-cafe
-      title: "Beachfront cafe"
-      thumb_url: artwork/canva-ai/thumbs/beach-front-cafe.jpg
+    - image_url: artwork/canva-ai/beachfront-cafe.png
+      page_url: artwork/canva-ai/beachfront-cafe
+      title: "Beachfront Cafe"
+      thumb_url: artwork/canva-ai/thumbs/beachfront-cafe.jpg
       tags: 
     - image_url: artwork/canva-ai/buccolic-fields.png
-      page-url: artwork/canva-ai/buccolic-fields.png
+      page_url: artwork/canva-ai/buccolic-fields
       title: "Buccolic Fields"
       thumb_url: artwork/canva-ai/thumbs/buccolic-fields.jpg
       tags: 

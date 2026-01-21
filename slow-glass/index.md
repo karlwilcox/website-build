@@ -49,6 +49,6 @@ you need to know about them:
 
 * [Animation methods](/slow-glass/animation-methods/)
 * [Command Line Arguments](/slow-glass/command-line/)
-* [Groups](/slow-glass/groups/j)
+* [Groups](/slow-glass/groups/)
 * [Scenes](/slow-glass/scenes/)
 * [Triggers](/slow-glass/triggers/)

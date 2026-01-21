@@ -21,3 +21,5 @@ video generation here, asking canva to animate the waves breaking and the trees
 swaying in the breeze, and it did that well but moved the camera. I was hoping
 to loop the video so I tried again explicitly stating "keep the camera", it
 confirmed it would and then moved it even faster(!)
+
+{% include back_to url="/artwork/canva-ai" text="Canva AI Artwork" %}

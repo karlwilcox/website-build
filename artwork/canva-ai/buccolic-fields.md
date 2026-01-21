@@ -18,3 +18,5 @@ header:
 
 This is pretty much almost exactly how I imagined it and is probably one of my
 most "successful" image to date.
+
+{% include back_to url="/artwork/canva-ai" text="Canva AI Artwork" %}
