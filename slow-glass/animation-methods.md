@@ -6,7 +6,6 @@ subtitle         : ""
 teaser              : ""
 header:
    image_fullwidth  : "headers/slow-glass.jpg"
-permalink           : "slow-glass/animation-methods/"
 ---
 
 

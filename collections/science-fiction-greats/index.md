@@ -5,7 +5,6 @@ subtitle         : ""
 teaser              : "A Personal Selection"
 header:
    image_fullwidth  : "gp-header"
-permalink           : "/collections/science-fiction-greats/"
 comments            : true
 sidebar             : "science-fiction"
 ---

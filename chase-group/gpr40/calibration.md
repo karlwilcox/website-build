@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/gpr40/calibration/"
 ---
 
 I also have considerable information on the process of calibrating the
@@ -29,4 +28,4 @@ This is the file referred to above, containing MS BASIC and BBC Basic programs,
 along with instructions for calibration of the receiver, but as noted, this
 requires some specific and ancient kit to operate.
 
-[Download](GPR-calibration.zip)
+[Download](/chase-group/gpr40/GPR-calibration.zip)

@@ -15,5 +15,5 @@ movie that would clearly be a "major Oscar contender" rather than just telling
 a good story. Maybe I'm not doing it justice( and although I was in the room I
 wasn't paying attention) so don't let me put anyone off watching! It did prompt
 me to buy
-["The Making of the Atomic Bomb"](/reviews/books/non-fiction/making-of-the-atomic-bomb.md)
+["The Making of the Atomic Bomb"](/reviews/books/non-fiction/making-of-the-atomic-bomb/)
 book however...

@@ -5,7 +5,6 @@ teaser			: ""
 header:
     image_fullwidth	: "gp-header"
 subtitle		: ""
-permalink		: /collections/japanese-and-korean/
 comments		: true
 sidebar			: japanese
 ---

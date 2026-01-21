@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/chase-research-iolan/"
 ---
 
 The Chase Research IOLAN was an ethernet to RS232 concentrator that allowed 16

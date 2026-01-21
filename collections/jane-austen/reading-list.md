@@ -5,7 +5,6 @@ subtitle         : "Bonnets, ribbons, dances and country houses"
 teaser              : ""
 header:
    image_fullwidth  : "gp-header"
-permalink           : "/collections/jane-austen/reading-list/"
 comments            : true
 sidebar             : "austen"
 ---

@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/chase-research-iopro/"
 ---
 
 This was effectively the ultimate point of host bused serial line

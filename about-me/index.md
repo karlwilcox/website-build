@@ -5,7 +5,6 @@ subtitle         : ""
 teaser              : "Thoughts and ramblings"
 header:
    image_fullwidth  : "gp-header"
-permalink       : "/about-me/"
 ---
 
 I am an Educator, teaching computer science at all undergraduate levels – more

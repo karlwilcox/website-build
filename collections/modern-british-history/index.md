@@ -5,7 +5,6 @@ teaser			: ""
 header:
     image_fullwidth	: "gp-header"
 subtitle		: ""
-permalink		: /collections/modern-british-history/
 comments		: true
 sidebar			: british-history
 ---

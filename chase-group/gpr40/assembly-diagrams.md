@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/gpr40/assembly-diagrams/"
 ---
 
 The following diagrams showing assembly of some of the main components are available. All have the filenames as they were supplied to me.

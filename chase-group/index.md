@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/"
 ---
 
 During the 1980's I worked for various members of the Chase Group of Companies

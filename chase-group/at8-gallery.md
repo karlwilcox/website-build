@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/at8-gallery/"
 ---
 I was able to obtain an AT8+ board in superb condition from eBay, serial number 8+03056 (so likely to be the 56th sold).
 

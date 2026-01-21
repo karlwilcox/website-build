@@ -4,7 +4,6 @@ sidebar             : new-pemberley
 title               : "New Pemberley Overview"
 subtitle         : ""
 teaser              : ""
-permalink           : "/new-pemberley/"
 ---
 {% include alert info="This section under construction, please check back soon (Sep 2025)" %}
 

@@ -5,7 +5,6 @@ subtitle         : ""
 teaser              : "Its what I made a shelf for"
 header:
    image_fullwidth  : "gp-header"
-permalink           : "/collections/"
 comments            : true
 sidebar			     : collections
 ---

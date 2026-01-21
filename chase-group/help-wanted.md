@@ -5,7 +5,6 @@ subtitle         : "Information Request"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/help-wanted/"
 ---
 
 ## Do You Have Information on Chase Products?

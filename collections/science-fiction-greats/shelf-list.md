@@ -5,7 +5,6 @@ subtitle         : ""
 teaser              : "What's on the Shelf?"
 header:
    image_fullwidth  : "gp-header"
-permalink           : "/collections/science-fiction-greats/shelf-list/"
 comments            : true
 sidebar             : "science-fiction"
 ---

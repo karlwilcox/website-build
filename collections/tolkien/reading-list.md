@@ -5,7 +5,6 @@ subtitle         : "An excellent use of shelf space..."
 teaser              : ""
 header:
    image_fullwidth  : "gp-header"
-permalink           : "/collections/tolkien/reading-list/"
 comments            : true
 sidebar             : "tolkien"
 ---

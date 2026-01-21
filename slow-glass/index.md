@@ -6,7 +6,6 @@ subtitle         : ""
 teaser              : ""
 header:
    image_fullwidth  : "headers/slow-glass.jpg"
-permalink           : "slow-glass/"
 ---
 
 {% include figure src="/slow-glass/cafe-at-night.gif" caption="Bringing the Cafe at Arles to life" align="centre" %}

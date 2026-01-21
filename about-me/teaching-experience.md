@@ -5,7 +5,6 @@ subtitle         : ""
 teaser              : "Thoughts and ramblings"
 header:
    image_fullwidth  : "gp-header"
-permalink       : "/about-me/teaching-experience/"
 ---
 
 ## Teaching &amp; Lecturing

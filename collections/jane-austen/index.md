@@ -5,7 +5,6 @@ subtitle         : ""
 teaser              : "Reading the author of the 18th century"
 header:
    image_fullwidth  : "gp-header"
-permalink           : "/collections/jane-austen/"
 comments            : true
 sidebar             : "austen"
 ---

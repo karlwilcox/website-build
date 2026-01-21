@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/gpr40/circuit-diagrams/"
 ---
 
 These are in no particular order, and are not necessarily all referring to the

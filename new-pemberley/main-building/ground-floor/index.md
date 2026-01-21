@@ -5,7 +5,6 @@ teaser			: ""
 header:
     image_fullwidth	: "gp-header"
 subtitle		: ""
-permalink		: /new-pemberley/main-building/ground-floor/
 comments		: true
 sidebar			: new-pemberley
 ---

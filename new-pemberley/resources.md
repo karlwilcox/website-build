@@ -4,7 +4,6 @@ sidebar             : new-pemberley
 title               : "Resources and Tools"
 subtitle         : ""
 teaser              : ""
-permalink           : "/new-pemberley/resources/"
 ---
 
 Books, software and stuff.

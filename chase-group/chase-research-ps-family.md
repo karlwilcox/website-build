@@ -6,7 +6,6 @@ teaser              : "Products of the Chase Group"
 header:
    image_fullwidth  : "headers/gpr40-header.png"
 sidebar: "chase-group"
-permalink           : "/chase-group/chase-research-ps-family/"
 ---
 
 The Chase Research PS4+, PS8 and PS16 were terminal concentrators that allowed
