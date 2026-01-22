@@ -25,4 +25,4 @@ to remove them), but looking closely at the prompt I did say "scattered around"
 and probably should have said "scattered on the tables". A useful lesson in
 precision of language for prompting.
 
-{% include back_to url="/artwork/canva-ai" text="Canva AI Artwork" %}
+{% include back_to %}

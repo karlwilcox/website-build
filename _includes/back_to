@@ -1,3 +1,23 @@
+{%- comment -%}
+provides a back button to the enclosing folder, using the name of the
+folder as the target text. You can override any aspect using the optional
+arguments:
+  url - target url
+  text - button caption
+{%- endcomment -%}
+{%- if include.url -%}
+{%- assign target = include.url -%}
+{%- else -%}
+{%- assign target = page.dir | split: "/" | pop | join: "/" | append: "/" -%}
+{%- endif -%}
+{%- if include.text -%}
+{%- assign caption = include.text -%}
+{%- else -%}
+{%- assign caption = page.dir | split: "/" | pop | last | | replace: "-", " " | capitalize -%}
+{%- assign caption = site.data.text.back_to | append: " " | append: caption -%}
+{%- endif -%}
+
+
 <p>
-    <a class="button large radius secondary" href="{{ include.url }}">{{ site.data.text.back_to }} {{ include.text }}</a>
+    <a class="button large radius secondary" href="{{ target }}">{{ caption }}</a>
 </p>
