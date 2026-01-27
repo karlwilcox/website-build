@@ -106,6 +106,9 @@
 * Now loop, updating counters as we go
 {%- endcomment -%}
 {%- for book_review in site.categories.books -%}
+{%-   if book_review.retro -%}
+{%-       continue -%}
+{%-   endif -%}
 {%- 	assign review_year = book_review.date | date: "%Y" -%}
 {%- 	if current_year == review_year -%}
 {%- 		assign year_count = year_count | plus: 1 -%}
@@ -162,8 +165,8 @@ from previous years. Abandoned books tend to end up in the short
 review sections so are not included here. I'm now pretty conscientious
 about entering reviews into the website so recent figures are more reliable.</p>
 
-<p>You will also find reviews dated 2021 but this indicates books that I have read
-   sometime in the past but still wanted to include here.
+<p>You will also find what I refer to as "retrospective reviews" which indicates books that I have read
+   sometime before 2022 but still wanted to say something about.
 </p>
 
 <p>I written full reviews of <strong>{{ last_year_count }}</strong> books in {{ last_year }} and I

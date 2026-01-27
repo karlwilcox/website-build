@@ -78,11 +78,11 @@ do_artwork:
 		fi
 	done
 
-thumbs: do_thumbs
+thumbs: do_thumbs do_art_thumbs
 .PHONY: thumbs
 
 do_thumbs:
-	echo "thumbs:"
+	echo "Review thumbs:"
 	for dir in tvshows movies books other games
 	do
 		pushd img/reviews/$$dir > /dev/null
@@ -95,6 +95,31 @@ do_thumbs:
 			fi
 		done > /dev/null
 		popd > /dev/null
+	done
+
+do_art_thumbs:
+	echo "Art thumbs:"
+	for dir in artwork/*
+	do
+		if [ ! -d $$dir ]
+		then
+		continue
+		fi
+		pushd $$dir > /dev/null
+		mkdir -p thumbs
+		for f in *.png *.jpg
+		do
+		    if [ ! -f $$f ]
+			then continue
+			fi
+			base="$${f%.*}"
+			if [ ! -e thumbs/$$base.jpg ]
+			then
+				echo "Creating thumbnail for " $$dir "/" $$base
+				magick -define jpeg:size:400x400 $$f -thumbnail '200x200>' -background white -gravity center -extent 200x200 thumbs/$$base.jpg
+			fi
+		done
+		popd  > /dev/null
 	done
 
 newpage:

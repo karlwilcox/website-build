@@ -16,7 +16,7 @@ header:
 
 <cite>Image generation prompt</cite>
 
-A pretty attempt at what I was imagining, no complaints here. I did try some
+A pretty good attempt at what I was imagining, no complaints here. I did try some
 video generation here, asking canva to animate the waves breaking and the trees
 swaying in the breeze, and it did that well but moved the camera. I was hoping
 to loop the video so I tried again explicitly stating "keep the camera", it

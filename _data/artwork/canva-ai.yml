@@ -1,0 +1,51 @@
+# canva-ai
+- image_url: artwork/canva-ai/beachfront-cafe.png
+  page_url: artwork/canva-ai/beachfront-cafe
+  title: "Beachfront Cafe"
+  thumb_url: artwork/canva-ai/thumbs/beachfront-cafe.jpg
+  tags: 
+- image_url: artwork/canva-ai/buccolic-fields.png
+  page_url: artwork/canva-ai/buccolic-fields
+  title: "Buccolic Fields"
+  thumb_url: artwork/canva-ai/thumbs/buccolic-fields.jpg
+  tags: 
+- image_url: artwork/canva-ai/forward-lounge.png
+  thumb_url: artwork/canva-ai/thumbs/forward-lounge.jpg
+  title: "Forward Lounge"
+  page_url: artwork/canva-ai/forward-lounge/
+  tags: sci-fi culture
+- image_url: artwork/canva-ai/saucer-park.png
+  thumb_url: artwork/canva-ai/thumbs/saucer-park.jpg
+  title: "Circular Park"
+  tags: 
+- image_url: artwork/canva-ai/the-barge-soliton.png
+  thumb_url: artwork/canva-ai/thumbs/the-barge-soliton.jpg
+  title: "The Barge Soliton"
+  tags: sci-fi culture
+- image_url: artwork/canva-ai/vineyard-verandah.png
+  thumb_url: artwork/canva-ai/thumbs/vineyard-verandah.jpg
+  title: "Vineyard Verandah"
+  tags: outdoors
+- image_url: artwork/canva-ai/ventriss-bay.png
+  thumb_url: artwork/canva-ai/thumbs/ventriss-bay.jpg
+  title: "Ventriss Bay"
+  tags: "outdoors"
+- image_url: artwork/canva-ai/winter-gardens.png
+  thumb_url: artwork/canva-ai/thumbs/winter-gardens.jpg
+  title: "Winter Gardens"
+  tags: "architecture"
+- image_url: artwork/canva-ai/elven-picnic.png
+  thumb_url: artwork/canva-ai/thumbs/elven-picnic.jpg
+  title: "Elven Picnic"
+  tags: "middle-earth"
+  page_url: artwork/canva-ai/elven-picnic
+- image_url: artwork/canva-ai/pylon-country.png
+  thumb_url: artwork/canva-ai/thumbs/pylon-country.jpg
+  title: "Pylon Country"
+  tags: "sci-fi culture"
+  page_url: artwork/canva-ai/pylon-country
+- image_url: artwork/canva-ai/GSV-medium-bay.png
+  thumb_url: artwork/canva-ai/thumbs/GSV-medium-bay.jpg
+  title: "GSV Medium Bay"
+  tags: "sci-fi culture"
+  page_url: artwork/canva-ai/GSV-medium-bay

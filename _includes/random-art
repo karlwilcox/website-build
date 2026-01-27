@@ -1,28 +1,28 @@
+{%- assign limit = include.limit | default: 6 -%}
 <div>
    <h2>Artwork Sampler</h2>
 
 <p>And here's some of my attempts at creating art, more under the "Interests => Artwork" menu entry above.</p>
 
-	<ul class="small-block-grid-3" data-clearing>
-        <li><figure id="img1"><a href="" data-robroy data-robroy-index="0"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
-        <li><figure id="img2"><a href="" data-robroy data-robroy-index="1"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
-        <li><figure id="img3"><a href="" data-robroy data-robroy-index="2"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
-        <li><figure id="img4"><a href="" data-robroy data-robroy-index="3"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
-        <li><figure id="img5"><a href="" data-robroy data-robroy-index="4"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
-        <li><figure id="img6"><a href="" data-robroy data-robroy-index="5"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+	<ul class="small-block-grid-3">
+      {%- for num in (1..limit) -%}
+        <li><figure id="img{% increment counter %}"><a href="" data-robroy data-robroy-index="0"><img class="gallery-thumb" data-caption="" src="" alt=""></a><figcaption><p class="gallery-caption"></p></figcaption></figure></li>
+      {%- endfor -%}      
 	</ul>
 </div>
 
 <script>
 function setGallery() {
    const imgs = [
-      {% for img in site.data.artwork -%}
-               [ "/{{ img.thumb_url }}", "{{ img.title}} {{ img.caption }}", "{{ img.image_url }}" ],
+		{%- for file_list in site.data.artwork -%}
+			{%- for img in file_list[1] -%}
+               [ "/{{ img.thumb_url }}", "{{ img.title}} {{ img.caption }}", "/{{ img.image_url }}" ],
+         {%- endfor %}
       {%- endfor %}
    ];
    var entries = [];
-   var num = 1;
-   while (num <= 6) {
+   var num = 0;
+   while (num < {{ limit }}) {
      var chosen = Math.floor(Math.random() * imgs.length);
        if (entries.includes(chosen)) {
         continue;
@@ -38,4 +38,18 @@ function setGallery() {
    }
 }
 setGallery();
+</script>
+<script>
+window.robroy({
+  // Set to true to allow navigating from the first image to the last image and vice-versa.
+    enableLoop: true,
+
+    // Set to true to show the current image number and the total number of images.
+    showNumber: true,
+	
+	hideFullScreenButton: true,
+	animateInClass: 'robroy-fade-in',
+    animateOutClass: 'robroy-fade-out',
+	disableOverlayClickListener: true,
+});
 </script>

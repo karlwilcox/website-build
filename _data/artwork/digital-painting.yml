@@ -1,0 +1,46 @@
+# digital-painting
+- image_url: artwork/digital-painting/beach-resort.jpg
+  caption: Beach Resort, Manga style background, Clip Studio Paint
+  thumb_url: artwork/digital-painting/thumbs/beach-resort.jpg
+  title: "Beach Resort"
+  tags: manga
+- image_url: artwork/digital-painting/belton-house.jpg
+  caption: Belton House hand traced from a photograph
+  thumb_url: artwork/digital-painting/thumbs/belton-house.jpg
+  title: "Belton House"
+  tags: 'country house'
+- image_url: artwork/digital-painting/college-room.png
+  caption: My room in college (intended as a Manga background), Clip Studio Paint
+  thumb_url: artwork/digital-painting/thumbs/college-room.jpg
+  title: "College Room"
+  tags: manga
+- image_url: artwork/digital-painting/entrance.jpg
+  caption: Entrance to a college building, intended as a Manga background, Clip Studio Paint
+  title: "College Building"
+  thumb_url: artwork/digital-painting/thumbs/entrance.jpg
+  tags: manga
+- image_url: artwork/digital-painting/in-the-park.jpg
+  caption: In the park, intended as a Manga background, Clip Studio Paint
+  thumb_url: artwork/digital-painting/thumbs/in-the-park.jpg
+  title: "In the Park"
+  tags: manga
+- image_url: artwork/digital-painting/on-the-train.jpg
+  caption: on the train, intended as a Manga background, Clip Studio Paint
+  title: "On the Train"
+  thumb_url: artwork/digital-painting/thumbs/on-the-train.jpg
+  tags: manga
+- image_url: artwork/digital-painting/overlook-station.png
+  caption: Overlook station
+  title: "Overlook Station"
+  thumb_url: artwork/digital-painting/thumbs/overlook-station.jpg
+  tags: 
+- image_url: artwork/digital-painting/station-platform.jpg
+  caption: station platform, intended as a Manga background, Clip Studio Paint
+  thumb_url: artwork/digital-painting/thumbs/station-platform.jpg
+  title: "Station Platform"
+  tags: manga
+- image_url: artwork/digital-painting/venus-sky-base.png
+  caption: Venus sky base floating in the temperate layer (all vectors), Serif Designer
+  title: "Venus Skybase"
+  thumb_url: artwork/digital-painting/thumbs/venus-sky-base.jpg
+  tags: sci-fi

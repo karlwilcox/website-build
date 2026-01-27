@@ -1,37 +1,39 @@
 <!-- lightbox from https://www.cssscript.com/gallery-lightbox-robroy/ -->
 <div>
 	<ul class='small-block-grid-{{ include.grid_size | default: "3" }}'>
-		{%- for item in site.data.artwork -%}
-			{%- capture mediatype -%}/{{ include.type }}/{%- endcapture -%}
-			{%- assign item_found = "false" -%}
-			{%- if include.type and item.image_url contains mediatype -%}
-				{% assign item_found = "true" -%}
-			{%- elsif include.tag and item.tags contains include.tag -%}
-				{% assign item_found = "true" -%}
-			{%- endif -%}
-			{%- if item_found == "true" -%}
-				<li>
-					<figure>
-						<a href="/{{ item.image_url }}" data-robroy data-robroy-index="{% increment counter %}">
-							<img class="gallery-thumb" src="/{{ item.thumb_url }}" alt="{{ item.caption }}">
-						</a>
-						<figcaption>
-							<p class="gallery-caption">
-							{%- if item.page_url != "" and item.page_url != Nil -%}
-								{%- if item.title -%}
-									{%- assign link_text = item.title -%}
+		{%- for file_list in site.data.artwork -%}
+			{%- for item in file_list[1] -%}
+				{%- capture mediatype -%}/{{ include.type }}/{%- endcapture -%}
+				{%- assign item_found = "false" -%}
+				{%- if include.type and item.image_url contains mediatype -%}
+					{% assign item_found = "true" -%}
+				{%- elsif include.tag and item.tags contains include.tag -%}
+					{% assign item_found = "true" -%}
+				{%- endif -%}
+				{%- if item_found == "true" -%}
+					<li>
+						<figure>
+							<a href="/{{ item.image_url }}" data-robroy data-robroy-index="{% increment counter %}">
+								<img class="gallery-thumb" src="/{{ item.thumb_url }}" alt="{{ item.caption }}">
+							</a>
+							<figcaption>
+								<p class="gallery-caption">
+								{%- if item.page_url != "" and item.page_url != Nil -%}
+									{%- if item.title -%}
+										{%- assign link_text = item.title -%}
+									{%- else -%}
+										{%- assign link_text = "More details..." -%}
+									{%- endif -%}
+									<a href="/{{ item.page_url }}/">* {{ link_text }} *</a> {{ item.caption }}
 								{%- else -%}
-									{%- assign link_text = "More details..." -%}
-								{%- endif -%}
-								<a href="/{{ item.page_url }}/">* {{ link_text }} *</a> {{ item.caption }}
-							{%- else -%}
-								{{ item.title }} {{ item.caption }}
-							{% endif %}
-							</p>
-						</figcaption>
-					</figure>
-				</li>
-			{%- endif -%}
+									{{ item.title }} {{ item.caption }}
+								{% endif %}
+								</p>
+							</figcaption>
+						</figure>
+					</li>
+				{%- endif -%}
+			{%- endfor -%}
 		{%- endfor -%}
 	</ul>
 </div>

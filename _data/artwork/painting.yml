@@ -1,0 +1,53 @@
+# painting
+- image_url: artwork/painting/disney01.jpg
+  caption: disney01
+  title: "Mickey"
+  thumb_url: artwork/painting/thumbs/disney01.jpg
+  tags: 
+- image_url: artwork/painting/disney02.jpg
+  caption: disney02
+  title: "Donald"
+  thumb_url: artwork/painting/thumbs/disney02.jpg
+  tags: 
+- image_url: artwork/painting/disney03.jpg
+  caption: disney03
+  title: "Pluto"
+  thumb_url: artwork/painting/thumbs/disney03.jpg
+  tags: 
+- image_url: artwork/painting/disney04.jpg
+  caption: disney04
+  title: "Minnie"
+  thumb_url: artwork/painting/thumbs/disney04.jpg
+  tags: 
+- image_url: artwork/painting/disney05.jpg
+  caption: disney05
+  thumb_url: artwork/painting/thumbs/disney05.jpg
+  tags: 
+- image_url: artwork/painting/disney06.jpg
+  caption: disney06
+  thumb_url: artwork/painting/thumbs/disney06.jpg
+  tags: 
+- image_url: artwork/painting/disney07.jpg
+  caption: disney07
+  thumb_url: artwork/painting/thumbs/disney07.jpg
+  tags: 
+- image_url: artwork/painting/disney08.jpg
+  caption: disney08
+  thumb_url: artwork/painting/thumbs/disney08.jpg
+  tags: 
+- image_url: artwork/painting/disney09.jpg
+  caption: disney09
+  thumb_url: artwork/painting/thumbs/disney09.jpg
+  tags: 
+- image_url: artwork/painting/disney10.jpg
+  caption: disney10
+  thumb_url: artwork/painting/thumbs/disney10.jpg
+  tags: 
+- image_url: artwork/painting/disney11.jpg
+  caption: disney11
+  thumb_url: artwork/painting/thumbs/disney11.jpg
+  tags: 
+- image_url: artwork/painting/vineyard-terrace.png
+  caption: vineyard terrace
+  thumb_url: artwork/painting/thumbs/vineyard-terrace.jpg
+  tags: 

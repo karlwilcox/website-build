@@ -16,22 +16,9 @@ producing new work as it is fun, and good for mental well-being.
 And if any of it does inspire any readers to develop their own creations then
 that is a pleasant bonus!
 
-![Sample](/img/headers/art-materials.jpg){: #sample}
+{% include random-art limit=1 %}
 
-<script>
-function setSample() {
-   const imgs = [
-      {% for img in site.data.artwork -%}
-               "/{{ img.thumb_url }}",
-      {%- endfor %}
-   ];
-   var chosen = Math.floor(Math.random() * imgs.length);
-   document.getElementById("sample").setAttribute('src', imgs[chosen]);
-}
-setSample();
-</script>
-
-Artworks are presented in galleries of thumbnails like the (non-functional) example
+Artworks are presented in galleries of thumbnails like the example
 above. Click on any of the thumbnails to see a larger version and a brief description.
 
 I have organised the work by various categories in the sidebar menu (so you will see duplicates if

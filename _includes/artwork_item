@@ -6,24 +6,26 @@
  to select a single item to place in a figure
 {%- endcomment -%}
 
-{%- for item in site.data.artwork -%}
-    {%- assign this_one = "false" -%}
-    {%- if include.title -%}
-        {%- if item.title == include.title-%}
-            {%- assign this_one = "true" -%}
+{%- for file_list in site.data.artwork -%}
+    {%- for item in file_list[1] -%}
+        {%- assign this_one = "false" -%}
+        {%- if include.title -%}
+            {%- if item.title == include.title-%}
+                {%- assign this_one = "true" -%}
+            {%- endif %}
+        {%- elsif include.caption -%}
+            {%- if item.caption == include.caption-%}
+                {%- assign this_one = "true" -%}
+            {%- endif %}
         {%- endif %}
-    {%- elsif include.caption -%}
-        {%- if item.caption == include.caption-%}
-            {%- assign this_one = "true" -%}
-        {%- endif %}
-    {%- endif %}
-    {%- if this_one == "true" -%}
-        {% capture src_url %}/{{ item.image_url }}{% endcapture %}
-        {% capture my_caption %}{{ item.title }} {{ item.caption }}{% endcapture %}
+        {%- if this_one == "true" -%}
+            {% capture src_url %}/{{ item.image_url }}{% endcapture %}
+            {% capture my_caption %}{{ item.title }} {{ item.caption }}{% endcapture %}
 <figure class="centre">
     <img src="/{{ item.image_url }}" alt="{{ item.caption }}" />
     <figcaption>{{ item.title }} {{ item.caption }}</figcaption>
 </figure>
-        {%- break -%}
-    {%- endif %}
+            {%- break -%}
+        {%- endif %}
+    {%- endfor -%}
 {%- endfor -%}

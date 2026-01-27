@@ -1,0 +1,61 @@
+# Artwork
+# 3D-rendering
+- image_url: artwork/3D-rendering/GSV-spa4.png
+  caption: (WIP) A multi-level spa in a futuristic setting. The design is inspired by the architecture of the GSVs in the Culture series by Iain M. Banks. Blender 4.0 cycles
+  thumb_url: artwork/3D-rendering/thumbs/GSV-spa4.jpg
+  title: "GSV Spa"
+  tags: sci-fi
+- image_url: artwork/3D-rendering/Insde-GSV13-2.png
+  caption: Inside a GSV from the Culture series by Iain M. Banks. Bryce 5.5
+  thumb_url: artwork/3D-rendering/thumbs/Insde-GSV13-2.jpg
+  title: "GSV Interior"
+  tags: sci-fi
+- image_url: artwork/3D-rendering/Solition-big2.png
+  caption: The ceremonial barge Solition from the Culture book 'Look to Windward' by Iain M. Banks, Vue'de Esprit 
+  thumb_url: artwork/3D-rendering/thumbs/Solition-big2.jpg
+  title: "The Barge Soliton"
+  tags: sci-fi
+- image_url: artwork/3D-rendering/apartment-building.png
+  caption: Apartment Building, Blender 4.0 cycles, Kitbash3D assets
+  thumb_url: artwork/3D-rendering/thumbs/apartment-building.jpg
+  title: "Apartment Building"
+  tags: architecture
+- image_url: artwork/3D-rendering/forward-lounge.png
+  caption: The forward lounge of a General Contact Unit, Blender 4.0 cycles
+  thumb_url: artwork/3D-rendering/thumbs/forward-lounge.jpg
+  title: "GCU Forward Lounge"
+  tags: sci-fi
+- image_url: artwork/3D-rendering/gsv11a.png
+  caption: The GSV 'Serious Lack of Commitment' from the Culture series by Iain M. Banks, Pov-ray 4.0
+  thumb_url: artwork/3D-rendering/thumbs/gsv11a.jpg
+  title: "GSV in flight"
+  tags: sci-fi spaceship
+- image_url: artwork/3D-rendering/japan-street-wip1.png
+  caption: (WIP) A street in Japan, Blender 4.0 cycles, kitbash3D assets
+  thumb_url: artwork/3D-rendering/thumbs/japan-street-wip1.jpg
+  tags: japan streetscene
+  title: "Japanese Street at night"
+- image_url: artwork/3D-rendering/manor-house1.png
+  caption: A country house, everything but the car and trees created by hand in Pov-ray (one of my earliest images)
+  thumb_url: artwork/3D-rendering/thumbs/manor-house1.jpg
+  tags: 'country house'
+- image_url: artwork/3D-rendering/manor-house2.png
+  caption: More detailed country house with interior walls, an earlier image in Carrera, source files now lost
+  title: "Country House"
+  thumb_url: artwork/3D-rendering/thumbs/manor-house2.jpg
+  tags: 'country house'
+- image_url: artwork/3D-rendering/new-school-building.png
+  caption: Visualisation of a proposed new building for a local school, Bryce 5.5.
+  thumb_url: artwork/3D-rendering/thumbs/new-school-building.jpg
+  title: "School Building"
+  tags: architecture
+- image_url: artwork/3D-rendering/orbital-towers.jpg
+  caption: Orbital Towers (WIP) on a Banksian Orbital, Vue d'esprit
+  thumb_url: artwork/3D-rendering/thumbs/orbital-towers.jpg
+  title: "Orbital Towers"
+  tags: sci-fi architecture
+- image_url: artwork/3D-rendering/paris2.jpg
+  caption: Parisian street scene using mostly built-in assets from Vue d'esprit
+  thumb_url: artwork/3D-rendering/thumbs/paris2.jpg
+  title: "Rue Parisienne"
+  tags: streetscene

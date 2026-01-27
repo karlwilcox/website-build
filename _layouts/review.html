@@ -19,6 +19,9 @@ paginate:
 			<img src="{{ use_img }}" alt="Illustration"/>
 			<figcaption>{{ page.slug }} {{ page.credit }}</figcaption>
 		</figure>
+		{%- if page.retro -%}
+		{% include retro-disclaimer %}
+		{%- endif -%}
 		<div id="search-content">
 			{{ content }}
 		</div>
