@@ -1,4 +1,15 @@
 # sidebar navigation menus, indexed by key value
+about-me:
+  title: "About Me"
+  menu:
+    - title: "Education"
+      url: "/about-me/education/"
+    - title: "Industry Experience"
+      url: "/about-me/industrial-experience/"
+    - title: "Teaching Experience"
+      url: "/about-me/teaching-experience/"
+    - title: "Other Things"
+      url: "/about-me/other-things/"
 austen:
   title: "Austen Collection Links"
   menu:

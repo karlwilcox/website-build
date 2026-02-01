@@ -24,16 +24,21 @@
 
 {%- assign category = include.category -%}
 {%- assign tag = include.tag -%}
-<ul class="side-nav">
+<ul class="side-nav" data-include="list-posts">
 
   {%- if category == NULL and tag == NULL -%}
 
     {%- for post in site.posts limit:include.entries offset:include.offset -%}
       <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.prefix}} {{ post.title }}</strong></a>
-        {%- if post.subtitle != NULL -%} &middot; {{ post.subtitle }} {%- endif -%}
-        {%- if post.author != NULL -%} &middot; {{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }} {%- endif -%}</li>
+        {%- if post.subtitle -%} &middot; {{ post.subtitle }} {%- endif -%}
+        {%- if post.author != "karlw" -%}
+        &middot; {{ site.data.authors[post.author].forename }} {{ site.data.authors[post.author].surname }} 
+        {%- elsif post.network -%} 
+        &middot; {{ post.network }}
+        {%- elsif post.platform -%} 
+        &middot; {{ post.platform }}
+        {%- endif -%}</li>
     {%- endfor -%}
-      <li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/blog/"><strong>{{ site.data.text.more }}</strong></a></li>
 
 
   {%- elsif category -%}

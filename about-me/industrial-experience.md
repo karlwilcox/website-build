@@ -2,18 +2,20 @@
 layout              : page
 title               : "Industrial Experience"
 subtitle         : ""
-teaser              : "Thoughts and ramblings"
+teaser              : "Doing stuff..."
+sidebar:            "about-me"
 header:
    image_fullwidth  : "gp-header"
 ---
-# IT Industry
+
+## IT Industry
 
 I left the University of Kent on a Friday and started work on the following
 Monday with **Chase Electrics**, and was fortunate to spend the next 15 years
 working in a variety of interesting and enjoyable full time jobs in the IT
 industry.
 
-## Chase Electrics
+### Chase Electrics
 
 {% include figure align="left" caption="A Chase GPR-40 receiver" src="/about-me/gpr40-3.jpg" %}
 
@@ -29,7 +31,7 @@ records for a range of frequencies.
 
 {% include figure align="left" caption="Channel Occupancy Plot" src="/about-me/gpr40-2.png" %}
 
-## Mitsubishi Electric
+### Mitsubishi Electric
 
 {% include figure align="centre" caption="Computer Weekly Article" src="/about-me/comp-week-sml.png" link="/about-me/comp-week-1200x857.jpg" %}
 
@@ -40,7 +42,7 @@ I). This also included my first overseas business trip, to Norway, later
 immortalised in a _Computer Weekly_ article. Click on the thumbnail to see a
 full scan of the article.
 
-## Chase Systems
+### Chase Systems
 
 I was lured back to another of the Chase group of companies to recruit and then
 manage a team of hardware and software engineers. We developed terminal
@@ -57,9 +59,9 @@ their sector. My team grew to six engineers and our manufacturing grew from a
 small group of ladies who soldered chips to boards downstairs to entire truck
 loads of robot assembled products sub-contracted from a factory in Scotland.
 
-# Aviation Industry
+## Aviation Industry
 
-## British Airways Information Management
+### British Airways Information Management
 
 {% include figure align="right" caption="British Airways Logo" src="/about-me/ba-logo.png" %}
 
@@ -91,7 +93,7 @@ system would be required.
 
 {% include figure align="centre" caption="Crew Briefing at a Terminal" src="/about-me/crew-brief.jpg" %}
 
-## British Airways Flight Operations
+### British Airways Flight Operations
 
 Wanting to get closer to the actual operation I moved to the Flight Operations
 department in 1995. I worked as a consultant on all types of IT related
@@ -110,7 +112,7 @@ It was also during this time that I began giving guest lectures on IT subjects
 at various universities, including Kent, Nottingham and Southampton. I found I
 greatly enjoyed doing this and made friends and contacts.
 
-## ICL
+### ICL
 
 {% include figure align="right" caption="ICL logo" src="/about-me/icl-logo.jpg" %}
 
@@ -125,7 +127,7 @@ training and development for the TDA and SA roles, working closely with ICL's
 Chief Engineer; appropriately filled at that time by a Scotsman, as I could
 never dissociate his title from _Star Trek_.
 
-## Honeywell Aerospace
+### Honeywell Aerospace
 
 {% include figure align="right" caption="Honeywell Bracknell offices" src="/about-me/Honeywell-Bracknell-1.jpg" %}
 

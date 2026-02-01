@@ -2,7 +2,7 @@
 layout              : page
 title               : "Biography"
 subtitle         : ""
-teaser              : "Thoughts and ramblings"
+teaser              : "It's all about me..."
 header:
    image_fullwidth  : "gp-header"
 ---
@@ -23,3 +23,4 @@ You can find out more about me and how I got here in the sections linked here
 1. [Education](/about-me/education/)
 1. [Industrial Experience](/about-me/industrial-experience/)
 1. [Teaching Experience](/about-me/teaching-experience/)
+1. [Other Things](/about-me/other-things/)

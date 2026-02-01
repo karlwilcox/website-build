@@ -2,12 +2,13 @@
 layout              : page
 title               : "Education"
 subtitle         : ""
-teaser              : "Thoughts and ramblings"
+teaser              : "Learning to do stuf..."
+sidebar:            "about-me"
 header:
    image_fullwidth  : "gp-header"
 ---
-Secondary School
-----------------
+
+## Secondary School
 
 I was born in Grimsby, in North East Lincolnshire. My school, _The Western
 Comprehensive School_, isn't there anymore - falling numbers rendered it
@@ -21,8 +22,7 @@ random 'A' Levels in Economics, Maths, and Physics, gaining a 'B and two 'C's
 respectively. (We tell the young 'uns that things were harder in them days...)
 That was sufficient to get me a place at university...
 
-Undergraduate
--------------
+## Undergraduate
 
 {% include figure align="right" src="/about-me/campus-300x233.jpg" caption="UKC Campus in 1982" %}
 
@@ -62,8 +62,7 @@ Art of Computer Programming"_ might never have got beyond Volume 3...
 {% include figure caption="Eliot College at Sunset" src="/about-me/EliotCollege-1024x708.jpg" align="centre" %}
 
 
-Postgraduate
-------------
+## Postgraduate
 
 {% include figure caption="Cover of report" src="/about-me/report-cover-258x300.png" align="right" link="/about-me/PhdRep1.pdf" %}
 

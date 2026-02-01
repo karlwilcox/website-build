@@ -12,6 +12,8 @@
       url: "/about-me/industrial-experience/"
     - title: "Teaching"
       url: "/about-me/teaching-experience/"
+    - title: "Other Things"
+      url: "/about-me/other-things/"
 
 - title: "Projects"
   url: "/projects/"
