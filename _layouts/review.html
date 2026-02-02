@@ -3,11 +3,11 @@ layout: page
 paginate:
   category: reviews
 ---
-		{%- capture use_img -%}{{ site.urlimg }}reviews/generic.jpg{%- endcapture -%}
+		{%- capture use_img -%}/reviews/img/generic.jpg{%- endcapture -%}
 		{%- if page.picture -%}
-		{%- capture img_path -%}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.picture }}.jpg{%- endcapture -%}
+		{%- capture img_path -%}/reviews/img/{{ page.categories[1] }}/{{ page.picture }}.jpg{%- endcapture -%}
 		{%- else -%}
-		{%- capture img_path -%}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.slug }}.jpg{%- endcapture -%}
+		{%- capture img_path -%}/reviews/img/{{ page.categories[1] }}/{{ page.slug }}.jpg{%- endcapture -%}
 		{%- endif -%}
 		{%- for img_file in site.static_files -%}
 		{%- if img_file.path == img_path -%}

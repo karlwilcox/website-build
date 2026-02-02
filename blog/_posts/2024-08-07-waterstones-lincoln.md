@@ -6,34 +6,34 @@ subtitle: "A Brief Photographic Tour"
 teaser: "Thoughts and Ramblings"
 tags:
   - personal
-thumb: waterstones/waterstones-exterior-thumb.jpg
+thumb: waterstones/waterstones-exterior.jpg
 gallery:
-  - image_url: /img/blog/waterstones/waterstones-exterior.jpg
-    thumb_url: /img/blog/waterstones/thumbs/waterstones-exterior.jpg
+  - image_url: /blog/waterstones/waterstones-exterior.jpg
+    thumb_url: /blog/thumbs/waterstones/waterstones-exterior.jpg
     caption: "Waterstones Exterior"
-  - image_url: /img/blog/waterstones/exterior-window.jpg
-    thumb_url: /img/blog/waterstones/thumbs/exterior-window.jpg
+  - image_url: /blog/waterstones/exterior-window.jpg
+    thumb_url: /blog/thumbs/waterstones/exterior-window.jpg
     caption: "Window Display"
-  - image_url: /img/blog/waterstones/ground-floor-from-entrance.jpg
-    thumb_url: /img/blog/waterstones/thumbs/ground-floor-from-entrance.jpg
+  - image_url: /blog/waterstones/ground-floor-from-entrance.jpg
+    thumb_url: /blog/thumbs/waterstones/ground-floor-from-entrance.jpg
     caption: "Ground floor from entrance"
-  - image_url: /img/blog/waterstones/ground-floor-childrens-books.jpg
-    thumb_url: /img/blog/waterstones/thumbs/ground-floor-childrens-books.jpg
+  - image_url: /blog/waterstones/ground-floor-childrens-books.jpg
+    thumb_url: /blog/thumbs/waterstones/ground-floor-childrens-books.jpg
     caption: "Ground floor, children's books"
-  - image_url: /img/blog/waterstones/ground-floor-games-gifts.jpg
-    thumb_url: /img/blog/waterstones/thumbs/ground-floor-games-gifts.jpg
+  - image_url: /blog/waterstones/ground-floor-games-gifts.jpg
+    thumb_url: /blog/thumbs/waterstones/ground-floor-games-gifts.jpg
     caption: "Ground floor gifts and games"
-  - image_url: /img/blog/waterstones/first-floor-books-cafe.jpg
-    thumb_url: /img/blog/waterstones/thumbs/first-floor-books-cafe.jpg
+  - image_url: /blog/waterstones/first-floor-books-cafe.jpg
+    thumb_url: /blog/thumbs/waterstones/first-floor-books-cafe.jpg
     caption: "First floor books and cafe"
-  - image_url: /img/blog/waterstones/cafe-coffee-scone.jpg
-    thumb_url: /img/blog/waterstones/thumbs/cafe-coffee-scone.jpg
+  - image_url: /blog/waterstones/cafe-coffee-scone.jpg
+    thumb_url: /blog/thumbs/waterstones/cafe-coffee-scone.jpg
     caption: "Cafe offerings"
-  - image_url: /img/blog/waterstones/second-floor-books.jpg
-    thumb_url: /img/blog/waterstones/thumbs/second-floor-books.jpg
+  - image_url: /blog/waterstones/second-floor-books.jpg
+    thumb_url: /blog/thumbs/waterstones/second-floor-books.jpg
     caption: "Second floor books"
-  - image_url: /img/blog/waterstones/second-floor-SF-fantasy-manga.jpg
-    thumb_url: /img/blog/waterstones/thumbs/second-floor-SF-fantasy-manga.jpg
+  - image_url: /blog/waterstones/second-floor-SF-fantasy-manga.jpg
+    thumb_url: /blog/thumbs/waterstones/second-floor-SF-fantasy-manga.jpg
     caption: "Second floor, SF, Fantasy and Manga"
 ---
 
@@ -44,7 +44,7 @@ the store and compare it with a 1902 map we see that in fact the footprint of
 the store occupies most of what was in previous times a Hotel, Public House and
 dining room known as the Saracen's Head, at 298 High Street.
 
-{% include figure src="/img/blog/waterstones/location.png" caption="Contemporary Google Satellite view with Insurance Plan of Lincoln, Sheet 3, Chas E Goad Ltd 1902"
+{% include figure src="/blog/waterstones/location.png" caption="Contemporary Google Satellite view with Insurance Plan of Lincoln, Sheet 3, Chas E Goad Ltd 1902"
 align="centre" %}
 
 The floor plan in fact is slightly more complicated that it appears here, a

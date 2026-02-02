@@ -8,7 +8,7 @@ tags:
   - "shropshire"
 ---
 
-Having re-read some of the [Arthur Clarke books](/authors/arthur-c-clarke/) from my
+Having re-read some of the [Arthur Clarke books](/reviews/books/author/arthur-c-clarke/) from my
 very early youth had me thinking about other books I read at an early age. Books
 were hard to come by in those days and library visits were when my parents were
 able to take me so I recall having a shelf in my room with about 20 or 30 well thumbed paperbacks

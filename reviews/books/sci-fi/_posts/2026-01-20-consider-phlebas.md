@@ -9,7 +9,7 @@ tags:
   - ""
 ---
 
-{% include figure src="/img/reviews/books/iain-banks-sf.jpg" caption="The Current Collection" %}
+{% include figure src="/reviews/img/books/iain-banks-sf.jpg" caption="The Current Collection" %}
 
 It was either this or "Use of Weapons" that were my first introduction to the Culture universe, I
 think I picked the paperback sometime after its release in the late 1980's or early 1990, and to be

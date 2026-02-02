@@ -1,6 +1,7 @@
 ---
 layout: review-list
 sidebar: reviews
+permalink: /reviews/books/author/index.html
 ---
 
 # List of Major Authors
@@ -63,7 +64,7 @@ sidebar: reviews
 <p id="to{{ initial }}">{{ initial }}</p>
 <ul>
 {% endunless %}
-<li><a href="/author/{{ url_part }}/">{{ author_data[1].forename }} {{ author_data[1].surname }}</a></li>
+<li><a href="/reviews/books/author/{{ url_part }}/">{{ author_data[1].forename }} {{ author_data[1].surname }}</a></li>
 {% break %}
 {% endif %}
 {% endfor %}

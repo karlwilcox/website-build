@@ -21,7 +21,7 @@ Understanding my shortcomings, but trying to get a better grip on recording proj
 some apps to help me out, eventually settling on a “Journalling” tool. I chose Day One but there are many similar. 
 Here’s an example of how I’ve used it:
 
-{% include figure src="/img/blog/journal-example.png" caption="Photograph of journal pages" align="centre" %}
+{% include figure src="/blog/journal-example.png" caption="Photograph of journal pages" align="centre" %}
 
 I keep a separate journal for large projects, or a combined journal for related smaller projects with “tags” to 
 distinguish between them.

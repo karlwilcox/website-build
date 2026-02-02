@@ -26,4 +26,4 @@ Fully assembled (as per the photos) this takes up a great deal of space so I'll 
 transport configuration and hopefully will find the time to build the tractor unit from the new car transporter
 instructions and pair it with a custom built Noteboom crane trailer for the stands and counterweights.
 
-{% include figure src="/img/reviews/other/lego-crane-2.jpg" caption="The crane in action" align="centre" %}
+{% include figure src="/reviews/img/other/lego-crane-2.jpg" caption="The crane in action" align="centre" %}

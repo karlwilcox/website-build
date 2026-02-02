@@ -7,9 +7,9 @@ teaser: "Thoughts and Ramblings"
 tags:
   - games
   - rant
-thumb: stray-thumb.jpg
+thumb: stray.jpg
 ---
-{% include figure src="/img/blog/stray-screenshot.jpg" caption="My poor cat, pursued by annoyances" align="centre" %}
+{% include figure src="/blog/stray-screenshot.jpg" caption="My poor cat, pursued by annoyances" align="centre" %}
 
 Now I'm a cat person, so when the video game "Stray" came out for the Xbox, and with an excellent introductory price I jumped at it.
 

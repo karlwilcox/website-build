@@ -27,7 +27,7 @@ Our first significant challenge is then three-fold:
 
 ## Construction
 
-{% include figure src="/img/blog/lego-bus-closeup.jpg" caption="Close up of the Lego Bus" align="centre" %}
+{% include figure src="/blog/lego-bus-closeup.jpg" caption="Close up of the Lego Bus" align="centre" %}
 
 Incorporating tiny LEDs on tiny wires into Lego builds is fairly straight-forward. Perhaps best done during construction but not that hard even if we have an existing build. You can see the internal wires if you look hard enough but from a distance this looks untouched.
 
@@ -35,7 +35,7 @@ In this particular case we have added a Lego roadway and routed the combined wir
 
 ## Wire Extension
 
-{% include figure src="/img/blog/lego-bus-wiring.jpg" caption="Wiring for the Lego Bus" align="centre" %}
+{% include figure src="/blog/lego-bus-wiring.jpg" caption="Wiring for the Lego Bus" align="centre" %}
 
 The purchased LEDs are attached to insulated wires about 10cm long but as noted above we need 30 to 40cm of thin wires to thread through Lego buildings to reach the "off stage" areas. For this purpose I've obtained a couple of reels of "wire-wrapping" wire which has a similar tiny gauge to the existing wires.
 

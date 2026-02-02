@@ -20,10 +20,9 @@ with this for now.)
 ## The Legendarium
 
 * "The Hobbit" paperback, Harper Collins 1999 paperback
-* "The Annotated Hobbit", (Douglas Anderson), hardback Allen & Unwin 1989 
+* "The Annotated Hobbit", (Douglas Anderson), hardback Allen & Unwin 1989
 * "The Hobbit" Amazon eBook
 * "The Hobbit" Audible Audiobook, narrated by Andy Serkis
-
 
 * "The Illustrated Hardback Box set" (4 volumes, Hobbit & Lord of the Rings) Harper Collins 2020, illustrated by Alan Lee (Kept for best!)
 * "The Lord of the Rings" single volume paperback, Harper Collins 2005, red cover (for everyday reading)
@@ -32,13 +31,14 @@ with this for now.)
 * "The Two Towers" Audible Audiobook, narrated by Andy Serkis
 * "The Return of the King" Audible Audiobook, narrated by Andy Serkis
 
-
 * "The Silmarillion", illustrated by Ted Nasmith, Harper Collins 2021 hardback
 * "The Children of Hurin", Harper Collins, 2014 paperback
 
-
 * "Unfinished Tales", illustrated by Alan Lee, John Howe and Ted Nasmith, Harper Collins 2020 hardback
 * "Unfinished Tales", Harper Collins 2010 paperback
+
+* The Book of Lost Tales Part One - Harper Collins 2024 paperback
+* The Book of Lost Tales Part Two - Harper Collins 2024 paperback
 
 ## Middle Earth Reference
 

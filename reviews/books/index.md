@@ -10,4 +10,4 @@ paginate:
 
 Book reviews here are presented in date order with the most recent first. If you are looking for
 something specific try the alphabetical
-[list of authors](/reviews/books/authors/) or the [list of titles](/reviews/books/titles/).
+[list of authors](/reviews/books/author/) or the [list of titles](/reviews/books/titles/).

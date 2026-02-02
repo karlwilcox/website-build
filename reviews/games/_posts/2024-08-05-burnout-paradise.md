@@ -7,7 +7,7 @@ tags:
   - "driving"
 ---
 
-{% include figure src="/img/reviews/games/burnout-paradise.jpg" caption="source - gamingtrend.com" align="centre" %}
+{% include figure src="/reviews/img/games/burnout-paradise.jpg" caption="source - gamingtrend.com" align="centre" %}
 
 Burnout Paradise is an open world car stunt driving and racing game. And that’s
 about it!

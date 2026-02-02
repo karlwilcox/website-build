@@ -54,13 +54,13 @@ use the [Search Page](/search/) to find a specific title, or look at the alphabe
 <ul>
 {%- endunless -%}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.prefix }} {{ item.title }}</a>
-{%- if item.author != "" and item.author != Nil -%}
+{%- if item.author != "" and item.author != Nil and item.author != "karlw" -%}
 {%- assign author_data = site.data.authors[item.author] -%}
-&nbsp;(<a href="/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
+&nbsp;(<a href="/reviews/books/author/{{ item.author }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
 {%- if item.author2 != "" and item.author2 != Nil -%}
   {%- assign author_data = site.data.authors[item.author2] -%}
   &nbsp;{{ site.data.text.conjunction }}
-  <a href="/author/{{ item.author2 }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
+  <a href="/reviews/books/author/{{ item.author2 }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
 {%- endif -%}
 )
 {%- else -%}

@@ -6,11 +6,6 @@ SHELL := /bin/bash
 # the default action is to build the site locally
 build: thumbs
 	bundle exec jekyll build
-	# echo forcing page asset copy
-	# (cd pages; find . -path ./pages-root-folder -prune -o -type f -not -name "*.md" -not -name "*.html" -print | cpio -pd /Users/karlw/Sites/ \; )
-	# rsync -a /Users/karlw/Sites/pages /Users/karlw/Sites
-	# cp -R /Users/karlw/Sites/pages/* /Users/karlw/Sites/
-	# rm -rf /Users/karlw/Sites/pages
 	chmod -R go+r /Users/karlw/Sites
 	echo -n "Completed at: "
 	date
@@ -60,7 +55,7 @@ do_artwork:
 	echo "folder?"
 	read target
 	mkdir -p $${target}/thumbs 
-	/bin/rm -f  $${target}/thumbs/*-thumb.{jpg,png,jpeg}
+	/bin/rm -f  $${target}/thumbs/*.{jpg,png,jpeg}
 	for i in $${target}/*;
 	do
 		file="$${i##*/}"
@@ -85,7 +80,7 @@ do_thumbs:
 	echo "Review thumbs:"
 	for dir in tvshows movies books other games
 	do
-		pushd img/reviews/$$dir > /dev/null
+		pushd reviews/img/$$dir > /dev/null
 		mkdir -p thumbs
 		for f in *.jpg
 		do

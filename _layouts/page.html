@@ -44,9 +44,9 @@ format: post
 					{%- endif -%}
 					{%- if page.author != "" and page.author != Nil and page.author != "karlw" -%} 
 						<!-- Things for a book review -->
-						<p class="subtitle"><a href="/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
+						<p class="subtitle"><a href="/reviews/books/author/{{ page.author }}/">{{ site.data.authors[page.author].forename }} {{ site.data.authors[page.author].surname }}</a></p>
 						{%- if page.author2 != "" and page.author2 != Nil -%}
-						{{ site.data.text.conjunction }} <a href="/author/{{ page.author2 }}/">{{ site.data.authors[page.author2].forename }} {{ site.data.authors[page.author2].surname }}</a>
+						{{ site.data.text.conjunction }} <a href="/reviews/books/author/{{ page.author2 }}/">{{ site.data.authors[page.author2].forename }} {{ site.data.authors[page.author2].surname }}</a>
 						{%- endif -%}
 						{%- if page.series != "" and page.series != Nil -%}
 							<p>{{ site.data.text.series_start }} {{ page.series}} {{ site.data.text.series_end }}

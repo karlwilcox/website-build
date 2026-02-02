@@ -1,11 +1,11 @@
-    <div class="small-12 columns">
+    <div class="small-12 columns t20">
           {%- if page.paginate.category == "blog" -%}
-              {%- capture src_url -%}{{ site.urlimg }}blog/generic-thumb.jpg{%- endcapture -%}
-              {%- capture thumb_path -%}{{ site.urlimg }}blog/{{ include.item.thumb }}{%- endcapture -%}
-              {%- assign link_text = site.data.text.link_to_include.item.-%}
+              {%- capture src_url -%}/blog/thumbs/generic.jpg{%- endcapture -%}
+              {%- capture thumb_path -%}/blog/thumbs/{{ include.item.thumb }}{%- endcapture -%}
+              {%- assign link_text = site.data.text.link_to_post -%}
           {%- else -%}
-              {%- capture src_url -%}{{ site.urlimg }}reviews/generic-thumb.jpg{%- endcapture -%}
-              {%- capture thumb_path -%}{{ site.urlimg }}reviews/{{ include.item.categories[1] }}/thumbs/{{ include.item.slug }}.jpg{%- endcapture -%}
+              {%- capture src_url -%}/reviews/img/generic-thumb.jpg{%- endcapture -%}
+              {%- capture thumb_path -%}/reviews/img/{{ include.item.categories[1] }}/thumbs/{{ include.item.slug }}.jpg{%- endcapture -%}
               {%- assign link_text = site.data.text.link_to_review -%}
           {%- endif -%}
           {%- for img_file in site.static_files -%}
@@ -20,21 +20,22 @@
          - {{ include.item.subtitle }}
       </p>
         {%- endif -%}
+
+
+      <p class="b15">
+        <a href="{{ site.url }}{{ site.baseurl }}{{ include.item.url }}" title="{{ include.item.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title | escape_once }}"></a>
+        {%- unless include.item.author == "karlw" -%}
+         - <a href="/reviews/books/author/{{ include.item.author }}/">{{ site.data.authors[include.item.author].forename }} {{ site.data.authors[include.item.author].surname }}</a>
+           {%- if include.item.author2 != "" and include.item.author2 != Nil -%}
+         &nbsp;{{ site.data.text.conjunction }}&nbsp; <a href="/reviews/books/author/{{ include.item.author2 }}/">{{ site.data.authors[include.item.author2].forename }} {{ site.data.authors[include.item.author2].surname }}</a>
+         {%- endif -%}
+        {%- endunless -%}
+      </p>
       {%- if include.item.teaser != "" and include.item.teaser != nil -%}
       <p class="b30">
         {{ include.item.teaser | strip_html | escape }}
       </p>
       {%- endif -%}
-
-      <p class="b15">
-        <a href="{{ site.url }}{{ site.baseurl }}{{ include.item.url }}" title="{{ include.item.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ page.title | escape_once }}"></a>
-        {%- unless include.item.author == "karlw" -%}
-         - <a href="/author/{{ include.item.author }}/">{{ site.data.authors[include.item.author].forename }} {{ site.data.authors[include.item.author].surname }}</a>
-           {%- if include.item.author2 != "" and include.item.author2 != Nil -%}
-         &nbsp;{{ site.data.text.conjunction }}&nbsp; <a href="/author/{{ include.item.author2 }}/">{{ site.data.authors[include.item.author2].forename }} {{ site.data.authors[include.item.author2].surname }}</a>
-         {%- endif -%}
-        {%- endunless -%}
-      </p>
       {%- if include.item.season != "" and include.item.season != nil -%}
       <p class="b30">
         {{ site.data.text.season }} {{ include.item.season | strip_html | escape }}

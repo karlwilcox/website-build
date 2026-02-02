@@ -40,4 +40,4 @@ pleased with this first attempt and looking forward to the next build. Lessons l
 
 And obviously something as pretty as this is just crying out for some tiny LED lights to be added!
 
-{% include figure src="/img/reviews/other/piececool-2.jpg" caption="The instructions" align="centre" %}
+{% include figure src="/reviews/img/other/piececool-2.jpg" caption="The instructions" align="centre" %}

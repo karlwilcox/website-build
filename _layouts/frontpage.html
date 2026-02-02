@@ -71,11 +71,11 @@ format: frontpage
         </div><!-- /.medium-5.columns -->
         <div class="medium-3 columns">
             {%- if post.category == "blog" -%}
-            {%- capture src_url -%}{{ site.urlimg }}blog/generic-thumb.jpg{%- endcapture -%}
-            {%- capture thumb_path -%}{{ site.urlimg }}blog/{{ post.thumb }}{%- endcapture -%}
+            {%- capture src_url -%}/blog/generic-thumb.jpg{%- endcapture -%}
+            {%- capture thumb_path -%}/blog/thumbs/{{ post.thumb }}{%- endcapture -%}
         {%- else -%}
-            {%- capture src_url -%}{{ site.urlimg }}reviews/generic-thumb.jpg{%- endcapture -%}
-            {%- capture thumb_path -%}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{%- endcapture -%}
+            {%- capture src_url -%}/reviews/img/generic-thumb.jpg{%- endcapture -%}
+            {%- capture thumb_path -%}/reviews/img/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{%- endcapture -%}
         {%- endif -%}
               {%- for img_file in site.static_files -%}
               {%- if img_file.path == thumb_path -%}

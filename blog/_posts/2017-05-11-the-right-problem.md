@@ -9,7 +9,7 @@ tags:
 ---
 # Are You Solving the Right Problem?
 
-{% include figure src="/img/blog/timer-example.png" caption="Example timer use" align="centre" %}
+{% include figure src="/blog/timer-example.png" caption="Example timer use" align="centre" %}
 
 That may seem like a dumb question but consider this recent chain of events:
 
