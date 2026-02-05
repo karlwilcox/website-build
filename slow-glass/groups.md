@@ -5,7 +5,7 @@ title               : "Slow Glass Animation System"
 subtitle         : ""
 teaser              : ""
 header:
-image_fullwidth  : "headers/slow-glass.jpg"
+  image_fullwidth  : "headers/slow-glass.jpg"
 ---
 
 

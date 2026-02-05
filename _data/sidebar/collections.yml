@@ -1,0 +1,12 @@
+menu:
+  - title: "J.R.R. Tolkien"
+    url: "/collections/tolkien/"
+  - title: "Jane Austen"
+    url: "/collections/jane-austen/"
+  - title: "Japanese and Korean Novels"
+    url: "/collections/japanese-and-korean/"
+  - title: "Science Fiction Greats"
+    url: "/collections/science-fiction-greats/"
+  - title: "Modern British History"
+    url: "/collections/modern-british-history/"
+image: "/collections/books.jpg"

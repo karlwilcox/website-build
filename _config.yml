@@ -17,15 +17,13 @@ slogan: "A Collection of Karl's Stuff"
 description: 'A website about some things that interest me, and might interest you too. For details of the site construction please click here'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://phlow.github.io/feeling-responsive/">Feeling Responsive</a> theme by <a href="https://phlow.de/">Phlow</a>.</p>'
+credits: '<p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on the <a href="https://phlow.github.io/feeling-responsive/">Feeling Responsive</a> theme by <a href="https://phlow.de/">Phlow</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
 author: karlw
 
-# whats_new_url: "/artwork/canva-ai/"
 whats_new_url: 
-  - "/chase-group/help-wanted/"
   - "/artwork/canva-ai/"
   - "/chase-group/vhr3000/"
   - "/about-me/other-things/"

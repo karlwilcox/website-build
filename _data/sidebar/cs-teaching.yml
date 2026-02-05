@@ -1,0 +1,12 @@
+menu:
+  - title: "CS Teaching History Home"
+    url: "/cs-teaching/"
+  - title: "cm214 Networks & Communications"
+    url: "/cs-teaching/cm214/"
+  - title: "cs232 Computer Engineering II"
+    url: "/cs-teaching/cs232/"
+  - title: "cs263 Operating Systems Theory"
+    url: "/cs-teaching/cs263/"
+  - title: "cs2f20 Design Methodologies"
+    url: "/cs-teaching/cs2f20/"
+image: "/cs-teaching/tower.jpg"

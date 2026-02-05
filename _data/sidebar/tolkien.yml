@@ -1,0 +1,9 @@
+title: "Tolkien Collection Links"
+menu:
+  - title: "Collections Home"
+    url: "/collections/"
+  - title: "J.R.R. Tolkien"
+    url: "/collections/tolkien/"
+  - title: "Tolkien Reading List"
+    url: "/collections/tolkien/reading-list"
+image: "/collections/tolkien/tolkien-portrait.jpg"

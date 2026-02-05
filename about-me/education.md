@@ -32,6 +32,8 @@ studying a new degree, Computer Systems Engineering, which combined much of the
 Computer Science course with about half the Electronics course, and I was very
 pleased to be awarded a II(i) Honours.
 
+{% include figure align="center" src="/about-me/karl-1982.jpg" caption="Student ID Card" %}
+
 We were taught Pascal and the Unix Operating System and I went on to learn the
 'C' programming language and the 'vi' editor, whose keystrokes still come
 naturally to me some 20 years later. (Somewhat presciently, I had realised the

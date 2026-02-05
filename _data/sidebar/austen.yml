@@ -1,0 +1,9 @@
+title: "Austen Collection Links"
+menu:
+  - title: "Collections Home"
+    url: "/collections/"
+  - title: "Jane Austen"
+    url: "/collections/jane-austen/"
+  - title: "Jane Austen Reading List"
+    url: "/collections/jane-austen/reading-list/"
+image: "/collections/jane-austen/austen-portrait.jpg"

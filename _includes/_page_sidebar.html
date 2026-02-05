@@ -3,9 +3,9 @@
 		{%- include surprise_me -%}
 	{%- endif -%}
 	<div class="panel radius">
-		<h3>{{ site.data.sidebar[include.barname].title | default: site.data.text.sidebar_title }}</h3>
+		<h3>{{ site.data.sidebar.[include.barname].title | default: site.data.text.sidebar_title }}</h3>
 		<ul>
-            {%- for entry in site.data.sidebar[include.barname].menu -%}
+            {%- for entry in site.data.sidebar.[include.barname].menu -%}
 			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
 			  {%- if entry.submenu != NULL -%}
 			  <ul>
@@ -19,7 +19,7 @@
 	</div>
 
 	{%- if site.data.sidebar[include.barname].image != NULL -%}
-	<img class="b30" src="{{ site.data.sidebar[include.barname].image }}" alt="Sidebar Image">
+	<img class="b30" src="{{ site.data.sidebar.[include.barname].image }}" alt="Sidebar Image">
 	{%- else -%}
 	<img class="b30" src="/img/decor/Authority-Figure-1-212x300.png" alt="Karl looking stern">
 	{%- endif -%}
