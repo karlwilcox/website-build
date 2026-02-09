@@ -11,9 +11,17 @@
 {%- if include.desc -%}
 <figcaption>{{ include.desc }}</figcaption>
 {%- endif -%}
+{%- if include.blank == "True" -%}
+<div class="responsive-embed">
+   <a href="{{ include.src }}">
+   <img src="/img/decor/download.png" width="320" alt="Download icons created by Freepik - www.flaticon.com/free-icons" />
+   </a>
+</div>
+{%- else -%}
 <div class="responsive-embed">
    <iframe width="640" height="480" src="{{ include.src }}" ></iframe>
 </div>
+{%- endif -%}
 
 <p>   <a href="{{ include.src }}"  download >Download</a></p>
 </figure>

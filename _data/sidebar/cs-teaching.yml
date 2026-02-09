@@ -9,4 +9,8 @@ menu:
     url: "/cs-teaching/cs263/"
   - title: "cs2f20 Design Methodologies"
     url: "/cs-teaching/cs2f20/"
+  - title: "cs1tq2 Commercial Off-the-Shelf Software"
+    url: "/cs-teaching/cs1tq2"
+  - title: "csocsc Foundation Year Computer Science"
+    url: "/cs-teaching/csocsc"
 image: "/cs-teaching/tower.jpg"

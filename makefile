@@ -12,7 +12,7 @@ build: thumbs
 	
 # Not needed on the mini-server itself
 test:	
-	rsync --delete -e "ssh -i ~/keys/mini-server" -avP /Users/karlw/Sites karlw@192.168.1.10:/home/karlw/sites/karlwilcox
+	rsync --delete -e "ssh -i ~/keys/mini-server" -aP /Users/karlw/Sites/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox
 
 clean:
 	bundle exec jekyll clean

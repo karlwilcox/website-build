@@ -2,6 +2,11 @@
 layout: default
 format: blog-index
 ---
+{%- assign site.gp_header_count = site.gp_header_count | plus: 1 -%}
+{%- if site.gp_header_count > site.gp_header_max -%}
+{%- assign site.gp_header_count = 1 -%}
+{%- endif -%}
+
 <div class="row">
 	<div class="medium-8 columns t30">
 		<h1>{{ page.title }}</h1>

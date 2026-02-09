@@ -70,19 +70,22 @@ format: frontpage
             </p>
         </div><!-- /.medium-5.columns -->
         <div class="medium-3 columns">
-            {%- if post.category == "blog" -%}
-            {%- capture src_url -%}/blog/generic-thumb.jpg{%- endcapture -%}
-            {%- capture thumb_path -%}/blog/thumbs/{{ post.thumb }}{%- endcapture -%}
+        {%- if post.layout == "article" -%}
+            {%- if post.thumb -%}
+                {%- assign src_url = "/blog/thumbs/" | append: post.thumb -%}
+            {%- else -%}
+                {%- assign src_url = "/blog/thumbs/generic.jpg" -%}
+            {%- endif -%}
         {%- else -%}
             {%- capture src_url -%}/reviews/img/generic-thumb.jpg{%- endcapture -%}
             {%- capture thumb_path -%}/reviews/img/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{%- endcapture -%}
-        {%- endif -%}
-              {%- for img_file in site.static_files -%}
+            {%- for img_file in site.static_files -%}
               {%- if img_file.path == thumb_path -%}
-              {%- assign src_url = thumb_path -%}
-              {%- continue -%}
+                {%- assign src_url = thumb_path -%}
+                {%- continue -%}
               {%- endif -%}
-              {%- endfor -%}
+            {%- endfor -%}
+        {%- endif -%}
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ src_url }}" class="alignleft" width="200" height="200" alt="{{ post.title | escape_once }}"></a>
         </div>
             {%- endfor -%}

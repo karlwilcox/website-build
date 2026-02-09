@@ -145,6 +145,8 @@ defaults:
       show_meta: true   # Show metadata for all posts
       comments: true
       author: karlw     # Default author for posts
+      header:
+        image_fullwidth: "gp-header"
   -
     scope:
       path: ''
@@ -157,12 +159,6 @@ defaults:
     scope:
       path: 'pages/chase-group'
       type: 'pages'
-    values:
-      comments: true
-  -
-    scope:
-      path: blog
-      type: 'blog'
     values:
       comments: true
   -
