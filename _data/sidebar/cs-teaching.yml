@@ -13,4 +13,8 @@ menu:
     url: "/cs-teaching/cs1tq2"
   - title: "csocsc Foundation Year Computer Science"
     url: "/cs-teaching/csocsc"
+  - title: "cs1ts2 Software Engineering I"
+    url: "/cs-teaching/cs1ts2"
+  - title: "cs1ts2 Software Engineering II"
+    url: "/cs-teaching/cs1ts3"
 image: "/cs-teaching/tower.jpg"
