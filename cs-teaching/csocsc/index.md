@@ -63,4 +63,4 @@ appropriate level of achievement!
 
 ## Exam Questions
 
-{% include download src="/cs-teaching/csocsc/examspet02.pdf" desc="Example Exam Paper" %}
+{% include download src="/cs-teaching/csocsc/examsept02.pdf" desc="Example Exam Paper" %}
