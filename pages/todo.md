@@ -17,7 +17,7 @@ or any other errors noted.
           {% if post.categories[0] == "blog" or post.categories[1] == "shorts" %}
               {% continue %}
           {% else %}
-              {% capture thumb_path %}{{ site.urlimg }}reviews/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
+              {% capture thumb_path %}/reviews/img/{{ post.categories[1] }}/thumbs/{{ post.slug }}.jpg{% endcapture %}
           {% endif %}
           {% assign found = false %}
           {% for img_file in site.static_files %}
@@ -38,9 +38,9 @@ or any other errors noted.
               {% continue %}
           {% else %}
             {% if page.picture %}
-                {% capture img_path %}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.picture }}.jpg{% endcapture %}
+                {% capture img_path %}/reviews/img/{{ page.categories[1] }}/{{ page.picture }}.jpg{% endcapture %}
             {% else %}
-                {% capture img_path %}{{ site.urlimg }}reviews/{{ page.categories[1] }}/{{ page.slug }}.jpg{% endcapture %}
+                {% capture img_path %}/reviews/img/{{ page.categories[1] }}/{{ page.slug }}.jpg{% endcapture %}
             {% endif %}
           {% endif %}
           {% assign found = false %}

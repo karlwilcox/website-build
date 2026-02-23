@@ -5,6 +5,7 @@ season: "1"
 network: "Disney+"
 tags:
   - "essex"
+  - "interesting"
 ---
 
 I've had this on my watchlist for awhile now and eventually persuaded the rest

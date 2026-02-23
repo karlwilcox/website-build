@@ -37,7 +37,9 @@
         &middot; {{ post.network }}
         {%- elsif post.platform -%} 
         &middot; {{ post.platform }}
-        {%- endif -%}</li>
+        {%- endif -%}
+        {% include _tags_to_buttons.html tags=post.tags %}
+      </li>
     {%- endfor -%}
 
 

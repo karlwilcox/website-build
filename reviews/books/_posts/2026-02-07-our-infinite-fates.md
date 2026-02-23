@@ -4,6 +4,7 @@ title: "Our Infinite Fates"
 author: "laura-steven"
 tags:
   - "wales"
+  - "recommended"
 ---
 
 This was an impulse buy on the way out of Waterstones and boy was it a good
@@ -27,4 +28,4 @@ that the passion, love, hurt and loss bursts from the page; and the story is
 interesting, compelling and well constructed.
 
 Like the shop assistant, I was eager to get back into this world and finished
-the whole thing inside two days. Highly recommend.
+the whole thing inside two days. Highly recommended.

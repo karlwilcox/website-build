@@ -19,7 +19,8 @@ paginate:
 			<img src="{{ use_img }}" alt="Illustration"/>
 			<figcaption>{{ page.slug }} {{ page.credit }}</figcaption>
 		</figure>
-		{%- if page.retro -%}
+        {% include _tags_to_buttons.html tags=page.tags separator="&MediumSpace;" pclass="b15" %}
+		{%- if page.tags contains "retro" -%}
 		{% include retro-disclaimer %}
 		{%- endif -%}
 		<div id="search-content">

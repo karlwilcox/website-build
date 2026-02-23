@@ -6,6 +6,7 @@ teaser: "Macabre interwoven stories"
 series: "Strange Things"
 tags:
   - "japan"
+  - "interesting"
 ---
 
 A strange book with pictures! Easy to read but slightly disturbing to ponder

@@ -1,0 +1,25 @@
+- tag: "recommended"
+  type: "success"
+  text: "Recommended"
+  longtext: "Recommended Works"
+  description: >
+    When I tag something with 'Recommended' I believe that you will really enjoy
+    and get something out of this! It likely represents the peak of the genre
+    of the very best of a particular author or studio, at least in my view.
+- tag: "interesting"
+  type: "secondary"
+  text: "Interesting"
+  longtext: "Interesting Works"
+  description: >
+    To gain an 'Interesting' tag a work needs to be a bit different, to try
+    something new or be surprising in some way. It isn't necessarily "great"
+    but it may well reward your time in unexpected ways.
+- tag: "avoid"
+  type: "alert"
+  text: "Avoid"
+  longtext: "Works to Avoid(?)"
+  description: >
+    The tag 'Avoid' doesn't necessarily represent something that is intrinsically bad.
+    Things end up here because, for whatever reason, I'm disappointed in them, didn't
+    enjoy it as much as I hoped or was plain frustrated by it. Your opinion may
+    well differ but don't let it be said that you weren't at least forewarned.

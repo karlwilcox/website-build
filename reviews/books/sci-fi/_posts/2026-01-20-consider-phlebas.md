@@ -4,9 +4,8 @@ title: "Consider Phlebas"
 author: "iain-banks"
 series: "Culture"
 booknum: "1"
-retro: true
 tags:
-  - ""
+  - "retro"
 ---
 
 {% include figure src="/reviews/img/books/iain-banks-sf.jpg" caption="The Current Collection" %}

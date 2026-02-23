@@ -6,15 +6,20 @@
 		<h3>{{ site.data.sidebar.[include.barname].title | default: site.data.text.sidebar_title }}</h3>
 		<ul>
             {%- for entry in site.data.sidebar.[include.barname].menu -%}
-			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-			  {%- if entry.submenu != NULL -%}
-			  <ul>
-				{%- for subentry in entry.submenu -%}
-				<li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
-				{%- endfor -%}
-			  </ul>
-			  {%- endif -%}
+				<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+				{%- if entry.submenu != NULL -%}
+					<ul>
+					{%- for subentry in entry.submenu -%}
+						<li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+					{%- endfor -%}
+					</ul>
+				{%- endif -%}
 			{%- endfor -%}
+			{%- if site.data.sidebar.[include.barname].special-tags == "true" -%}
+				{%- for special in site.data.tag-buttons -%}
+				<li><a href="/tags/{{ special.tag }}/">{{ special.longtext }}</a> </li>
+				{%- endfor -%}
+			{%- endif -%}
 		</ul>
 	</div>
 

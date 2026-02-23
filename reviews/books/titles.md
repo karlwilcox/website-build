@@ -63,6 +63,7 @@ use the [Search Page](/search/) to find a specific title, or look at the alphabe
   <a href="/reviews/books/author/{{ item.author2 }}/">{{ author_data.forename }} {{ author_data.surname }}</a>
 {%- endif -%}
 )
+{% include _tags_to_buttons.html tags=item.tags separator="&MediumSpace;" wrap="span" button="taglink"%}
 {%- else -%}
   {%- if item.subtitle != "" and item.subtitle != Nil -%}
   ({{ item.subtitle }})

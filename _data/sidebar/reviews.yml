@@ -1,6 +1,7 @@
 title: "Review Links"
 surprise_me: true
 header: "/img/decor/Authority-Figure-1-212x300.png"
+special-tags: "true"
 menu:
   - title: "Books (all types)"
     url: "/reviews/books/"
@@ -17,6 +18,9 @@ menu:
         url: "/reviews/books/titles/"
   - title: "Movies"
     url: "/reviews/movies/"
+    submenu:
+      - title: "Movies by Title"
+        url: "/reviews/movies/titles/"
   - title: "TV Shows"
     url: "/reviews/tvshows/"
     submenu:

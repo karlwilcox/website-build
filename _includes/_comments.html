@@ -7,7 +7,7 @@
 {%- endif -%}
 
 <h3 id="comments" class="t60">{{ site.data.text.comments_headline }}</h3>
-{%- assign commentList = site.data.comments | where: "url", urlkey -%}
+{%- assign commentList = site.data.comments | where: "url", page.url -%}
 {%- for commentItem in commentList -%}
 <p>On {{ commentItem.date }} {{ commentItem.name | default: "Anonymous" }} said:</p>
 <p class="comment">{{ commentItem.comment }}</p>

@@ -106,7 +106,7 @@
 * Now loop, updating counters as we go
 {%- endcomment -%}
 {%- for book_review in site.categories.books -%}
-{%-   if book_review.retro -%}
+{%-   if book_review.tags contains "retro" -%}
 {%-       continue -%}
 {%-   endif -%}
 {%- 	assign review_year = book_review.date | date: "%Y" -%}

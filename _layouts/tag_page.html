@@ -5,6 +5,13 @@ layout: default
 <div class="row">
     <div class="medium-8 columns t30">
         <h1 class="text-start">{{ site.data.text.tag_posts }} {{ page.tag }}</h1>
+        {%- for special in site.data.tag-buttons -%}
+            {%- if special.tag == page.tag -%}
+        <div class="panel callout small secondary">
+            <p>{{ special.description }}</p>
+        </div>
+            {%- endif -%}
+        {%- endfor -%}
         <ul>
             {%- for post in page.posts -%}
             <li>
@@ -16,6 +23,11 @@ layout: default
 
 
     <div class="medium-4 columns t30">
-        <a class="button radius" href="/tag-cloud/">{{ site.data.text.tag_cloud }}</a>
+       <p> <a class="button radius" href="/tag-cloud/">{{ site.data.text.tag_cloud }}</a> </p>
+       <ul>
+        {%- for special in site.data.tag-buttons -%}
+        <li><a href="/tags/{{ special.tag }}/">{{ special.longtext }}</a> </li>
+        {%- endfor -%}
+       </ul>
     </div><!-- /.medium-5.columns -->
 </div><!-- /.row -->

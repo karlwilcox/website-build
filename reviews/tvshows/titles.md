@@ -2,11 +2,12 @@
 layout: page
 title: "List of TV Show Titles"
 subtitle: ""
-/reviewsheader:
+header:
   image_fullwidth: "gp-header"
 ---
 
 ## Titles of TV Shows with a Full Review
+
 {% assign reviews = site.categories.tvshows | sort: "title" %}
 <p>
     <a href="#toA">&nbsp;A&nbsp;</a>&nbsp;|&nbsp;
@@ -50,6 +51,7 @@ subtitle: ""
 {% if item.season %}
 (Season {{ item.season }})
 {% endif %}
+{% include _tags_to_buttons.html tags=item.tags separator="&MediumSpace;" wrap="span" button="taglink" %}
 </li>
 {% endfor %}
 </ul>

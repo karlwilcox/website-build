@@ -32,36 +32,37 @@
         {%- endunless -%}
       </p>
       {%- if include.item.teaser != "" and include.item.teaser != nil -%}
-      <p class="b30">
+      <p class="b15">
         {{ include.item.teaser | strip_html | escape }}
       </p>
       {%- endif -%}
       {%- if include.item.season != "" and include.item.season != nil -%}
-      <p class="b30">
+      <p class="b15">
         {{ site.data.text.season }} {{ include.item.season | strip_html | escape }}
       </p>
       {%- endif -%}
       {%- if include.item.series != "" and include.item.series != nil -%}
-      <p class="b30">
+      <p class="b15">
         {{ site.data.text.series_start }} {{ include.item.series | strip_html | escape }} {{ site.data.text.series_end }} 
       </p>
         {%- if include.item.booknum != "" and include.item.booknum != nil -%}
-        <p class="b30">
+        <p class="b15">
           {{ site.data.text.booknum }} {{ include.item.booknum | strip_html | escape }}
         </p>
         {%- endif -%}
       {%- endif -%}
       {%- if include.item.network != "" and include.item.network != nil -%}
-      <p class="b30">
+      <p class="b15">
         {{ site.data.text.network }} {{ include.item.network | strip_html | escape }}
       </p>
       {%- endif -%}
       {%- if include.item.platform != "" and include.item.platform != nil -%}
-      <p class="b30">
+      <p class="b15">
         {{ site.data.text.platform }} {{ include.item.platform | strip_html | escape }}
       </p>
       {%- endif -%}
-      <p class="b30">
+      {% include _tags_to_buttons.html tags=include.item.tags separator="&MediumSpace;" pclass="b15" %}
+      <p class="b15">
         <a href="{{ site.url }}{{ site.baseurl }}{{ include.item.url }}" title="{{ site.data.text.read }} {{ include.item.title | escape_once }}"><strong>{{ link_text }}</strong></a>
       </p>
     </div><!-- /.small-12.columns -->

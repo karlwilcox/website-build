@@ -4,7 +4,7 @@ title: "Hello Tomorrow"
 network: "Apple TV+"
 season: "1"
 tags:
-  - "retro"
+  - "retro-future"
   - "sci-fi"
 ---
 

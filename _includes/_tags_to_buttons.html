@@ -1,0 +1,24 @@
+{%- assign need_separator = "False" -%}
+{%- assign separator = include.separator | default: "&middot;" -%}
+{%- assign buttonclass = include.button | default: "button tiny" -%}
+{%- assign wrap = include.wrap | default: "p" -%}
+{%- capture buttoncontent -%}
+{%- for tag in include.tags -%}
+    {%- for tagbutton in site.data.tag-buttons -%}
+        {%- if tag == tagbutton.tag -%}
+            {%- if need_separator == "True" -%}
+                {{ separator }}
+            {%- else -%}
+                {%- assign need_separator = "True" -%}
+            {%- endif -%}
+<a class="{{ buttonclass }} {{ tagbutton.type }} tiny" href="/tags/{{ tagbutton.tag }}/">{{ tagbutton.text }}</a>
+        {%- endif -%}
+    {%- endfor -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- if buttoncontent.size > 10 -%}
+<{{ wrap }} class="{{ include.pclass }}">
+    {{ buttoncontent }}
+</{{ wrap }}>
+{%- endif -%}
+
