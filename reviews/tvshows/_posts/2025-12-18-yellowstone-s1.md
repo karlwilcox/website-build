@@ -4,7 +4,7 @@ title: "Yellowstone"
 network: "Paramount+"
 season: "1"
 tags:
-  - "Montana"
+  - "montana"
 ---
 
 Interim review - episodes 1 to 5 (December 2024)

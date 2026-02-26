@@ -58,4 +58,4 @@ unsurprisingly after more than 20 years I can't remember what it is. The encrypt
 strong and can easily be broken with the right tools so you are welcome to download these and
 have a go - it will be the same password for all files.
 
-{% include download src="/cs-teaching/cs1ts2/cs1ts2-exams.pdf" desc="(Encrypted) Example Exam Papers" blank="True" %}
+{% include download src="/cs-teaching/cs1ts2/cs1ts2-exams.zip" desc="(Encrypted) Example Exam Papers" blank="True" %}

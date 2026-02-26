@@ -4,6 +4,7 @@ title: "Strange Pictures"
 author: "uketsu"
 teaser: "Macabre interwoven stories"
 series: "Strange Things"
+booknum: "1"
 tags:
   - "japan"
   - "interesting"

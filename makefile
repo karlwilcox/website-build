@@ -18,7 +18,7 @@ clean:
 	bundle exec jekyll clean
 
 deploy:
-	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml'
+	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml' --exclude '/.well-known/'
 
 deploy-all:
 	rclone sync -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml'

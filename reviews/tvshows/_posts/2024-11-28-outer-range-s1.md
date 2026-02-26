@@ -4,7 +4,7 @@ title: "Outer Range"
 network: "Amazon Prime"
 season: "1"
 tags:
-  - "Wyoming"
+  - "wyoming"
   - "sci-fi"
 ---
 
