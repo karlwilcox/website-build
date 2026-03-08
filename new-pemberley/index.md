@@ -52,7 +52,7 @@ The above has implications for sleeping, catering and domestic arrangements, but
 - workshop and/or hobby room
 - ballroom/conference space
 
-We would also like our estate to largely self contained, which implies
+We would also like our estate to be largely self contained, which implies
 
 - permanent and temporary staff accommodation
 - on site laundry and catering facilities
