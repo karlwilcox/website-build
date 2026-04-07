@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Slow Glass Demo</title>
-
-<style>
-body {
-    margin: 0;
-    background: #202020;
-}
-</style>
-
-</head>
-
-<body>
-
-    <div id="pixi"></div>
-
-    <div>
-        <button id="run_button">Run Script</button>
-        &nbsp;
-        <button id="stop_button">Stop</button>
-    </div>
-
-
-    <div>
-        <textarea id="sg-script" name="sg-script" cols="80" rows="40">
 # This is a comment
 ------------------------------------
 display width 1024
@@ -78,36 +50,3 @@ scene blinker
     every 5 seconds
         flash star3 3 times
 end scene
-
-        </textarea>
-    </div>
-
-    <div id="audio"></div>
-
-<script>window.sg_filename = "/slow-glass/web/scripts/test.txt";</script>
-    <script src="https://pixijs.download/release/pixi.min.js"></script>
-    <script src="dist/slow-glass.js"></script>
-
-<script>
-    // Source - https://stackoverflow.com/a/58189464
-// Posted by Paulo Eduardo, modified by community. See post 'Timeline' for change history
-// Retrieved 2026-04-05, License - CC BY-SA 4.0
-
-function unlockAudio() {
-    const sound = new Audio('dist/accessgranted.wav');
-
-    sound.play();
-    sound.pause();
-    sound.currentTime = 0;
-
-    document.body.removeEventListener('click', unlockAudio)
-    document.body.removeEventListener('touchstart', unlockAudio)
-}
-
-// document.body.addEventListener('click', unlockAudio);
-// document.body.addEventListener('touchstart', unlockAudio);
-
-</script>
-
-</body>
-</html>

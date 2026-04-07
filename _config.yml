@@ -48,7 +48,7 @@ urlimg: '/img/'
 
 # destination: /var/www/karlwilcox
 # destination: /home/karlw/sites/karlwilcox
-destination: /Users/karlw/Sites
+destination: /Users/karlw/Sites/karlwilcox
 
 incremental: false
 
@@ -57,12 +57,12 @@ logo: "logo.png"
 
 # Plugins
 plugins:
-    - jekyll-asciidoc
-    - jekyll-gist
+#    - jekyll-asciidoc
+#    - jekyll-gist
     - jekyll-paginate-v2
 #    - octopress-paginate
     - jekyll-auto-authors
-    - jekyll_begin_end
+#    - jekyll_begin_end
 
 
 # Always show future posts (short reviews are retrospective)
@@ -316,13 +316,13 @@ sass:
 #
 #
 
-asciidoctor-enabled: false
-asciidoctor:
-  description: 
-  attributes:
-    source-highlighter: coderay
-    coderay-css: style
-    icons: font
+# asciidoctor-enabled: false
+# asciidoctor:
+#   description: 
+#   attributes:
+#     source-highlighter: coderay
+#     coderay-css: style
+#     icons: font
 
 collections:
   authors:

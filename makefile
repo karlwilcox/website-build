@@ -6,22 +6,29 @@ SHELL := /bin/bash
 # the default action is to build the site locally
 build: thumbs
 	bundle exec jekyll build
-	chmod -R go+r /Users/karlw/Sites
+	chmod -R go+r /Users/karlw/Sites/karlwilcox/
 	echo -n "Completed at: "
 	date
 	
 # Not needed on the mini-server itself
 test:	
-	rsync --delete -e "ssh -i ~/keys/mini-server" -aP /Users/karlw/Sites/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox
+	rsync --delete -e "ssh -i ~/keys/mini-server" -aP /Users/karlw/Sites/karlwilcox/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox
+
+sg:	
+	pushd /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web > /dev/null
+	esbuild src/main.js --bundle --sourcemap --outfile=dist/slow-glass.js
+# esbuild src/main.js --bundle --minify --sourcemap --outfile=dist/slow-glass.js
+	rsync --delete -e "ssh" -aP /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox/slow-glass/web
+	popd > /dev/null
 
 clean:
 	bundle exec jekyll clean
 
 deploy:
-	rclone sync -c -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml' --exclude '/.well-known/'
+	rclone sync -c -v /Users/karlw/Sites/karlwilcox kw-site:/public_html --exclude '/404.shtml' --exclude '/.well-known/'
 
 deploy-all:
-	rclone sync -v /Users/karlw/Sites kw-site:/public_html --exclude '/404.shtml'
+	rclone sync -v /Users/karlw/Sites/karlwilcox kw-site:/public_html --exclude '/404.shtml'
 
 gallery: do_gallery
 .PHONY: gallery
