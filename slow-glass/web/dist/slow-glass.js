@@ -219,11 +219,17 @@
     // milliseconds between sprite updates
     MAIN_NAME: "_MAIN_",
     VOLUME_MIN: 0,
-    VOLUME_MAX: 100
+    VOLUME_MAX: 100,
+    // scaling types
+    SCALE_FIT: "fit",
+    SCALE_STRETCH: "stretch",
+    SCALE_NONE: "none",
+    GRAVITY_PS2: 100
+    // force of gravity in pixels per second per second
   };
 
   // src/globals.js
-  var Globals = class {
+  var Globals = class _Globals {
     static root = null;
     static scenes = [];
     static app = null;
@@ -231,7 +237,26 @@
     static current_trigger = "";
     static display_width = defaults_default.DISPLAY_WIDTH;
     static display_height = defaults_default.DISPLAY_HEIGHT;
+    static script_width = defaults_default.DISPLAY_WIDTH;
+    static script_height = defaults_default.DISPLAY_HEIGHT;
+    static script_scale_type = defaults_default.SCALE_NONE;
+    static script_scale_x = 1;
+    static script_scale_y = 1;
+    static gravity = defaults_default.GRAVITY_PS2;
+    static lastKey = null;
+    static key = null;
     constructor() {
+    }
+    static event(type, data) {
+      switch (type) {
+        case "onkeydown":
+          _Globals.lastKey = data;
+          _Globals.key = data;
+          break;
+        case "onkeyup":
+          _Globals.key = null;
+          break;
+      }
     }
   };
 
@@ -293,6 +318,10 @@
       this.pulse_max = 0;
       this.flash_count = 0;
       this.next_flash = 0;
+      this.throw_vx = 0;
+      this.throw_vy = 0;
+      this.throw_time = 0;
+      this.falling = false;
     }
     set_pos(x, y, depth) {
       if (arguments.length < 3) {
@@ -358,6 +387,17 @@
         this.transparency.jiggle_start(d, chance);
       } else {
         this.transparency.jiggle_stop();
+      }
+    }
+    throw(angle, initial_velocity, now) {
+      if (angle == "stop") {
+        this.falling = false;
+      } else {
+        this.falling = true;
+        const radians = angle * Math.PI / 180;
+        this.thrown_vx = initial_velocity * Math.sin(radians);
+        this.thrown_vy = initial_velocity * Math.cos(radians);
+        this.throw_time = now;
       }
     }
     blink(rate, chance, now) {
@@ -471,6 +511,17 @@
       if (change_x || change_y) {
         if (this.pi_sprite !== null) {
           this.pi_sprite.position.set(this.loc_x.value(), this.loc_y.value());
+        }
+      }
+      if (this.falling) {
+        const falling_time = (now - this.throw_time) / 1e3;
+        const delta_x = this.loc_x.value() + this.thrown_vx * falling_time * Globals.script_scale_x;
+        const delta_y = this.loc_y.value() + (this.thrown_vy * falling_time - 0.5 * Globals.gravity * falling_time * falling_time) * Globals.script_scale_y;
+        if (Math.abs(delta_x) > Globals.app.screen.width * 2 || Math.abs(delta_y) > Globals.app.screen.height * 2) {
+          this.falling = false;
+        }
+        if (this.pi_sprite !== null) {
+          this.pi_sprite.position.set(this.loc_x.value() + delta_x, this.loc_y.value() + delta_y);
         }
       }
       if (this.angle.update_value()) {
@@ -966,7 +1017,7 @@
         case "RANDOMY":
           return Math.floor(Math.random() * Globals.app.screen.height);
         case "CHANCE":
-          return Match.random();
+          return Math.random();
         case "PERCENT":
         case "PERCENTAGE":
           return Math.floor(Math.random() * 101);
@@ -985,22 +1036,15 @@
         case "NIGHT":
           return date.getHour() > 22 || date.getHour() < 6 ? defaults_default.TRUEVALUE : defaults_default.FALSEVALUE;
         case "KEY":
-          return _VarList.key == null ? defaults_default.NOTFOUND : _VarList.key;
+          return Globals.key == null ? defaults_default.NOTFOUND : Globals.key;
         case "LASTKEY":
-          return _VarList.lastKey == null ? defaults_default.NOTFOUND : _VarList.lastKey;
+          return Globals.lastKey == null ? defaults_default.NOTFOUND : Globals.lastKey;
+        case "SCALEX":
+          return Globals.script_scale_x;
+        case "SCALEY":
+          return Globals.script_scale_y;
         default:
           return false;
-      }
-    }
-    static event(type, data) {
-      switch (type) {
-        case "onkeydown":
-          _VarList.lastKey = data;
-          _VarList.key = data;
-          break;
-        case "onkeyup":
-          _VarList.key = null;
-          break;
       }
     }
     static scene_var(varName) {
@@ -1377,6 +1421,31 @@
           }
         } else if (command == "include") {
           Globals.log.error("Include not supported yet");
+        } else if (command == "script") {
+          if (argument == "width") {
+            let script_width = parseInt(argument2);
+            if (script_width < 50 || script_width > 5e3) {
+              Globals.log.error("silly script width");
+              script_width = defaults_default.DISPLAY_WIDTH;
+            }
+            Globals.script_width = script_width;
+          } else if (argument == "height") {
+            let script_height = parseInt(argument2);
+            if (script_height < 50 || script_height > 5e3) {
+              Globals.log.error("silly script height");
+              script_height = defaults_default.DISPLAY_HEIGHT;
+            }
+            Globals.script_height = script_height;
+          } else if (argument == "scale") {
+            Globals.script_scale_type = argument2;
+          }
+        } else if (command == "gravity") {
+          let gravity = Parrser.parseFloat(argument);
+          if (gravity <= 0) {
+            Globals.log.error("silly gravity setting");
+            gravity = defaults_default.GRAVITY_PS2;
+          }
+          Globals.gravity_ps2 = gravity;
         } else {
           const line = new Line(lineCount, currentLine);
           if (holding == null) {
@@ -1392,6 +1461,17 @@
       if (top.content.length < 1) {
         Globals.log.error("No top level actions, nothing will happen!");
       } else {
+        switch (Globals.script_scale_type) {
+          case defaults_default.SCALE_STRETCH:
+            Globals.script_scale_x = Globals.display_width / Globals.script_width;
+            Globals.script_scale_y = Globals.display_height / Globals.script_height;
+            break;
+          case defaults_default.SCALE_FIT:
+          // todo
+          case defaults_default.SCALE_NONE:
+          default:
+            break;
+        }
         top.start();
         Globals.scenes.push(top);
       }
@@ -1683,13 +1763,13 @@
                 sg_sprite.set_visibility(false);
               }
               Parser.test_word(words, "at");
-              sg_sprite.loc_x.set_target_value(Parser.get_int(words, 0));
-              sg_sprite.loc_y.set_target_value(Parser.get_int(words, 0));
+              sg_sprite.loc_x.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_x);
+              sg_sprite.loc_y.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_y);
               Parser.test_word(words, "depth");
               sg_sprite.depth = Parser.get_int(words, 0);
               Parser.test_word(words, ["size", "scale"]);
-              sg_sprite.size_x.set_target_value(Parser.get_int(words, 0));
-              sg_sprite.size_y.set_target_value(Parser.get_int(words, 0));
+              sg_sprite.size_x.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_x);
+              sg_sprite.size_y.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_y);
               this.sprites.push(sg_sprite);
             } else {
               Globals.log.error("Missing place data at line " + line_no);
@@ -1804,8 +1884,8 @@
                 Globals.log.error("Expected by or to on line " + line_no);
                 break;
               }
-              let x = Parser.get_int(words, 0);
-              let y = Parser.get_int(words, 0);
+              let x = Parser.get_int(words, 0) * Globals.script_scale_x;
+              let y = Parser.get_int(words, 0) * Globals.script_scale_y;
               let in_or_at = Parser.test_word(words, ["in", "at"]);
               if (in_or_at === false) {
                 Globals.log.error("Expected in or at on line " + line_no);
@@ -1868,6 +1948,38 @@
               Globals.log.error("Missing rotate data at line " + line_no);
               action_group.complete_action("rotateX");
             }
+            break;
+          /**************************************************************************************************
+          
+             ######## ##     ## ########   #######  ##      ## 
+                ##    ##     ## ##     ## ##     ## ##  ##  ## 
+                ##    ##     ## ##     ## ##     ## ##  ##  ## 
+                ##    ######### ########  ##     ## ##  ##  ## 
+                ##    ##     ## ##   ##   ##     ## ##  ##  ## 
+                ##    ##     ## ##    ##  ##     ## ##  ##  ## 
+                ##    ##     ## ##     ##  #######   ###  ###  
+          
+          **************************************************************************************************/
+          case "throw":
+          case "launch":
+            if (words.length > 0) {
+              let sprite_tag = words.shift();
+              const stop_or_at = Parser.test_word(words, ["at", "stop"], "at");
+              let angle = Parser.get_int(words, 0);
+              Parser.test_word(words, ["deg", "degs", "degrees"]);
+              Parser.test_word(words, "with");
+              Parser.test_word(words, ["force", "velocity", "speed"]);
+              let initial_velocity = Parser.get_int(words, 10);
+              let sprite = SG_sprite.get_sprite(this.name, sprite_tag);
+              if (stop_or_at == "stop") {
+                sprite.throw("stop");
+              } else {
+                sprite.throw(angle, initial_velocity, now);
+              }
+            } else {
+              Globals.log.error("Missing throw data at line " + line_no);
+            }
+            action_group.complete_action("throw");
             break;
           /**************************************************************************************************
           
@@ -1993,7 +2105,7 @@
               if (on_off == "stop") {
                 sprite.flicker(0, 0);
               } else {
-                let flicker_size = Parser.get_int(words, 0, 0, 50);
+                let flicker_size = Parser.get_int(words, 0, 0, 50) * Globals.script_scale_x;
                 Parser.test_word(words, "with");
                 Parser.test_word(words, "chance");
                 let flicker_chance = Parser.get_int(words, 50);
@@ -2024,8 +2136,8 @@
               if (on_off == "stop") {
                 sprite.jiggle(0, 0, 0);
               } else {
-                let jiggle_x = Parser.get_int(words, 0);
-                let jiggle_y = Parser.get_int(words, 0);
+                let jiggle_x = Parser.get_int(words, 0) * Globals.script_scale_x;
+                let jiggle_y = Parser.get_int(words, 0) * Globals.script_scale_y;
                 let jiggle_r = Parser.get_int(words, 0);
                 Parser.test_word(words, "with");
                 Parser.test_word(words, "chance");
@@ -2200,15 +2312,15 @@
   async function run() {
     await Globals.app.init({
       // resizeTo: window,
-      background: "#303030",
+      background: "#dfdfdf",
       width: Globals.display_width,
       height: Globals.display_height
     });
     document.onkeydown = function(e) {
-      Globals.varList.event("onkeydown", e.key);
+      Globals.event("onkeydown", e.key);
     };
     document.onkeyup = function(e) {
-      Globals.varList.event("onkeyup", e.key);
+      Globals.event("onkeyup", e.key);
     };
     pixi.appendChild(Globals.app.canvas);
     Globals.root = new PIXI.Container();

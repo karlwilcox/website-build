@@ -14,14 +14,14 @@ async function run() {
     // Initialise renderer (Pixi v8 requirement)
     await Globals.app.init({
         // resizeTo: window,
-        background: "#303030",
+        background: "#dfdfdf",
         width: Globals.display_width,
         height: Globals.display_height,
     });
 
     // Add canvas to page
-    document.onkeydown = function(e) {Globals.varList.event("onkeydown", e.key);};
-    document.onkeyup = function(e) {Globals.varList.event("onkeyup", e.key);};
+    document.onkeydown = function(e) {Globals.event("onkeydown", e.key);};
+    document.onkeyup = function(e) {Globals.event("onkeyup", e.key);};
     pixi.appendChild(Globals.app.canvas);
 
     // Root container for scene

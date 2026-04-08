@@ -4,7 +4,7 @@ begin
     echo SECOND = $SECOND
     echo MINUTE = $MINUTE
     echo HOUR = $HOUR
-    echo DAY = $DAY
+    echo DAYOFWEEK = $DAYOFWEEK
     echo DAYNAME = $DAYNAME
     echo MONTH = $MONTH
     echo MONTHNAME = $MONTHNAME

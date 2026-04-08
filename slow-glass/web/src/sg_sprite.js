@@ -99,6 +99,11 @@ export class SG_sprite {
         // flashing
         this.flash_count = 0;
         this.next_flash = 0;
+        // thrown
+        this.throw_vx = 0;
+        this.throw_vy = 0; 
+        this.throw_time = 0;
+        this.falling = false;
     }
 
     set_pos(x, y, depth) {
@@ -172,6 +177,18 @@ export class SG_sprite {
             this.transparency.jiggle_start(d, chance);
         } else {
             this.transparency.jiggle_stop();
+        }
+    }
+
+    throw(angle, initial_velocity, now) {
+        if (angle == "stop") {
+            this.falling = false;
+        } else {
+            this.falling = true;
+            const radians = angle * Math.PI / 180;
+            this.thrown_vx = initial_velocity * Math.sin(radians);
+            this.thrown_vy = initial_velocity * Math.cos(radians);
+            this.throw_time = now;
         }
     }
 
@@ -294,6 +311,18 @@ export class SG_sprite {
         if (change_x || change_y) {
             if (this.pi_sprite !== null ) { // image has been loaded
                 this.pi_sprite.position.set(this.loc_x.value(), this.loc_y.value());
+            }
+        }
+        // Let's see if we have been thrown...?
+        if (this.falling) {
+            const falling_time = (now - this.throw_time) / 1000; // elapsed time in seconds
+            const delta_x = this.loc_x.value() + (this.thrown_vx * falling_time * Globals.script_scale_x);
+            const delta_y = this.loc_y.value() + (((this.thrown_vy * falling_time) - (0.5 * Globals.gravity * falling_time * falling_time)) * Globals.script_scale_y);
+            if ((Math.abs(delta_x) > Globals.app.screen.width * 2) || (Math.abs(delta_y) > Globals.app.screen.height * 2)) {
+                this.falling = false; // gone off the edge of the world
+            }
+            if (this.pi_sprite !== null ) { // image has been loaded
+                this.pi_sprite.position.set(this.loc_x.value() + delta_x, this.loc_y.value() + delta_y);
             }
         }
         // Update rotation angle

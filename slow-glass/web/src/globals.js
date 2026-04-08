@@ -10,6 +10,12 @@ export class Globals {
     static current_trigger = "";
     static display_width = defaults.DISPLAY_WIDTH;
     static display_height = defaults.DISPLAY_HEIGHT;
+    static script_width = defaults.DISPLAY_WIDTH;
+    static script_height = defaults.DISPLAY_HEIGHT;
+    static script_scale_type = defaults.SCALE_NONE;
+    static script_scale_x = 1;
+    static script_scale_y = 1;
+    static gravity = defaults.GRAVITY_PS2;
     static lastKey = null;
     static key = null;
 

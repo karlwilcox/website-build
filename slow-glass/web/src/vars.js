@@ -84,7 +84,7 @@ export class VarList {
             case "RANDOMY":
                 return Math.floor(Math.random() * Globals.app.screen.height);
             case "CHANCE":
-                return Match.random();
+                return Math.random();
             case "PERCENT":
             case "PERCENTAGE":
                 return Math.floor(Math.random() * 101);
@@ -106,7 +106,10 @@ export class VarList {
                 return Globals.key == null ? Defaults.NOTFOUND : Globals.key;
             case "LASTKEY":
                 return Globals.lastKey == null ? Defaults.NOTFOUND : Globals.lastKey;
-
+            case "SCALEX":
+                return Globals.script_scale_x;
+            case "SCALEY":
+                return Globals.script_scale_y;
             default:
                 return false;
         }

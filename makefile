@@ -18,7 +18,7 @@ sg:
 	pushd /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web > /dev/null
 	esbuild src/main.js --bundle --sourcemap --outfile=dist/slow-glass.js
 # esbuild src/main.js --bundle --minify --sourcemap --outfile=dist/slow-glass.js
-	rsync --delete -e "ssh" -aP /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox/slow-glass/web
+	rsync --delete -e "ssh" -aP /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web/dist karlw@192.168.1.10:/home/karlw/sites/karlwilcox/slow-glass/web/dist
 	popd > /dev/null
 
 clean:

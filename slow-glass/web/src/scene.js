@@ -139,6 +139,31 @@ export class Scene {
                 } // else look for fullscreen
             } else if (command == 'include') {
                 Globals.log.error('Include not supported yet');
+            } else if (command == 'script') {
+                if (argument == 'width') {
+                    let script_width = parseInt(argument2);
+                    if (script_width < 50 || script_width > 5000) {
+                        Globals.log.error("silly script width");
+                        script_width = defaults.DISPLAY_WIDTH;
+                    }
+                    Globals.script_width = script_width;
+                } else if (argument == 'height') {
+                    let script_height = parseInt(argument2);
+                    if (script_height < 50 || script_height > 5000) {
+                        Globals.log.error("silly script height");
+                        script_height = defaults.DISPLAY_HEIGHT;
+                    }
+                    Globals.script_height = script_height;
+                } else if (argument == "scale") {
+                    Globals.script_scale_type = argument2;
+                }
+            } else if (command == 'gravity') {
+                let gravity = Parrser.parseFloat(argument);
+                if (gravity <= 0) {
+                    Globals.log.error("silly gravity setting");
+                    gravity = defaults.GRAVITY_PS2;
+                }
+                Globals.gravity_ps2 = gravity; // NOTE, not scaled, scale on use
             } else {
                 // must be an action, trigger or condition
                 const line = new Utils.Line(lineCount, currentLine);
@@ -156,6 +181,18 @@ export class Scene {
         if (top.content.length < 1) {
             Globals.log.error('No top level actions, nothing will happen!');
         } else {
+            // calculate overall scaling
+            switch (Globals.script_scale_type) {
+                case defaults.SCALE_STRETCH:
+                    Globals.script_scale_x = Globals.display_width / Globals.script_width;
+                    Globals.script_scale_y = Globals.display_height / Globals.script_height;
+                    break;
+                case defaults.SCALE_FIT:
+                    // todo
+                case defaults.SCALE_NONE:
+                default:
+                    break;
+            }
             top.start();
             Globals.scenes.push(top);
         }
@@ -493,15 +530,15 @@ export class Scene {
                         }
                         // is there a location for the sprite?
                         Parser.test_word(words, "at");
-                        sg_sprite.loc_x.set_target_value(Parser.get_int(words, 0));
-                        sg_sprite.loc_y.set_target_value(Parser.get_int(words, 0));
+                        sg_sprite.loc_x.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_x);
+                        sg_sprite.loc_y.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_y);
                         // is there a depth provided?
                         Parser.test_word(words,"depth");
                         sg_sprite.depth = Parser.get_int(words, 0);
                         // is there a size? (or just use image size)
                         Parser.test_word(words, ["size","scale"]); // separate these?
-                        sg_sprite.size_x.set_target_value(Parser.get_int(words, 0));
-                        sg_sprite.size_y.set_target_value(Parser.get_int(words, 0));
+                        sg_sprite.size_x.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_x);
+                        sg_sprite.size_y.set_target_value(Parser.get_int(words, 0) * Globals.script_scale_y);
                         // Got all the data, now create the sprite
                         this.sprites.push(sg_sprite);
                     } else {
@@ -628,8 +665,8 @@ export class Scene {
                             Globals.log.error("Expected by or to on line " + line_no);
                             break;
                         }
-                        let x = Parser.get_int(words, 0);
-                        let y = Parser.get_int(words, 0);
+                        let x = Parser.get_int(words, 0) * Globals.script_scale_x;
+                        let y = Parser.get_int(words, 0) * Globals.script_scale_y;
                         let in_or_at = Parser.test_word(words, ["in","at"]);
                         if (in_or_at === false) {
                             Globals.log.error("Expected in or at on line " + line_no);
@@ -698,6 +735,40 @@ export class Scene {
                     }
                     break;
 
+/**************************************************************************************************
+
+   ######## ##     ## ########   #######  ##      ## 
+      ##    ##     ## ##     ## ##     ## ##  ##  ## 
+      ##    ##     ## ##     ## ##     ## ##  ##  ## 
+      ##    ######### ########  ##     ## ##  ##  ## 
+      ##    ##     ## ##   ##   ##     ## ##  ##  ## 
+      ##    ##     ## ##    ##  ##     ## ##  ##  ## 
+      ##    ##     ## ##     ##  #######   ###  ###  
+
+**************************************************************************************************/
+
+                case "throw":
+                case "launch":
+                    if (words.length > 0) {
+                        let sprite_tag = words.shift();
+                        const stop_or_at = Parser.test_word(words, ["at", "stop"], "at");
+                        let angle = Parser.get_int(words,0);
+                        Parser.test_word(words, ["deg","degs","degrees"]);
+                        Parser.test_word(words, "with");
+                        Parser.test_word(words, ["force","velocity","speed"]);
+                        let initial_velocity = Parser.get_int(words, 10);
+                        let sprite = SG_sprite.get_sprite(this.name, sprite_tag);
+                        if (stop_or_at == "stop") {
+                            sprite.throw("stop");
+                        } else {
+                            sprite.throw(angle, initial_velocity, now);
+                        }
+                    } else {
+                        Globals.log.error("Missing throw data" + " at line " + line_no);
+                    }
+                    // can't tell when this completes, so don't even try...
+                    action_group.complete_action("throw");
+                    break;
 
 /**************************************************************************************************
 
@@ -832,7 +903,7 @@ export class Scene {
                         if (on_off == "stop") {
                             sprite.flicker(0,0);
                         } else {
-                            let flicker_size = Parser.get_int(words,0,0,50);
+                            let flicker_size = Parser.get_int(words,0,0,50) * Globals.script_scale_x;
                             Parser.test_word(words,"with");
                             Parser.test_word(words,"chance");
                             let flicker_chance = Parser.get_int(words,50);
@@ -865,8 +936,8 @@ export class Scene {
                         if (on_off == "stop") {
                             sprite.jiggle(0,0,0);
                         } else {
-                            let jiggle_x = Parser.get_int(words,0);
-                            let jiggle_y = Parser.get_int(words,0);
+                            let jiggle_x = Parser.get_int(words,0) * Globals.script_scale_x;
+                            let jiggle_y = Parser.get_int(words,0) * Globals.script_scale_y;
                             let jiggle_r = Parser.get_int(words,0);
                             Parser.test_word(words,"with");
                             Parser.test_word(words,"chance");
