@@ -4,7 +4,9 @@ SHELL := /bin/bash
 .ONESHELL:
 
 # the default action is to build the site locally
-build: thumbs
+build: thumbs	
+# first get the latest slow glass files
+	rsync --delete -e "ssh" -aP --exclude .history --exclude .vscode  --exclude .git --exclude .gitignore /Users/karlw/icloud/Projects/SlowGlass-js/ /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass
 	bundle exec jekyll build
 	chmod -R go+r /Users/karlw/Sites/karlwilcox/
 	echo -n "Completed at: "
@@ -13,13 +15,6 @@ build: thumbs
 # Not needed on the mini-server itself
 test:	
 	rsync --delete -e "ssh -i ~/keys/mini-server" -aP /Users/karlw/Sites/karlwilcox/ karlw@192.168.1.10:/home/karlw/sites/karlwilcox
-
-sg:	
-	pushd /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web > /dev/null
-	esbuild src/main.js --bundle --sourcemap --outfile=dist/slow-glass.js
-# esbuild src/main.js --bundle --minify --sourcemap --outfile=dist/slow-glass.js
-	rsync --delete -e "ssh" -aP /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass/web/dist karlw@192.168.1.10:/home/karlw/sites/karlwilcox/slow-glass/web/dist
-	popd > /dev/null
 
 clean:
 	bundle exec jekyll clean
