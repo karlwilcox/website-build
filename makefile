@@ -6,7 +6,7 @@ SHELL := /bin/bash
 # the default action is to build the site locally
 build: thumbs	
 # first get the latest slow glass files
-	rsync --delete -e "ssh" -aP --exclude .history --exclude .vscode  --exclude .git --exclude .gitignore /Users/karlw/icloud/Projects/SlowGlass-js/ /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass
+#	rsync --delete -e "ssh" -aP --exclude .history --exclude .vscode  --exclude .git --exclude .gitignore /Users/karlw/icloud/Projects/SlowGlass-js/ /Users/karlw/icloud/Projects/karlwilcox.com/source/slow-glass
 	bundle exec jekyll build
 	chmod -R go+r /Users/karlw/Sites/karlwilcox/
 	echo -n "Completed at: "
