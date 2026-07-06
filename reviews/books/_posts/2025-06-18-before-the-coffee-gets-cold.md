@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Before The Coffee Gets Cold"
-author: "tashikaza-kawaguchi"
+author: "toshikazu-kawaguchi"
 series: "Before The Coffee Gets Cold"
 booknum: "1"
 tags:
