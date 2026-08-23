@@ -196,3 +196,13 @@ li figure {
   font-style: italic;
   color: $success-color;
 }
+
+/* protected content
+--------------------------------------------------------------------- */
+.protected-content [data-rot13] {
+  visibility: hidden;
+}
+
+.protected-content.revealed [data-rot13] {
+  visibility: visible;
+}

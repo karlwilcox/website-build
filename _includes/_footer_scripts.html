@@ -9,6 +9,26 @@ $('audio,video').mediaelementplayer();
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/build_date.js"></script>
 
+<script>
+function rot13(text) {
+    return text.replace(/[A-Za-z]/g, function (char) {
+        const base = char <= 'Z' ? 65 : 97;
+        return String.fromCharCode(
+            ((char.charCodeAt(0) - base + 13) % 26) + base
+        );
+    });
+}
+
+function revealRot13(button) {
+    const container = button.closest('.protected-content');
+    const content = container.querySelector('[data-rot13]');
+
+    content.innerHTML = rot13(content.innerHTML);
+    container.classList.toggle('revealed');
+    button.remove();
+}
+</script>
+</script
 
 {%- if page.header.image_fullwidth -%}
 {%- if page.header.image_fullwidth == "gp-header" -%}
@@ -25,19 +45,6 @@ $('audio,video').mediaelementplayer();
 </script>
 {%- endif -%}
 {%- endif -%}
-
-{%- if page.stork == true -%}
-<script src="/stork/stork.js"></script>
-<script>
-    stork.register(
-        "karlwilcox",
-        "/stork/karlwilcox.st",
-        {}
-    );
-</script>
-{%- endif -%}
-
-
 
 
 {%- comment -%}

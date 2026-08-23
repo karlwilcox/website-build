@@ -1,0 +1,9 @@
+
+<div class="protected-content">
+    <button type="button" onclick="revealRot13(this)">
+        Reveal
+    </button>
+    <div class="rot13-content" data-rot13>
+        {{ include.content }}
+    </div>
+</div>
