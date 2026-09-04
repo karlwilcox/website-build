@@ -28,17 +28,17 @@ downright hazardous to health, might not be so with suitable protective
 clothing or other precautions and providing there is no active (or passive)
 interference with ship board operations these spaces too might be accessed.
 
-It is these “liminal” spaces, on the threshold between past and future use,
+It is these "transient" spaces, on the threshold between past and future use,
 between living space and operational necessity that the “Liminal Spaces
-Explorers Club” exists aboard this, any many similar craft. Their purpose, to
+Explorers Club” exists, aboard this and many similar craft. Their objective, to
 discover, investigate and perhaps even care for these unloved areas.
 
  Now, this being a Club, its members choose to impose on themselves a set of
  rules.
 
 First and foremost, to be included in the catalog of liminal spaces it must be
-discovered by actual, physical, exploration. Whilst it is true that the
-inhabitants assume (or at the very least, hope) that the minds who operate the
+discovered by actual, physical, exploration. Whilst it is true that ship
+residents assume (or at the very least, hope) that the minds who operate the
 vessel have deep in their mysterious and almost limitless data banks a
 complete, accurate and up to date understanding of every minute aspect of the
 vessel it is not acceptable within the club just to ask the minds where
@@ -47,24 +47,25 @@ really trust these minds, devious to a fault as they are. They might choose to
 give incorrect information, or for example, reveal the existence of a old broom
 closet without mentioning the magnificent darkened cathedral like space beside
 it - either for their own amusement, or to pass on to the many gossip sources
-that infest Culture ships.
+that infest Culture ships just how clever and deceitful they have been.
 
-Likewise, inhabitants tend to assume that the minds would not let them wander
-into a space that is flooded with hard radiation every tend minutes; and that,
+Likewise, residents tend to assume that the minds would not let them wander
+into a space that is flooded with hard radiation every ten minutes; and that,
 should one get into unexpected difficulty (say, falling from a vast height
 within that darkened cathedral space) then a simple call into one’s terminal
-would have a drone, or possibly a trampoline depending on the mind’s mood,
-displaced below them. So the general assumption is that such exploration isn’t
+would have a drone, or possibly a trampoline displaced below them, depending on
+the mind’s mood. So the general assumption is that such exploration isn’t
 _really_ dangerous, but there is always that tiny element of doubt about
-whether that is really the case, that frisson of excitement that behind the
+whether that is truly the case, that frisson of excitement that behind the
 next door is a hostile alien life form successfully hiding from the mind’s
 senses that makes being an active member of the Liminal Spaces Explorers Club
 that little bit more exciting, and lifts its members, at least in their own
-eyes, above the general hoi-polloi.
+eyes, above the general rather dull population who largely consume whatever the
+latest fad the minds put before them.
 
 It is to maintain this general air of mystique that the second rule exists -
 that the “Catalog of Liminal Spaces” - for there is such a thing, should indeed
-be a physical “thing” and hence maintained on paper (or species equivalent) and
+be a physical object and hence maintained on paper (or species equivalent) and
 kept solely for members use in the club premises. Again, whilst it is generally
 assumed that nothing can truly be hidden from a determined (and deeply
 unethical) mind; that the deeply ingrained respect of personal privacy means
@@ -92,17 +93,17 @@ indeed small parks hanging out into the air space, although these tend to
 reduce significantly in number at the higher levels as the sky projection looks
 strange from sideways on.
 
-Now if you go to the very top level of the starboard outrigger, and down one of
-the narrow gaps between the buildings on the parkland side you will find a
-little used alleyway. At various points access hatches appear in the outer
+Now if you go to the very top level of the starboard rear outrigger, and down
+one of the narrow gaps between the buildings on the parkland side you will find
+a little used alleyway. At various points access hatches appear in the outer
 wall, behind which is a series of gantry and walkways giving access to the
 weather production system embedded in the “ceiling”, above the projection
 screen. This consists of piping, header tanks, refrigeration equipment and
 vortex generators capable of producing a variety of (albeit mild) weather
 effects, including a dusting of light snow.
 
-There is however one particular hatchway, now marked with a subtle, but obvious
-if you know what you looking for, symbol. In addition to gantry access above
+There is however one particular hatchway, now marked with a subtle symbol, but
+obvious if you know what you looking for. In addition to gantry access above
 the “sky” this hatch has a metal stairway that leads down to a small platform
 just below the sky. The cloud projection looks very strange from this angle so
 don’t look that way. Instead look down, through those thousand meters of clear
@@ -137,7 +138,7 @@ really a suitable candidate for the club at all, and to ask pointedly who had
 recommended them? Once the picnic is underway it is assumed that someone (I.e.
 a ship mind) would prevent any serious harm befalling anyone unlucky enough to
 be directly under the path of, say, a falling wine bottle (discussion question -
-would it reach terminal velocity before hitting the ground?) but are
+would it reach terminal velocity before hitting the ground?) but our
 revellers are expected to be cautious and considerate and prevent such an
 occurrence in the first place. Of course throwing the naive questioner over the
 edge would have been perfectly reasonable…
@@ -157,7 +158,7 @@ Liminal Spaces Explorer Club dare to take them.
 
 Or take a different example, not too far away, at least in linear distance from
 our first. The current craze for the sport of team freestyle bodyballing
-requires an 8 sided court. Somewhat unimaginatively, the designers of the main
+requires an octagonal court. Somewhat unimaginatively, the designers of the main
 spectator arena simply provided eight tall stands around the court, enclosing
 the whole in cladding adorned with the various team and league logos. The space
 for this venue was found adjacent to the third starboard side main bay, with
@@ -166,7 +167,7 @@ leave an awkward triangular space that lead nowhere, the cladding had been
 placed such that it met the main bay wall neatly, at a right angle. Little
 noticed to all but a sharp eyed LSEC member was a hatchway giving access to the
 empty, triangular space should any maintenance be required, even though such a
-thing was highly unlikely given the build quality of Culture machinery and the
+thing was highly unlikely given the build quality of Culture manufactures and the
 fact that the space didn’t contain any machinery, just the supporting structure
 for the arena seating.
 
@@ -208,19 +209,19 @@ in to her arms, or simply spurn her affections now he had grown so much?)
 Eventually he was ready.
 
 Sadly, his beloved had met someone else and they had left the vessel some
-months previously, taking passage on another GSV heading anti-spin ward into
+months previously, taking passage on another GSV heading anti-spinward into
 the Lowenbern star cluster to visit a popular stellar nursery and then seeing
 where their fate would take them next. Alannarion had been rather too wrapped
 up in his project to notice.
 
 Well, if she could flounce off like that then so could he! He would show her.
 His true grand gesture (even more futile, truth be told) would be seek passage
-too, but in the opposite direction, spin ward, and not in the luxury of a GSV,
+too, but in the opposite direction, spinward then, and not in the luxury of a GSV,
 but slumming it in a miserable little GCU. Obviously he’d have to join Contact
 first but that proved to be surprisingly straightforward as they were impressed
 with his romantic ideas and were sure they could find a use for him. Who knew,
 perhaps he would cross paths with his beloved on the far side of the galaxy,
-him a highly respected hero with a string of contact successes behind him.
+him a highly respected hero with a string of contact successes behind him?
 
 Alannarion never told anyone about his project, not even updating the
 hand-written records in the LSEC clubroom. It wasn’t until some years later
